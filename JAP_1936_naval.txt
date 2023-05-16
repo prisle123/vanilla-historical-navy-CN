@@ -475,6 +475,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "严岛级 / 冲岛级"
 			}
+			name = "严岛"
 			requested_factories = 2
 			progress = 0.75
 			amount = 1
@@ -486,6 +487,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "白露"
 			requested_factories = 1
 			progress = 0.79
 			amount = 1
@@ -496,6 +498,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "时雨"
 			requested_factories = 1
 			progress = 0.76
 			amount = 1
@@ -506,6 +509,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "村雨"
 			requested_factories = 1
 			progress = 0.66
 			amount = 1
@@ -516,6 +520,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "春雨"
 			requested_factories = 1
 			progress = 0.56
 			amount = 1
@@ -526,6 +531,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "五月雨"
 			requested_factories = 1
 			progress = 0.42
 			amount = 1
@@ -536,6 +542,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "夕立"
 			requested_factories = 1
 			progress = 0.37
 			amount = 1
@@ -546,6 +553,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "海风"
 			requested_factories = 1
 			progress = 0.31
 			amount = 1
@@ -556,6 +564,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "山风"
 			requested_factories = 1
 			progress = 0.38
 			amount = 1
@@ -566,6 +575,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "江风"
 			requested_factories = 1
 			progress = 0.34
 			amount = 1
@@ -576,6 +586,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "初春型 / 白露型"
 			}
+			name = "凉风"
 			requested_factories = 1
 			progress = 0.24
 			amount = 1
@@ -586,6 +597,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "朝潮级"
 			}
+			name = "朝潮"
 			requested_factories = 1
 			progress = 0.17
 			amount = 1
@@ -596,6 +608,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "朝潮级"
 			}
+			name = "满潮"
 			requested_factories = 1
 			progress = 0.09
 			amount = 1
@@ -606,6 +619,7 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "朝潮级"
 			}
+			name = "荒潮"
 			requested_factories = 1
 			progress = 0.14
 			amount = 1
