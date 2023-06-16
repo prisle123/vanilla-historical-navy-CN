@@ -3,32 +3,32 @@ units= {
 
 	##### NAVAL UNITS #####
 	fleet = {
-		name = "Vasilikó Polemikó Naftikó"			
+		name = "希腊海军"			
 		naval_base = 4109 # Athens
 		task_force = {				
-			name = "Vasilikós Stólos"				
+			name = "瓦希利克斯舰队"				
 			location = 4109 # Athens
-			ship = { name = "RHS Georgios Averof"  definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GRE version_name =  "Georgios Averof Class" } } }				
-			ship = { name = "RHS Elli" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name =  "Elli Class" } } }				
+			ship = { name = "RHS 乔治·阿维洛夫"  definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GRE version_name =  "乔治·阿维洛夫级" } } }				
+			ship = { name = "RHS 爱丽" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name =  "爱丽级" } } }				
 			# Destroyer Flotilla
-			ship = { name = "RHS Aetos" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Aetos Class" } } }		
-			ship = { name = "RHS Ierax" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Aetos Class" } } }		
-			ship = { name = "RHS Leon" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Aetos Class" } } }		
-			ship = { name = "RHS Panthir" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Aetos Class" } } }		
-			ship = { name = "RHS Kountouriotis" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GRE version_name =  "Freccia/Folgore Class" } } }
-			ship = { name = "RHS Hydra" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GRE version_name =  "Freccia/Folgore Class" } } }
-			ship = { name = "RHS Psara" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GRE version_name =  "Freccia/Folgore Class" } } }
-			ship = { name = "RHS Spetsai" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GRE version_name =  "Freccia/Folgore Class" } } }
+			ship = { name = "RHS 鹰" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "鹰级" } } }		
+			ship = { name = "RHS 鹫" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "鹰级" } } }		
+			ship = { name = "RHS 狮" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "鹰级" } } }		
+			ship = { name = "RHS 豹" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "鹰级" } } }		
+			ship = { name = "RHS 康托里奥蒂斯" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GRE version_name =  "箭级/迅雷级" } } }
+			ship = { name = "RHS 伊兹拉" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GRE version_name =  "箭级/迅雷级" } } }
+			ship = { name = "RHS 普萨拉" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GRE version_name =  "箭级/迅雷级" } } }
+			ship = { name = "RHS 斯佩察" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GRE version_name =  "箭级/迅雷级" } } }
 		}					
 		task_force = {					
 			name = "Stolískou Ypovrychíon"				
 			location = 4109 # Athens
-			ship = { name = "RHS Katsonis" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GRE version_name =  "Katsonis Class" } } }		
-			ship = { name = "RHS Papanikolis" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GRE version_name =  "Katsonis Class" } } }		
-			ship = { name = "RHS Protefs" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "Glafkos Class" } } }		
-			ship = { name = "RHS Nirefs" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "Glafkos Class" } } }		 
-			ship = { name = "RHS Triton" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "Glafkos Class" } } }		
-			ship = { name = "RHS Glafkos" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "Glafkos Class" } } }		
+			ship = { name = "RHS 卡特索尼斯" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GRE version_name =  "卡特索尼斯级" } } }		
+			ship = { name = "RHS 帕帕尼克拉斯" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GRE version_name =  "卡特索尼斯级" } } }		
+			ship = { name = "RHS 普罗透斯" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "格拉夫科斯级" } } }		
+			ship = { name = "RHS 尼瑞夫斯" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "格拉夫科斯级" } } }		 
+			ship = { name = "RHS 特里同" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "格拉夫科斯级" } } }		
+			ship = { name = "RHS 格拉夫科斯" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "格拉夫科斯级" } } }		
 		}					
 	}
 } 

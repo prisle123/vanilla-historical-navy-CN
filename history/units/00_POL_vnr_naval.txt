@@ -2,20 +2,20 @@
 
 	######## NAVAL OOB ########
 	fleet = {
-		name = "Polska Flota Niszczycieli"
+		name = "波兰海军"
 		naval_base = 362 
 		task_force = {				
-			name = "Polska Flota Niszczycieli"
+			name = "驱逐舰队"
 			location = 362 # Danzig
-			ship = { name = "ORP Burza" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = POL version_name = "Wicher Class" } } }	
-			ship = { name = "ORP Wicher" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = POL version_name = "Wicher Class" } } }	
+			ship = { name = "ORP 雷暴" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = POL version_name = "烈风级" } } }	
+			ship = { name = "ORP 烈风" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = POL version_name = "烈风级" } } }	
 		}		
 		task_force = {
-			name = "Dywizjon Okretów Podwodnych"
+			name = "潜艇部队"
 			location = 362 # Danzig
-			ship = { name = "ORP Rys" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "Wilk Class" } } }					
-			ship = { name = "ORP Wilk" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "Wilk Class" } } }					
-			ship = { name = "ORP Zbik" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "Wilk Class" } } }			
+			ship = { name = "ORP 山猫" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "狼级" } } }					
+			ship = { name = "ORP 狼" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "狼级" } } }					
+			ship = { name = "ORP 野猫" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "狼级" } } }			
 		}
 	}
 }
@@ -25,9 +25,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_light_2
 			creator = "POL" 
-			version_name = "Grom Class"
+			version_name = "雷鸣级"
 		}
-		name = "ORP Grom"
+		name = "ORP 雷鸣"
 		requested_factories = 1
 		progress = 0.05
 		amount = 1
@@ -36,9 +36,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_light_2
 			creator = "POL" 
-			version_name = "Grom Class"
+			version_name = "雷鸣级"
 		}
-		name = "ORP Blyskawica"
+		name = "ORP 闪电"
 		requested_factories = 1
 		progress = 0.01
 		amount = 1

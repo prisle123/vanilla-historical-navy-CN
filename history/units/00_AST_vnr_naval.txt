@@ -2,21 +2,21 @@
 
 	##### Naval OOB #####
 	fleet = {
-		name = "Royal Australian Navy"			
+		name = "澳大利亚皇家海军"			
 		naval_base = 12406 # Sydney
 		task_force = {
-			name = "Australian Squadron"
+			name = "澳洲舰队"
 			location = 12406 # Sydney
-			ship = { name = "HMAS Canberra" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Kent Class" } }	}
-			ship = { name = "HMAS Australia" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Kent Class" } } }
-			ship = { name = "HMAS Sydney" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Leander Class" } } }
-			ship = { name = "HMAS Adelaide" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Town Class" } } }
+			ship = { name = "HMAS 堪培拉" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "肯特级" } }	}
+			ship = { name = "HMAS 澳大利亚" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "肯特级" } } }
+			ship = { name = "HMAS 悉尼" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "利安德级" } } }
+			ship = { name = "HMAS 阿德莱德" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "城级" } } }
 			# Scrap Iron Flotilla
-			ship = { name = "HMAS Vampire" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Vendetta" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Voyager" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Waterhen" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Stuart" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = AST version_name = "Shakespeare/Scott Class" } } }
+			ship = { name = "HMAS 吸血鬼" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 报复" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 旅行者" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 沃特亨" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 斯图亚特" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = AST version_name = "莎士比亚级/斯考特级" } } }
 		}				
 	}
 }

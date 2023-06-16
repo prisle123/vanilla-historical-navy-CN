@@ -2,27 +2,27 @@
 
 	##### ROCN #####
 	fleet = {
-		name = "Di 1 Jiandui"
+		name = "中华民国海军"
 		naval_base = 7191 #Shanghai
 		task_force = {
-			name = "Di 1 Jiandui"
+			name = "第一舰队"
 			location = 7191 #Shanghai
-			ship = { name = "Ninghai" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = {amount = 1 owner = CHI version_name = "Ninghai Class" } } }
-			ship = { name = "Yat Sen" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Yat Sen Class" } } }
-			ship = { name = "Haiqi" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Haiqi Class" } } }
-			ship = { name = "Hairong" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
-			ship = { name = "Haichen" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
-			ship = { name = "Haichou" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
-			ship = { name = "Zhaohe" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Zhaohe Class" } } }
-			ship = { name = "Yingrui" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Zhaohe Class" } } }
-			ship = { name = "Dadong" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class" } } }
-			ship = { name = "Zejiang" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Jianwei Class"} } }
-			ship = { name = "Chien Kang" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Chang Feng Class" } } }
-			ship = { name = "Tung An" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Chang Feng Class"} } }
-			ship = { name = "Zhongshan" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yung Feng/Yung Chi Class"} } }
-			ship = { name = "Yung Hsiang" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yung Feng/Yung Chi Class"} } }
-			ship = { name = "Yung Chi" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yung Feng/Yung Chi Class"} } }
-			ship = { name = "Yung Chien" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yung Feng/Yung Chi Class"} } }
+			ship = { name = "宁海" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = {amount = 1 owner = CHI version_name = "宁海级" } } }
+			ship = { name = "逸仙" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "逸仙级" } } }
+			ship = { name = "海圻" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "海圻级" } } }
+			ship = { name = "海容" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "海容级" } } }
+			ship = { name = "海琛" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "海容级" } } }
+			ship = { name = "海筹" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "海容级" } } }
+			ship = { name = "肇和" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "肇和级" } } }
+			ship = { name = "应瑞" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "肇和级" } } }
+			ship = { name = "大同" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "建威级" } } }
+			ship = { name = "自强" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "建威级"} } }
+			ship = { name = "建康" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "长风级" } } }
+			ship = { name = "同安" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "长风级"} } }
+			ship = { name = "中山" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "永丰级/永绩级"} } }
+			ship = { name = "永翔" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "永丰级/永绩级"} } }
+			ship = { name = "永绩" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "永丰级/永绩级"} } }
+			ship = { name = "永健" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "永丰级/永绩级"} } }
 		}
 	}
 }
@@ -35,9 +35,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_2
 			creator = "CHI" 
-			version_name = "Ninghai Class"
+			version_name = "宁海级"
 		}
-		name = "Pinghai" 
+		name = "平海" 
 		requested_factories = 1
 		progress = 0.6
 		amount = 1
