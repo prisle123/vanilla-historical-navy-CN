@@ -12,9 +12,9 @@ ARG_DD_HISTORICAL = {
 	fallback_name = "Destructor %d"
 
 	unique = {
-		"Catamarca" "Jujuy" "Córdoba" "La Plata" "Cervantes" "Juan de Garay" "Mendoza" "La Rioja" "Tucumán" "Buenos Aires" "Entre Ríos" "Corrientes" "San Juan"
-		"San Luis" "Misiones" "Santa Cruz" "Almirante Domecq Garcia" "Brown" "Espora" "Rosales" "Almirante Storni" "Seguí" "Bouchard" "Piedra Buena" "Py" "Hércules"
-		"Santisima Trinidad" "Santiago" "Rioja" "Salta"
+		"卡塔马卡" "胡胡伊" "科尔多瓦" "拉普拉塔" "塞凡提斯" "胡安·德·加雷" "蒙多萨" "里欧哈" "德图库曼" "布宜诺斯艾利斯" "恩特雷里奥斯" "科连特斯" "圣胡安"
+		"圣路易斯" "米西奥内斯" "圣克鲁斯" "多梅克·加西亚海军上将" "布朗" "埃斯波拉" "罗萨利斯" "斯托尼海军上将" "塞吉" "布夏" "彼德拉·武埃奈" "派伊" "大力神"
+		"圣三一" "圣地亚哥" "萨尔塔"
 	}
 }
 
@@ -31,7 +31,7 @@ ARG_CL_HISTORICAL = {
 	fallback_name = "Crucero Ligero %d"
 
 	unique = {
-		"Libertad" "Independencia" "Guerrico" "Granville" "Rosales" "Spiro" "Parker" "Rosales" "Robinson" "Gómez Roca"
+		"自由" "独立" "格里科" "葛兰维尔" "罗萨利斯" "斯彼罗" "帕克" "罗宾逊" "戈梅兹·罗卡"
 	}
 }
 
@@ -48,8 +48,8 @@ ARG_CA_HISTORICAL = {
 	fallback_name = "Crucero Pesado %d"
 
 	unique = {
-		"Veinticinco de Mayo" "Almirante Brown" "Pueyrredon" "La Argentina" "General Belgrano" "Nueve de Julio" "Murature" "King" "Heroina" "Drummond"
-		"Guerrico" "Granville" "Rosales" "Spiro" "Parker" "Rosales" "Robinson" "Gómez Roca"
+		"五月二十五日" "布朗海军上将" "普雷登" "阿根廷" "贝尔格拉诺将军" "七月九日" "穆拉彻" "金" "希罗纳" "德拉蒙德"
+		"格里科" "葛兰维尔" "罗萨利斯" "斯彼罗" "帕克" "罗宾逊" "戈梅兹·罗卡"
 	}
 }
 
@@ -66,7 +66,7 @@ ARG_BB_HISTORICAL = {
 	fallback_name = "Acorazado %d"
 
 	unique = {
-		"Rivadavia" "Moreno" "Azopardo" "Sarandí" "Espora"
+		"里瓦达维亚" "莫雷诺" "阿佐帕多" "萨兰迪" "埃斯波拉"
 	}
 }
 
@@ -83,7 +83,7 @@ ARG_BC_HISTORICAL = {
 	fallback_name = "Crucero de Batalla %d"
 
 	unique = {
-		"Azopardo" "Sarandí" "Espora" "Rivadavia" "Moreno"
+		"里瓦达维亚" "莫雷诺" "阿佐帕多" "萨兰迪" "埃斯波拉"
 	}
 }
 
@@ -100,7 +100,7 @@ ARG_CV_HISTORICAL = {
 	fallback_name = "Portaaviones %d"
 
 	unique = {
-		"Independencia" "República" "General San Martín"
+		"独立" "共和" "圣马丁将军"
 	}
 }
 
@@ -117,7 +117,7 @@ ARG_SS_HISTORICAL = {
 	fallback_name = "Submarino %d"
 
 	unique = {
-		"Santa Fe" "Santiago del Estero" "Salta" "San Luis" "Santa Cruz" "San Juan"
+		"圣塔菲" "圣地亚哥爱沙泰罗" "萨尔塔" "圣路易斯" "圣克鲁斯" "圣胡安"
 	}
 }
 
