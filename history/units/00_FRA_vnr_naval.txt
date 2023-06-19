@@ -150,7 +150,7 @@ units= {
 			ship = { name = "普罗旺斯" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "布列塔尼级" } } }			
 			ship = { name = "洛林" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "布列塔尼级" } } }			
 			ship = { name = "布列塔尼" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "布列塔尼级" } } }			
-			ship = { name = "蒲鲁东" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "蒲鲁东级" } } }
+			ship = { name = "冥王星" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "冥王星级" } } }
 			# 1e Légère Division des Contre-Torpilleurs
 			ship = { name = "拉帕尔姆" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级/灵巧级" } } }	
 			ship = { name = "勒马尔" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级/灵巧级" } } }	

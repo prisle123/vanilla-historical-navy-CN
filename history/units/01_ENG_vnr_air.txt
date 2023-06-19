@@ -1,0 +1,29 @@
+﻿air_wings = {
+	"HMS 暴怒"  = {
+		cv_fighter_equipment_0 =  { owner = "ENG" amount = 9 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 2 }
+	}
+	"HMS 勇敢"  = {
+		cv_fighter_equipment_0 =  { owner = "ENG" amount = 9 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 4 }
+	}
+	"HMS 光荣"  = {
+		cv_fighter_equipment_0 =  { owner = "ENG" amount = 6 } #historical 9
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 4 } #historical 36
+	}
+	"HMS 鹰"  = {
+		cv_fighter_equipment_0 =  { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "ENG" amount = 8 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 8 }
+	}
+	"HMS 竞技神"  = {
+		cv_fighter_equipment_0 =  { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 10 }
+	}
+}

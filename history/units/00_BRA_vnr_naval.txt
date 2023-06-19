@@ -1,6 +1,4 @@
-﻿
-
-units = {
+﻿units = {
 	
 	##### Naval OOB #####
 	fleet = {
@@ -19,7 +17,7 @@ units = {
 			ship = { name = "NRB 帕拉伊巴" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
 			ship = { name = "NRB 阿拉戈斯" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
 			# 2a Flotilla de Contratorpedeiros
-			ship = { name = "NRB 马拉尼昂" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Acasta Class"} } }	
+			ship = { name = "NRB 马拉尼昂" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "阿卡斯塔级"} } }	
 			ship = { name = "NRB 塞尔希培" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
 			ship = { name = "NRB 圣卡塔琳娜" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
 			ship = { name = "NRB 马托格罗索" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
