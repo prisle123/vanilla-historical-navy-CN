@@ -2,42 +2,42 @@
 
 	##### NAVAL UNITS #####
 	fleet = {
-		name = "Kongelige Norske Marine"			
+		name = "挪威皇家海军"			
 		naval_base = 9296 # Kristiansand
 		task_force = {					
-			name = "1. Sjøforsvarsdistrikt"				
+			name = "第一海军军区"				
 			location =  9296 # Kristiansand
-			ship = { name = "HNoMS Harald Haarfagre" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Tordenskjold Class" } } }				
-			ship = { name = "HNoMS Tordenskjold" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Tordenskjold Class" } } }				
-			ship = { name = "HNoMS Olaf Tryggvason" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = NOR version_name = "Olaf Tryggvason Class" } } }
-			ship = { name = "HNoMS Frøya" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Frøya Class" } } }
+			ship = { name = "HNoMS 哈拉尔一世" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "托登斯基尔德级" } } }				
+			ship = { name = "HNoMS 托登斯基尔德" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "托登斯基尔德级" } } }				
+			ship = { name = "HNoMS 奥拉夫一世" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = NOR version_name = "奥拉夫一世级" } } }
+			ship = { name = "HNoMS 弗尔" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NOR version_name = "弗尔级" } } }
 			# 1st Submarine Detachment
-			ship = { name = "HNoMS A2" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A Class" } } }
-			ship = { name = "HNoMS A3" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A Class" } } }
-			ship = { name = "HNoMS A4" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A Class" } } }
+			ship = { name = "HNoMS A2" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A级" } } }
+			ship = { name = "HNoMS A3" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A级" } } }
+			ship = { name = "HNoMS A4" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A级" } } }
 			# 2nd Submarine Detachment
-			ship = { name = "HNoMS B2" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B Class" } } }
-			ship = { name = "HNoMS B4" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B Class" } } }
-			ship = { name = "HNoMS B5" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B Class" } } }
+			ship = { name = "HNoMS B2" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B级" } } }
+			ship = { name = "HNoMS B4" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B级" } } }
+			ship = { name = "HNoMS B5" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B级" } } }
 		}					
 		task_force = {					
-			name = "2. Sjøforsvarsdistrikt"				
+			name = "第二海军军区"				
 			location =  122 # Bergen
 			# 1st Destroyer Detachment
-			ship = { name = "HNoMS Draug" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Draug Class" } } }
-			ship = { name = "HNoMS Troll" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Draug Class" } } }
-			ship = { name = "HNoMS Garm" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Draug Class" } } }
+			ship = { name = "HNoMS 德拉古尔" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NOR version_name = "德拉古尔级" } } }
+			ship = { name = "HNoMS 巨魔" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NOR version_name = "德拉古尔级" } } }
+			ship = { name = "HNoMS 加姆" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NOR version_name = "德拉古尔级" } } }
 			# Submarine Detachment
-			ship = { name = "HNoMS B6" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B Class" } } }
+			ship = { name = "HNoMS B6" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B级" } } }
 		}					
 		task_force = {					
-			name = "3. Sjøforsvarsdistrikt"				
+			name = "第三海军军区"				
 			location =  11050 # Tromso
-			ship = { name = "HNoMS Norge" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Eidsvold Class" } } }				
-			ship = { name = "HNoMS Eidsvold" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Eidsvold Class" } } }				
+			ship = { name = "HNoMS 挪威" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "埃兹沃尔德级" } } }				
+			ship = { name = "HNoMS 埃兹沃尔德" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "埃兹沃尔德级" } } }				
 			# Submarine Detachment
-			ship = { name = "HNoMS B1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B Class" } } }
-			ship = { name = "HNoMS B3" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B Class" } } }
+			ship = { name = "HNoMS B1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B级" } } }
+			ship = { name = "HNoMS B3" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B级" } } }
 		}					
 	}
 }
@@ -47,9 +47,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_light_2
 			creator = "NOR" 
-			version_name = "Sleipner Class"
+			version_name = "斯雷普尼尔级"
 		}
-		name = "HNoMS Sleipner"
+		name = "HNoMS 斯雷普尼尔"
 		requested_factories = 1
 		progress = 0.75
 		amount = 1

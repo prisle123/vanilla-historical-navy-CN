@@ -4,29 +4,29 @@ units= {
 	##### NAVAL UNITS #####
 	### Türk Donanmasi ###
 	fleet = {
-		name = "Türk Donanmasi"			
+		name = "土耳其海军"			
 		naval_base = 4112 # Izmir
 		task_force = {				
-			name = "Türk Donanmasi"			
+			name = "土耳其海军"			
 			location = 4112 # Izmir
-			ship = { name = "TCG Yavuz" pride_of_the_fleet = yes definition = battle_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "Moltke Class" } } }			
-			ship = { name = "TCG Mecidiye" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Mecidiye/Hamidiye Class" } } }
-			ship = { name = "TCG Hamidiye" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Mecidiye/Hamidiye Class" } } }
-			ship = { name = "TCG Peyk" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = TUR version_name = "Peyk Class" } } }
-			ship = { name = "TCG Berk" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = TUR version_name = "Peyk Class" } } }
-			ship = { name = "TCG Kocatepe" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = TUR version_name = "Kocatepe Class" } } }
-			ship = { name = "TCG Adatepe" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = TUR version_name = "Kocatepe Class" } } }
-			ship = { name = "TCG Zafer" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = TUR version_name = "Zafer Class" } } }
-			ship = { name = "TCG Tinaztepe" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = TUR version_name = "Zafer Class" } } }
+			ship = { name = "TCG 塞利姆一世" pride_of_the_fleet = yes definition = battle_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "毛奇级" } } }			
+			ship = { name = "TCG 梅西迪耶" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "梅西迪耶级/哈米迪耶级" } } }
+			ship = { name = "TCG 哈米迪耶" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "梅西迪耶级/哈米迪耶级" } } }
+			ship = { name = "TCG 佩克" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = TUR version_name = "佩克级" } } }
+			ship = { name = "TCG 伯克" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = TUR version_name = "佩克级" } } }
+			ship = { name = "TCG 科扎德佩" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = TUR version_name = "科扎德佩级" } } }
+			ship = { name = "TCG 阿达德佩" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = TUR version_name = "科扎德佩级" } } }
+			ship = { name = "TCG 扎法" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = TUR version_name = "扎法级" } } }
+			ship = { name = "TCG 庭纳德佩" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = TUR version_name = "扎法级" } } }
 		}				
 		task_force = {				
 			name = "Filotilla Denizalti Kücük"			
 			location = 11881 # Samsun
-			ship = { name = "TCG Birinci Inönü" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "Birinci Inönü Class" } } }		
-			ship = { name = "TCG Ikinci Inönü" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "Birinci Inönü Class" } } }		
-			ship = { name = "TCG Dumlupinar" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = TUR version_name = "Dumlupinar Class" } } }
-			ship = { name = "TCG Sakarya" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = TUR version_name = "Sakarya Class" } } }
-			ship = { name = "TCG Gür" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = TUR version_name = "Gür Class" } } }
+			ship = { name = "TCG 第一次伊努诺战役" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "伊努诺级" } } }		
+			ship = { name = "TCG 第二次伊努诺战役" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "伊努诺级" } } }		
+			ship = { name = "TCG 杜姆卢珀纳尔" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = TUR version_name = "杜姆卢珀纳尔级" } } }
+			ship = { name = "TCG 萨卡里亚" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = TUR version_name = "萨卡里亚级" } } }
+			ship = { name = "TCG 居尔" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = TUR version_name = "居尔级" } } }
 		}				
 	}
 } 

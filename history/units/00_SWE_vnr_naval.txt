@@ -2,67 +2,67 @@
 
 	##### NAVAL UNITS #####
 	fleet = {
-		name = "Kungliga Svenska Marinen"			
+		name = "瑞典皇家海军"			
 		naval_base = 6050 # Stockholm
 		task_force = {				
-			name = "Kustflottan"
+			name = "岸防舰队"
 			location = 6050 # Stockholm
-			ship = { name = "HMS Dristigheten" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Dristigheten Class" } } }				
-			ship = { name = "HMS Örnen" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Örnen Class" } } }		
-			ship = { name = "HMS Jacob Bagge" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Örnen Class" } } }		
-			ship = { name = "HMS Clas Fleming" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Clas Fleming Class" } } }	
-			ship = { name = "HMS Wale" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Wale Class" } } }
-			ship = { name = "HMS Vidar" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Ragnar/Hugin/Wrangel Class" } } }
-			ship = { name = "HMS Sigurd" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Ragnar/Hugin/Wrangel Class" } } }
+			ship = { name = "HMS 大胆" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "大胆级" } } }				
+			ship = { name = "HMS 鹰" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "鹰级" } } }		
+			ship = { name = "HMS 雅各布·巴格" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "鹰级" } } }		
+			ship = { name = "HMS 克拉斯·弗莱明" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "克拉斯·弗莱明级" } } }	
+			ship = { name = "HMS 瓦利" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "瓦利级" } } }
+			ship = { name = "HMS 维达" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳/胡金/维兰格尔级" } } }
+			ship = { name = "HMS 西格德" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳/胡金/维兰格尔级" } } }
 		}
 		task_force = { 
-			name = "1a Eskadern"
+			name = "第一分舰队"
 			location = 11215 # Karlskrona
-			ship = { name = "HMS Gustaf V" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }				
-			ship = { name = "HMS Sverige" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }				
-			ship = { name = "HMS Drottning Victoria" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }				
-			ship = { name = "HMS Gotland" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Gotland Class" } } }
-			ship = { name = "HMS Ragnar" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Ragnar/Hugin/Wrangel Class" } } }
-			ship = { name = "HMS Hugin" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Ragnar/Hugin/Wrangel Class" } } }
-			ship = { name = "HMS Munin" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Ragnar/Hugin/Wrangel Class" } } }
+			ship = { name = "HMS 古斯塔夫五世" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "瑞典级" } } }				
+			ship = { name = "HMS 瑞典" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "瑞典级" } } }				
+			ship = { name = "HMS 维多利亚公主" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "瑞典级" } } }				
+			ship = { name = "HMS 哥特兰" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "哥特兰级" } } }
+			ship = { name = "HMS 拉格纳" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳/胡金/维兰格尔级" } } }
+			ship = { name = "HMS 胡金" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳/胡金/维兰格尔级" } } }
+			ship = { name = "HMS 穆宁" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳/胡金/维兰格尔级" } } }
 			# 1. Jagarflottiljen				
-			ship = { name = "HMS Klas Horn" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SWE version_name = "Ehrensköld Class" } } }		
-			ship = { name = "HMS Klas Uggla" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SWE version_name = "Ehrensköld Class" } } }		
-			ship = { name = "HMS Ehrensköld" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SWE version_name = "Ehrensköld Class" } } }		
-			ship = { name = "HMS Nordenskjöld" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SWE version_name = "Ehrensköld Class" } } }		
+			ship = { name = "HMS 克拉斯·霍恩" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }		
+			ship = { name = "HMS 克拉斯·阿格拉" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }		
+			ship = { name = "HMS 艾伦斯科德" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }		
+			ship = { name = "HMS 努登舍尔德" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }		
 		}
 		task_force = { 
-			name = "Ålandshavseskader"
+			name = "阿兰群岛舰队"
 			location = 408 # Gotland
-			ship = { name = "HMS Äran" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Äran/Oscar II Class" } } }				
-			ship = { name = "HMS Tapperheten" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Äran/Oscar II Class" } } }				
+			ship = { name = "HMS 荣耀" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "荣耀级/奥斯卡二世级" } } }				
+			ship = { name = "HMS 勇敢" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "荣耀级/奥斯卡二世级" } } }				
 		}
 		task_force = { 
-			name = "Karlskrona Avdelningen"
+			name = "卡尔斯克鲁纳舰队"
 			location = 11215 # Karlskrona
-			ship = { name = "HMS Wasa" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Äran/Oscar II Class" } } }				
-			ship = { name = "HMS Manligheten" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Äran/Oscar II Class" } } }
+			ship = { name = "HMS 瓦萨" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "荣耀级/奥斯卡二世级" } } }				
+			ship = { name = "HMS 坚强" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "荣耀级/奥斯卡二世级" } } }
 			# 1. Ubatsflottiljen				
-			ship = { name = "HMS Draken" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SWE version_name = "Draken Class" } } }
-			ship = { name = "HMS Gripen" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SWE version_name = "Draken Class" } } }
-			ship = { name = "HMS Ulven" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SWE version_name = "Draken Class" } } }
+			ship = { name = "HMS 龙" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SWE version_name = "龙级" } } }
+			ship = { name = "HMS 鹰狮" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SWE version_name = "龙级" } } }
+			ship = { name = "HMS 狼" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SWE version_name = "龙级" } } }
 		}
 		task_force = { 
-			name = "Göteborgs Eskadern"
+			name = "哥德堡舰队"
 			location = 383 # Göteborg
-			ship = { name = "HMS Oscar II" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Äran/Oscar II Class" } } }				
-			ship = { name = "HMS Fylgia" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Fylgia Class" } } }
-			ship = { name = "HMS Wrangel" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Ragnar/Hugin/Wrangel Class" } } }
-			ship = { name = "HMS Wachtmeister" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "Ragnar/Hugin/Wrangel Class" } } }				
+			ship = { name = "HMS 奥斯卡二世" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "荣耀级/奥斯卡二世级" } } }				
+			ship = { name = "HMS 费尔加" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "费尔加级" } } }
+			ship = { name = "HMS 维兰格尔" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳/胡金/维兰格尔级" } } }
+			ship = { name = "HMS 瓦赫特迈斯特" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳/胡金/维兰格尔级" } } }				
 			# 2. Ubatsflottiljen				
-			ship = { name = "HMS Hajen" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Hajen/Bävern Class" } } }
-			ship = { name = "HMS Sälen" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Hajen/Bävern Class" } } }
-			ship = { name = "HMS Valrossen" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Hajen/Bävern Class" } } }
+			ship = { name = "HMS 鲨鱼" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "鲨鱼级/河狸级" } } }
+			ship = { name = "HMS 海豹" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "鲨鱼级/河狸级" } } }
+			ship = { name = "HMS 海象" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "鲨鱼级/河狸级" } } }
 			# 3. Ubatsflottiljen				
-			ship = { name = "HMS Bävern" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Hajen/Bävern Class" } } }
-			ship = { name = "HMS Illern" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Hajen/Bävern Class" } } }
-			ship = { name = "HMS Uttern" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Hajen/Bävern Class" } } }
-			ship = { name = "HMS Valen" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Valen Class" } } }
+			ship = { name = "HMS 河狸" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "鲨鱼级/河狸级" } } }
+			ship = { name = "HMS 雪雕" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "鲨鱼级/河狸级" } } }
+			ship = { name = "HMS 水獭" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "鲨鱼级/河狸级" } } }
+			ship = { name = "HMS 鲸鱼" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "鲸鱼级" } } }
 		}
 	}
 }
@@ -76,9 +76,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_light_3
 			creator = "SWE"
-			version_name = "Göteborg Class"
+			version_name = "哥德堡级"
 		}
-		name = "HMS Göteborg" 
+		name = "HMS 哥德堡" 
 		requested_factories = 1
 		progress = 0.50
 		amount = 1
@@ -87,9 +87,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_light_3
 			creator = "SWE"
-			version_name = "Göteborg Class"
+			version_name = "哥德堡级"
 		}
-		name = "HMS Stockholm" 
+		name = "HMS 斯德哥尔摩" 
 		requested_factories = 1
 		progress = 0.30
 		amount = 1
@@ -99,9 +99,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
 			creator = "SWE"
-			version_name = "Delfinen/Sjölejonet Class"
+			version_name = "海豚级/海狮级"
 		}
-		name = "HMS Delfinen" 
+		name = "HMS 海豚" 
 		requested_factories = 1
 		progress = 0.80
 		amount = 1
@@ -110,9 +110,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
 			creator = "SWE"
-			version_name = "Delfinen/Sjölejonet Class"
+			version_name = "海豚级/海狮级"
 		}
-		name = "HMS Nordkaparen" 
+		name = "HMS 露脊鲸" 
 		requested_factories = 1
 		progress = 0.60
 		amount = 1
@@ -121,9 +121,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
 			creator = "SWE"
-			version_name = "Delfinen/Sjölejonet Class"
+			version_name = "海豚级/海狮级"
 		}
-		name = "HMS Springaren" 
+		name = "HMS 野马" 
 		requested_factories = 1
 		progress = 0.40
 		amount = 1
@@ -132,9 +132,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
 			creator = "SWE"
-			version_name = "Delfinen/Sjölejonet Class"
+			version_name = "海豚级/海狮级"
 		}
-		name = "HMS Sjölejonet" 
+		name = "HMS 海狮" 
 		requested_factories = 1
 		progress = 0.20
 		amount = 1
