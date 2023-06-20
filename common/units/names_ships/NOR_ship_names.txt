@@ -8,33 +8,16 @@ NOR_DD_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_light destroyer }
 
-	prefix = "KNM "
+	prefix = "HNoMS "
 	fallback_name = "Jager %d"
 
 	unique = {
-		"Brage"
-		"Delling"
-		"Forsete"
-		"Frøy"
-		"Heimdall"
-		"Hermod"
-		"Hod"
-		"Høne"
-		"Lodur"
-		"Loke"
-		"Magne"
-		"Meile"
-		"Mime"
-		"Njord"
-		"Od"
-		"Ty"
-		"Ull"
-		"Vidar"
-		"Våle"
-		"Frigg"
-		"Frøya"
-		"Idunn"
-		"Snotra"
+		"斯文纳" "斯图尔" "奥斯陆" "卑尔根" "特隆赫姆" "斯塔万格" "阿伦达尔" "海于格松" "特罗姆瑟" "格莱斯代尔" "埃斯克河谷"
+		"斯雷普尼尔" "盖勒" "埃吉尔" "奥丁" "巴德尔" "德拉古尔" "巨魔" "加姆"
+		# Nordic mythology
+		"布拉基" "得林" "凡赛堤" "瓦尔" "海姆达尔" "赫尔莫德" "霍德尔" "海尼尔" "洛德" "洛基"
+		"玛尼" "梅里" "密米尔" "尼奥尔德" "奥德" "提尔" "乌勒尔" "维达" "瓦利" "弗丽嘉"
+		"弗蕾亚" "伊登" "斯洛特拉"
 	}
 }
 
@@ -47,11 +30,11 @@ NOR_CL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 
-	prefix = "KNM "
+	prefix = "HNoMS "
 	fallback_name = "Krysser %d"
 
 	unique = {
-		"Lillehammer"
+		"利勒哈默尔" "奥斯陆" "卑尔根" "特隆赫姆" "斯塔万格" "阿克斯胡斯" "尼达洛斯" "纳尔维克" "挪威" "艾兹沃尔德" "托登斯基尔德" "哈拉尔一世"
 	}
 }
 
@@ -64,12 +47,11 @@ NOR_CA_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_cruiser_coastal_defense_ship ship_hull_cruiser_panzerschiff heavy_cruiser }
 
-	prefix = "KNM "
+	prefix = "HNoMS "
 	fallback_name = "Panserkrysser %d"
 
 	unique = {
-		"Eidsvoll"
-		"Kristiania"
+		"埃茨沃尔" "克里斯蒂安尼亚" "挪威" "艾兹沃尔德" "托登斯基尔德" "哈拉尔一世" "奥斯陆" "卑尔根" "特隆赫姆" "斯塔万格" "阿克斯胡斯" "尼达洛斯" "纳尔维克"
 	}
 }
 
@@ -82,12 +64,11 @@ NOR_BC_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 
-	prefix = "KNM "
+	prefix = "HNoMS "
 	fallback_name = "Kampkrysser %d"
 
 	unique = {
-		"Uredd"
-		"Norge"
+		"勇敢" "挪威" "韦斯特兰" "芬马克" "艾兹沃尔德" "阿克斯胡斯" "卑尔根" "尼达洛斯" "纳尔维克" "托登斯基尔德" "哈拉尔一世"
 	}
 }
 
@@ -100,12 +81,11 @@ NOR_BB_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_pre_dreadnought battleship }
 
-	prefix = "KNM "
+	prefix = "HNoMS "
 	fallback_name = "Slagskip %d"
 
 	unique = {
-		"Gjøvik"
-		"Hamar"
+		"约维克" "哈马尔" "韦斯特兰" "芬马克" "艾兹沃尔德" "阿克斯胡斯" "卑尔根" "尼达洛斯" "纳尔维克" "托登斯基尔德" "哈拉尔一世"
 	}
 }
 
@@ -118,11 +98,11 @@ NOR_CV_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 
-	prefix = "KNM "
+	prefix = "HNoMS "
 	fallback_name = "Hangarskip %d"
 
 	unique = {
-		"Øyer"
+		"奥于厄尔" "艾兹沃尔德" "奥拉夫二世" "哈康四世" "西居尔一世" "勇敢" "尤拉" "于特西拉" "于特施泰因" "乌特瓦" "乌塔尔格"
 	}
 }
 
@@ -135,24 +115,11 @@ NOR_SS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 
-	prefix = "KNM "
+	prefix = "HNoMS "
 	fallback_name = "Undervannsbåt %d"
 
 	unique = {
-		"Uredd"
-		"Ula"
-		"Utsira"
-		"Utstein"
-		"Utvær"
-		"Uthaug"
-		"Kinn"
-		"Kya"
-		"Kaura"
-		"Kobben"
-		"Kunna"
-		"Sklinna"
-		"Skolpen"
-		"Stadt"
-		"Stord"
+		"勇敢" "尤拉" "于特西拉" "于特施泰因" "乌特瓦" "乌塔尔格" "基恩" "基亚" "卡乌拉"
+		"柯本" "库恩纳" "斯卡林纳" "斯科尔普" "施塔特" "斯图尔"
 	}
 }

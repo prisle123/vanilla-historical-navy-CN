@@ -4865,7 +4865,7 @@ HOL_start_naval_variants = {
 NOR_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
-        name = "Eidsvold Class"
+        name = "埃兹沃尔德级"
 		role_icon_index = 19
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = NOR_CA_HISTORICAL
@@ -4883,7 +4883,7 @@ NOR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Tordenskjold Class"
+        name = "托登斯基尔德级"
 		role_icon_index = 19
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = NOR_CA_HISTORICAL
@@ -4902,7 +4902,7 @@ NOR_start_naval_variants = {
     }
     # destroyer
     create_equipment_variant = {
-        name = "Sleipner Class"
+        name = "斯雷普尼尔级"
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = NOR_DD_HISTORICAL
@@ -4921,7 +4921,7 @@ NOR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Olaf Tryggvason Class"
+        name = "奥拉夫一世级"
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_1
         name_group = NOR_CL_HISTORICAL
@@ -4939,7 +4939,7 @@ NOR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Draug Class"
+        name = "德拉古尔级"
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = NOR_DD_HISTORICAL
@@ -4960,7 +4960,7 @@ NOR_start_naval_variants = {
         obsolete = yes
     }
     create_equipment_variant = {
-        name = "Frøya Class"
+        name = "弗尔级"
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = NOR_DD_HISTORICAL
@@ -4981,7 +4981,7 @@ NOR_start_naval_variants = {
     }
     # submarine
     create_equipment_variant = {
-        name = "B Class"
+        name = "B级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = NOR_SS_HISTORICAL
@@ -4993,7 +4993,7 @@ NOR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "A Class"
+        name = "A级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = NOR_SS_HISTORICAL
@@ -5009,7 +5009,7 @@ NOR_start_naval_variants = {
 POL_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
-        name = "雷鸣级狼级"
+        name = "雷鸣级"
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = POL_DD_HISTORICAL
@@ -5064,7 +5064,7 @@ POL_start_naval_variants = {
 POR_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
-        name = "Douro Class"
+        name = "杜罗级"
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = POR_DD_HISTORICAL
@@ -5083,7 +5083,7 @@ POR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Guadiana Class"
+        name = "瓜地亚纳级"
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = POR_DD_HISTORICAL
@@ -5099,7 +5099,7 @@ POR_start_naval_variants = {
     }
     # submarine
     create_equipment_variant = {
-        name = "Delfim Class"
+        name = "海豚级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = POR_SS_HISTORICAL
@@ -5115,7 +5115,7 @@ POR_start_naval_variants = {
 SPR_start_naval_variants = {
     # battleship
     create_equipment_variant = {
-		name = "España Class"
+		name = "西班牙级"
 		role_icon_index = 3
 		type = vnr_ship_hull_heavy_1
 		name_group = SPR_BB_HISTORICAL
@@ -5138,7 +5138,7 @@ SPR_start_naval_variants = {
 	}
     # heavy_cruiser
     create_equipment_variant = {
-        name = "Canarias Class"
+        name = "卡纳里亚斯级"
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = SPR_CA_HISTORICAL
@@ -5159,7 +5159,7 @@ SPR_start_naval_variants = {
     }
     # light_cruiser
     create_equipment_variant = {
-        name = "Almirante Cervera Class"
+        name = "塞韦拉海军上将级"
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_2
         name_group = SPR_CL_HISTORICAL
@@ -5179,7 +5179,7 @@ SPR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Méndez Núñes Class"
+        name = "门德斯·努涅斯级"
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_1
         name_group = SPR_CL_HISTORICAL
@@ -5200,7 +5200,7 @@ SPR_start_naval_variants = {
         obsolete = yes
     }
     create_equipment_variant = {
-        name = "República Class"
+        name = "共和级"
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_1
         name_group = SPR_CL_HISTORICAL
@@ -5221,7 +5221,7 @@ SPR_start_naval_variants = {
     }
     # destroyer
     create_equipment_variant = {
-        name = "Churucca Class"
+        name = "丘鲁卡级"
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = SPR_DD_HISTORICAL
@@ -5240,7 +5240,7 @@ SPR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Júpiter Class"
+        name = "木星级"
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = SPR_DD_HISTORICAL
@@ -5259,7 +5259,7 @@ SPR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Alsedo Class"
+        name = "阿尔塞多级"
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = SPR_DD_HISTORICAL
@@ -5278,7 +5278,7 @@ SPR_start_naval_variants = {
     }
     # submarine
     create_equipment_variant = {
-        name = "C Class"
+        name = "C级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = SPR_SS_HISTORICAL
@@ -5290,7 +5290,7 @@ SPR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "B Class"
+        name = "B级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = SPR_SS_HISTORICAL
@@ -5306,7 +5306,7 @@ SPR_start_naval_variants = {
 SWE_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
-        name = "Sverige Class"
+        name = "瑞典级"
 		role_icon_index = 19
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = SWE_CA_HISTORICAL
@@ -5325,7 +5325,7 @@ SWE_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Äran/Oscar II Class"
+        name = "荣耀级/奥斯卡二世级"
 		role_icon_index = 19
 		icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Oden.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5345,7 +5345,7 @@ SWE_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Dristigheten Class"
+        name = "大胆级"
 		role_icon_index = 19
 		icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Oden.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5367,7 +5367,7 @@ SWE_start_naval_variants = {
         obsolete = yes
     }
     create_equipment_variant = {
-        name = "Fylgia Class"
+        name = "费尔加级"
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Fylgia.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5389,7 +5389,7 @@ SWE_start_naval_variants = {
     }
     # light_cruiser
     create_equipment_variant = {
-		name = "Gotland Class"
+		name = "哥特兰级"
 		role_icon_index = 45
 		type = vnr_ship_hull_cruiser_2
 		name_group = SWE_CL_HISTORICAL
@@ -5409,7 +5409,7 @@ SWE_start_naval_variants = {
 	}
     # destroyer
     create_equipment_variant = {
-		name = "Göteborg Class"
+		name = "哥德堡级"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_3
 		name_group = SWE_DD_HISTORICAL
@@ -5427,7 +5427,7 @@ SWE_start_naval_variants = {
 		}
 	}
     create_equipment_variant = {
-		name = "Ehrensköld Class"
+		name = "艾伦斯科德级"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_2
 		name_group = SWE_DD_HISTORICAL
@@ -5444,7 +5444,7 @@ SWE_start_naval_variants = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Ragnar/Hugin/Wrangel Class"
+		name = "拉格纳/胡金/维兰格尔级"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
@@ -5462,7 +5462,7 @@ SWE_start_naval_variants = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Wale Class"
+		name = "瓦利级"
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
@@ -5478,7 +5478,7 @@ SWE_start_naval_variants = {
 		obsolete = yes
 	}
     create_equipment_variant = {
-		name = "Örnen Class"
+		name = "鹰级"
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
@@ -5494,7 +5494,7 @@ SWE_start_naval_variants = {
 		obsolete = yes
 	}
     create_equipment_variant = {
-		name = "Clas Fleming Class"
+		name = "克拉斯·弗莱明级"
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
@@ -5512,7 +5512,7 @@ SWE_start_naval_variants = {
 	}
     # submarine
     create_equipment_variant = {
-        name = "Delfinen/Sjölejonet Class"
+        name = "海豚级/海狮级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SWE_SS_HISTORICAL
@@ -5524,7 +5524,7 @@ SWE_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Draken Class"
+        name = "龙级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SWE_SS_HISTORICAL
@@ -5536,7 +5536,7 @@ SWE_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Valen Class"
+        name = "鲸鱼级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = SWE_SS_HISTORICAL
@@ -5549,7 +5549,7 @@ SWE_start_naval_variants = {
         obsolete = yes
     }
     create_equipment_variant = {
-        name = "Hajen/Bävern Class"
+        name = "鲨鱼级/河狸级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = SWE_SS_HISTORICAL
@@ -5566,7 +5566,7 @@ SWE_start_naval_variants = {
 TUR_start_naval_variants = {
     # battle_cruiser
     create_equipment_variant = {
-		name = "Moltke Class"
+		name = "毛奇级"
 		role_icon_index = 15
 		icon = "gfx/interface/technologies/Generic/generic_battleship1.png"
 		type = vnr_ship_hull_heavy_1
@@ -5590,7 +5590,7 @@ TUR_start_naval_variants = {
 	}
     # light_cruiser
     create_equipment_variant = {
-        name = "Mecidiye/Hamidiye Class"
+        name = "梅西迪耶级/哈米迪耶级"
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = TUR_INSPIRATIONAL
@@ -5609,7 +5609,7 @@ TUR_start_naval_variants = {
     }
     # destroyer
     create_equipment_variant = {
-		name = "Zafer Class"
+		name = "扎法级"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_2
 		name_group = TUR_GEOGRAPHIC
@@ -5625,7 +5625,7 @@ TUR_start_naval_variants = {
 		}
 	}
     create_equipment_variant = {
-		name = "Kocatepe Class"
+		name = "科扎德佩级"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_2
 		name_group = TUR_GEOGRAPHIC
@@ -5643,7 +5643,7 @@ TUR_start_naval_variants = {
 		}
 	}
     create_equipment_variant = {
-		name = "Peyk Class"
+		name = "佩克级"
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
 		name_group = TUR_INSPIRATIONAL
@@ -5662,7 +5662,7 @@ TUR_start_naval_variants = {
 	}
     # submarine
     create_equipment_variant = {
-        name = "Gür Class"
+        name = "居尔级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = TUR_INSPIRATIONAL
@@ -5674,7 +5674,7 @@ TUR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Sakarya Class"
+        name = "萨卡里亚级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = TUR_INSPIRATIONAL
@@ -5686,7 +5686,7 @@ TUR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Dumlupinar Class"
+        name = "杜姆卢珀纳尔级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = TUR_INSPIRATIONAL
@@ -5698,7 +5698,7 @@ TUR_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Birinci Inönü Class"
+        name = "伊努诺级"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = TUR_INSPIRATIONAL
@@ -5709,5 +5709,219 @@ TUR_start_naval_variants = {
 			rear_1_custom_slot = ship_torpedo_sub_1
         }
         obsolete = yes
+    }
+}
+
+COL_start_naval_variants = {
+    create_equipment_variant = {
+        name = "安蒂奥基亚级"
+		role_icon_index = 31
+        type = vnr_ship_hull_light_2
+        name_group = COL_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_mine_layer_1
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_light_battery_2
+			rear_2_custom_slot = ship_depth_charge_1
+        }
+    }
+}
+
+MEX_start_naval_variants = {
+	create_equipment_variant = {
+        name = "阿纳瓦克级"
+		role_icon_index = 23
+        type = vnr_ship_hull_cruiser_coastal_defense_ship
+        name_group = MEX_CA_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_medium_battery_1_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+            fixed_ship_secondaries_slot = ship_secondaries_1
+            front_1_custom_slot = empty
+            mid_1_custom_slot = empty
+            mid_2_custom_slot = ship_torpedo_1
+        }
+    }
+	create_equipment_variant = {
+        name = "杜兰戈级"
+		role_icon_index = 47
+        type = vnr_ship_hull_light_1
+        name_group = MEX_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			front_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+        }
+    }
+	create_equipment_variant = {
+        name = "瓜纳华托级"
+		role_icon_index = 47
+        type = vnr_ship_hull_light_1
+        name_group = MEX_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			front_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
+        }
+    }
+	create_equipment_variant = {
+        name = "尼古拉斯·布拉沃级"
+		role_icon_index = 47
+        type = vnr_ship_hull_light_1
+        name_group = MEX_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
+        }
+    }
+}
+
+ROM_start_naval_variants = {
+	create_equipment_variant = {
+        name = "斐迪南一世级"
+		role_icon_index = 31
+        type = vnr_ship_hull_light_2
+        name_group = ROM_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_light_battery_2
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_light_battery_2
+			rear_2_custom_slot = ship_mine_layer_1
+        }
+    }
+	create_equipment_variant = {
+        name = "默勒什蒂级"
+		role_icon_index = 29
+        type = vnr_ship_hull_light_1
+        name_group = ROM_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1_double
+        }
+		obsolete = yes
+    }
+	create_equipment_variant = {
+        name = "海豚级"
+		role_icon_index = 37
+        type = vnr_ship_hull_submarine_2
+        name_group = ROM_SS_HISTORICAL
+        modules = {
+            fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+            fixed_ship_armor_slot = pressure_hull_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+        }
+    }
+}
+
+URG_start_naval_variants = {
+	create_equipment_variant = {
+        name = "乌拉圭级"
+		role_icon_index = 29
+        type = vnr_ship_hull_light_1
+        name_group = URG_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
+        }
+    }
+}
+
+YUG_start_naval_variants = {
+	create_equipment_variant = {
+        name = "达尔马提亚级"
+		role_icon_index = 23
+        type = vnr_ship_hull_cruiser_coastal_defense_ship
+        name_group = YUG_CL_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+            fixed_ship_secondaries_slot = empty
+            front_1_custom_slot = ship_light_battery_1
+            mid_1_custom_slot = ship_light_battery_1
+            mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+			rear_2_custom_slot = ship_light_battery_1
+        }
+    }
+	create_equipment_variant = {
+        name = "杜布罗夫尼克级"
+		role_icon_index = 31
+        type = vnr_ship_hull_light_2
+        name_group = YUG_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_light_battery_2
+			mid_2_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_light_battery_2
+			rear_2_custom_slot = ship_light_battery_2
+        }
+    }
+	create_equipment_variant = {
+        name = "勇敢级/大胆级"
+		role_icon_index = 37
+        type = vnr_ship_hull_submarine_2
+        name_group = YUG_SS_HISTORICAL
+        modules = {
+            fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+            fixed_ship_armor_slot = pressure_hull_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+        }
     }
 }

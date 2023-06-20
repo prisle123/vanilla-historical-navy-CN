@@ -1,0 +1,18 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "墨西哥海军"
+		naval_base = 12810 # Veracruz
+		task_force = {				
+			name = "墨西哥海军"
+			location = 12810 # Veracruz
+			ship = { name = "ARM 阿纳瓦克" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = MEX version_name = "阿纳瓦克级"} } }
+			ship = { name = "ARM 尼古拉斯·布拉沃" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "尼古拉斯·布拉沃级" } } }
+			ship = { name = "ARM 杜兰戈" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "杜兰戈级" } } }
+			ship = { name = "ARM 瓜纳华托" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "瓜纳华托级" } } }
+			ship = { name = "ARM 克雷塔罗" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "瓜纳华托级" } } } 
+			ship = { name = "ARM 波托西" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "瓜纳华托级" } } }		
+		}
+	}
+}

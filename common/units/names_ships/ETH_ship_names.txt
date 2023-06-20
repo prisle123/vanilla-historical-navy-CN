@@ -1,0 +1,175 @@
+﻿ETH_TOWNS = {
+  name = NAME_THEME_CITIES
+  for_countries = {
+    ETH
+  }
+  type = ship
+  prefix = "ENS "
+  unique = {
+    "亚的斯亚贝巴"  # Addis Ababa
+    "贡德尔"  # Gondar
+    "米克尔"  # Mekelle
+    "阿达马"  # Adama
+    "阿瓦萨"  # Awassa
+    "巴赫达尔"  # Bahir Dar
+    "德雷达瓦"  # Dire Dawa
+    "德塞"  # Dessie
+    "吉马"  # Jimma
+    "吉吉加"  # Jijiga
+    "沙沙曼"  # Shashamane
+    "毕许福图"  # Bishoftu
+    "索多"  # Sodo
+    "阿尔巴门奇"  # Arba Minch
+    "霍塞纳"  # Hosaena
+    "哈勒尔"  # Harar
+    "狄拉"  # Dilla
+    "内克姆特"  # Nekemte
+    "德巴尔"  # Debre
+    "阿塞拉"  # Asella
+    "德卜勒马科斯"  # Debre Mark'os
+    "科莫布尔察"  # Kombolcha
+    "德卜勒塔博尔"  # Debre Tabor
+    "阿迪格拉特"  # Adigrat
+    "阿雷卡"  # Areka
+    "沃尔迪亚"  # Weldiya
+    "瑟伯塔"  # Sebeta
+    "布赖尤"  # Burayu
+    "阿姆博"  # Ambo
+    "阿尔西"  # Arsi
+    "阿克苏姆"  # Aksum
+    "甘贝拉"  # Gambela
+    "巴莱"  # Bale Robe
+    "布塔吉拉"  # Butajira
+    "拔都"  # Batu
+    "博迪蒂"  # Boditi
+    "阿德瓦"  # Adwa
+    "伊尔加勒姆"  # Yirgalem
+    "瓦利索"  # Waliso
+    "Welkite"
+    "戈德"  # Gode
+    "梅基"  # Meki
+    "内格勒"  # Negele
+    "阿拉巴"  # Alaba
+    "阿拉马塔"  # Alamata
+    "吉罗"  # Chiro
+    "特比"  # Tepi
+    "杜拉梅"  # Durame
+    "戈巴"  # Goba
+    "阿索萨"  # Assosa
+    "金比"  # Gimbi
+    "乌科洛"  # Wukro
+    "哈拉马亚"  # Haramaya
+    "米赞"  # Mizan
+    "索拉"  # Sawla
+    "符咒"  # Mojo
+    "德比"  # Dembi
+    "阿勒塔"  # Aleta
+    "梅杜"  # Metu
+    "莫塔"  # Mota
+    "Fiche"
+    "Finote"
+    "布勒"  # Bule
+    "邦加"  # Bonga
+    "Kobo"
+    "Jinka"
+    "丹吉拉"  # Dangila
+    "德蓋哈布林"  # Degehabur
+    "Dimtu"
+    "阿加罗"  # Agaro
+  }
+}
+ETH_RIVERS = {
+  name = NAME_THEME_RIVERS
+  for_countries = {
+    ETH
+  }
+  type = ship
+  prefix = "ENS "
+  unique = {
+    "特凯泽"  # Tekezé
+    "扎里玛"  # Zarima
+    "阿塔巴"  # Ataba
+    "泽尔阿"  # Qortem Zer'a
+    "沙里耶特"  # Tsaliet
+    "阿布阿罗"  # Ab'aro
+    "安布罗"  # Amblo
+    "寇罗维亚"  # Korowya
+    "费雷"  # Ferrey
+    "基达内·米赫雷特"  # Kidane Mihret
+    "格拉里沃多"  # Graliwdo
+    "谢奇伊"  # Tsech'i
+    "阿瓦迪托"  # Arwadito
+    "阿达沃罗"  # Adawro
+    "兹库利"  # Zikuli
+    "格拉·阿迪姆"  # Gra Adiam
+    "英达·西拉西"  # Inda Sillasie
+    "阿迪·凯索夫"  # Addi Keshofo
+    "英达·安贝萨"  # Inda Anbesa
+    "卢巴·比奇"  # Ruba Bich'i
+    "胡鲁拉"  # Hurura
+    "阿菲德纳"  # Afedena
+    "新布拉克"  # Shimbula
+    "伊拉莱"  # Ilala
+    "卡拉诺"  # Qarano
+    "阿古拉伊"  # Agula'i
+    "根福尔"  # Genfel
+    "苏鲁赫"  # Sulluh
+    "巴拉加斯"  # Balagas
+    "安格列布"  # Angereb
+    "拉哈德"  # Rahad
+    "迪内罗"  # Dinder
+    "贾马"  # Jamma
+    "德比"  # Dembi
+    "小安格列布"  # Lesser Angereb
+    "古玛拉"  # Gumara
+    "亚伯斯"  # Yabus
+    "巴洛"  # Baro
+    "吉卡沃"  # Jikawo
+    "迪帕"  # Dipa
+    "科巴拉"  # Kobara
+    "卡萨"  # Qarsa
+    "格布巴"  # Gebba
+    "皮博尔"  # Pibor
+    "阿科博"  # Akobo
+    "朱巴"  # Jubba
+    "谢贝利"  # Shebelle
+    "杰勒尔"  # Jerer
+    "拉米斯"  # Ramis
+    "加莱蒂"  # Galetti
+    "邓格达"  # Dungeta
+    "戈洛查"  # Gololcha
+    "加纳勒·多里亚"  # Ganale Dorya
+    "米纳"  # Mena
+    "达瓦"  # Dawa
+    "阿瓦什"  # Awash
+    "米尔"  # Mille
+    "阿拉"  # Ala
+    "戈里马"  # Golima
+    "博尔卡纳"  # Borkana
+    "阿塔耶"  # Ataye
+    "哈瓦迪"  # Hawadi
+    "卡本纳"  # Kabenna
+    "德尔卡姆"  # Durkham
+    "珂莱塔"  # Keleta
+    "符咒"  # Mojo
+    "阿卡基"  # Akaki
+    "德查图"  # Dechatu
+    "梅基"  # Meki
+    "卡塔尔"  # Katar
+    "基比什"  # Kibish
+    "吾斯诺"  # Usno
+    "玛格"  # Mago
+    "内里"  # Neri
+    "曼查"  # Mantsa
+    "兹吉纳"  # Zigina
+    "丹奇亚"  # Denchya
+    "谷吉布"  # Gojeb
+    "吉尔盖"  # Gibe
+    "吉尔盖·吉贝"  # Gilgel Gibe
+    "瓦布"  # Wabe
+    "比蕾惕"  # Bilate
+    "纪德博"  # Gidabo
+    "威托"  # Weito
+    "萨甘"  # Sagan
+  }
+}

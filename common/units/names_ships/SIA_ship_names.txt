@@ -1,120 +1,120 @@
-﻿##### COLOMBIA NAME LISTS #####
+﻿##### SIAM/THAILAND NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-COL_DD_HISTORICAL = {
+SIA_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { COL }
+	for_countries = { SIA }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
 
-	prefix = "ARC "
+	prefix = "HTMS "
 	fallback_name = "%d 号驱逐舰"					
 
 	unique = {											
-		"安蒂奥基亚" "卡达斯" "七月二十日" "八月七日" "桑坦德" "帕迪拉海军上将" "托诺海军上将" "布里昂海军上将" "科尔多瓦"
+		 "帕銮" "美功" "达津" "春武里" "达叻" "宋卡" "普吉" "北大年" "素叻他尼" "尖竹汶" "罗勇" "春蓬" "空艾" "甘丹" "达拜" "邦巴功" "普拉萨" 
 	}
 }
 
 ### LIGHT CRUISER NAMES###
-COL_CL_HISTORICAL = {
+SIA_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { COL }
+	for_countries = { SIA }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
-	prefix = "ARC "
+	prefix = "HTMS "
 	fallback_name = "%d 号轻巡洋舰"
 
 	unique = {
-		"麦德林" "卡塔赫纳" "巴兰基亚" "圣玛尔塔" "布卡拉曼加" "图马科" "布韦那文图拉"
+		 "达信" "纳黎萱" "春武里" "沙没巴干" "是拉差" "罗勇" "尖竹汶" "考沙民" "乐达纳古欣" "素可泰"
 	}
 }
 
 ### HEAVY CRUISER NAMES###
-COL_CA_HISTORICAL = {
+SIA_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { COL }
+	for_countries = { SIA }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
-	prefix = "ARC "
 	
+	prefix = "HTMS "
 	fallback_name = "%d 号重巡洋舰"
 
 	unique = {
-		"麦德林" "卡塔赫纳" "巴兰基亚" "圣玛尔塔" "布卡拉曼加" "图马科" "布韦那文图拉"
+		"阿瑜陀耶" "吞武里" "春武里" "沙没巴干" "是拉差" "罗勇" "尖竹汶" "考沙民" "乐达纳古欣" "素可泰"
 	}
 }
 
 
 ### BATTLESHIP NAMES ###
-COL_BB_HISTORICAL = {
+SIA_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { COL }
+	for_countries = { SIA }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
-	prefix = "ARC "
 	
+	prefix = "HTMS "
 	fallback_name = "%d 号战列舰"		
 
 	unique = {
-		"克里斯托巴尔" "波哥大" 
+		  "曼谷" "宋卡銮" "苏梅岛" "乐达纳古欣" "素可泰"  
 	}
 }
 
 ### BATTLECRUISER NAMES ###
-COL_BC_HISTORICAL = {
+SIA_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { COL }
+	for_countries = { SIA }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
-	prefix = "ARC "
 	
+	prefix = "HTMS "
 	fallback_name = "%d 号战列巡洋舰"		
 
 	unique = {
-		"克里斯托巴尔" "波哥大" 
+		"曼谷" "宋卡銮" "苏梅岛" "乐达纳古欣" "素可泰"  
 	}
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-COL_CV_HISTORICAL = {
+SIA_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { COL }
+	for_countries = { SIA }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
-	prefix = "ARC "
 	
+	prefix = "HTMS "
 	fallback_name = "%d 号航空母舰"	
 
 	unique = {
-		"哥伦比亚共和国" "伟大" "马格达莱纳" "波哥大" "潘普洛尼塔" "里奥内格罗" "阿劳卡" 
+             "芒赛" "奥泰" "却克王朝之君" 
 	}
 }
 
 ### SUBMARINES ###
-COL_SS_HISTORICAL = {
+SIA_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { COL }
+	for_countries = { SIA }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
-	prefix = "ARC "
 	
+	prefix = "HTMS "
 	fallback_name = "%d 号潜艇"
 	
 	unique = {
-		"七月二十日" "八月七日" "桑坦德" "帕迪拉海军上将" "托诺海军上将" "布里昂海军上将" "科尔多瓦" "安蒂奥基亚" "卡达斯" 
+		"素可泰" "春蓬" "克拉武里" "廊开" "罗勇" "朗算" "苏美" "素叻" "那空拍侬" " 夜丰颂" 
 	}
 }

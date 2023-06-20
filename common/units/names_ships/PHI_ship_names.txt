@@ -1,0 +1,121 @@
+﻿##### PHILIPPINES NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+PHI_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { PHI }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "RPS "							
+	fallback_name = "第%s 驱逐舰"					
+
+	unique = {											
+		"拉惹·索利曼" "拉惹·拉卡达拉" "达图·卡兰蒂" "达图·西卡图纳" "安德烈斯·博尼法乔" "格雷戈里奥·德尔·皮拉尔" "迭戈·西朗" "弗朗西斯科·达戈霍伊" "达图·马里库杜" "西内格罗" "莱特" 
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+PHI_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { PHI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "RPS "							
+	fallback_name = "第%s 轻巡洋舰"
+
+	unique = {
+		"奎松" "黎刹" "宿务" "邦阿西楠" "伊洛伊洛" "马尼拉" "吕宋" "卡巴那图" "甲万那端" "加的斯" "达沃" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+PHI_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { PHI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "RPS "							
+	fallback_name = "第%s 重巡洋舰"
+
+	unique = {
+		"奎松" "黎刹" "宿务" "邦阿西楠" "伊洛伊洛" "马尼拉" "吕宋" "卡巴那图" "甲万那端" "加的斯" "达沃" 
+	}
+}
+
+### BATTLESHIP NAMES ###
+PHI_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { PHI }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "RPS "							
+	fallback_name = "第%s 战列舰"		
+
+	unique = {
+		"马尼拉" "吕宋" "菲律宾共和国" "曼彻塔斯将军" "卡巴那图" "圣巴勃罗" "八打雁" "巴科洛德" "加的斯" "圣卡洛斯" "达沃"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+PHI_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { PHI }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "RPS "							
+	fallback_name = "第%s 战列巡洋舰"		
+
+	unique = {
+ 		"马尼拉" "吕宋" "菲律宾共和国" "曼彻塔斯将军" "卡巴那图" "圣巴勃罗" "八打雁" "巴科洛德" "加的斯" "圣卡洛斯" "达沃"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+PHI_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { PHI }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "RPS "							
+	fallback_name = "第%s 航空母舰"		
+
+	unique = {
+		"马尼拉" "吕宋" "菲律宾共和国" "曼彻塔斯将军" "卡巴那图" "圣巴勃罗" "八打雁" "巴科洛德" "加的斯" "圣卡洛斯" "达沃"
+	}
+}
+
+
+### SUBMARINES ###
+PHI_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { PHI }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "RPS "							
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"南芥" "杨梅" "哈威亚" "卡尼里" "普卡基" "罗托伊蒂" "陶波" "图提拉" "伊丘卡" "冲刺" "因弗雷尔" "凯马" "斯托尔" "奥塔哥" "塔拉纳基" "怀卡托" "布莱克浦" "坎特伯雷"
+	}
+}

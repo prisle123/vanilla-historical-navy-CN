@@ -6,23 +6,12 @@ FIN_DD_HISTORICAL = {
 	for_countries = { FIN }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer }			
 
-	prefix = ""
-	fallback_name = "Hävittäjä %d"
+	fallback_name = "%d 号驱逐舰"					
 
-	unique = {
-		"Matti Kurki"
-		"Sisu"
-		"Hurja"
-		"Isku"
-		"Syöksy"
-		"Nuoli"
-		"Vinha"
-		"Raju"
-		"Vasama"
-		"Vihuri"
-		"Viima"
+	unique = {											
+		"哈米纳" "马蒂`库尔基" "新地" "卡累利阿" "图伦马" "坚韧" "勇猛" "开火" "攻击" "箭头" "文纳哈" "拉朱" "瓦萨玛" "维户里" "风"
 	}
 }
 
@@ -34,22 +23,11 @@ FIN_CL_HISTORICAL = {
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
-
-	prefix = ""
-	fallback_name = "Risteilijä %d"
+	
+	fallback_name = "%d 号轻巡洋舰"
 
 	unique = {
-		"Tapio"
-		"Helsinki"
-		"Rauma"
-		"Turku"
-		"Kemi"
-		"Maarianhamina"
-		"Vaasa"
-		"Viipuri"
-		"Kotka"
-		"Oulu"
-		"Rauma"
+		"约克海宁" "塔皮奥" "勒明盖宁" "赫尔辛基" "劳马" "图尔库" "凯米" "马良哈米纳" "瓦萨" "维堡" "科特卡" "奥卢" "劳马" "维纳莫宁" "伊尔马林嫩"
 	}
 }
 
@@ -60,19 +38,15 @@ FIN_CA_HISTORICAL = {
 	for_countries = { FIN }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_cruiser_coastal_defense_ship ship_hull_cruiser_panzerschiff heavy_cruiser battle_cruiser }
-
-	prefix = ""
-	fallback_name = "Panssarilaiva %d"
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "%d 号重巡洋舰"
 
 	unique = {
-		"Ilmarinen"
-		"Väinämöinen"
-		"Lemminkäinen"
-		"Joukahainen"
-		"Kullervo"
+		"维纳莫宁" "耳马里嫩" "约克海宁" "塔皮奥" "勒明盖宁" "赫尔辛基" "劳马" "图尔库" "凯米" "马良哈米纳" "瓦萨" "维堡" "科特卡" "奥卢" "劳马"
 	}
 }
+
 
 ### BATTLESHIP NAMES ###
 FIN_BB_HISTORICAL = {
@@ -82,15 +56,27 @@ FIN_BB_HISTORICAL = {
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
-
-	prefix = ""
-	fallback_name = "Taistelulaiva %d"
+	
+	fallback_name = "%d 号战列舰"		
 
 	unique = {
-		"Pohjanmaa"
-		"Pietarsaari"
-		"Aura"
-		"Tampere"
+		"新地" "卡累利阿" "博滕" "劳马" "图尔库" "维堡" "雅各布斯塔德" "瓦萨" "奥卢" "奥拉" "凯米" "坦佩雷"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+FIN_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+			"新地" "卡累利阿" "博滕" "劳马" "图尔库" "维堡" "雅各布斯塔德" "瓦萨" "奥卢" "奥拉" "凯米" "坦佩雷"
 	}
 }
 
@@ -102,12 +88,11 @@ FIN_CV_HISTORICAL = {
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
-
-	prefix = ""
-	fallback_name = "Tukialus %d"
+	
+	fallback_name = "%d 号航母"	
 
 	unique = {
-		"Suomenmaa"
+		"大芬兰" "卡累利阿" "图尔库" "泊贾曼" "曼纳海姆" "维堡" "瓦萨" "新地" "奥兰群岛" "奥卢" "凯米" "图尔库" "博滕" "曼纳海姆" "维堡" "瓦萨" "新地" "阿赫韦南马" "奥卢"
 	}
 }
 
@@ -119,16 +104,10 @@ FIN_SS_HISTORICAL = {
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
-
-	prefix = ""
-	fallback_name = "Sukellusvene no. %d"
-
+	
+	fallback_name = "%d 号潜艇"
+	
 	unique = {
-		"Iku-Turso"
-		"Saukko"
-		"Vesikko"
-		"Vetehinen"
-		"AG 12"
-		"AG 16"
+		"维特希嫩" "维希希" "依库-特索" "水貂"
 	}
 }

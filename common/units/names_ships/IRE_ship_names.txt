@@ -1,0 +1,122 @@
+﻿##### IRELAND NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+IRE_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { IRE }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "LE "							
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"玛查" "梅芙" "克里亚娜" "瑟坦达" "芙迪雅" "格拉妮" "班巴" "芙拉" "德尔得热" "伊玛" "埃伊菲" "艾丝琳" "艾丝讷" "奥拉" "席亚拉" "罗辛赛" "尼亚芙"
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+IRE_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { IRE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "LE "							
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"德尔得热" "伊玛" "艾丝讷" "克里亚娜" "米比" "慕夏" "威廉·史密斯·奥布莱恩" "多纳尔·奥沙利文·博瑞" "希尔保特·沃尔夫·托恩" "威廉·巴特勒·叶芝" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+IRE_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { IRE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "LE "							
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"米歇尔·柯林斯" "亚瑟·格里菲斯" "查尔斯·斯图尔特·巴奈尔" "丹尼尔·奥康奈尔"
+		"埃蒙·德瓦莱拉" "威廉·史密斯·奥布莱恩" "多纳尔·奥沙利文·博瑞" "希尔保特·沃尔夫·托恩" "威廉·巴特勒·叶芝"
+	}
+}
+
+### BATTLESHIP NAMES ###
+IRE_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { IRE }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "LE "							
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"丹尼尔·奥康奈尔" "埃蒙·德瓦莱拉" "威廉·史密斯·奥布莱恩" "多纳尔·奥沙利文·博瑞" "希尔保特·沃尔夫·托恩" "威廉·巴特勒·叶芝"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+IRE_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { IRE }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "LE "							
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"丹尼尔·奥康奈尔" "埃蒙·德瓦莱拉" "威廉·史密斯·奥布莱恩" "多纳尔·奥沙利文·博瑞" "希尔保特·沃尔夫·托恩" "威廉·巴特勒·叶芝"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+IRE_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { IRE }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "LE "							
+	fallback_name = "%d 号航母"		
+
+	unique = {
+			"爱尔兰" "米歇尔·柯林斯" "亚瑟·格里菲斯" "查尔斯·斯图尔特·巴奈尔" "班巴" "芙拉" "玛查" "梅芙" "克里亚娜"
+	}
+}
+
+
+### SUBMARINES ###
+IRE_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { IRE }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "LE "							
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+	"玛查" "梅芙" "克里亚娜" "瑟坦达" "芙迪雅" "格拉妮" "班巴" "芙拉" "德尔得热" "伊玛" "埃伊菲" "艾丝琳" "艾丝讷" "奥拉" "席亚拉" "罗辛赛" "尼亚芙"
+	}
+}

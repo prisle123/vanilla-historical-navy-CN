@@ -1,0 +1,159 @@
+﻿##### YUGOSLAVIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+YUG_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "KB "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"杜布罗夫尼克" "斯普利特" "贝尔格莱德" "萨格勒布" "卢布尔雅那" "科托" "普拉" "特里格拉夫" "彼欧阔沃" "杜米托尔" "乌卡" "科佩尔" "纳达" "格尔斯尼卡" "切尔"   
+	}
+}
+
+### LIGHT CRUISER NAMES###
+YUG_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "KB "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"达尔马提亚" "萨拉热窝" "布鲁斯" "尼什" "斯梅代雷沃" "马纳西亚" "弗尔沙茨" "卢布尔雅那" 
+		"贝尔格莱德" "萨格勒布" "诺维萨德"  "布德瓦" "策提涅" "杜布罗夫尼克" "佩奇" "普里兹伦" "普里什蒂纳" "斯普利特" "巴尼亚卢卡"   
+	}
+}
+
+### HEAVY CRUISER NAMES###
+YUG_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "KB "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"贝尔格莱德" "萨格勒布" "诺维萨德"  "布德瓦" "策提涅"
+		"杜布罗夫尼克" "佩奇" "普里兹伦" "普里什蒂纳" "萨拉热窝" "斯普利特" "斯科普里" "尼什" "巴尼亚卢卡"    
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+YUG_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "KB "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"贝尔格莱德" "萨格勒布" "诺维萨德"  "布德瓦" "策提涅" "杜布罗夫尼克" 
+		"佩奇" "普里兹伦" "普里什蒂纳" "萨拉热窝" "塞尔维亚" "克罗地亚" "博斯纳" "黑塞哥维那" "马其顿" "斯洛文尼亚" "黑山"  "伏伊伏丁那"  
+	}
+}
+
+### BATTLECRUISER NAMES ###
+YUG_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "KB "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"布鲁斯" "尼什" "塞尔维亚" "克罗地亚" "博斯纳" "黑塞哥维那" "马其顿" "斯洛文尼亚" "黑山"  "伏伊伏丁那"  
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+YUG_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "KB "
+	fallback_name = "%d 号航母"	
+
+	unique = {
+		"兹玛伊" "斯梅代雷沃" "马纳西亚" "弗尔沙茨" "卢布尔雅那" "布鲁斯" "贝尔格莱德" "萨格勒布" "诺维萨德"  "布德瓦"  
+	}
+}
+
+### SUBMARINES ###
+YUG_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "KB "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+			"勇敢" "内博伊沙" "大胆" "复仇者" "马里萨恩" "塔拉" "萨瓦" "苏捷什卡" "内雷特瓦" "英雄" "尤那克" "德拉" "蒂萨" "乌娜" "泽塔" "索卡" "库帕" "瓦尔达" "斯洛伯德尼" "强大"  
+	}
+}
+
+
+### THEME: YUGOSLAVIAN REGIONS ###
+YUG_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { YUG }
+
+	type = ship
+
+	prefix = "KB "
+	unique = {
+		"塞尔维亚" "克罗地亚" "博斯纳" "黑塞哥维那" "马其顿" "斯洛文尼亚" "黑山"  "伏伊伏丁那" "达尔马提亚" "斯拉沃尼亚" "巴纳特" "塞尔维亚" 
+		"巴拉亚" "多瑙河" "德拉瓦" "德里纳" "普里莫尔斯卡" "摩拉维亚" "萨瓦" "瓦达斯卡" "维巴斯卡" "泽塔" "比萨拉比亚" "布科维纳" "赫塔" "南比萨拉比亚"   
+	}
+}
+
+## THEME: YUGOSLAVIAN CITIES ###
+YUG_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { YUG }
+
+	type = ship
+
+	prefix = "KB "
+	unique = {
+		"贝尔格莱德" "萨格勒布" "诺维萨德"  "布德瓦" "策提涅" "杜布罗夫尼克" "卢布尔雅那" "佩奇" 
+		"普里兹伦" "普里什蒂纳" "萨拉热窝" "斯普利特" "斯科普里" "尼什" "巴尼亚卢卡"  "科托" "波德戈里察" 
+		"斯梅代雷沃" "武科瓦尔" "弗拉涅" "比托拉" "查查克" "上米拉诺瓦茨"  "卡瓦达尔齐" "科拉欣" "巴尔" "贝拉内" 
+		"比哈奇" "比耶洛波列"  "别洛瓦尔" "丘普里亚" "戈斯皮奇" "科索夫斯卡-米特罗维察"  "克拉古耶瓦茨" "克鲁舍瓦茨"
+		"库马诺沃" "马里博尔" "莫斯塔尔" "内格廷" "尼克希奇" "新帕扎尔"  "奥古林" "奥赫里德" "奥西耶克" "皮罗特" "普列夫利亚" 
+		"波扎雷瓦茨" "波热加" "普里耶波列" "普罗库普列" "沙巴茨" "希贝尼克" "什提普" "泰托沃" "特拉夫尼克" "图兹拉" "乌日策" "瓦列沃" "瓦拉日丁" "大维也纳"  "扎耶查尔"    
+	}
+}
+

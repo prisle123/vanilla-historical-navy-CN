@@ -218,15 +218,15 @@ ENG_CL_HISTORICAL = {
 	unique = {
 		# Starting with Leander class (less HMNZS ships)
 		"安菲翁" "阿波罗" "佩内洛普" "曙光女神" "南安普敦" "伯明翰" "格拉斯哥" "纽卡瑟尔" "设菲尔德" "格洛斯特" "利物浦" "曼彻斯特" "爱丁堡" "贝尔法斯特" 
-		"斐济" "肯尼亚" "尼日利亚" "毛里求斯" "特立尼达" "冈比亚" "牙买加" "百慕大" "锡兰" "纽芬兰" "乌干达" "确捷" "米诺陶" "Superb"  
+		"斐济" "肯尼亚" "尼日利亚" "毛里求斯" "特立尼达" "冈比亚" "牙买加" "百慕大" "锡兰" "纽芬兰" "乌干达" "确捷" "米诺陶" "壮丽"  
 		"虎" "狮" "布雷克" "霍克" "伯勒罗丰" 
 		# Starting with Dido class
 		"波拿文德拉" "黛朵" "水中女仙" "月神" "赫尔迈厄尼" "欧亚卢斯" "卡律布迪斯" "天狼星" "六头女妖" "亚尔古水手"
 		"贝罗娜" "保皇党" "斯巴达"
 		##reusing WW1 ship names from here##
-		"康斯坦斯" "半人马" "康科德" "Phaeton" "Bristol" "Weymouth" "Dartmouth" "Falmouth" "Yarmouth" "Chatham" "Caroline" "Caledon" "Calypso" "Caradoc" "Cardiff" "Ceres" 
-		"Coventry" "Curacoa" "Curlew" "Cairo" "Calcutta" "Capetown" "Carlisle" "Colombo" "Danae" "Dauntless" "Dragon" "Delhi" "Dunedin" "Durban" "Despatch" "Diomede" "Emerald" 
-		"Enterprise" "Achilles" "Ajax" "Leander" "Neptune" "Orion" "Arethusa" "Galatea" 
+		"康斯坦斯" "半人马" "康科德" "费尔顿" "布里斯托" "Weymouth" "韦茅斯" "法尔茅斯" "雅茅斯" "查塔姆" "卡罗琳" "卡里登" "卡吕普索" "卡拉道克" "加的夫" "刻瑞斯" 
+		"考文垂" "库拉索" "杓鹬" "开罗" "加尔各答" "开普敦" "卡莱尔" "科伦坡" "达娜厄" "无畏" "龙" "德里" "达尼丁" "德班" "派遣" "迪奥米德" "翡翠" 
+		"进取" "阿喀琉斯" "阿贾克斯" "利安德" "海王星" "猎户座" "林仙" "加拉蒂亚" 
 	}
 }
 
@@ -402,12 +402,11 @@ ENG_CA_HISTORICAL = {
 	fallback_name = "Heavy Cruiser %s"
 
 	unique = {
-		"Cavendish" "Raleigh" "Imperieuse" "Orlando" "Blake" "Surrey" "Blenheim" 
-		"Hawkins" "Frobisher" "Effingham" "Cumberland" "Berwick" "Cornwall" "Suffolk" "Kent" "London" "Devonshire" "Shropshire" "Sussex" "Norfolk" "Dorsetshire" 
-		"York" "Exeter" 
+		"卡文迪什" "罗利" "蛮横" "奥兰多" "布莱克" "萨里" "布伦海姆" "霍金斯" "弗罗比歇" "埃芬厄姆" "坎伯兰" "贝里克"
+		"康沃尔" "萨福克" "肯特" "伦敦" "德文郡" "什罗普郡" "苏塞克斯" "诺福克" "多塞特郡" "约克" "埃克塞特" 
 		###
-		"Edgar" "Hawke" "Endymion" "Grafton" "St. George" "Northumberland" "Crescent" "Powerful" "Terrible" 
-		"Diadem" "Niobe" "Amphitrite" "Ariadne" "Spartiate" "Hogue" "Bacchante" "Euryalus" "Drake" "Good Hope" "Essex" "Hampshire" "Carnarvon" "Antrim" "Roxburgh" "Argyll" "Duke of Edinburgh" "Cochrane"
+		"埃德加" "霍克" "恩底弥翁" "格拉夫顿" "圣乔治" "诺森伯兰" "新月" "有力" "可怖" "王冠" "尼俄伯" "安菲特里忒" 
+		"阿里亚德涅" "斯巴达卫队" "霍格" "酒神祭司" "欧律阿罗斯" "德雷克" "好望" "埃塞克斯" "汉普郡" "卡那封" "安特里姆" "罗克斯巴勒" "阿盖尔" "爱丁堡"  "科克伦"   
 	}
 }
 

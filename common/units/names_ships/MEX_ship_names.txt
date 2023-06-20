@@ -1,0 +1,220 @@
+﻿##### MEXICO NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+MEX_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { MEX }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "ARM "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"瓜特穆斯" "骨依拿阿" "羽蛇神" "内撒霍科若提" "利维卡米纳" "乌苏马辛塔河" "特万特佩克" "加利福尼亚" "巴帕洛阿潘" "科阿韦拉" 
+		"奇瓦瓦" "杜兰戈" "萨卡特卡斯" "瓜纳华托" "克雷塔罗" "波托西" "佩德罗·塞恩兹·德·巴兰达" "大卫·波特" "维尔吉利奥·乌里韦"
+		"布拉斯·古德奈兹" "托马斯·马丁" "波西亚诺·阿瑞加" "马里亚诺·马塔莫罗斯" "腓力·希科滕卡特" "伊格纳西奥·阿尔塔米拉诺" 
+		"伊格纳西奥·德·拉·莱夫" "胡安·阿尔达马" "莱昂德罗·巴列" "塞巴斯蒂安·莱勒多·德·特哈达" "华雷斯" "内撒霍科若提" "曼努埃尔·阿苏塔" 
+		"尼科劳斯·布拉沃" "埃尔梅内希尔多·加莱阿纳" "伊格纳西奥·阿连德" "马里亚诺·阿瓦索洛" "瓜达卢佩·维多利亚" "弗朗西斯科·哈维尔·米纳" "飓风" "暴风雨" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+MEX_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { MEX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "ARM "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"萨拉戈萨" "瓜达拉哈拉" "普罗格雷索" "波费里奥·迪亚兹" "基维辛迪·格雷罗" "何塞·马里亚·莫雷洛斯"  
+		"米格尔·伊达尔戈" "潘乔·比利亚" "洛博河" "梅里达" "蒙特雷" "格兰德河" "蒂华纳" "北河"  "恰帕斯" "小斧"  
+	}
+}
+
+### HEAVY CRUISER NAMES###
+MEX_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { MEX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	prefix = "ARM "
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"萨拉戈萨" "瓜达拉哈拉" "普罗格雷索" "波费里奥·迪亚兹" "基维辛迪·格雷罗" 
+		"何塞·马里亚·莫雷洛斯"  "米格尔·伊达尔戈" "潘乔·比利亚" "洛博河"
+		"梅里达" "蒙特雷" "格兰德河" "蒂华纳" "北河"  "恰帕斯" "小斧"  
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+MEX_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { MEX }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	prefix = "ARM "
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"阿纳瓦克" "华雷斯" "墨西哥城"  "蒙提祖马" "克奇沙帕尔" "瓜特穆斯" "骨依拿阿" "内萨瓦尔科约特尔"  
+	}
+}
+
+### BATTLECRUISER NAMES ###
+MEX_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { MEX }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "ARM "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"阿纳瓦克" "华雷斯" "墨西哥城"  "蒙提祖马" "克奇沙帕尔" "瓜特穆斯" "骨依拿阿" "内萨瓦尔科约特尔"  
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+MEX_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { MEX }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	prefix = "ARM "
+	
+	fallback_name = "%d 号航母"	
+
+	unique = {
+		"墨西哥共和国"  "独立" "自由" "民主" "五月十八日"  "克奇沙帕尔" "瓜特穆斯" "蒙提祖马" "骨依拿阿" "内萨瓦尔科约特尔" 
+	}
+}
+
+### SUBMARINES ###
+MEX_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { MEX }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	prefix = "ARM "
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"佩德罗·塞恩兹·德·巴兰达" "大卫·波特" "维尔吉利奥·乌里韦" "布拉斯·古德奈兹" "托马斯·马丁" "波西亚诺·阿瑞加" 
+		"马里亚诺·马塔莫罗斯" "腓力·希科滕卡特" "伊格纳西奥·阿尔塔米拉诺" "伊格纳西奥·德·拉·莱夫" "胡安·阿尔达马" "莱昂德罗·巴列" 
+		"塞巴斯蒂安·莱勒多·德·特哈达" "贝尼托华雷斯" "内撒霍科若提" "曼努埃尔·阿苏塔" "尼科劳斯·布拉沃" "埃尔梅内希尔多·加莱阿纳"
+		"伊格纳西奥·阿连德" "马里亚诺·阿瓦索洛" "瓜达卢佩·维多利亚" "弗朗西斯科·哈维尔·米纳" 
+	}
+}
+
+### THEME: Mexican States ###
+MEX_STATES = {
+	name = NAME_THEME_STATES
+
+	for_countries = { MEX }
+
+	type = ship
+
+	prefix = "ARM "
+	unique = {
+		"墨西哥" "联邦区" "哈利斯科" "普埃布拉" "瓜纳华托" "恰帕斯" "新莱昂" "米却肯" "瓦哈卡" "奇瓦瓦" "格雷罗" "塔毛利帕斯"
+		"下加利福尼亚" "锡那罗亚" "科阿韦拉" "伊达尔戈" "索诺拉" "圣路易波托西"  "塔巴斯科" "尤卡坦" "克雷塔罗" "莫雷洛斯"
+		"杜兰戈" "萨卡特卡斯" "昆塔纳罗州" "阿瓜斯卡连特斯" "特拉斯卡拉" "纳亚里特" "坎佩切" "科利马" "下加利福尼亚" 
+	}
+}
+
+## THEME: MEXICAN CITIES ###
+MEX_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { MEX }
+
+	type = ship
+
+	prefix = "ARM "
+	unique = {
+		"墨西哥城"  "埃卡特佩克" "瓜达拉哈拉" "普埃布拉" "华雷斯" "蒂华纳" "莱昂" "萨波潘" "蒙特雷" "内萨瓦尔科约特尔" "库利亚坎"
+		"奇瓦瓦" "瑙卡尔潘" "梅里达" "圣路易波托西"  "阿瓜斯卡连特斯" "埃莫西约" "萨尔蒂约" "墨西卡利" "瓜达卢佩" "阿卡普尔科"
+		"特拉尔内潘特拉" "坎昆" "克雷塔罗" "基玛华坎" "托雷翁" "莫雷利亚" "蒙特雷" "特拉克帕克" "图斯特拉古铁雷斯" "杜兰戈" "托卢卡" 
+		"马特奥斯城"  "库奥蒂特兰伊斯卡伊" "阿波达卡城" "马塔莫罗斯" "圣尼科尔" "韦拉克鲁斯" "贾拉普" "托纳拉" "马萨特兰" "伊拉普阿托" 
+		"新拉莱多" "济科" "比亚埃尔莫萨" "埃斯科韦多将军" "塞拉亚" "库埃纳瓦卡" "特皮克" "伊斯塔帕卢卡" "维多利亚城" "奥夫雷贡" "坦皮科"
+		"尼古拉斯·罗梅洛城"  "恩塞纳达" "科亚卡科"  "圣卡塔琳娜" "乌鲁阿潘" "戈麦斯" "洛斯莫奇斯" "帕丘卡" "瓦哈卡" "特华坎" "坎佩切" "拉巴斯"
+		"诺加莱斯" "布埃纳维斯塔" "巴亚尔塔港" 
+	}
+}
+
+## THEME: AZTEC CULTURE ###
+MEX_AZTECS = {
+	name = NAME_THEME_AZTECS
+
+	for_countries = { MEX }
+
+	type = ship
+
+	prefix = "ARM "
+	unique = {
+		"羽蛇神" "战神" "雨神" "太阳神" "黑暗神" "水神" "森特奥特尔" "西佩托堤克" "玛雅修尔" "特拉尔泰库特利" "阿特拉华" "奥索莫科"
+		"伊西特里顿" "埃卡塔托塔利" "米特兰帕切卡特" "奇瓦特卡耶特尔" "塔拉科约特" "惠特兰帕伊卡特" "米克特兰堤库特里" "火神" 
+		"米西克亚特尔" "欧梅特欧特尔" "托纳卡特库特利" "修洛特尔" "塔拉胡伊兹卡彭泰赫特" "欧波齐特里" "瓜特穆斯" "骨依拿阿"
+		"内萨瓦尔科约特尔" "蒙提祖马" "克奇沙帕尔"  
+	}
+}
+
+### THEME: FAMOUS LEADERS ###
+MEX_LEADERS = {
+	name = NAME_THEME_LEADERS
+
+	for_countries = { MEX }
+
+	type = ship
+	
+	prefix = "ARM "
+	unique = {
+		"佩德罗·塞恩兹·德·巴兰达" "大卫·波特" "维尔吉利奥·乌里韦" "布拉斯·古德奈兹" "托马斯·马丁" "波西亚诺·阿瑞加" "马里亚诺·马塔莫罗斯" 
+		"腓力·希科田卡特" "伊格纳西奥·阿尔塔米拉诺" "伊格纳西奥·德·拉·莱夫" "胡安·阿尔达马" "莱昂德罗·巴列" "塞巴斯蒂安·莱勒多·德·特哈达" 
+		"贝尼托华雷斯" "内撒霍科若提" "曼努埃尔·阿苏塔" "尼科劳斯·布拉沃" "埃尔梅内希尔多·加莱阿纳" "伊格纳西奥·阿连德" "马里亚诺·阿瓦索洛" 
+		"瓜达卢佩·维多利亚" "弗朗西斯科·哈维尔·米纳"  "瓦伦泰·法里亚斯" "潘乔·比利亚" "胡安·阿尔瓦雷斯" "米盖尔·拉莫斯·阿里兹佩"  "马蒂亚斯·德·科尔多瓦"  
+		"何塞·玛丽亚·伊萨加"  "伊格纳西奥·洛佩兹·拉扬"  "比森特·格雷罗" "何塞·马里亚·莫雷洛斯"  "米格尔·伊达尔戈" "塞巴斯蒂安·何塞·霍尔津格"  "布拉斯·古德奈兹·布里吞"
+		"马里亚诺·埃斯科韦多" "古铁雷斯·萨莫拉" "伊格纳西奥·萨拉戈萨" "桑托斯·德格拉" 
+		
+	}
+}
+
+## THEME: RIVERS ###
+MEX_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { MEX }
+
+	type = ship
+
+	prefix = "ARM "
+	unique = {
+		"格兰德河" "北河"  "布拉沃河" "阿瓜普列塔" "格里哈巴河" "科罗拉多河" "乌苏马辛塔河" "纳萨斯河" "阿瓜纳瓦尔河" "库利亚坎河" 
+		"巴尔萨斯河" "莱马河" "富埃尔特河" "巴纽科河" "康求河" "索托拉马雷纳河" "亚基河" "圣费尔南多河"  "马约河" "特科卢特拉河" 
+		"哈马帕河" "巴帕洛阿潘河" "锡那罗亚河" "韦尔迪河" "康塞普西翁河" "夸察夸尔科斯河" "圣洛伦佐河"  "索诺伊塔河" "圣佩德罗梅奇塔尔河"  
+	}
+}
+
