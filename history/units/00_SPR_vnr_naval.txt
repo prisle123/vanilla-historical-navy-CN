@@ -1,0 +1,187 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "费罗尔海军基地"
+		naval_base = 758  # Ferrol/Coruna
+		task_force = {
+			name = "费罗尔舰队"
+			location = 758  # Ferrol/Coruna
+			ship = { name = "ARE 西班牙" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "西班牙级" } } }
+			ship = { name = "ARE 海梅一世" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "西班牙级" } } }
+			ship = { name = "ARE 自由" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "塞韦拉海军上将级" } } }
+			ship = { name = "ARE 塞韦拉海军上将" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "塞韦拉海军上将级" } } }
+			ship = { name = "ARE 米格尔·德·塞凡提斯" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "塞韦拉海军上将级" } } }
+			# Flotilla de Destructores de El Ferrol
+			ship = { name = "ARE 阿尔塞多" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SPR version_name = "阿尔塞多级" } } }
+			ship = { name = "ARE 贝拉斯科" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SPR version_name = "阿尔塞多级" } } }
+			ship = { name = "ARE 拉萨加" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SPR version_name = "阿尔塞多级" } } }
+		}
+	}
+		
+	fleet = {
+		name = "加的斯海军基地"
+		naval_base = 1048  #Cádiz
+		task_force = {
+			name = "加的斯舰队"
+			location = 1048  #Cádiz
+			ship = { name = "ARE 共和" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "共和级" } } }
+			ship = { name = "ARE 门德斯·努涅斯" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "门德斯·努涅斯级" } } }
+		}
+		task_force = {
+			name = "加的斯潜艇分队"
+			location = 1048  #Cádiz
+			# S103 Flotilla
+			ship = { name = "ARE B1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B级" } } }
+			ship = { name = "ARE B2" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B级" } } }
+			ship = { name = "ARE B3" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B级" } } }
+			ship = { name = "ARE B4" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B级" } } }
+		}
+	}
+		
+	fleet = {
+		name = "卡塔赫纳海军基地"
+		naval_base = 10024  #Cartagena/Murcia
+		task_force = {
+			name = "卡塔赫纳舰队"
+			location = 10024  #Cartagena/Murcia
+			ship = { name = "ARE 米兰达海军上将" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
+			# Flotilla de Destructores n.1
+			ship = { name = "ARE 费兰迪斯海军上将" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
+			ship = { name = "ARE 桑切斯·巴凯兹泰吉" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
+			ship = { name = "ARE 阿尔卡拉·加利亚诺" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
+			ship = { name = "ARE 巴尔德斯海军上将" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
+			# Flotilla de Destructores n.2
+			ship = { name = "ARE 丘鲁卡" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
+			ship = { name = "ARE 何塞·路易·迪亚兹" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
+			ship = { name = "ARE 勒班陀" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
+			ship = { name = "ARE 安特奎拉海军上将" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
+		}
+		task_force = {
+			name = "Grupo de Cartagena"
+			location = 10024  #Cartagena/Murcia
+			# S101 Flotilla
+			ship = { name = "ARE B5" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B级" } } }
+			ship = { name = "ARE B6" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B级" } } }
+			ship = { name = "ARE C1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C级" } } }
+			ship = { name = "ARE C2" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C级" } } }
+			ship = { name = "ARE C3" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C级" } } }
+			ship = { name = "ARE C4" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C级" } } }
+			ship = { name = "ARE C5" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C级" } } }
+			ship = { name = "ARE C6" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C级" } } }
+		}
+	}
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	### Under Construction Notes ###
+	# CA: ARE Canarias (Canarias class, comm. 1-Oct, 1936), ARE Baleares (Canarias class, comm. 28-Dec, 1936)
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_2
+			creator = "SPR"
+			version_name = "卡纳里亚斯级"
+		}
+		name = "ARE 卡纳里亚斯" 
+		requested_factories = 1
+		progress = 0.70
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_2
+			creator = "SPR"
+			version_name = "卡纳里亚斯级"
+		}
+		name = "ARE 巴里亚斯" 
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+	# DD: Júpiter class (x2) (minelayers) ("ARE Júpiter" "ARE Vulcano")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SPR"
+			version_name = "木星级"
+		}
+		name = "ARE 木星" 
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SPR"
+			version_name = "木星级"
+		}
+		name = "ARE 火山" 
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+	# DD: Churucca class (x6) ("ARE Gravina" "ARE Escaño" "ARE Císcar" "ARE Jorge Juan" "ARE Ulloa")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SPR"
+			version_name = "丘鲁卡级"
+		}
+		name = "ARE 格拉维纳" 
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SPR"
+			version_name = "丘鲁卡级"
+		}
+		name = "ARE 艾斯卡诺" 
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SPR"
+			version_name = "丘鲁卡级"
+		}
+		name = "ARE 希斯卡" 
+		requested_factories = 1
+		progress = 0.40
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SPR"
+			version_name = "丘鲁卡级"
+		}
+		name = "ARE 豪尔赫·胡安" 
+		requested_factories = 1
+		progress = 0.20
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SPR"
+			version_name = "丘鲁卡级"
+		}
+		name = "ARE 乌路亚" 
+		requested_factories = 1
+		progress = 0.20
+		amount = 1
+	}
+}

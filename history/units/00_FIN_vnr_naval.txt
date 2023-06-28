@@ -1,0 +1,26 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "芬兰海军"
+		naval_base = 11105 # Helsinki
+		task_force = {				
+			name = "岸防舰队"				
+			location =  11105 # Helsinki
+			ship = { name = "伊尔玛利宁" definition = heavy_cruiser start_experience_factor = 0.16 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FIN version_name = "维纳莫依嫩级" } } }				
+			ship = { name = "维纳莫依嫩" definition = heavy_cruiser start_experience_factor = 0.16 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FIN version_name = "维纳莫依嫩级" } } }		
+			ship = { name = "HDMS 新地" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "哥卢布级/菲林级" } } }
+			ship = { name = "HDMS 海姆" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "哥卢布级/菲林级" } } }
+			ship = { name = "HDMS 图伦马" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "哥卢布级/菲林级" } } }
+			ship = { name = "HDMS 卡累利阿" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "哥卢布级/菲林级" } } }		
+		}					
+		task_force = {					
+			name = "潜艇部队"				
+			location =  11105 # Helsinki
+			ship = { name = "水妖" definition = submarine start_experience_factor = 0.16 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = FIN version_name = "水妖级" } } }
+			ship = { name = "水怪" definition = submarine start_experience_factor = 0.16 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = FIN version_name = "水妖级" } } }
+			ship = { name = "伊库图索" definition = submarine start_experience_factor = 0.16 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = FIN version_name = "水妖级" } } }
+			ship = { name = "水濑" definition = submarine start_experience_factor = 0.16 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = FIN  version_name = "水濑级"} } }
+		}					
+	}
+}

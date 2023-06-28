@@ -1,0 +1,120 @@
+﻿##### PERU NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+PRU_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"维拉尔海军上将" "吉斯海军上将" "帕拉西奧斯" "费雷" "加西亚" "科罗内尔·博洛涅西" "卡斯蒂利亚" "奎因诺斯船长" "加尔韦斯" "迪兹·坎塞科" "阿吉雷" "罗德里格斯" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+PRU_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "%d 号轻巡洋"
+
+	unique = {
+		"格劳海军上将级" "科罗内尔·博洛涅西" "奎因诺斯船长" "阿吉雷" "钦博特" "卡亚俄" "阿雷基帕" "万卡约" "库斯科" "普诺"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+PRU_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"格劳海军上将级" "科罗内尔·博洛涅西" "奎因诺斯船长" "阿吉雷" "钦博特" "卡亚俄" "阿雷基帕" "万卡约" "库斯科" "普诺"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+PRU_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"利马" "卡塞雷斯" "伟大"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+PRU_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"利马" "卡塞雷斯" "伟大"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+PRU_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"秘鲁共和国" "安第斯山脉" "西部山脉"
+	}
+}
+
+### SUBMARINES ###
+PRU_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"五月二日" "艾岛" "安加莫斯" "伊基克" "帕科查" "米拉之家" "安加莫斯" "安托法加斯塔" "皮沙瓜" "奇帕纳" "艾莱" "阿里卡"
+	}
+}

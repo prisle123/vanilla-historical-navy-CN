@@ -1,0 +1,371 @@
+﻿##### HUNGARY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+HUN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "第%d 驱逐舰"					
+
+	unique = {											
+		 "诺瓦拉" "特蕾西亚" "塔特拉" "巴拉顿湖" "切佩尔" "力卡" "奥仁" "特里格拉夫" "迪纳拉" "潘德" "雷卡" "瓦拉斯丁纳" "鲁尔" 
+		 "韦莱比特山" "胡萨尔" "施特赖特尔" "乌兰" "猎鹰" "磁石" "卫星" "特拉贝特" "普莱德" "布里兹" "高迈特" "流星"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+HUN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "第%d 轻巡洋舰"
+
+	unique = {
+		"艾斯特根" "埃尔德" "松博尔" "乌日哥罗德" "维拉尼" "匈牙利" "贝尔格莱德" "黄金诏书" "箭十字" "多瑙河" "拉包河" 
+		"德拉瓦河" "特克伊·伊姆雷"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+HUN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "第%d 重巡洋舰"
+
+	unique = {
+		"布达佩斯" "索普朗" "巴兰尼亚" "诺格拉德" "科马罗姆" "托尔瑙" "豪伊杜" "琼格拉德" "拉科奇" "赛切尼" "乌拉斯洛一世" 
+		"卡尔曼" "韦斯普雷米" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+HUN_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "第%d 战列舰"		
+
+	unique = {
+		 "拉迪斯拉斯" "圣伊斯特万" "匈雅提" "科苏特" "阿帕德" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+HUN_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "第%d 战列巡洋舰"		
+
+	unique = {
+		 "科菲努斯" "兹里尼·米克洛什" "特克伊·伊姆雷" "匈牙利" "贝尔格莱德" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+HUN_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "第%d 航空母舰"	
+
+	unique = {
+		 "匈牙利" "贝尔格莱德" "黄金诏书" "箭十字" 
+	}
+}
+
+### SUBMARINES ###
+HUN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { HUN }
+
+	can_use = {
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "U-%d"
+	
+	ordered = {
+		1 = {"U-%d"}
+		2 = {"U-%d"} 
+		3 = {"U-%d"} 
+		4 = {"U-%d"} 
+		5 = {"U-%d"} 
+		6 = {"U-%d"} 
+		7 = {"U-%d"} 
+		8 = {"U-%d"} 
+		9 = {"U-%d"} 
+		10 = {"U-%d"}
+		11 = {"U-%d"} 
+		12 = {"U-%d"}
+		13 = {"U-%d"}
+		14 = {"U-%d"}
+		15 = {"U-%d"}
+		16 = {"U-%d"}
+		17 = {"U-%d"}
+		18 = {"U-%d"}
+		19 = {"U-%d"}
+		20 = {"U-%d"}
+		21 = {"U-%d"}
+		22 = {"U-%d"}
+		23 = {"U-%d"}
+		24 = {"U-%d"}
+		25 = {"U-%d"}
+	}
+}
+
+
+##### HUNGARY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+HUN_DD_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_DESTROYERS
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "SMS "
+	fallback_name = "Romboló %d"					
+
+	unique = {											
+		 "诺瓦拉" "特蕾西亚" "塔特拉" "巴拉顿湖" "切佩尔" "Lika" "奥仁" "特里格拉夫" "迪纳拉" "特里格拉夫" "迪纳拉" "潘德" "雷卡" "瓦拉斯丁纳" "鲁尔" 
+		 "韦莱比特山" "胡萨尔" "施特赖特尔" "乌兰" "猎鹰" "磁石" "卫星" "特拉贝特" "普莱德" "布里兹" "高迈特" "流星"
+		 "凤凰" "鳄鱼" "水蟒" "海豚" "巨龙" "蝾" "独角鲸" "狮" "海鸥" "九头蛇" "鸬鹚" "章鱼" "企鹅" "天蝎座"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+HUN_CL_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CL
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "SMS "
+	fallback_name = "第%d 轻巡洋舰"
+
+	unique = {
+		"艾斯特根" "埃尔德" "松博尔" "乌日哥罗德" "维拉尼" "匈牙利" "贝尔格莱德" "黄金诏书" "箭十字" "多瑙河" "拉包河" 
+		"德拉瓦河" "特克伊·伊姆雷"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+HUN_CA_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CA
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "SMS "
+	fallback_name = "第%d 重巡洋舰"
+
+	unique = {
+		"布达佩斯" "索普朗" "巴兰尼亚" "诺格拉德" "科马罗姆" "托尔瑙" "豪伊杜" "琼格拉德" "拉科奇" "赛切尼" "乌拉斯洛一世" 
+		"卡尔曼" "韦斯普雷米"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+HUN_BB_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BB
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "SMS "
+	fallback_name = "第%d 战列舰"		
+
+	unique = {
+		"拉迪斯拉斯" "圣伊斯特万" "匈雅提" "科苏特" "阿帕德" "君主" "维也纳" "布达佩斯" "弗朗兹·费迪南大公" "拉德茨基" "哈布斯堡" "卡尔大公" "巴本贝格" "弗里德里希大公"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+HUN_BC_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BC
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "SMS "
+	fallback_name = "第%d 战列巡洋舰"		
+
+	unique = {
+		"科菲努斯" "兹里尼·米克洛什" "特克伊·伊姆雷" "匈牙利" "贝尔格莱德" "君主" "维也纳" "布达佩斯" "弗朗兹·费迪南大公" "拉德茨基" "哈布斯堡" "卡尔大公" "巴本贝格" "弗里德里希大公"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+HUN_CV_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CARRIERS
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "SMS "
+	fallback_name = "第%d 航空母舰"	
+
+	unique = {
+		"匈牙利" "贝尔格莱德" "黄金诏书" "箭十字" "凯撒" "君主" "维也纳" "布达佩斯" "弗朗兹·费迪南大公" "拉德茨基" "哈布斯堡" "卡尔大公" "巴本贝格" "弗里德里希大公"
+	}
+}
+
+### SUBMARINES ###
+HUN_SS_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_SUBMARINES
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "SM "
+	fallback_name = "U-%d"
+	
+	ordered = {
+		1 = {"U-%d"}
+		2 = {"U-%d"} 
+		3 = {"U-%d"} 
+		4 = {"U-%d"} 
+		5 = {"U-%d"} 
+		6 = {"U-%d"} 
+		7 = {"U-%d"} 
+		8 = {"U-%d"} 
+		9 = {"U-%d"} 
+		10 = {"U-%d"}
+		11 = {"U-%d"} 
+		12 = {"U-%d"}
+		13 = {"U-%d"}
+		14 = {"U-%d"}
+		15 = {"U-%d"}
+		16 = {"U-%d"}
+		17 = {"U-%d"}
+		18 = {"U-%d"}
+		19 = {"U-%d"}
+		20 = {"U-%d"}
+		21 = {"U-%d"}
+		22 = {"U-%d"}
+		23 = {"U-%d"}
+		24 = {"U-%d"}
+		25 = {"U-%d"}
+	}
+}
+
+HUN_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "SMS "
+	fallback_name = "第%d 运输舰队"
+	
+	unique = {
+		"多瑙河" "蒂萨河" "沙由河" "拉鲍河" "拉夫尼兹河" "霍尔纳德河" "莱塔河" "穆尔河" "德拉瓦河" "桑恩河" "茵斯河"
+	}
+}
+

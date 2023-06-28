@@ -1,0 +1,163 @@
+﻿##### BRITISH RAJ/INDIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+RAJ_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMIS "							
+	fallback_name = "第%s 驱逐舰"					
+
+	unique = {											
+		"萨特卢杰河" "朱木拿河" "讷尔默达" "哥达瓦里" "吉斯特那河" "高韦里河" "萨巴尔马提河"
+		"瓦特雷克" "聘礼" "马伊" "白朗" "阿纳斯" "莫兰" "巴纳斯" "鲁尼" "苏卡里" "邦迪" "坎贝尔" "阿桑" 
+		"卡格拉河" "萨尔达" "甘达基" "科西" "默哈嫩达河" "布拉马普特拉河" "科皮里" "迪迦鲁" "帕蒂马里" 
+		"巴拉利亚" "帕科拉迪亚" "卡拉迪亚" "别乞" "马纳斯" "坎帕帕蒂" "希尔·索萨" "蒂尔" "塔瓦尔" "特里苏尔"
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+RAJ_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMIS "							
+	fallback_name = "第%s 轻巡洋舰舰队"
+
+	unique = {
+	   "德里" "孟买" "迈索尔" "卡拉奇" "仰光" "海德拉巴" "勒克瑙" "艾哈迈达巴德" "巴特那" "曼德勒" "达卡" "加尔各答"   
+	}
+}
+
+### HEAVY CRUISER NAMES###
+RAJ_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMIS "							
+	fallback_name = "第%s 重巡洋舰"
+
+	unique = {
+	  "德里" "孟买" "迈索尔" "卡拉奇" "仰光" "海德拉巴" "勒克瑙" "艾哈迈达巴德" "巴特那" "曼德勒" "达卡" "加尔各答"   
+	}
+}
+
+### BATTLESHIP NAMES ###
+RAJ_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMIS "							
+	fallback_name = "第%s 战列舰"		
+
+	unique = {
+		"印度" "罗奢" "女皇" "皇帝" "印度斯坦" "复仇" "报应" "涅墨西斯" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+RAJ_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMIS "							
+	fallback_name = "第%s 战列巡洋舰"		
+
+	unique = {
+ 		"印度" "罗奢" "女皇" "皇帝" "印度斯坦" "复仇" "报应" "涅墨西斯" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+RAJ_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMIS "							
+	fallback_name = "第%s 航母舰舰队"		
+
+	unique = {
+		"维克兰特" "毗湿奴" "毗加摩提底耶" "维拉特" "维沙尔"   
+	}
+}
+
+
+### SUBMARINES ###
+RAJ_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMIS "							
+	fallback_name = "% 号潜艇"
+	
+	unique = {
+		"猫鲨" "弹涂鱼" "锯鳐" "默里" "鹦嘴鱼" "尖嘴鱼" "鲭鱼" "魟鱼" "遮目鱼" "鳗鱼" "喇叭鱼" "鳐鱼"    
+	}
+}
+
+
+
+
+### THEME: BRITISH INDIAN REGIONS ###
+RAJ_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { RAJ }
+
+	type = ship
+
+	prefix = "HMIS "							
+	unique = {
+		"马德拉斯" "孟买" "旁遮普" "阿萨姆" "孟加拉" "贝拉尔" "缅甸" "俾路支" "库格" "阿米尔默瓦拉" "安达曼群岛" "尼科巴群岛" "比哈尔" "奥里萨" "潘特皮普罗达" "信德"
+	}
+}
+
+## THEME: BRITISH INDIAN CITIES ###
+RAJ_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { RAJ }
+
+	type = ship
+
+	prefix = "HMIS "							
+	unique = {
+	   "德里" "孟买" "迈索尔" "卡拉奇" "仰光" "海德拉巴" "勒克瑙" "艾哈迈达巴德" "巴特那" "曼德勒"
+	   "达卡" "加尔各答" "菩磐" "阿格拉" "马德拉斯" "科钦" "特拉凡得琅" "巴罗达" "本地治里" "奥朗加巴德" 
+	   "马哈布巴德" "马赫布布纳加尔" "奥斯马纳巴德" "拉合尔" "费萨拉巴德" "拉瓦尔品第" "古杰朗瓦拉"  "白沙瓦"
+	   "木尔坦" "伊斯兰堡" "奎达" "阿迈德那格尔" "西姆拉" "艾哈迈达巴德" "苏尔坦普尔" "穆扎法尔讷格尔" "阿克巴布尔"
+	   "贾巴尔普尔" "贾斯莫夫" "坎普尔" "古德伯" "贝尔高姆" "杜姆古尔" "胡布利" "希莫加" "霍斯佩特" "古尔伯加" 
+	   "契克马加卢" "比贾布尔" "贝拉里" "芒格洛尔" "拉贾蒙德里" "古尔冈" "阿拉哈巴德" "阿勒皮" "高哈蒂" "英德胡尔" 
+	   "康契普腊姆" "坎纳诺尔" "奎隆" "奎兰迪" "卡利卡特" "库丹泰" "马雅瓦蓝" "纳尔不达" "瑙贡" "帕尔加" "帕纳吉" 
+	   "浦那" "兰纳德" "萨格尔" "西姆拉" "代利杰里" "坦焦尔" "杜蒂戈林" "德里久尔" "蒂特里瓦南" "特里奇诺波利" 
+	   "廷尼弗利" "特里陂里卡内" "乌塔卡蒙德" "维苏巴拉耶" "贝拿勒斯" "伯德格拉" "弗里德哈拉姆" "贝贾瓦达" "沃泰尔"   
+	}
+}

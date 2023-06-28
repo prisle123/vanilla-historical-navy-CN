@@ -1,0 +1,30 @@
+﻿air_wings = {
+	"HMS 暴怒"  = {
+		cv_small_plane_airframe_0 =  { owner = "ENG" amount = 9 version_name = "Hawker Nimrod" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 2 version_name = "Blackburn Shark" }
+	}
+	"HMS 勇敢"  = {
+		cv_small_plane_airframe_0 =  { owner = "ENG" amount = 9 version_name = "Hawker Nimrod" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 4 version_name = "Blackburn Shark" }
+	}
+	"HMS 光荣"  = {
+		cv_small_plane_airframe_0 =  { owner = "ENG" amount = 6 version_name = "Hawker Nimrod" } #historical 9
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 4 version_name = "Blackburn Shark" } #historical 36
+	}
+	"HMS 鹰"  = {
+		cv_small_plane_airframe_0 =  { owner = "ENG" amount = 10 version_name = "Hawker Nimrod" }
+		cv_small_plane_airframe_0 =  { owner = "ENG" amount = 8 version_name = "Hawker Nimrod" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 8 version_name = "Blackburn Shark" }
+	}
+	"HMS 竞技神"  = {
+		cv_small_plane_airframe_0 =  { owner = "ENG" amount = 10 version_name = "Hawker Nimrod" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+	}
+}
+

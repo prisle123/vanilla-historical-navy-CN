@@ -1,0 +1,38 @@
+units= {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "罗马尼亚海军"			
+		naval_base = 657 # Constanta
+		task_force = {				
+			name = "罗马尼亚海军"			
+			location = 657 # Constanta
+			ship = { name = "NMS 默勒什蒂" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = ROM version_name = "默勒什蒂级" } } }
+			ship = { name = "NMS 默勒谢什蒂" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = ROM version_name = "默勒什蒂级" } } }
+			ship = { name = "NMS 斐迪南一世" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = ROM version_name = "斐迪南一世级" } } }
+			ship = { name = "NMS 玛丽亚王后" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = ROM version_name = "斐迪南一世级" } } }
+		}				
+	}
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	### Under Contruction Notes ###
+	# SS: Delfinul class (x1) ("NMS Delfinul")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "ROM"
+			version_name = "海豚级"
+		}
+		name = "NMS 海豚" 
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+}

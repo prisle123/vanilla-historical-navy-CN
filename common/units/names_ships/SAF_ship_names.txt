@@ -1,0 +1,152 @@
+﻿##### SOUTH AFRICA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SAF_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SAF }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMSAS "							
+	fallback_name = "%s 号驱逐舰"					
+
+	unique = {											
+		"赞·范·里贝克"   "西蒙·范·德·施特尔"    "好望角"  "纳塔尔" "德兰士瓦" "蒂维厄特" "自由邦" "布隆方丹" "彼得马里茨堡" 
+		"约翰内斯堡" "金伯利" "伊丽莎白港"  "莫塞尔贝" "鲸湾港" "东伦敦"  "温得和克" "德班" "开普敦" "比勒陀利亚" "比勒陀乌斯总统"  "克鲁格总统"  "斯泰恩总统"    
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+SAF_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SAF }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMSAS "							
+	fallback_name = "%s 号轻巡洋舰"
+
+	unique = {
+		"好望角"  "纳塔尔" "德兰士瓦" "奥兰治自由邦"   "开普敦"  "约翰内斯堡" "伊丽莎白港"  "东伦敦"  "布隆方丹" "德班" "比勒陀利亚" "金伯利" "莫塞尔贝" "鲸湾港" "温得和克" "开普敦"    
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SAF_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SAF }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMSAS "							
+	fallback_name = "%s 号重巡洋舰"
+
+	unique = {
+		"好望角"  "纳塔尔" "德兰士瓦" "奥兰治自由邦"   "开普敦"  "约翰内斯堡" "伊丽莎白港"  "东伦敦"  "布隆方丹" "德班" "比勒陀利亚" "金伯利" "莫塞尔贝" "鲸湾港" "温得和克" "开普敦"    
+	}
+}
+
+### BATTLESHIP NAMES ###
+SAF_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SAF }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMSAS "							
+	fallback_name = "%s 号战列舰"		
+
+	unique = {
+		"南非"  "好望角"  "纳塔尔" "德兰士瓦" "奥兰治自由邦"   "开普敦"  "约翰内斯堡" "伊丽莎白港"  "东伦敦"  "布隆方丹" "德班" "比勒陀利亚"     
+	}
+}
+
+### BATTLECRUISER NAMES ###
+SAF_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { SAF }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMSAS "							
+	fallback_name = "%s 号战列巡洋舰"		
+
+	unique = {
+ 		"南非"  "好望角"  "纳塔尔" "德兰士瓦" "奥兰治自由邦"   "开普敦"  "约翰内斯堡" "伊丽莎白港"  "东伦敦"  "布隆方丹" "德班" "比勒陀利亚"    
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+SAF_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SAF }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMSAS "							
+	fallback_name = "% 号航空母舰"		
+
+	unique = {
+		"南非"  "好望角"  "纳塔尔" "德兰士瓦" "奥兰治自由邦"   "开普敦"  "约翰内斯堡" "伊丽莎白港"  "东伦敦"  "布隆方丹" "德班" "比勒陀利亚" "狮" "猎豹" "猎豹" "薮猫" "卡拉卡尔" "𧴌" "豺" "獴" "鬣狗" "野狗"  
+	}
+}
+
+
+### SUBMARINES ###
+SAF_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SAF }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMSAS "							
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"长矛" "长枪" "标枪" "大胆" "阿斯特兰特"   
+	}
+}
+
+
+### THEME: SOUTH AFRICAN PROVINCES ###
+SAF_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { SAF }
+
+	type = ship
+
+	prefix = "HMSAS "							
+	unique = {
+		"奥兰治自由邦"   "好望角"  "纳塔尔" "德兰士瓦" "东开普"  "北开普"  "西开普"  "西北省"  "豪登" "林波波" "普马兰加"   
+	}
+}
+
+## THEME: CANADIAN CITIES ###
+SAF_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { SAF }
+
+	type = ship
+
+	prefix = "HMSAS "							
+	unique = {
+			"开普敦"  "约翰内斯堡" "比勒陀利亚" "伊丽莎白港"  "布隆方丹" "东伦敦"  "德班" "金伯利" "莫塞尔贝" "鲸湾港" "彼得马里茨堡" "温得和克" "开普敦" "彼得斯堡" "杰米斯顿" "内尔斯普雷特" "索韦托" "马菲肯" "毕晓" "克莱克斯多普"
+	}
+}
+

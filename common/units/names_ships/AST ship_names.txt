@@ -1,0 +1,320 @@
+﻿##### AUSTRALIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+AST_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Destroyer %s"
+
+	unique = {
+		"阿龙塔人" "巴丹人" "瓦拉孟加人" "内皮尔" "尼扎姆人" "奈斯特" "诺曼" "娜丽莎"
+		"基伯龙" "导火索" "四分仪" "品质" "皇后区" "托布鲁克" "澳新军团" "巴尔库" "巴旺" "伯德金" "迪亚曼蒂纳" "加斯科内"
+		"霍克斯伯里" "拉克兰" "麦格理" "默奇森" "康达迈恩" "肖尔黑文" "库尔哥亚" "巴尔迈恩" "伯甘" "坎帕斯佩" "马兰比吉" "娜欧米" "内皮安"
+		"沃伯顿" "威廉斯敦" "维么拉" "沃隆迪利" "斯图亚特" "吸血鬼" "报复" "航海家" "黑水鸡"
+	}
+}
+
+AST_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Corvette %s"
+
+	unique = {
+		"巴瑟斯特" "阿米代尔" "亚拉拉特" "巴拉瑞特" "贝纳拉" "本迪戈" "宝云" "布鲁姆" "班伯利" "班德堡" "伯尔尼"
+		"凯恩斯" "卡索曼" "赛斯诺克" "科拉克" "库塔蒙德拉" "考拉" "德洛兰" "德宝" "埃楚卡" "弗里曼特尔" "高勒"
+		"吉朗" "杰拉尔顿" "格拉德斯通" "格莱内尔格" "古尔本" "金皮" "霍舍姆" "因弗雷尔" "伊普斯威奇" "朱尼" "卡尔古利"
+		"卡朋达" "卡通巴" "凯马" "拉筹伯" "朗瑟士敦" "立斯莫尔" "利斯戈" "玛丽伯勒" "米尔杜拉" "帕克斯" "皮里"
+		"洛坎普顿" "大谢珀顿" "斯托尔" "斯特拉恩" "塔姆沃思" "图沃伯" "汤斯维尔" "沃加" "瓦拉鲁" "瓦南布尔"
+		"怀阿拉" "沃隆冈"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+AST_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "HMAS "
+	fallback_name = "Light Cruiser %s"
+
+	unique = {
+		"悉尼" "珀斯" "荷巴特" "布里斯班" "阿得雷德" "达尔文" "纽卡瑟尔" "圣诞岛" "珊瑚海" "诺福克岛"
+		"爱丽丝泉" "库克敦" "布鲁姆" "沃加沃加"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+AST_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = "HMAS "
+	fallback_name = "Heavy Cruiser %s"
+
+	unique = {
+		"堪培拉" "澳大利亚" "珀斯" "荷巴特" "布里斯班" "阿得雷德" "达尔文" "纽卡瑟尔" "圣诞岛" "珊瑚海"
+		"诺福克岛" "爱丽丝泉" "库克敦" "布鲁姆" "沃加沃加"
+	}
+}
+
+### BATTLESHIP NAMES ###
+AST_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = "HMAS "
+	fallback_name = "Battleship %s"
+
+	unique = {
+		"伊丽莎白公主" "新南威尔士" "昆士兰" "南澳大利亚" "塔斯马尼亚" "维多利亚" "西澳大利亚"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+AST_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = "HMAS "
+	fallback_name = "Battlecruiser %s"
+
+	unique = {
+		"新南威尔士" "昆士兰" "南澳大利亚" "塔斯马尼亚" "维多利亚" "西澳大利亚"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+AST_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HMAS "
+	fallback_name = "Carrier %s"
+
+	unique = {
+		"库克船长" "布莱船长" "鲨鱼湾" "地理湾" "卡彭特里亚" "国王峡" "悉尼" "报复" "墨尔本"
+	}
+}
+
+### SUBMARINES ###
+AST_SS_HTYPE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_HTYPE_SUBMARINES
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "HMAS "
+	fallback_name = "H-%s"
+
+	ordered = {
+		1 = { "H-%s" }
+		2 = { "H-%s" }
+		3 = { "H-%s" }
+	}
+}
+
+AST_SS_LTYPE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_LTYPE_SUBMARINES
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "HMAS "
+	fallback_name = "L-%s"
+
+	ordered = {
+		1 = { "L-%s" }
+		2 = { "L-%s" }
+		3 = { "L-%s" }
+	}
+}
+
+AST_SS_KTYPE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_KTYPE_SUBMARINES
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "HMAS "
+	fallback_name = "K-%s"
+
+	ordered = {
+		1 = { "K-%s" }
+		2 = { "K-%s" }
+		3 = { "K-%s" }
+	}
+}
+
+AST_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "HMAS "
+	fallback_name = "Submarine %s"
+
+	unique = {
+		"奥克斯利" "奥特威" "温斯洛" "欧文斯" "俄里翁" "奥塔玛" "攻击" "急切" "机敏" "前进" "弓箭手" "热心" "箭矢" "袭击" "明察" "弹带" "炮座" "掩体" "刺刀" "轰炸" "私掠者"
+	}
+}
+
+### THEME: AUSTRALIAN PROVINCES ###
+AST_STATES = {
+	name = NAME_THEME_STATES
+
+	for_countries = { AST }
+
+	type = ship
+
+	prefix = "HMAS "
+	unique = {
+		"新南威尔士" "昆士兰" "南澳大利亚" "塔斯马尼亚" "维多利亚" "西澳大利亚" "首都特区" "杰维斯湾"
+		"北领地" "阿什莫尔岛" "卡捷岛" "圣诞岛" "科克斯岛" "珊瑚海" "赫德岛" "麦克唐纳群岛"
+		"诺福克岛"
+	}
+}
+
+## THEME: AUSTRALIAN CITIES ###
+AST_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { AST }
+	type = ship
+
+	prefix = "HMAS "
+	unique = {
+		"悉尼" "墨尔本" "布里斯班" "珀斯" "阿得雷德" "堪培拉" "荷巴特" "达尔文" "黄金海岸" "纽卡瑟尔" "阳光海岸" "沃隆冈"
+		"吉朗" "汤斯维尔" "凯恩斯" "图沃伯" "巴拉瑞特" "本迪戈" "奥尔布里" "麦凯" "洛坎普顿" "朗瑟士敦" "班伯利" "班德堡"
+		"科夫斯港" "赫维湾" "沃加沃加"
+	}
+}
+
+## THEME: TRIBES ###
+AST_TRIBES = {
+	name = NAME_THEME_TRIBES
+
+	for_countries = { AST }
+
+	type = ship
+
+	prefix = "HMAS "
+	unique = {
+		"阿利亚瓦雷" "安雅玛坦哈" "安马泰尔" "阿兰达" "迪亚里" "古奈" "吉林吉" "辜古伊米舍" "贾拉坎" "卡尔卡通古" "考尔纳" "库林"
+		"古纳维吉" "卢里蒂亚" "马拉林加" "穆林-帕沙" "默拉瓦里" "恩加林杰里" "纳龙加" "恩古纳瓦尔" "农格尔" "斯潘菲克斯"
+		"皮詹加加拉" "提维" "瓦尔皮利" "瓦拉孟加" "约鲁" "约塔约塔"
+		"乌伦杰里" "布恩乌隆" "瓦萨乌隆" "东乌隆" "贾贾乌隆" "巴拉托乌隆"
+	}
+}
+
+## THEME: ANIMALS ###
+AST_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { AST }
+
+	type = ship
+
+	prefix = "HMAS "
+
+	unique = {
+		"考拉" "鳄鱼" "鲨鱼" "针鼹" "苍鹰" "野犬" "鸭嘴兽" "袋鼠" "鸸鹋" "儒艮" "水母" "巨蜥" "鲸鱼" "驴子"
+		"食蚁兽" "袋鼬" "袋熊" "鹤鸵" "楔尾雕" "红背蛛" "巨蟹蛛" "太攀蛇"
+	}
+}
+
+### THEME: FISH ###
+AST_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { AST }
+
+	type = ship
+
+	prefix = "HMAS "
+
+	unique = {
+		"鲨鱼" "海鲢" "鲈鱼" "梭鱼" "鲳鲹" "潜水者" "鳕鱼" "参鱼"
+		# Salmon
+		"鲑鱼" "海豹" "鲣鱼" "鲷鱼" "黄貂鱼" "鲟鱼"
+		# Sargo
+		"重牙鲷" "秋刀鱼" "枪鱼" "杜父鱼" "旗鱼" "剑鱼" "海龙" "海狮" "海渡鸦" "海狼"
+		# Tambor
+		"河豚" "隆头鱼" "长尾鲨" "特里同" "鳟鱼" "吞拿鱼" "鲭鱼" "马林鱼" "灰鲸" "河鳟" "鼠尾鱼" "白杨鱼"
+		# Mackerel
+		"马鲛鱼" "雀鳝"
+		# Gato
+		"小鲨鱼" "六线鱼" "石斑鱼" "黑鲈" "银汉鱼" "针鱼" "大青花鱼" "琥珀鱼" "鲃鱼" "黑鱼" "蓝鱼" "北梭鱼" "银鳕鱼" "塞罗鱼" "科维纳鱼" "镖鲈" "鼓鱼" "飞鱼" "长须鲸" "黑线鳕" "大比目鱼"
+		"鲱鱼" "国王鱼" "西鲱" "银河鱼" "鳞鲀" "棘䲠" "鲸鱼" "𩽾𩾌鱼" "铲𫚔" "蓝鳃太阳鱼" "欧鳊" "竹荚鱼" "海鲡" "石首鱼" "鲦鱼" "鲯鳅" "松鲷" "日鲈" "比目鱼" "牛鼻鲼" "锦鳚" "角鱼"
+		"粉红鲑" "无须鳕" "李氏鮻" "油角鲨" "鲹鱼" "鲉鱼" "翼齿鲷" "北美狗鱼" "匙吻鲟" "紫身笛鲷" "竹节䲠" "油鲱" "黑异孔石鲈" "四齿鲀" "红石鱼" "奈氏鳕" "𫚉鱼" "红鳍鱼" "罗巴洛鱼" "银花鲈鱼" "金鲹" "锯鳐" "喙鲈" "蝎子" "锯盖鱼"
+		"虹鳟" "太阳鱼" "金枪鱼" "阔步鲹" "湖白鲑"
+		# Balao
+		"巴劳鱵" "尖嘴鱼" "弓鳍鱼" "纹首鮨" "毛鳞鱼" "思科鱼" "马鲹" "魔鬼鱼" "䲗鱼" "玉梭鱼" "铲鲟" "帆蜥鱼" "军曹鱼" "狮子鱼" "毯𫚉" "鯙鱼" "鼓石首鱼" "大海鲢" "海马"
+		"鳐鱼" "刺尾鲷" "软棘鱼" "天竺鲷" "金吉鲈" "蝙蝠鱼" "射水鱼" "光轮鱼" "白鱼" "巴伯罗鲷" "巴亚喙鲈" "贝库娜鱼" "梳唇隆头鱼" "真鲷" "黑鳍鱼" "凯门鳄" "鳚鱼" "斑点圆鲀" "蓝背鱼" "豚鼻鱼" "红点鲑" "鲢鱼"
+		"菱鲆" "布加拉鱼" "牛头鱼" "鲭鲹" "若鲉" "灰鲭鲨" "豚鱼" "红鲹" "鲤鱼" "鲶鱼" "电鳐" "绯鲤" "扁鲹" "蓝鹦嘴鱼" "云纹裸皮鲉" "妪鳞鲀" "雅罗鱼" "巴西笛鲷" "库斯克鳕" "刺鲀" "狗鱼鲨"
+		"墨瑞鳕" "鱵鱼" "儒艮" "鳗鱼" "埃斯帕达鱼" "后颌鱼" "奥诺鲅" "加洛帕石班鱼" "加鲁帕石班鱼" "白刺盖太阳鱼" "臼齿鱼" "玳瑁" "冰鱼" "贾劳仿石鲈" "四斑蝴蝶鱼" "克拉肯" "合齿鱼" "七鳃鳗" "蜥蜴鱼" "赤蠵龟" "马卡比鱼"
+		"马皮罗鱼" "梅罗鱼" "颌针鱼" "红鲑" "玉筋鱼" "大鳞魣" "红鲳鲹" "礁蝴蝶鱼" "黑鲱鱼" "领航鱼" "条斑马鲛" "管鱼" "水虎鱼" "鲽鱼" "鲳鱼"
+		"小体鲟" "后石首鱼" "剃刀鲸" "红鱼" "深海鳚" "鞘鱼" "塞贡多鱼" "海猫" "鬼蝠𫚉" "海狗" "海狐" "游鳍叶鲹" "拟三棘鲀" "圆鳍鱼" "八角鱼" "鲂𫚒" "魣鱼" "下鱵鱼" "马鲅"
+		"白鲳" "海参" "石首鱼" "灰海豚" "棘背鱼" "蜥狗母鱼"
+		# Tench
+		"𫚕鱼" "热带虎鲨" "古巴长带鱼" "褐鳟鱼" "托罗鱼" "大西洋鳕" "亚口鱼" "管口鱼" "单鳍鳕" "海贼鱼" "独角兽" "海象" "康吉鳗" "带鱼" "无刺蝠鲼" "高体𫚕" "纺缍𫚕" "豹海豹" "大洋辐鳍鱼" "西拉戈鱼" "笛鲷"
+		"䲟鱼" "萨达鲭" "狗鲨" "加州飞鱼"
+		# Unfinished
+		"大菱鲆" "珍鲹" "欧白鲑" "白鱼" "白化鱼" "狼鱼" "九带鮨" "黑海豹" "蒂博龙" 
+	}
+}
+
+### THEME: INSPIRATIONAL ###
+AST_INSPIRATIONAL = {
+	name = NAME_THEME_INSPIRATIONAL
+
+	for_countries = { AST }
+
+	type = ship
+
+	prefix = "HMAS "
+
+	unique = {
+		"凯旋" "胜利" "雄伟" "帝国" "无惧" "庄严" "优越" "统治" "不惧" "至高" "慷慨" "解放" "挑战者" "抵抗" "忍耐" "勇士" "无畏"
+		"坚定" "迅捷" "活泼" "主权" "光荣"
+	}
+}

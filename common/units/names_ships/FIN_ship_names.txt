@@ -1,0 +1,113 @@
+﻿##### FINLAND NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+FIN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"哈米纳" "马蒂`库尔基" "新地" "卡累利阿" "图伦马" "坚韧" "勇猛" "开火" "攻击" "箭头" "文纳哈" "拉朱" "瓦萨玛" "维户里" "风"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+FIN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"约克海宁" "塔皮奥" "勒明盖宁" "赫尔辛基" "劳马" "图尔库" "凯米" "马良哈米纳" "瓦萨" "维堡" "科特卡" "奥卢" "劳马" "维纳莫宁" "伊尔马林嫩"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+FIN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"维纳莫宁" "耳马里嫩" "约克海宁" "塔皮奥" "勒明盖宁" "赫尔辛基" "劳马" "图尔库" "凯米" "马良哈米纳" "瓦萨" "维堡" "科特卡" "奥卢" "劳马"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+FIN_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"新地" "卡累利阿" "博滕" "劳马" "图尔库" "维堡" "雅各布斯塔德" "瓦萨" "奥卢" "奥拉" "凯米" "坦佩雷"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+FIN_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+			"新地" "卡累利阿" "博滕" "劳马" "图尔库" "维堡" "雅各布斯塔德" "瓦萨" "奥卢" "奥拉" "凯米" "坦佩雷"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+FIN_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "%d 号航母"	
+
+	unique = {
+		"大芬兰" "卡累利阿" "图尔库" "泊贾曼" "曼纳海姆" "维堡" "瓦萨" "新地" "奥兰群岛" "奥卢" "凯米" "图尔库" "博滕" "曼纳海姆" "维堡" "瓦萨" "新地" "阿赫韦南马" "奥卢"
+	}
+}
+
+### SUBMARINES ###
+FIN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"维特希嫩" "维希希" "依库-特索" "水貂"
+	}
+}

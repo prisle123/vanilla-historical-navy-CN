@@ -1,0 +1,120 @@
+﻿##### CUBA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+CUB_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"圣克拉拉" "十月十日" "二月二十四日" "帕特里亚" "哈瓦那" "皮纳德尔里奥" "古巴" "达木吉河" "哈蒂沃尼科河"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+CUB_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"哈瓦那" "古巴圣地亚哥" "马里诺" "圣克拉拉" "关塔那摩" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+CUB_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"哈瓦那" "古巴圣地亚哥" "马里诺" "圣克拉拉" "关塔那摩" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+CUB_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"西奥多·罗斯福" "弗根希奥·巴迪斯塔"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+CUB_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"西奥多·罗斯福" "弗根希奥·巴迪斯塔"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+CUB_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"古巴共和国" "拉萨凡纳" "艾尔门达瑞兹" "卡乌托" 
+	}
+}
+
+### SUBMARINES ###
+CUB_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"圣克拉拉" "十月十日" "二月二十四日" "帕特里亚" "哈瓦那" "皮纳德尔里奥" "古巴" "达木吉河" "哈蒂沃尼科河"
+	}
+}

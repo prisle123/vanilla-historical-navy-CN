@@ -1,0 +1,2244 @@
+spriteTypes = {
+### CHI ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_CHI_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_CHI_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CHI_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_CHI_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_heavy_cruiser1.png"
+        	}
+### PRC ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_PRC_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_PRC_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_PRC_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_PRC_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_heavy_cruiser1.png"
+        	}
+### SHX ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_SHX_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_SHX_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SHX_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_SHX_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_heavy_cruiser1.png"
+        	}
+### MAN ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_MAN_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_MAN_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_MAN_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_MAN_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_heavy_cruiser1.png"
+        	}
+### GXC ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_GXC_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_GXC_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GXC_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_GXC_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_heavy_cruiser1.png"
+        	}
+### XSM ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_XSM_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_XSM_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_XSM_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_XSM_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_heavy_cruiser1.png"
+        	}
+### SIK ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_SIK_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_SIK_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIK_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_SIK_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_heavy_cruiser1.png"
+        	}
+### YUN ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_YUN_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_YUN_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_YUN_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_YUN_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_heavy_cruiser1.png"
+        	}
+			
+### ENG ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser5.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_cruiser_submarine.png"
+        	}
+### AST ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser5.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_cruiser_submarine.png"
+        	}
+### CAN ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser5.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_cruiser_submarine.png"
+        	}
+### NZL ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser5.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_cruiser_submarine.png"
+        	}
+### RAJ ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser5.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_cruiser_submarine.png"
+        	}
+### SAF ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_cruiser5.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_cruiser_submarine.png"
+        	}
+			
+### FRA ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_cruiser_coastal_defense_ship.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_heavy_cruiser5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_panzerschiff_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_panzerschiff.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/France/FRA_cruiser_submarine.png"
+        	}
+			
+### GER ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_heavy_cruiser5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_panzerschiff_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_panzerschiff.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_cruiser_submarine.png"
+        	}
+			
+### ITA ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_cruiser_coastal_defense_ship.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_heavy_cruiser5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_panzerschiff.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_cruiser_submarine.png"
+        	}
+			
+### JAP ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_cruiser_coastal_defense_ship.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_heavy_cruiser5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_panzerschiff_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_panzerschiff.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_cruiser_submarine.png"
+        	}
+			
+### HOL ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer4.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_light_cruiser4.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_cruiser_coastal_defense_ship.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_battleship3.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_carrier4.png"
+        	}
+			
+### DEN ###
+
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_DEN_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/DEN_cruiser_coastal_defense_ship.png"
+        	}
+			
+### FIN ###
+
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_FIN_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/FIN_cruiser_coastal_defense_ship.png"
+        	}
+			
+### NOR ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_NOR_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/NOR_destroyer1.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_NOR_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/NOR_cruiser_coastal_defense_ship.png"
+        	}
+			
+### SWE ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_destroyer4.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_light_cruiser4.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_cruiser_coastal_defense_ship.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SWE_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/SWE_battleship4.png"
+        	}
+			
+### ARG ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_ARG_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/South_America/ARG_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_ARG_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/South_America/ARG_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ARG_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/South_America/ARG_light_cruiser2.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_ARG_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/South_America/ARG_heavy_cruiser2.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_ARG_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/South_America/ARG_battleship1.png"
+        	}
+			
+### BRA ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_BRA_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/South_America/BRA_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_BRA_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/South_America/BRA_light_cruiser1.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_BRA_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/South_America/BRA_battleship1.png"
+        	}
+			
+### CHL ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_CHL_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/South_America/CHL_destroyer1.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_CHL_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/South_America/CHL_light_cruiser1.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_CHL_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/South_America/CHL_heavy_cruiser1.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_CHL_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/South_America/CHL_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CHL_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/South_America/CHL_battleship1.png"
+        	}
+			
+### SOV ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_cruiser_coastal_defense_ship.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_heavy_cruiser5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_panzerschiff_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_panzerschiff.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Soviet/SOV_cruiser_submarine.png"
+        	}
+			
+### SPR ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_SPR_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SPR_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer2.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_SPR_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SPR_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_light_cruiser2.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_SPR_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_battleship1.png"
+        	}
+			
+### TUR ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_TUR_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Turkey/TUR_destroyer1.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_TUR_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Turkey/TUR_cruiser_coastal_defense_ship.png"
+        	}
+			
+### USA ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_2_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_2_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship5.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_battleship1.png"
+        	}
+	# carrier
+
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_carrier_conversion_ca.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_carrier_conversion_bb.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_carrier_1_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_carrier_2_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_carrier_3_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_carrier4.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_submarine_1_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_submarine_2_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_submarine_3_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_submarine_4_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_submarine4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_submarine_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_submarine.png"
+        	}
+
+### POL ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_POL_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/EE/POL_destroyer2.png"
+        	}
+
+### YUG ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_YUG_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_YUG_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_YUG_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_destroyer4.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_YUG_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_YUG_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_light_cruiser4.png"
+        	}
+}
+

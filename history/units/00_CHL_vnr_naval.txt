@@ -1,0 +1,44 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "智利海军"			
+		naval_base = 8222 # Valparaiso
+		task_force = {
+			name = "智利海军"
+			location = 8222 # Valparaiso
+			ship = { name = "BACH 拉托雷海军上将" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "拉托雷海军上将级" } } }
+			ship = { name = "BACH 奥希金斯" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHL version_name = "奥希金斯级" } } }
+			ship = { name = "BACH 查卡布科" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHL version_name = "查卡布科级" } } }
+			# Flotilla de Destructores nro. 1
+			ship = { name = "BACH 林奇海军上将" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CHL version_name = "林奇海军上将级" } } }
+			ship = { name = "BACH 塞拉诺" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "BACH 赫雅特" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "BACH 奥雷拉" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			# Flotilla de Destructores nro. 2
+			ship = { name = "BACH 康德尔海军上将" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CHL version_name = "林奇海军上将级" } } }
+			ship = { name = "BACH 艾尔迪亚" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "BACH 里克尔梅" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "BACH 魏地拉" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+		}				
+		task_force = {				
+			name = "第一潜艇舰队"			
+			location = 8222 # Valparaiso
+			ship = { name = "BACH 瓜科达" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H1级" } } }
+			ship = { name = "BACH 特瓜尔达" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H1级" } } }
+			ship = { name = "BACH 鲁库米拉" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H1级" } } }
+			ship = { name = "BACH 奎多拉" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H1级" } } }
+			ship = { name = "BACH 芙蕾西亚" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H1级" } } }
+			ship = { name = "BACH 瓜勒" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H1级" } } }
+		}				
+		task_force = {				
+			name = "第二潜艇舰队"			
+			location = 5228 # Coquimbo
+			ship = { name = "BACH 奥布莱恩海军上校" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = CHL version_name = "奥布莱恩海军上校级" } } }
+			ship = { name = "BACH 辛普森海军上将" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = CHL version_name = "奥布莱恩海军上校级" } } }
+			ship = { name = "BACH 汤姆森海军上校" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = CHL version_name = "奥布莱恩海军上校级" } } }
+		}				
+	}
+} 
+

@@ -1,0 +1,285 @@
+﻿##### POLAND NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+POL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "ORP "
+	fallback_name = "%d 号驱逐舰"
+
+	unique = {
+		"霹雳" "迅雷" "闪电" "飓风" "库亚维亚克" "希拉扎克" "珀莫泽林" "克拉科维亚克" "攀登" "马祖尔" "卡舒"
+		"库尔普" "风暴" "狂风" "加兰德" "飓风" "华沙" "利沃夫" "维尔纽斯" "波兹南" "克拉科夫" "维斯拉" "格丁尼亚" 
+		"格但斯克" "克拉科夫" "扎德沃泽" "普洛切" "奥德切特维登斯卡"  "普斯科夫" "拉兹恩" "普瑟米斯" "科钦" "基尔裘姆" "丰希罗拉"   
+	}
+}
+
+### LIGHT CRUISER NAMES###
+POL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "ORP "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"巨龙" "康拉德" "波罗的海" "国王瓦迪斯瓦夫四世"   "利沃夫" "维尔纽斯" "波兹南" 
+		"克拉科夫" "维斯拉" "格丁尼亚" "格但斯克" "华沙" "克拉科夫" "扎德沃泽" "普洛切" "奥德切特维登斯卡"  "普斯科夫" "拉兹恩" "普瑟米斯" "科钦" "基尔裘姆" "丰希罗拉"   
+	}
+}
+
+### HEAVY CRUISER NAMES###
+POL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "ORP "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"巨龙" "康拉德" "波罗的海" "国王瓦迪斯瓦夫四世"   "利沃夫" "维尔纽斯" "波兹南" 
+		"克拉科夫" "维斯拉" "格丁尼亚" "格但斯克" "华沙" "克拉科夫" "扎德沃泽" "普洛切" 
+		"奥德切特维登斯卡"  "普斯科夫" "拉兹恩" "普瑟米斯" "科钦" "基尔裘姆" "丰希罗拉"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+POL_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	prefix = "ORP "
+	
+	fallback_name = "%d 号战列舰"
+	
+	unique = {
+		"尤泽夫·毕苏斯基"  "国王瓦迪斯瓦夫四世"   "斯泰凡·巴托雷"  "索宾斯基三世"  "卡齐米日大帝"  
+		"博莱斯瓦夫一世"  "扬 卡齐米日"  "斯坦尼斯瓦夫 科涅茨波尔斯基"  "斯坦尼斯瓦夫·茹乌凯夫斯基"  
+		"扬·扎莫伊斯基"  "斯坦尼斯瓦夫·兰茨科龙斯基"  "斯特凡·恰尔涅茨基"  "扬·卡罗尔·赫特基耶维奇"     
+	}
+}
+
+### BATTLECRUISER NAMES ###
+POL_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "ORP "
+	fallback_name = "%d 号战列巡洋舰"
+	
+	unique = {
+		"尤泽夫·毕苏斯基"  "国王瓦迪斯瓦夫四世"   "斯泰凡·巴托雷"  "索宾斯基三世"  "卡齐米日大帝" 
+		"博莱斯瓦夫一世"  "扬 卡齐米日"  "斯坦尼斯瓦夫 科涅茨波尔斯基"  "斯坦尼斯瓦夫·茹乌凯夫斯基"
+		"扬·扎莫伊斯基"  "斯坦尼斯瓦夫·兰茨科龙斯基"  "斯特凡·恰尔涅茨基"  "扬·卡罗尔·赫特基耶维奇"     
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+POL_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "ORP "
+	fallback_name = "%d 号航母"
+	
+	unique = {
+		"尤泽夫·毕苏斯基"  "国王瓦迪斯瓦夫四世"   "斯泰凡·巴托雷"  "索宾斯基三世"  "卡齐米日大帝"  "博莱斯瓦夫一世"  
+		"扬 卡齐米日"  "斯坦尼斯瓦夫 科涅茨波尔斯基"  "斯坦尼斯瓦夫·茹乌凯夫斯基"  "扬·扎莫伊斯基"  "斯坦尼斯瓦夫·兰茨科龙斯基"  "斯特凡·恰尔涅茨基"  "扬·卡罗尔·赫特基耶维奇"   
+	}
+}
+
+### SUBMARINES ###
+POL_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "ORP "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+	"雕" "鹫" "索科尔" "山猪" "鹰" "图" "狼" "山猫" "秃鹰" "秃头鹰" "卡舒" "马祖尔" "克拉科维亚克" "希拉扎克" "库亚维亚克" "库尔普" "库亚维亚克" "库亚维亚克" "库亚维亚克"   
+	}
+}
+
+### KINGS ###
+POL_THEME_KINGS = {
+	name = NAME_THEME_KINGS
+
+	for_countries = { POL }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship battle_cruiser ship_hull_carrier carrier }
+	
+	prefix = "ORP "
+
+	unique = {
+		"斯泰凡·巴托雷"  "索宾斯基三世"   "卡齐米日大帝"  "博莱斯瓦夫一世"  "齐格蒙特三世"   "瓦迪斯瓦夫四世"   
+		"瓦迪斯瓦夫·贾吉略"  "齐格蒙特一世"   "瓦迪斯瓦夫·洛奇特科"  "卡齐米日·贾吉罗梅"  "齐格蒙特二世"   "博莱斯瓦夫·西缪伊"    
+	}
+}
+
+### HISTORICAL FIGURES ###
+POL_THEME_HISTORICAL_FIGURES = {
+	name = NAME_THEME_HISTORICAL_FIGURES
+
+	for_countries = { POL }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship battle_cruiser ship_hull_carrier carrier }
+	
+	prefix = "ORP "
+
+	unique = {
+		"约瑟夫·毕苏兹基"  "塔德乌什·科希丘什科"  "约瑟夫·波尼亚托夫斯基"  "斯坦尼斯拉夫·齐奥凯夫斯基"  "扬·扎莫伊斯基" 
+		"斯特凡·恰尔涅茨基"  "扬·卡罗尔·赫特基耶维奇"   "斯坦尼斯拉夫·兰斯科罗恩斯基"  "杨·亨里克·达布罗夫斯基"   "马特乌什·西尔皮克"
+		"阿伦德·迪克曼"  "卡齐米日·普拉斯基"  "杨·赫韦留斯"  "尼古拉·哥白尼"  "扬·科哈诺夫斯基"  "尼古拉·伊"  "约瑟夫·本"  "约瑟夫·哈勒尔" 
+		"斯坦尼斯拉夫·谢普特茨基"  "瓦迪斯瓦夫·西科尔斯基"  "卡齐米日·索森科夫斯基"  "沃拉迪斯拉夫·安德斯"  "斯坦尼斯拉夫·索萨博夫斯基"    
+	}
+}
+
+### WEATHER ###
+POL_THEME_WEATHER = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { POL }
+
+	type = ship
+	
+	prefix = "ORP "
+
+	unique = {
+		"风暴" "迅雷" "暴风" "冰雹" "狂风" "闪电" "狂风" "极光" "台风" "霹雳" "暴雪" "哈尔尼" "飓风" "飑"   
+	}
+}
+
+### RIVERS ###
+POL_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { POL }
+
+	type = ship
+	
+	prefix = "ORP "
+
+	unique = {
+			"维斯瓦河" "布格河" "纳雷夫河" "瓦尔塔河" "桑河" "诺提克河" "维普日" "德尼斯特" "普里皮亚季" "利达" "皮利卡" "威廉"   
+	}
+}
+
+### ANIMALS ###
+POL_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { POL }
+
+	type = ship
+	prefix = "ORP "
+	
+
+	unique = {
+		"狼" "雕" "鲨" "格雷夫" "猞猁" "狗鱼" "青庄" "信天翁" "海鸥" "雷比特沃" "鸬鹚" "野猫" "鹫" "恰伊卡" "燕子" "祖拉夫" "鹘" "秃头鹰" "老虎" "狮" "豹" "熊" "山猪" "鹰" 
+	}
+}
+
+### REGIONS ###
+POL_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { POL }
+
+	type = ship
+	
+	prefix = "ORP "
+
+	unique = {
+	"马佐夫舍" "库亚维" "小波兰" "大波兰" "西里西亚" "波美拉尼亚" "波德拉谢" "波莱谢" "圣十字" "维尔纽斯" "波多贺" "波德卡帕拉奇"   
+	}
+}
+
+### CITIES ###
+POL_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { POL }
+
+	type = ship
+	
+	prefix = "ORP "
+
+	unique = {
+		"马佐夫舍" "库亚维" "小波兰" "大波兰" "西里西亚" "波美拉尼亚" "波德拉谢" "波莱谢" "圣十字" "维尔纽斯" "波多贺"   
+	}
+}
+
+### BATTLES ###
+POL_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { POL }
+
+	type = ship
+	
+	prefix = "ORP "
+
+	unique = {
+		"格伦沃尔德" "奥尔沙" "斯摩棱斯克" "基尔裘姆" "维也纳" "科钦" "拉兹恩" "奥利瓦" "采迪尼亚" "珀夫泽" "卡莫罗"   
+	}
+}
+
+### SLAVIC_MYTHOLOGY ###
+POL_THEME_SLAVIC_MYTHOLOGY = {
+	name = NAME_THEME_SLAVIC_MYTHOLOGY
+
+	for_countries = { POL }
+
+	type = ship
+	
+	prefix = "ORP "
+
+	unique = {
+		"吸血鬼" "艾特维尔" "老妪" "邦尼克" "蛇怪" "贝尔特" "贝兹科斯特" "贫困" "恶魔" "鬼火"  "沃特尼克" "旱獭" "布卡" "博古卡" "博罗维" "拉沙"
+		"布泽吉纳" "布克" "比齐内克" "精灵" "熟悉" "沉默" "门塔纳·巴巴"  "魔鬼" "博富拉" "弗格斯" "黑达斯" "伊斯克泽斯基" "罗基塔"
+		"多布乔奇" "多拉" "多莫维克" "德瓦罗维" "祖父" "九" "小妖精" "法尔曼" "格涅丘赫" "格里芬" "奥米尼克" "赫门" "耶若塞克" "巫婆"
+		"扬基" "风筝" "克拉巴特尼克" "帽子" "懒妇" "妖精" "蛇王"  "纸鸢" "诅咒" "拉瓦皮杜赫" "纽卡" "马蒙那" "马卢达" "马托哈" "度量" 
+		"米尔科·兹米"  "莫罗瓦·杰米扎"  "霜" "穆鲁泽克" "诺茨尼泽" "火马"  "惊骇" "金童"  "普诺尼克" "普涅兹尼克" "普沃尼克" "普尔德尼泽"
+		"普诺尼茨" "苏沃斯尼克" "罗泽尼扎" "美人鱼" "鱼王"  "司库" "斯库尔" "斯门达" "龙" "斯博尼泽" "克伦切克" "斯特拉特齐" "斯图卡茨" 
+		"人鱼" "绍林茨" "沙莱伊" "萨托皮耶尔茨" "死亡" "光明" "思念" "兔子" "乌托皮耶茨" "翁皮耶斯" "巨人" "预言" "维特日卡" "狼人" "威拉" "刽子手" "水瓶座" "梦魇" "兹米"   
+	}
+}

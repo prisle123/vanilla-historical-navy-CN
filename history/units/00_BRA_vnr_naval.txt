@@ -1,0 +1,32 @@
+﻿units = {
+	
+	##### Naval OOB #####
+	fleet = {
+		name = "巴西海军"			
+		naval_base = 10980 # Rio de Janiero
+		task_force = {
+			name = "巴西海军"
+			location = 10980 # Rio de Janiero
+			ship = { name = "NRB 米纳斯格拉斯" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = BRA version_name = "米纳斯格拉斯级"} } }
+			ship = { name = "NRB 圣保罗" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = BRA version_name = "米纳斯格拉斯级"} } }
+			ship = { name = "NRB 巴伊亚" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "巴伊亚级"} } }
+			ship = { name = "NRB 南里约格朗德" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "巴伊亚级"} } }
+			# 1a Flotilla de Contratorpedeiros
+			ship = { name = "NRB 皮奥伊" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
+			ship = { name = "NRB 北里约格朗德" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
+			ship = { name = "NRB 帕拉伊巴" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
+			ship = { name = "NRB 阿拉戈斯" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
+			# 2a Flotilla de Contratorpedeiros
+			ship = { name = "NRB 马拉尼昂" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "阿卡斯塔级"} } }	
+			ship = { name = "NRB 塞尔希培" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
+			ship = { name = "NRB 圣卡塔琳娜" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
+			ship = { name = "NRB 马托格罗索" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BRA version_name = "帕拉级"} } }
+		}				
+		task_force = {				
+			name = "潜艇部队"			
+			location = 10980 # Rio de Janiero
+			ship = { name = "NRB 乌迈塔" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "乌迈塔级"} } }
+		}				
+	}
+}
+

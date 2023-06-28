@@ -1,0 +1,120 @@
+﻿##### SIAM/THAILAND NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SIA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SIA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HTMS "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		 "帕銮" "美功" "达津" "春武里" "达叻" "宋卡" "普吉" "北大年" "素叻他尼" "尖竹汶" "罗勇" "春蓬" "空艾" "甘丹" "达拜" "邦巴功" "普拉萨" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+SIA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SIA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HTMS "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		 "达信" "纳黎萱" "春武里" "沙没巴干" "是拉差" "罗勇" "尖竹汶" "考沙民" "乐达纳古欣" "素可泰"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SIA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SIA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HTMS "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"阿瑜陀耶" "吞武里" "春武里" "沙没巴干" "是拉差" "罗勇" "尖竹汶" "考沙民" "乐达纳古欣" "素可泰"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+SIA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SIA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HTMS "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		  "曼谷" "宋卡銮" "苏梅岛" "乐达纳古欣" "素可泰"  
+	}
+}
+
+### BATTLECRUISER NAMES ###
+SIA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { SIA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HTMS "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"曼谷" "宋卡銮" "苏梅岛" "乐达纳古欣" "素可泰"  
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+SIA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SIA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HTMS "
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+             "芒赛" "奥泰" "却克王朝之君" 
+	}
+}
+
+### SUBMARINES ###
+SIA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SIA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HTMS "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"素可泰" "春蓬" "克拉武里" "廊开" "罗勇" "朗算" "苏美" "素叻" "那空拍侬" " 夜丰颂" 
+	}
+}

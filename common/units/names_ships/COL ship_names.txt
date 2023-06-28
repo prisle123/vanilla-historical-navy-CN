@@ -1,0 +1,120 @@
+﻿##### COLOMBIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+COL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "ARC "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"安蒂奥基亚" "卡达斯" "七月二十日" "八月七日" "桑坦德" "帕迪拉海军上将" "托诺海军上将" "布里昂海军上将" "科尔多瓦"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+COL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "ARC "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"麦德林" "卡塔赫纳" "巴兰基亚" "圣玛尔塔" "布卡拉曼加" "图马科" "布韦那文图拉"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+COL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	prefix = "ARC "
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"麦德林" "卡塔赫纳" "巴兰基亚" "圣玛尔塔" "布卡拉曼加" "图马科" "布韦那文图拉"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+COL_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	prefix = "ARC "
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"克里斯托巴尔" "波哥大" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+COL_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	prefix = "ARC "
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"克里斯托巴尔" "波哥大" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+COL_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	prefix = "ARC "
+	
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"哥伦比亚共和国" "伟大" "马格达莱纳" "波哥大" "潘普洛尼塔" "里奥内格罗" "阿劳卡" 
+	}
+}
+
+### SUBMARINES ###
+COL_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	prefix = "ARC "
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"七月二十日" "八月七日" "桑坦德" "帕迪拉海军上将" "托诺海军上将" "布里昂海军上将" "科尔多瓦" "安蒂奥基亚" "卡达斯" 
+	}
+}

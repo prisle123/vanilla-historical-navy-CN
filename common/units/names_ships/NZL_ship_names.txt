@@ -1,0 +1,166 @@
+﻿##### NEW ZEALAND NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+NZL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { NZL }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMNZS "							
+	fallback_name = "第%s 驱逐舰"					
+
+	unique = {											
+		"南芥" "杨梅" "哈威亚" "卡尼里" "普卡基" "罗托伊蒂" "陶波" "图提拉" "伊丘卡" "冲刺" "因弗雷尔" "凯马" "斯托尔" "奥塔哥" "塔拉纳基" "怀卡托" "布莱克浦" "坎特伯雷" "防御者" "泰阿鲁阿" "怀特玛塔" "庞尼克" "阿莫克"   
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+NZL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { NZL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMNZS "							
+	fallback_name = "第%s 轻巡洋舰舰队"
+
+	unique = {
+		"利安德" "阿喀琉斯" "冈比亚" "库克群岛"  "诺斯兰" "奥克兰" "吉斯伯恩" "霍克斯湾"  "惠灵顿" "纳尔逊" "韦斯特兰" "马尔伯勒" "坎特伯雷" "奥塔哥" "南国" "贝罗纳" "黑太子"  "保皇" "查塔姆" "达尼丁" "迪奥米德" "夜莺"   
+	}
+}
+
+### HEAVY CRUISER NAMES###
+NZL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { NZL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMNZS "							
+	fallback_name = "第%s 重巡洋舰"
+
+	unique = {
+	"诺斯兰" "奥克兰" "吉斯伯恩" "塔拉纳基" "霍克斯湾"  "惠灵顿" "纳尔逊" "韦斯特兰" "马尔伯勒" "坎特伯雷" "奥塔哥" "南国"    
+	}
+}
+
+### BATTLESHIP NAMES ###
+NZL_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { NZL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMNZS "							
+	fallback_name = "第%s 战列舰"		
+
+	unique = {
+		"新西兰" "诺斯兰" "奥克兰" "吉斯伯恩" "塔拉纳基" "霍克斯湾"  "惠灵顿" "纳尔逊" "韦斯特兰" "马尔伯勒" "坎特伯雷" "奥塔哥" "南国"    
+	}
+}
+
+### BATTLECRUISER NAMES ###
+NZL_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { NZL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMNZS "							
+	fallback_name = "第%s 战列巡洋舰"		
+
+	unique = {
+		"新西兰" "诺斯兰" "奥克兰" "吉斯伯恩" "塔拉纳基" "霍克斯湾"  "惠灵顿" "纳尔逊" "韦斯特兰" "马尔伯勒" "坎特伯雷" "奥塔哥" "南国"    
+ 	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+NZL_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { NZL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMNZS "							
+	fallback_name = "第%s 航空母舰"		
+
+	unique = {
+		"复仇" "新西兰"  "诺斯兰" "奥克兰" "吉斯伯恩" "塔拉纳基" "霍克斯湾"  "惠灵顿" "纳尔逊" "韦斯特兰" "马尔伯勒" "坎特伯雷" "奥塔哥" "南国" "斯塔福德" "塞登" "哈尔·琼斯" "瓦德" "梅西"   
+	}
+}
+
+
+### SUBMARINES ###
+NZL_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { NZL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMNZS "							
+	fallback_name = "第%s 潜艇舰队"
+	
+	unique = {
+		"南芥" "杨梅" "哈威亚" "卡尼里" "普卡基" "罗托伊蒂" "陶波" "图提拉" "伊丘卡" "冲刺" "因弗雷尔" "凯马" "斯托尔" "奥塔哥" "塔拉纳基" "怀卡托" "布莱克浦" "坎特伯雷"
+	}
+}
+
+
+### THEME: NEW ZEALAND PROVINCES ###
+NZL_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { NZL }
+
+	type = ship
+
+	prefix = "HMNZS "							
+	unique = {
+		"奥克兰" "新普利茅斯"  "霍克斯湾"  "惠灵顿" "纳尔逊" "马尔伯勒" "诺斯兰" "韦斯特兰" "坎特伯雷" "奥塔哥" "南国"  
+	}
+}
+
+## THEME: NEW ZEALAND CITIES ###
+NZL_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { NZL }
+
+	type = ship
+
+	prefix = "HMNZS "							
+	unique = {
+		"奥克兰" "惠灵顿" "克莱斯特彻奇" "汉密尔顿" "陶兰加" "内皮尔·黑斯廷斯" "达尼丁" "北帕莫斯顿"  "纳尔逊" "旺阿雷" "新普利茅斯"  "因弗卡吉尔" "旺格努伊" "吉斯伯恩"     
+	}
+}
+
+## THEME: TRIBES ###
+NZL_TRIBES = {
+	name = NAME_THEME_TRIBES
+
+	for_countries = { NZL }
+
+	type = ship
+
+	prefix = "HMNZS "							
+	unique = {
+		"毛利" "奥波里" "纳普西" "恩加鲁鲁" "恩加蒂波里" "纳塔胡" "纳提瓦图瓦" "恩加提泰" "恩加蒂帕阿" "恩加蒂兰吉" "恩加提瓦卡" "恩加卡瓦" 
+		"恩加蒂曼尼亚波托" "恩加塔瓦" "恩提图华雷图瓦" "恩塔蒂玛" "恩加蒂卢努伊" "恩加蒂霍" "恩加蒂帕" "恩加蒂托" "恩加提卡胡努努" "恩格太奥" 
+		"拉拉瓦" "兰基塔勒" "塔拉纳基" "蒂乌雷雷瓦" "瓦特阿图亚" "瓦努阿帕努伊" "怀卡托" "乌里奥豪" 
+	}
+}

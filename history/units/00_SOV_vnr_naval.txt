@@ -1,0 +1,593 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	### Northern Fleet -- Murmansk
+	fleet = {
+		name = "北海舰队"
+		naval_base = 3134 # Murmansk
+		task_force = {				
+			name = "北海舰队"
+			location = 3134 # Murmansk
+			# 1ya Flotiliya Esmintsev
+			ship = { name = "捷尔任斯基" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "伊贾斯拉夫级/费多尼西级" } } }
+			ship = { name = "涅萨兹尼克" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "伊贾斯拉夫级/费多尼西级" } } }
+			ship = { name = "邵武勉" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "伊贾斯拉夫级/费多尼西级" } } }
+			# 2ya Flotiliya Esmintsev
+			ship = { name = "卡尔·马克思" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "伊贾斯拉夫级/费多尼西级" } } }
+			ship = { name = "加里宁" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "伊贾斯拉夫级/费多尼西级" } } }
+		}	
+		task_force = {	
+			name = "北海舰队潜艇部队"
+			location = 3134 # Murmansk
+			# 5iy Podvodniy Flot
+			ship = { name = "D-1" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "D级" } } }			
+			ship = { name = "D-2" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "D级" } } }			
+			ship = { name = "D-3" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "D级" } } }			
+			ship = { name = "D-4" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "D级" } } }			
+			ship = { name = "D-5" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "D级" } } }			
+			ship = { name = "D-6" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "D级" } } }			
+		}
+	}
+	
+	### Baltic Fleet -- Leningrad
+	fleet = {
+		name = "波罗的海舰队"
+		naval_base = 3151 # Leningrad
+		task_force = {				
+			name = "波罗的海舰队"
+			location = 3151 # Leningrad
+			ship = { name = "马拉" pride_of_the_fleet = yes definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "甘古特级" } } }
+			ship = { name = "十月革命" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "甘古特级" } } }
+			ship = { name = "马蒂" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SOV version_name = "马蒂级" } } }
+			# 3ya Flotiliya Esmintsev
+			ship = { name = "恩格斯" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }
+			ship = { name = "阿尔乔姆" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }
+			ship = { name = "沃洛达尔斯基" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }
+			ship = { name = "雅科夫·斯维尔德洛夫" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "诺维克级/鲁莽级" } } }
+			ship = { name = "伏龙芝" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "诺维克级/鲁莽级" } } }
+			# 4ya Flotiliya Esmintsev
+			ship = { name = "列宁" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }		
+			ship = { name = "沃伊科夫" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }		
+			ship = { name = "李可夫" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }		
+			ship = { name = "卡尔·李卜克内西" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }		
+		}	
+		task_force = {	
+			name = "波罗的海舰队潜艇部队"
+			location = 3151 # Leningrad
+			# 1iy Podvodniy Flot
+			ship = { name = "Shch-301" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch III级" } } }			
+			ship = { name = "Shch-302" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch III级" } } }			
+			ship = { name = "Shch-303" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch III级" } } }			
+			ship = { name = "Shch-304" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch III级" } } }			
+			ship = { name = "Shch-305" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-306" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-307" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-308" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			# 2iy Podvodniy Flot
+			ship = { name = "Shch-113" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-114" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-115" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-116" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			# 6iy Podvodniy Flot
+			ship = { name = "Shch-117" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-118" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-119" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-120" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			# 7iy  Podvodniy Flot
+			ship = { name = "Shch-201" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-202" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-203" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-204" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-309" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			# 16iy  Podvodniy Flot
+			ship = { name = "L-1" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "L级" } } }			
+			ship = { name = "L-2" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "L级" } } }			
+			ship = { name = "L-3" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "L级" } } }	
+			# 16iy  Coastal
+			ship = { name = "M-53" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-71" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-72" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-73" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-74" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-75" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-76" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-82" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-83" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-84" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-85" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }				
+			ship = { name = "M-86" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }				
+		}
+	}
+
+	### Black Sea Fleet -- Sevastopol
+	fleet = {
+		name = "黑海舰队"
+		naval_base = 3686 # Sevastopopl
+		task_force = {				
+			name = "黑海舰队"
+			location = 3686 # Sevastopopl
+			ship = { name = "巴黎公社" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "甘古特级" } } }
+			ship = { name = "红色高加索" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "纳西莫夫海军上将级" } } }
+			ship = { name = "红色克里米亚" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "斯维特兰娜级" } } }
+			ship = { name = "红色乌克兰" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "纳西莫夫海军上将级" } } }
+			ship = { name = "共产国际" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SOV version_name = "博加特耶尔级" } } }
+		}	
+		task_force = {	
+			name = "黑海舰队潜艇部队"
+			location = 3686 # Sevastopopl
+			# 9iy Podvodniy Flot
+			ship = { name = "Shch-121" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-122" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-123" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			ship = { name = "Shch-124" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V-bis级" } } }			
+			# 15iy Podvodniy Flot
+			ship = { name = "A-1" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG级" } } }
+			ship = { name = "A-2" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG级" } } }
+			ship = { name = "A-3" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG级" } } }
+			ship = { name = "A-4" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG级" } } }
+			ship = { name = "A-5" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG级" } } }
+			# 17iy  Podvodniy Flot
+			ship = { name = "L-4" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "L级" } } }			
+			ship = { name = "L-5" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "L级" } } }			
+			ship = { name = "L-6" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "L级" } } }			
+		}	
+	}
+
+	### Pacific Fleet -- Vladivostok
+	fleet = {
+		name = "太平洋舰队"
+		naval_base = 957 # Vladivostok
+		task_force = {				
+			name = "太平洋舰队"
+			location = 957 # Vladivostok
+			# 8ya Flotiliya Esmintsev
+			ship = { name = "乌里茨基" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }
+			ship = { name = "斯大林" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }
+		}	
+		task_force = {	
+			name = "太平洋舰队潜艇部队"
+			location = 957 # Vladivostok
+			# 10iy Podvodniy Flot
+			ship = { name = "Shch-101" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-102" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-103" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-104" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-105" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-106" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			# 11iy Podvodniy Flot
+			ship = { name = "Shch-107" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-108" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-109" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-110" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-111" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			ship = { name = "Shch-112" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Shch V级" } } }			
+			# 18iy  Podvodniy Flot
+			ship = { name = "L-7" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "L级" } } }			
+			ship = { name = "L-8" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "L级" } } }			
+			ship = { name = "L-9" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "L级" } } }		
+			# Coastal
+			ship = { name = "M-1" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-2" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-3" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-4" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-5" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-6" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-7" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-8" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-9" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-10" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-11" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-12" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-13" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-14" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-15" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-16" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-17" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-18" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-19" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-20" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-21" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-22" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-23" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-24" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-25" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-26" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-27" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }
+			ship = { name = "M-28" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-51" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }			
+			ship = { name = "M-52" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "M级" } } }		
+		}		
+	}
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "SOV"
+			version_name = "基洛夫级"
+		}
+		name = "基洛夫"
+		requested_factories = 2
+		progress = 0.10
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "SOV"
+			version_name = "基洛夫级"
+		}
+		name = "伏罗希洛夫"
+		requested_factories = 2
+		progress = 0.10
+		amount = 1
+	}
+	### Ships Under Construction Notes ###
+	# DD: Leningrad & Minsk variant (x4) ("Leningrad" "Moskva" "Kharkov" "Minsk")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "列宁格勒级"
+		}
+		name = "列宁格勒"
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "列宁格勒级"
+		}
+		name = "哈尔科夫"
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "列宁格勒级"
+		}
+		name = "莫斯科"
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "列宁格勒级"
+		}
+		name = "明斯克"
+		requested_factories = 1
+		progress = 0.10
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "列宁格勒级"
+		}
+		name = "巴库"
+		requested_factories = 1
+		progress = 0.10
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "列宁格勒级"
+		}
+		name = "第比利斯"
+		requested_factories = 1
+		progress = 0.10
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "愤怒级"
+		}
+		name = "愤怒"
+		requested_factories = 1
+		progress = 0.05
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "愤怒级"
+		}
+		name = "可怖"
+		requested_factories = 1
+		progress = 0.05
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "愤怒级"
+		}
+		name = "决心"
+		requested_factories = 1
+		progress = 0.01
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "愤怒级"
+		}
+		name = "活跃"
+		requested_factories = 1
+		progress = 0.01
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "愤怒级"
+		}
+		name = "坚定"
+		requested_factories = 1
+		progress = 0.01
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "愤怒级"
+		}
+		name = "大胆"
+		requested_factories = 1
+		progress = 0.01
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SOV"
+			version_name = "愤怒级"
+		}
+		name = "活泼"
+		requested_factories = 1
+		progress = 0.01
+		amount = 1
+	}
+	# SS: Shchuka class (x29) ("Shch-125" "Shch-205" "Shch-206" "Shch-207" "Shch-310" "Shch-311" "Shch-126" "Shch-127" "Shch-128" "Shch-129" "Shch-130" "Shch-131" "Shch-132" "Shch-133" 
+	#		"Shch-134" "Shch-208" "Shch-312" "Shch-313" "Shch-314" "Shch-315" "Shch-316" "Shch-317" "Shch-318" "Shch-319" "Shch-320" "Shch-321" "Shch-322" "Shch-323" "Shch-324")
+	# SS: Stalinets class (x5) ("P-1" "P-2" "P-3" "S-1" "S-2")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch V-bis级"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch V-bis级"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch V-bis级"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch V-bis级"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch V-bis级"
+		}
+		requested_factories = 1
+		progress = 0.70
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch V-bis级"
+		}
+		requested_factories = 1
+		progress = 0.70
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "Shch X级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "S级"
+		}
+		requested_factories = 1
+		progress = 0.70
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "S级"
+		}
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SOV"
+			version_name = "S级"
+		}
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+}
+
+#####################

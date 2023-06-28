@@ -1,0 +1,28 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "丹麦皇家海军"			
+		naval_base = 6287  # Copenhagen
+		task_force = {
+			name = "丹麦皇家海军"
+			location = 6287  # Copenhagen			
+			ship = { name = "HDMS 尼尔斯·尤尔" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "尼尔斯·尤尔级" } } }
+			ship = { name = "HDMS 彼得·斯克拉姆" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "赫鲁弗·特罗尔级" } } }
+			ship = { name = "HDMS 龙" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "龙级/鸢级" } } }
+			ship = { name = "HDMS 鲸鱼" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "龙级/鸢级" } } }
+			ship = { name = "HDMS 鲑鱼" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "龙级/鸢级" } } }
+			ship = { name = "HDMS 鸢" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "龙级/鸢级" } } }
+			ship = { name = "HDMS 鹰" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "龙级/鸢级" } } }
+			ship = { name = "HDMS 鹫" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "龙级/鸢级" } } }
+			ship = { name = "HDMS 澜" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "埃吉尔级" } } }			
+			ship = { name = "HDMS 特里同" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "埃吉尔级" } } }		
+			ship = { name = "HDMS 涅普顿" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "埃吉尔级" } } }
+			ship = { name = "HDMS 罗塔" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "罗塔级" } } }			
+			ship = { name = "HDMS 贝罗纳" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "罗塔级" } } }		
+			ship = { name = "HDMS 弗洛拉" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "罗塔级" } } }
+			ship = { name = "HDMS 达佛涅" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "达佛涅级" } } }
+			ship = { name = "HDMS 德律阿得斯" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "达佛涅级" } } }
+		}				
+	}
+}

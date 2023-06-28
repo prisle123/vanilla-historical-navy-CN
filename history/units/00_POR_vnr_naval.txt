@@ -1,0 +1,27 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "葡萄牙海军"			
+		naval_base = 11805 # Lisbon
+		task_force = {				
+			name = "维亚纳堡舰队"			
+			location = 11805 # Lisbon
+			ship = { name = "NRP 塔梅加" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = POR version_name = "瓜地亚纳级" } } }
+			ship = { name = "NRP 杜奥" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = POR version_name = "杜罗级" } } }
+			ship = { name = "NRP 杜罗" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = POR version_name = "杜罗级" } } }
+			ship = { name = "NRP 利马" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = POR version_name = "杜罗级" } } }	
+			ship = { name = "NRP 沃加" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = POR version_name = "杜罗级" } } }	
+			ship = { name = "NRP 特霍" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = POR version_name = "杜罗级" } } }	
+		}				
+		task_force = {				
+			name = "潜艇舰队"			
+			location = 11805 # Lisbon
+			ship = { name = "NRP 海豚" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "海豚级" } } }		
+			ship = { name = "NRP 剑旗鱼" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "海豚级" } } }	
+			ship = { name = "NRP 齿鲸" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "海豚级" } } }	
+		}				
+	}
+} 
+
