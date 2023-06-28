@@ -7,8 +7,8 @@ units= {
 		task_force = {
 			name = "哥伦比亚国家海军"
 			location = 12790 # Cartegena
-			ship = { name = "ARC 安蒂奥基亚" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_destroyer_2 = { amount = 1 owner = COL version_name = "安蒂奥基亚级" } } }
-			ship = { name = "ARC 卡尔达斯" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_destroyer_2 = { amount = 1 owner = COL version_name = "安蒂奥基亚级" } } }
+			ship = { name = "ARC 安蒂奥基亚" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = COL version_name = "安蒂奥基亚级" } } }
+			ship = { name = "ARC 卡尔达斯" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = COL version_name = "安蒂奥基亚级" } } }
 		}				
 	}
 } 

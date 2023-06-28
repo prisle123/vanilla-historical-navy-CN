@@ -15,7 +15,7 @@ naval_cruiser_armor = {
 
 		target_variant = {
 			match_value = 500.0
-			type = ship_hull_cruiser_panzerschiff
+			type = vnr_ship_hull_cruiser_panzerschiff
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -45,7 +45,7 @@ naval_cruiser_armor = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = ship_hull_cruiser_panzerschiff
+			type = vnr_ship_hull_cruiser_panzerschiff
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -72,7 +72,7 @@ naval_cruiser_armor = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = ship_hull_cruiser_panzerschiff
+			type = vnr_ship_hull_cruiser_panzerschiff
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air

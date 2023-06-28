@@ -49,7 +49,7 @@
 			ship = { name = "HrMs 范·奈斯" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "海军上将级" } } }	
 		}				
 		task_force = {				
-			name = "Nederlands-Indië Onderzeeboot Smaldeel"			
+			name = "东印度潜艇部队"			
 			location = 4608  # Soerbaja
 			ship = { name = "K7" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K级" } } }
 			ship = { name = "K8" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K级" } } }

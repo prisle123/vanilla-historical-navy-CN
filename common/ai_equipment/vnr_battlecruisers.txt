@@ -16,7 +16,7 @@ naval_capital_bc = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = ship_hull_heavy_3
+			type = vnr_ship_hull_heavy_3
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -48,7 +48,7 @@ naval_capital_bc = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = ship_hull_heavy_4
+			type = vnr_ship_hull_heavy_4
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -81,7 +81,7 @@ naval_capital_bc = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = ship_hull_heavy_5
+			type = vnr_ship_hull_heavy_5
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air

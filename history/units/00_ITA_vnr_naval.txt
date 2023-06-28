@@ -151,7 +151,7 @@ units= {
 			ship = { name = "RN 蒙赞巴诺" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = ITA version_name = "将军级/库尔塔托内级" } } } 
 		} 
 		task_force = { 
-			name = "II Gruppo Sommergibili"	
+			name = "第二潜艇分队"	
 			location = 819 # 819 # Naples, Italy
 			# XXI Squadriglia Sommergibili
 			ship = { name = "RN 贾莱亚" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "亚尔戈级/塞腾布里尼级" } } } 

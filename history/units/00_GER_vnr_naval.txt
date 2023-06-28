@@ -103,7 +103,7 @@ instant_effect = {
 			version_name = "沙恩霍斯特级"
 		}
 		name = "沙恩霍斯特"
-		requested_factories = 7
+		requested_factories = 5
 		progress = 0.15
 		amount = 1
 	}
@@ -115,7 +115,7 @@ instant_effect = {
 			version_name = "沙恩霍斯特级"
 		}
 		name = "格奈森瑙"
-		requested_factories = 6
+		requested_factories = 5
 		progress = 0.21
 		amount = 1
 	}

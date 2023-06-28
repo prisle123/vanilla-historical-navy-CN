@@ -16,7 +16,7 @@ naval_cruiser_heavy = {
 
 		target_variant = {
 			match_value = 500.0
-			type = ship_hull_cruiser_2
+			type = vnr_ship_hull_cruiser_2
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -47,7 +47,7 @@ naval_cruiser_heavy = {
 
 		target_variant = {
 			match_value = 500.0
-			type = ship_hull_cruiser_3
+			type = vnr_ship_hull_cruiser_3
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -80,7 +80,7 @@ naval_cruiser_heavy = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = ship_hull_cruiser_4
+			type = vnr_ship_hull_cruiser_4
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -111,7 +111,7 @@ naval_cruiser_heavy = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = ship_hull_cruiser_5
+			type = vnr_ship_hull_cruiser_5
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air

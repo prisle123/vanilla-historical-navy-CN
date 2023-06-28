@@ -15,7 +15,7 @@
 			ship = { name = "HMS 皇家橡树" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "复仇级"} } }
 			ship = { name = "HMS 君权" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "复仇级"} } }
 			ship = { name = "HMS 拉米利斯" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "复仇级"} } }
-			ship = { name = "HMS 胡德" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "海军上将级" } } }
+			ship = { name = "HMS 胡德" pride_of_the_fleet = yes definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "海军上将级" } } }
 			ship = { name = "HMS 反击" definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "声望级" } } }
 			ship = { name = "HMS 声望" definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "声望级" } } }
 			ship = { name = "HMS 诺福克" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "诺福克级" } } }
@@ -67,9 +67,9 @@
 			ship = { name = "HMS 虚荣" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W级"} } }
 		}
 		task_force = {
-			name = "Channel Force"			
+			name = "海峡舰队"			
 			location = 9458 # 9458 # Portsmouth
-			ship = { name = "HMS Courage勇敢ous" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "勇敢级" } }
+			ship = { name = "HMS 勇敢" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "勇敢级" } }
 			
 			}
 			ship = { name = "HMS 决心" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "复仇级"} } }			
@@ -372,7 +372,7 @@
 		task_force = {				
 			name = "中国舰队"
 			location = 10062 # 10062 # Hong Kong			
-			ship = { name = "HMS 鹰" definition = carrier start_experience_factor = 0.075 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "鹰级" } } 
+			ship = { name = "HMS 鹰" definition = carrier start_experience_factor = 0.075 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "鹰级" } } 
 			
 			}
 			ship = { name = "HMS 肯特" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "肯特级" } } }	
