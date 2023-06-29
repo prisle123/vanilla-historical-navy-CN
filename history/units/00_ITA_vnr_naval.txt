@@ -12,9 +12,9 @@ units= {
 			ship = { name = "RN 加富尔伯爵" pride_of_the_fleet = yes definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "加富尔伯爵级"  } } } 
 			ship = { name = "RN 朱利奥·凯撒" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "加富尔伯爵级"  } } } 
 			# I Divisione Incrociatori
-			ship = { name = "RN 扎拉" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "扎拉级" } } } 
-			ship = { name = "RN 戈里齐亚" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "扎拉级" } } } 
-			ship = { name = "RN 阜姆" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "扎拉级" } } } 
+			ship = { name = "RN 扎拉" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "扎拉级" } } } 
+			ship = { name = "RN 戈里齐亚" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "扎拉级" } } } 
+			ship = { name = "RN 阜姆" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "扎拉级" } } } 
 			# IV Divisione Incrociatori
 			ship = { name = "RN 路易吉·卡多尔纳" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "朱桑诺级/卡多尔纳级" } } } 
 			ship = { name = "RN 阿尔曼杜·迪亚兹" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "朱桑诺级/卡多尔纳级" } } } 
@@ -80,12 +80,12 @@ units= {
 			name = "第二舰队" # Dipartimento Militare Marittimo 'Alto Tirreno' / II Squadra
 			location = 6973 # 6973 # La Spezia, Italy
 			# Comando di Squadra
-			ship = { name = "RN 波拉" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "扎拉级" } } } 
+			ship = { name = "RN 波拉" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "扎拉级" } } } 
 			# II Divisione Incrociatori
 			ship = { name = "RN 乔瓦尼·达莱·班德·内雷" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "朱桑诺级/卡多尔纳级" } } } 
 			ship = { name = "RN 巴托洛梅奥·克莱奥尼" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "朱桑诺级/卡多尔纳级" } } } 
 			# III Divisione Incrociatori
-			ship = { name = "RN 博尔扎诺" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "博尔扎诺级" } } } 
+			ship = { name = "RN 博尔扎诺" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "博尔扎诺级" } } } 
 			ship = { name = "RN 特伦托" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "特伦托级" } } } 
 			ship = { name = "RN 的里雅斯特" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "特伦托级" } } } 
 			# VI Divisione Incrociatori
