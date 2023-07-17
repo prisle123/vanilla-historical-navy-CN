@@ -1,0 +1,22 @@
+units = {
+    fleet = {
+		name = "秘鲁国家海军"			
+		naval_base = 12997 # Lima
+		task_force = {				
+			name = "秘鲁海军"			
+			location = 12997 # Lima
+			ship = { name = "BAP 格劳海军上将" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PRU version_name = "格劳海军上将级" } } }
+			ship = { name = "BAP 博罗内西海军上校" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PRU version_name = "格劳海军上将级" } } }
+			ship = { name = "BAP 维拉海军上将" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PRU version_name = "维拉海军上将级" } } }
+			ship = { name = "BAP 吉斯海军上将" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PRU version_name = "维拉海军上将级" } } }
+		}				
+		task_force = {				
+			name = "潜艇部队"			
+			location = 12997 # Lima
+			ship = { name = "BAP R1" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R1级" } } }
+			ship = { name = "BAP R2" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R1级" } } }
+			ship = { name = "BAP R3" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R1级" } } }
+			ship = { name = "BAP R4" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R1级" } } }
+		}				
+	}
+}

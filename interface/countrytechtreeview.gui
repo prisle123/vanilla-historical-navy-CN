@@ -1856,7 +1856,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_destroyer"
-				position = { x = 250 y = 35 }
+				position = { x = 220 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1870,7 +1870,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_cruiser"
-				position = { x = 740 y = 35 }
+				position = { x = 720 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1884,7 +1884,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_armor"
-				position = { x = 1040 y = 35 }
+				position = { x = 1010 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1898,7 +1898,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_battleship"
-				position = { x = 1400 y = 35 }
+				position = { x = 1370 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1926,7 +1926,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_sub"
-				position = { x = 2200 y = 35 }
+				position = { x = 2150 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
