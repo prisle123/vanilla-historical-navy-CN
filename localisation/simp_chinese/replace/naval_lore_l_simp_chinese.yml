@@ -1,4 +1,11 @@
 ﻿l_simp_chinese:
+ navy_rework_category: "海军重置"
+ navy_rework_category_desc: "海权理论之父，阿尔弗雷德·马汉写道：“海权之历史，虽说绝非全部，却也在很大程度上，是一种对于国家之间你争我斗、相互竞争以及以战争而告终之暴力的记述”。二十世纪见证了一批海权国家的崛起，海军在全球战略当中也开始扮演越发重要的角色。\n\n自二十世纪初的英德海军竞赛以来，各国海军都在持续科技创新并大力扩张舰队实力。从水下的狼群到海面上的利维坦，现代化的战舰统治着地球上的每一寸水域。"
+ add_never_built_blueprints: "获得取消的战舰蓝图"
+ add_never_built_blueprints_desc: "重启那些在华盛顿海军会议之后被取消的建设项目。"
+ add_kuk_never_built_blueprints: "研究帝国时期海军设计"
+ add_kuk_never_built_blueprints_desc: "现在是时候为我们的国家发展一支像模像样的海军了，我们可以先对奥匈帝国时期的军舰设计进行一番研究。"
+ 
  ship_hull_description: "通用舰船分类符号"
  ship_hull_description_desc: "美国海军通用舰船分类符号常用于辨别一种类型的舰船或指定特定的舰船编号。"
  naval_lore.0.t: "通用舰船分类符号"

@@ -1,5 +1,6 @@
 add_namespace = ai_ships
 
+# GER AI template 1940
 country_event = {
 	id = ai_ships.0
 	
@@ -16,7 +17,7 @@ country_event = {
 	immediate = {
 		GER = {
 			create_equipment_variant = {
-				name = "兴登堡级"
+				name = "Hindenburg Class"
 				role_icon_index = 1
 				type = vnr_ship_hull_heavy_4
 				parent_version = 0
@@ -40,7 +41,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "德累斯顿级"
+				name = "Dresden Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_4
 				parent_version = 0
@@ -62,7 +63,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "Type 1936B级"
+				name = "Type 1936B Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_4
 				parent_version = 0
@@ -88,6 +89,7 @@ country_event = {
 	}
 }
 
+# GER AI template 1943
 country_event = {
 	id = ai_ships.1
 	
@@ -104,7 +106,7 @@ country_event = {
 	immediate = {
 		GER = {
 			create_equipment_variant = {
-				name = "拿骚级"
+				name = "Nassau Class"
 				type = vnr_ship_hull_heavy_5
 				parent_version = 0
 				name_group = GER_BB_HISTORICAL
@@ -128,7 +130,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "法兰德斯级"
+				name = "Flandern Class"
 				type = vnr_ship_hull_carrier_3
 				parent_version = 0
 				name_group = GER_THEME_BATTLE_IMPERIAL
@@ -145,7 +147,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "不来梅级"
+				name = "Bremen Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_5
 				parent_version = 0
@@ -168,7 +170,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "Type 1936C级"
+				name = "Type 1936C Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_5
 				parent_version = 0
@@ -194,7 +196,7 @@ country_event = {
 	}
 }
 
-
+# ENG AI template 1940
 country_event = {
 	id = ai_ships.2
 	
@@ -211,7 +213,7 @@ country_event = {
 	immediate = {
 		ENG = {
 			create_equipment_variant = {
-				name = "狮级"
+				name = "Lion Class"
 				role_icon_index = 1
 				type = vnr_ship_hull_heavy_4
 				parent_version = 0
@@ -235,7 +237,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "光辉级"
+				name = "Illustrious Class"
 				role_icon_index = 9
 				type = vnr_ship_hull_carrier_2
 				parent_version = 0
@@ -252,7 +254,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "黛朵级"
+				name = "Dido Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_4
 				parent_version = 0
@@ -274,7 +276,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "L/M级"
+				name = "L/M Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_4
 				parent_version = 0
@@ -300,7 +302,7 @@ country_event = {
 	}
 }
 
-
+# ENG AI template 1943
 country_event = {
 	id = ai_ships.3
 	
@@ -318,7 +320,7 @@ country_event = {
 		ENG = {
 
 			create_equipment_variant = {
-				name = "前卫级"
+				name = "Vanguard Class"
 				role_icon_index = 1
 				type = vnr_ship_hull_heavy_5
 				parent_version = 0
@@ -343,7 +345,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "怨仇级"
+				name = "Implacable Class"
 				role_icon_index = 13
 				type = vnr_ship_hull_carrier_3
 				parent_version = 0
@@ -361,7 +363,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "米诺陶级"
+				name = "Minotaur Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_5
 				parent_version = 0
@@ -384,7 +386,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "U/V/W/Z级"
+				name = "U/V/W/Z Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_5
 				parent_version = 0
@@ -410,6 +412,7 @@ country_event = {
 	}
 }
 
+# JAP AI template 1940
 country_event = {
 	id = ai_ships.4
 	
@@ -426,7 +429,7 @@ country_event = {
 	immediate = {
 		JAP = {
 			create_equipment_variant = {
-				name = "纪伊级"
+				name = "Kii Class"
 				role_icon_index = 3
 				type = vnr_ship_hull_heavy_4
 				parent_version = 0
@@ -450,7 +453,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "翔鹤级"
+				name = "Shokaku Class"
 				role_icon_index = 13
 				type = vnr_ship_hull_carrier_2
 				parent_version = 0
@@ -467,7 +470,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "伊吹级"
+				name = "Ibuki Class"
 				role_icon_index = 27
 				type = vnr_ship_hull_cruiser_4
 				parent_version = 0
@@ -490,7 +493,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "阿贺野级"
+				name = "Agano Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_4
 				parent_version = 0
@@ -513,7 +516,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "不知火级"
+				name = "Kagero Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_4
 				parent_version = 0
@@ -538,6 +541,7 @@ country_event = {
 	}
 }
 
+# JAP AI template 1943
 country_event = {
 	id = ai_ships.5
 	
@@ -555,7 +559,7 @@ country_event = {
 		JAP = {
 			
 			create_equipment_variant = {
-				name = "近江级"
+				name = "Omi Class"
 				type = vnr_ship_hull_heavy_5
 				parent_version = 0
 				name_group = JAP_PREFECTURES
@@ -579,7 +583,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "大凤级"
+				name = "Taiho Class"
 				type = vnr_ship_hull_carrier_3
 				parent_version = 0
 				name_group = JAP_CV_HISTORICAL
@@ -596,7 +600,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "藏王级"
+				name = "Zao Class"
 				role_icon_index = 27
 				type = vnr_ship_hull_cruiser_5
 				parent_version = 0
@@ -619,7 +623,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "大淀级"
+				name = "Oyodo Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_5
 				parent_version = 0
@@ -642,7 +646,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "岛风级"
+				name = "Shimakaze Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_5
 				parent_version = 0
@@ -666,6 +670,7 @@ country_event = {
 	}
 }
 
+# USA AI template 1940
 country_event = {
 	id = ai_ships.6
 	hidden = yes
@@ -680,7 +685,7 @@ country_event = {
 	immediate = {
 		ROOT = {
 			create_equipment_variant = {
-				name = "南达科他级"
+				name = "South Dakota Class"
 				role_icon_index = 1
 				type = vnr_ship_hull_heavy_4
 				parent_version = 0
@@ -704,7 +709,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "埃塞克斯级"
+				name = "Essex Class"
 				role_icon_index = 9
 				type = vnr_ship_hull_carrier_2
 				parent_version = 0
@@ -721,7 +726,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "巴尔的摩级"
+				name = "Baltimore Class"
 				role_icon_index = 27
 				type = vnr_ship_hull_cruiser_4
 				parent_version = 0
@@ -743,7 +748,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "克利夫兰级"
+				name = "Cleveland Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_4
 				parent_version = 0
@@ -766,7 +771,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "弗莱彻级"
+				name = "Fletcher Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_4
 				parent_version = 0
@@ -790,6 +795,7 @@ country_event = {
 	}
 }
 
+# USA AI template 1943
 country_event = {
 	id = ai_ships.7
 	hidden = yes
@@ -804,7 +810,7 @@ country_event = {
 	immediate = {
 		ROOT = {
 			create_equipment_variant = {
-				name = "衣阿华级"
+				name = "Iowa Class"
 				role_icon_index = 1
 				type = vnr_ship_hull_heavy_5
 				parent_version = 0
@@ -829,7 +835,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "中途岛级"
+				name = "Midway Class"
 				role_icon_index = 9
 				type = vnr_ship_hull_carrier_3
 				parent_version = 0
@@ -848,7 +854,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "阿拉斯加级"
+				name = "Alaska Class"
 				role_icon_index = 21
 				type = vnr_ship_hull_cruiser_4
 				parent_version = 0
@@ -871,7 +877,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "得梅因级"
+				name = "Des Moines Class"
 				role_icon_index = 27
 				type = vnr_ship_hull_cruiser_5
 				parent_version = 0
@@ -894,7 +900,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "朱诺级"
+				name = "Juneau Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_5
 				parent_version = 0
@@ -917,7 +923,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "基林级"
+				name = "Gearing Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_5
 				parent_version = 0
@@ -941,6 +947,7 @@ country_event = {
 	}
 }
 
+# FRA AI template 1940
 country_event = {
 	id = ai_ships.8
 	hidden = yes
@@ -957,7 +964,7 @@ country_event = {
 	immediate = {
 		ROOT = {
 			create_equipment_variant = {
-				name = "阿尔萨斯级"
+				name = "Alsace Class"
 				role_icon_index = 1
 				type = vnr_ship_hull_heavy_4
 				parent_version = 0
@@ -981,7 +988,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "圣路易斯级"
+				name = "Saint-Louis Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_4
 				parent_version = 0
@@ -1003,7 +1010,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "拉斐尔级"
+				name = "La Fayette Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_4
 				parent_version = 0
@@ -1027,6 +1034,7 @@ country_event = {
 	}
 }
 
+# FRA AI template 1943
 country_event = {
 	id = ai_ships.9
 	hidden = yes
@@ -1043,7 +1051,7 @@ country_event = {
 	immediate = {
 		ROOT = {
 			create_equipment_variant = {
-				name = "共和级"
+				name = "République Class"
 				role_icon_index = 1
 				type = vnr_ship_hull_heavy_5
 				parent_version = 0
@@ -1067,7 +1075,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "克莱蒙梭级"
+				name = "Clemenceau Class"
 				role_icon_index = 9
 				type = vnr_ship_hull_carrier_3
 				parent_version = 0
@@ -1085,7 +1093,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "德格拉斯级"
+				name = "De Grasse Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_5
 				parent_version = 0
@@ -1108,7 +1116,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "地平线级"
+				name = "Horizon Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_5
 				parent_version = 0
@@ -1132,6 +1140,7 @@ country_event = {
 	}
 }
 
+# ITA AI template 1940
 country_event = {
 	id = ai_ships.10
 	hidden = yes
@@ -1148,7 +1157,7 @@ country_event = {
 	immediate = {
 		ROOT = {
 			create_equipment_variant = {
-				name = "意大利级"
+				name = "Italia Class"
 				role_icon_index = 1
 				type = vnr_ship_hull_heavy_4
 				parent_version = 0
@@ -1173,7 +1182,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "罗马统帅级"
+				name = "Capitani Romani Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_4
 				parent_version = 0
@@ -1195,7 +1204,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "士兵级"
+				name = "Soldati Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_4
 				parent_version = 0
@@ -1219,6 +1228,7 @@ country_event = {
 	}
 }
 
+# ITA AI template 1943
 country_event = {
 	id = ai_ships.11
 	hidden = yes
@@ -1235,7 +1245,7 @@ country_event = {
 	immediate = {
 		ROOT = {
 			create_equipment_variant = {
-				name = "奥古斯都级"
+				name = "Augustus Class"
 				role_icon_index = 1
 				type = vnr_ship_hull_heavy_5
 				parent_version = 0
@@ -1260,7 +1270,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "天鹰级"
+				name = "Aquila Class"
 				role_icon_index = 9
 				type = vnr_ship_hull_carrier_3
 				parent_version = 0
@@ -1277,7 +1287,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "埃特纳级"
+				name = "Etna Class"
 				role_icon_index = 25
 				type = vnr_ship_hull_cruiser_5
 				parent_version = 0
@@ -1300,7 +1310,7 @@ country_event = {
 				}
 			}
 			create_equipment_variant = {
-				name = "英勇指挥官级"
+				name = "Comandanti Medaglie d'Oro Class"
 				role_icon_index = 31
 				type = vnr_ship_hull_light_5
 				parent_version = 0
@@ -1396,6 +1406,7 @@ country_event = {
 	}
 }
 
+# unlock some naval techs for major powers in 1940
 country_event = {
 	id = ai_ships.101
 	hidden = yes
@@ -1449,6 +1460,7 @@ country_event = {
 	}
 }
 
+# unlock some naval techs for major powers in 1943
 country_event = {
 	id = ai_ships.102
 	hidden = yes
@@ -1494,6 +1506,7 @@ country_event = {
 	}
 }
 
+# unlock some naval techs for major powers in 1944
 country_event = {
 	id = ai_ships.103
 	hidden = yes
