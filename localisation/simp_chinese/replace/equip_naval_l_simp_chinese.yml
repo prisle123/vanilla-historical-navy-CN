@@ -77,5 +77,6 @@
  vnr_ship_hull_cruiser_submarine_desc: "和过去的潜艇相比，这类潜艇设计是一种“巡洋型”潜艇，设计用于执行袭击商船之类的长距离独立行动任务；同时这类潜艇携带有更好的装备，可以应付在水面遭遇敌方轻型战舰的情况。综上，这种潜艇带上了更重型的火炮，其水面航速也得到了提升。不过，他们的潜航能力依然有限。"
  vnr_ship_hull_midget_submarine: "袖珍潜艇"
  vnr_ship_hull_midget_submarine_desc: "由更少的艇员操作的微型潜艇，各方面能力都偏弱但可以大规模生产。"
+ ship_hull_civilian: "为民事活动而设计的船舶。"
  screen_ship: "屏卫舰"
  capital_ship: "主力舰"

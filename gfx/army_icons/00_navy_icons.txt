@@ -57,8 +57,8 @@
 	icon = {	color_override = no 	name = "SSC - 岸防潜艇"	} # 50
 	icon = {	color_override = no 	name = "CM - 布雷舰"	} # 51
 	icon = {	color_override = no 	name = "CM - 布雷舰"	} # 52
-	icon = {	color_override = no 	name = "AM - 扫雷舰"	} # 53
-	icon = {	color_override = no 	name = "AM - 扫雷舰"	} # 54
+	icon = {	color_override = no 	name = "AP - 补给舰"	} # 53
+	icon = {	color_override = no 	name = "AP - 补给舰"	} # 54
 	icon = {	color_override = no 	name = "CG - 导弹巡洋舰"	} # 55
 	icon = {	color_override = no 	name = "CG - 导弹巡洋舰"	} # 56
 	icon = {	color_override = no 	name = "BBG - 导弹战列舰"	} # 57

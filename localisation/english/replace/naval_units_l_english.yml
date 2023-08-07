@@ -26,4 +26,6 @@
  sh_battleship_desc: "最大型的主力舰，装备着用钱可以买到的最大口径的火炮和最坚固的装甲。这种造价昂贵的巨舰值得你再造一批小型掩护型军舰去支援它。"
  battlecarrier: "航空战列舰"
  battlecarrier_desc: "航空战列舰是一种结合了航空母舰和战列舰特点的大型舰船，通常只出现在理论假设中。"
+ auxiliary_ship: "辅助船"
+ auxiliary_ship_desc: "负责舰队支援事宜的舰船，按照民用船舶的标准建造。"
  convoy_1: "运输船"

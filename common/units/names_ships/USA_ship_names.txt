@@ -51,7 +51,7 @@ USA_HEROES_NAVY = {
 	for_countries = { USA } # HAW, NEE, CSA is separate
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "USS "
 	fallback_name = "Destroyer DD-%d"
@@ -193,7 +193,7 @@ USA_DE_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 	
 	#link_numbering_with = { USA_DD_HISTORICAL }	
 	prefix = "USS "
@@ -313,7 +313,7 @@ USA_MINELAYERS_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
 	
 	prefix = "USS "
 	fallback_name = "第%d 布雷艇舰队 "
@@ -495,7 +495,7 @@ CSA_DD_CONFEDERATE = {
 		}
 	}
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }			
 
 	prefix = "CSS "							
 	fallback_name = "第%d 驱逐舰"					
@@ -550,7 +550,7 @@ CSA_CL_CONFEDERATE = {
 		}
 	}
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }			
 
 	prefix = "CSS "							
 	fallback_name = "第%d 轻巡洋舰舰队"					
