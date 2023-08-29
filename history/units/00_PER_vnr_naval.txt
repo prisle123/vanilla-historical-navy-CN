@@ -1,0 +1,12 @@
+units = {
+	fleet = {
+		name = "伊朗舰队"
+		naval_base = 7982 ###Change to proper province number
+		task_force = {
+			name = "伊朗舰队"
+			location = 7982 ###Change to proper province number
+			ship = { name = "IIS 猛虎" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PER version_name = "猛虎级" } } }
+            ship = { name = "IIS 豹" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PER version_name = "猛虎级" } } }
+		}
+	}
+}

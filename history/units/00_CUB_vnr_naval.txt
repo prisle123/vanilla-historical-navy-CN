@@ -1,0 +1,16 @@
+units = {
+	fleet = {
+		name = "第一舰队"
+		naval_base = 7622 ###Change to proper province number
+		task_force = {
+			name = "第一舰队 "
+			location = 7622 ###Change to proper province number
+			ship = { name = "BGC 贝尔" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "贝尔级/祖国级" } } }
+			ship = { name = "BGC 圣克拉拉" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "贝尔级/祖国级" } } }
+			ship = { name = "BGC 十月十日" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "贝尔级/祖国级" } } }
+			ship = { name = "BGC 二月二十四日" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "贝尔级/祖国级" } } }
+			ship = { name = "BGC 祖国" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "贝尔级/祖国级" } } }
+			ship = { name = "BGC 古巴" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CUB version_name = "古巴级" } } }
+		}
+	}
+}

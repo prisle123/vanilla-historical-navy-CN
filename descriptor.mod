@@ -1,4 +1,4 @@
-version="v0.5"
+version="v0.7 - Death From Beneath"
 tags={
 	"Military"
 	"Translation"
@@ -8,6 +8,7 @@ tags={
 }
 dependencies={
 	"The road to 56 CN"
+	"Last Stand"
 }
 name="Vanilla Navy Rework (CN ver)"
 picture="thumbnail.png"

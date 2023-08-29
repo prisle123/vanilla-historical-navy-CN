@@ -1,0 +1,83 @@
+units = {
+	fleet = {
+		name = "暹罗皇家海军"
+		naval_base = 7408 ## Sattahip
+		task_force = {
+			name = "第一海军司令部"
+			location = 7408 ## Sattahip
+			ship = { name = "HTMS 帕峦" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "帕峦级" } } }
+            ship = { name = "HTMS 塔延春" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "塔延春级" } } }
+            ship = { name = "HTMS 卡罗辛" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "塔延春级" } } }
+            ship = { name = "HTMS 昭披耶" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "昭披耶级" } } }
+		}
+	}
+}
+
+instant_effect = {
+    add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_coastal_defense_ship
+			creator = "SIA"
+			version_name = "阿瑜陀耶级"
+		}
+		name = "HTMS 阿瑜陀耶" 
+		requested_factories = 1
+		progress = 0.05
+		amount = 1
+	}
+    add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_coastal_defense_ship
+			creator = "SIA"
+			version_name = "阿瑜陀耶级"
+		}
+		name = "HTMS 吞武里" 
+		requested_factories = 1
+		progress = 0.03
+		amount = 1
+	}
+    add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SIA"
+			version_name = "达叻级"
+		}
+		name = "HTMS 达叻" 
+		requested_factories = 1
+		progress = 0.9
+		amount = 1
+	}
+    add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SIA"
+			version_name = "达叻级"
+		}
+		name = "HTMS 普吉岛" 
+		requested_factories = 1
+		progress = 0.87
+		amount = 1
+	}
+    add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SIA"
+			version_name = "达叻级"
+		}
+		name = "HTMS 巴丹" 
+		requested_factories = 1
+		progress = 0.4
+		amount = 1
+	}
+    add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "SIA"
+			version_name = "达叻级"
+		}
+		name = "HTMS 苏拉特" 
+		requested_factories = 1
+		progress = 0.35
+		amount = 1
+	}
+}
