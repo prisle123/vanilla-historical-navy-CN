@@ -234,6 +234,11 @@ units= {
 	fleet = {
 		name = "太平洋舰队预备役舰队"			
 		naval_base = 1562 # 1562 # San Diego
+		task_force = {
+			name = "预备役航母"
+			location = 1562
+			ship = { name = "USS 兰利" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = USA version_name = "兰利级" } } }		
+		}
 		task_force = {					
 			name = "预备役驱逐舰"			# Decommissioned ships docked in San Diego				
 			location = 1562 # 1562 # San Diego
