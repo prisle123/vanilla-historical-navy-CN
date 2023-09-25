@@ -790,3 +790,4 @@
  ship_vt_shell: "防空弹（近炸引信）"
  ship_vt_shell_short: "防空弹（VT近炸引信）"
  ship_vt_shell_desc: "一种装有无线电测距近炸引信的防空炮弹，在接近到目标一定范围内后会自动爆炸。"
+ EQ_MOD_CAT_ship_mast_TITLE: "桅杆"
