@@ -21,7 +21,7 @@ units= {
 			ship = { name = "RHS 斯佩察" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GRE version_name =  "箭级/迅雷级" } } }
 		}					
 		task_force = {					
-			name = "Stolískou Ypovrychíon"				
+			name = "潜艇部队"				
 			location = 4109 # Athens
 			ship = { name = "RHS 卡特索尼斯" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GRE version_name =  "卡特索尼斯级" } } }		
 			ship = { name = "RHS 帕帕尼克拉斯" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GRE version_name =  "卡特索尼斯级" } } }		

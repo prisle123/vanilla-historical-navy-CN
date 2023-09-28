@@ -412,7 +412,7 @@ units= {
 			ship = { name = "USS 约翰·D·福特" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "辛普森/维克斯/克莱门森级" } } }		
 		}					
 		task_force = {					
-			name = "5th Submarine Squadron"				
+			name = "第五潜艇分队"				
 			location = 10265 # 10265 # Manilla
 			# 10th Submarine Division				
 			ship = { name = "USS S-36" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S级" } } }
