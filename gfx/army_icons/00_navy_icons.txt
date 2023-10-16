@@ -65,6 +65,19 @@
 	icon = {	color_override = no 	name = "BBG - 导弹战列舰"	} # 58
 	icon = {	color_override = no 	name = "BBV - 航空战列舰"	} # 59
 	icon = {	color_override = no 	name = "BBV - 航空战列舰"	} # 60
+	
+	icon = {	color_override = no 	name = "AV - 水上飞机母舰"	} # 61
+	icon = {	color_override = no 	name = "AV - 水上飞机母舰"	} # 62
+	icon = {	color_override = no 	name = "DDAG - 防空导弹驱逐舰"	} # 63
+	icon = {	color_override = no 	name = "DDAG - 防空导弹驱逐舰"	} # 64
+	icon = {	color_override = no 	name = "AM - 扫雷舰"	} # 65
+	icon = {	color_override = no 	name = "AM - 扫雷舰"	} # 66
+	icon = {	color_override = no 	name = "CVE - 护航航母"	} # 67
+	icon = {	color_override = no 	name = "CVE - 护航航母"	} # 68
+	icon = {	color_override = no 	name = "CC - 指挥巡洋舰"	} # 69
+	icon = {	color_override = no 	name = "CC - 指挥巡洋舰"	} # 70
+	icon = {	color_override = no 	name = "TB - 鱼雷舰"	} # 71
+	icon = {	color_override = no 	name = "TB - 鱼雷舰"	} # 72
 
 
 	# icon = {	color_override = no 	name = "E - Escort"	}

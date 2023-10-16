@@ -1,0 +1,14 @@
+units = {
+    fleet = {
+        name = "印度皇家海军"
+        naval_base = 1349
+        task_force = {
+            name = "印度皇家海军"
+            location = 1349
+            ship = { name = "HMIS 劳伦斯" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "劳伦斯级/克莱夫级"} } }
+            ship = { name = "HMIS 克莱夫" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "劳伦斯级/克莱夫级"} } }
+            ship = { name = "HMIS 印度斯坦" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "海斯汀级/格里姆斯比级"} } }
+            ship = { name = "HMIS 印度" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "海斯汀级/格里姆斯比级"} } }
+        }
+    }
+}

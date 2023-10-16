@@ -1,4 +1,4 @@
-version="v0.9 - Little By Little"
+version="v0.10 - Look At Seagull"
 tags={
 	"Military"
 	"Translation"
@@ -14,5 +14,5 @@ dependencies={
 }
 name="原版海军重置"
 picture="thumbnail.png"
-supported_version="1.12.14"
+supported_version="1.13.*"
 remote_file_id="2993772482"

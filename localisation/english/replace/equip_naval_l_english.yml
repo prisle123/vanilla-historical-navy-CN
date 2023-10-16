@@ -80,4 +80,4 @@
  vnr_ship_hull_midget_submarine_desc: "由更少的艇员操作的微型潜艇，各方面能力都偏弱但可以大规模生产。"
  screen_ship: "屏卫舰"
  capital_ship: "主力舰"
- ship_hull_civilian: "为民事活动而设计的船舶。"
+ ship_hull_civilian_desc: "用于民事活动的船只。"
