@@ -170,6 +170,8 @@ units= {
 			# 9e Légère Division des Contre-Torpilleurs
 			ship = { name = "福尔班" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级/灵巧级" } } }	
 			ship = { name = "巴斯克" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级/灵巧级" } } }	
+			# Commandant Teste
+			ship = { name = "塔斯特指挥官" definition = auxiliary_ship start_experience_factor = 0.005 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FRA version_name = "塔斯特指挥官级" } } }
 		}				
 		task_force = {				
 			name = "掠袭舰队"			

@@ -27,12 +27,15 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_1
 			ship_medium_battery_1_double
+			ship_medium_battery_1_single
 			ship_light_medium_battery_1_double
 			ship_light_medium_battery_1_single
 			ship_heavy_battery_1
 			ship_heavy_battery_big_1
 			ship_heavy_battery_small_1
 			ship_secondaries_1
+			ship_heavy_mg_1
+			ship_civilian_light_battery_1
 			
 			# ship_ap_shell_1
 			# ship_ap_shell_2
@@ -64,6 +67,10 @@ technologies = {
 			cat_ship_light_battery
 			cat_ship_medium_battery
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -181,6 +188,10 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -241,6 +252,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -283,6 +296,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -342,6 +357,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -378,6 +395,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -405,6 +424,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_medium_battery_2
 			ship_medium_battery_2_double
+			ship_medium_battery_2_single
 			ship_light_medium_battery_2
 			ship_light_medium_battery_2_double
 			ship_light_medium_battery_2_single
@@ -432,6 +452,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -471,6 +492,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -492,6 +514,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_medium_battery_3
 			ship_medium_battery_3_double
+			ship_medium_battery_3_single
 			ship_light_medium_battery_3
 			ship_light_medium_battery_3_double
 			ship_light_medium_battery_3_single
@@ -517,6 +540,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -561,6 +585,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -573,6 +598,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_medium_battery_4
 			ship_medium_battery_4_double
+			ship_medium_battery_4_single
 			ship_light_medium_battery_4
 			ship_light_medium_battery_4_double
 			ship_light_medium_battery_4_single
@@ -596,6 +622,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -634,6 +661,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -668,6 +696,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 	
@@ -721,6 +750,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 	improved_heavy_battery = {
@@ -768,6 +798,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 	advanced_heavy_battery = {
@@ -811,6 +842,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -861,6 +893,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 	improved_heavy_shell = {
@@ -907,6 +940,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -951,6 +985,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -995,6 +1031,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -1034,6 +1072,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -1071,6 +1111,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -1123,6 +1165,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -1166,6 +1209,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -1208,6 +1252,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -1268,6 +1313,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -1334,6 +1381,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -1382,6 +1431,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -1419,6 +1470,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	improved_ship_torpedo_launcher = {
@@ -1460,6 +1513,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	advanced_ship_torpedo_launcher = {
@@ -1500,6 +1555,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	modern_ship_torpedo_launcher = {
@@ -1534,6 +1591,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -2705,6 +2764,7 @@ technologies = {
 		auxiliary_ship = {
 			surface_visibility = -0.1
 		}
+		convoy_retreat_speed = 0.1
 
 		enable_equipment_modules = {
 			civilian_ship_engine_2
@@ -2721,8 +2781,6 @@ technologies = {
 			vnr_ship_hull_civilian_2
 		}
 		enable_equipment_modules = {
-			ship_heavy_mg_1
-			ship_civilian_light_battery_1
 			supply_hub
 		}
 		folder = {
@@ -2755,10 +2813,9 @@ technologies = {
 		auxiliary_ship = {
 			max_strength = 0.1
 		}
+		navy_submarine_detection_factor = 0.05
 
 		enable_equipment_modules = {
-			ship_heavy_mg_1
-			ship_civilian_light_battery_1
 			ship_cruiser_camo_2
 		}
 		categories = {
@@ -3027,4 +3084,14 @@ technologies = {
 		}
         navy_fuel_consumption_factor = -0.15
     }
+
+	vnr_reckless_attack = {
+		research_cost = 1
+		start_year = 1900
+
+		allow = {
+			always = no
+		}
+		naval_retreat_chance = -0.8
+	}
 }

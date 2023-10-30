@@ -1,4 +1,4 @@
-version="v0.10 - Look At Seagull"
+version="v0.12 - All Along The Watchtower"
 tags={
 	"Military"
 	"Translation"

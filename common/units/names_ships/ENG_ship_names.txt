@@ -355,7 +355,7 @@ ENG_CV_QUALITIES = {
 		# Implacable-class
 		"怨仇" "不倦" "不退"
 		# Audacious-class
-		"大胆" "共和国方舟" "鹰"
+		"大胆" "皇家方舟" "鹰"
 
 		"凯旋" "战士" "可敬" "报复" "光荣" "先行者" "海洋"
 

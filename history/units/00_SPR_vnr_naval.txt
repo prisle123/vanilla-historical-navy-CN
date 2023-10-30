@@ -59,7 +59,7 @@ units= {
 			ship = { name = "ARE 安特奎拉海军上将" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SPR version_name = "丘鲁卡级" } } }
 		}
 		task_force = {
-			name = "Grupo de Cartagena"
+			name = "卡塔赫纳潜艇分队"
 			location = 10024  #Cartagena/Murcia
 			# S101 Flotilla
 			ship = { name = "ARE B5" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B级" } } }

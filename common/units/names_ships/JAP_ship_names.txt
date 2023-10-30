@@ -175,7 +175,7 @@ JAP_CITIES = {
 }
 
 JAP_WEATHER = {
-	name = NAME_THEME_WEATHER #wheather, moons, winds, natural phenomens, seasons
+	name = NAME_THEME_IJN_WEATHER #wheather, moons, winds, natural phenomens, seasons
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 	for_countries = { JAP }
 
@@ -213,7 +213,7 @@ JAP_WEATHER = {
 }
 
 JAP_NATURE = {
-	name = NAME_THEME_NATURE #plants for small DDs mostly
+	name = NAME_THEME_IJN_NATURE #plants for small DDs mostly
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 	for_countries = { JAP }
 
@@ -275,3 +275,90 @@ JAP_MOUNTAIN = {
 	}
 }
 
+### LIGHT CRUISER NAMES###
+JAP_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "第%d 轻巡洋舰"
+
+	unique = {
+		"铃谷" "熊野" "香取" "鹿岛" "香椎" "香取" "阿贺野" "能代" "矢矧" "酒匂" "大淀" 
+		# Captured/Converted/Older Models
+		"柏原" "八十岛" "五百岛" "淀" "矢矧" "平户" "天龙" "龙田" "球磨" "多摩" "北上" "大井" 
+		"木曾" "长良" "五十铃" "名取" "由良" "鬼怒" "阿武隈" "那珂" "川内" "神通" "加古" 
+		"夕张" "最上" "三隈"
+		# Fictional
+		"岩城" "真渊" "高濑" "成濑" "米代" "岩木" "鹤见" "大矢" "庄内" "铃鹿" "云图" "吉田" "丸山" 
+		"高津" "义井" "高桥" "矢部" "吉野" "翁贺" "班卓" "松浦" "山国" "筑吾" "五濑" "菊池" "木月" "奥丸"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+JAP_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "第%d 重巡洋舰"
+
+	unique = {
+		"利根" "筑摩" "阿苏" "筑波"
+		# Older Models
+		"妙高" "古鹰" "加古" "那智" "羽黒" "足柄" "爱宕" "摩耶" "鸟海" "高雄" "宗谷" "津轻" 
+		# Cancelled/not completed
+		"伊吹" "孝义" "最上" "三隈" "铃谷" "熊野" 
+		# Fictional
+		"岩城" "岩手" "朝日"
+		"高足" "石口" "饭丰" "潮汐" "万代" "栗驹" "森吉" "苏门" "八海" "岩硕" "谷川" "那须"
+		"丹泽" "明高" "水垣" "藏王" "有明" "穗高" "浅间" "典仓"
+	}
+}
+
+### BATTLESHIP NAMES ###
+JAP_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "Senkan %d -go"		
+
+	unique = {
+			"比叡" "大和" "武藏" "土佐" "纪伊" "尾张" "石见 " "相模" "周防" "肥前" "出云"
+			# Captured/Converted/Older Models
+			"扶桑" "山城" "日向" "长门" "陆奥" "榛名" "雾岛" "加贺" "信浓" "河内" "妙义" 
+			# Fictional
+			"出羽" "日立" "能登" "日田" "岐阜" "美川" "骏河" "奥羽" "越后" "川口" "伊加" "丹波" "佐木" "浅间" "萨摩"
+			"敷岛" "爱鹰"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+JAP_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "Jun'yosenkan %d -go"		
+
+	unique = {
+		"金刚" "比叡" "雾岛" "榛名" "天城" "筑波" "生驹" "伊吹" "鞍马" "赤城" "爱宕" "高雄"
+		# Fictional
+		"岩城" "岩手" "旭日" "由布" "竹中" "吾妻" "万代" "那须" "有明" "谷川" "高妻" "穂高"
+		"浅山" "和田" "阿苏" "北村" "大阪" "石鎚" "水崎" "丹泽" "赤石" "栗驹" "森吉"
+		"奥明" "海门" "八戒" "妙义"
+	}
+}

@@ -7,7 +7,7 @@
 		task_force = {
 			name = "本土舰队"
 			location = 11064 # Scapa Flow
-			ship = { name = "HMS 暴怒" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "勇敢级" } } 
+			ship = { name = "HMS 暴怒" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "暴怒级" } } 
 			
 			}
 			ship = { name = "HMS 纳尔逊" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }

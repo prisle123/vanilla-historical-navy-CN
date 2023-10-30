@@ -204,6 +204,7 @@ units = {
 			ship = { name = "浅间" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "浅间级/出云级"} } }
 			ship = { name = "出云" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "浅间级/出云级"} } }
 			ship = { name = "球磨" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级/长良级" } } }
+			ship = { name = "淀" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "淀级" } } }
 			#Dai 11 Sentai, Momi-class destroyers
 			#Dai 25 Kuchikutai
 			ship = { name = "榧" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
@@ -229,6 +230,11 @@ units = {
 			ship = { name = "藤" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
 			ship = { name = "薄" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
 			ship = { name = "茑" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
+			#Torpedo Boats
+			ship = { name = "千鸟" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = {amount = 1 owner = JAP version_name = "千鸟型"} } }
+			ship = { name = "真鹤" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = {amount = 1 owner = JAP version_name = "千鸟型"} } }
+			ship = { name = "友鹤" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = {amount = 1 owner = JAP version_name = "千鸟型"} } }
+			ship = { name = "初雁" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = {amount = 1 owner = JAP version_name = "千鸟型"} } }
 			#Minelayers
 			ship = { name = "八重山" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "严岛级/冲岛级"} } }
 			ship = { name = "白鹰" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "严岛级/冲岛级"} } }
@@ -254,7 +260,7 @@ units = {
 			ship = { name = "柳" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
 		}
 		task_force = {
-			name = "台南警备舰队"
+			name = "马公警备舰队"
 			location = 12068  # 12068	# Taiwan
 			#Dai 4 Kuchikutai
 			ship = { name = "岛风" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
@@ -628,6 +634,51 @@ instant_effect =
 			name = "荒潮"
 			requested_factories = 1
 			progress = 0.14
+			amount = 1
+		}	
+		# TB (x4): Otori Class
+		add_equipment_production = {				
+			equipment = {
+				type = vnr_ship_hull_light_3
+				creator = "JAP" 
+				version_name = "鸿型"
+			}
+			name = "鸿"
+			requested_factories = 1
+			progress = 0.14
+			amount = 1
+		}	
+		add_equipment_production = {				
+			equipment = {
+				type = vnr_ship_hull_light_3
+				creator = "JAP" 
+				version_name = "鸿型"
+			}
+			name = "鹎"
+			requested_factories = 1
+			progress = 0.05
+			amount = 1
+		}	
+		add_equipment_production = {				
+			equipment = {
+				type = vnr_ship_hull_light_3
+				creator = "JAP" 
+				version_name = "鸿型"
+			}
+			name = "隼"
+			requested_factories = 1
+			progress = 0.05
+			amount = 1
+		}	
+		add_equipment_production = {				
+			equipment = {
+				type = vnr_ship_hull_light_3
+				creator = "JAP" 
+				version_name = "鸿型"
+			}
+			name = "鹊"
+			requested_factories = 1
+			progress = 0.01
 			amount = 1
 		}	
 		# SS (x4): "I-172" "I-73" "I-174" "I-175"
