@@ -1,0 +1,12 @@
+units = {
+    fleet = {
+        name = "委内瑞拉玻利瓦尔海军"
+        naval_base = 8113
+        task_force = {
+            name = "委内瑞拉玻利瓦尔海军"
+            location = 8113
+            ship = { name = "苏博雷特将军" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = VEN version_name = "苏博雷特将军级" } } }
+            ship = { name = "乌达内塔将军" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = VEN version_name = "苏博雷特将军级" } } }
+        }
+    }
+}

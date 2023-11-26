@@ -5,6 +5,8 @@ units = {
 		task_force = {
 			name = "第一海军司令部"
 			location = 7408 ## Sattahip
+			ship = { name = "HTMS 拉达那哥欣" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "拉达那哥欣级" } } }
+			ship = { name = "HTMS 素可泰" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "拉达那哥欣级" } } }
 			ship = { name = "HTMS 帕峦" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "帕峦级" } } }
             ship = { name = "HTMS 塔延春" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "塔延春级" } } }
             ship = { name = "HTMS 卡罗辛" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "塔延春级" } } }

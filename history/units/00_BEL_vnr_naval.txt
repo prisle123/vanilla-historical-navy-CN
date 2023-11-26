@@ -1,0 +1,14 @@
+units = {
+    fleet = {
+        name = "比利时国防军海军"
+        naval_base = 6560
+        task_force = {
+            name = "比利时国防军海军"
+            location = 6560
+            ship = { name = "乌弗尔" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "A1/A22级" } } }
+            ship = { name = "西迪耶普" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "A1/A22级" } } }
+            ship = { name = "赞德" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "A1/A22级" } } }
+            ship = { name = "威林根" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "A1/A22级" } } }
+        }
+    }
+}

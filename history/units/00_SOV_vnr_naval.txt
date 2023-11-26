@@ -51,7 +51,12 @@ units= {
 			ship = { name = "沃伊科夫" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }		
 			ship = { name = "李可夫" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }		
 			ship = { name = "卡尔·李卜克内西" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "奥菲级" } } }		
-		}	
+		}
+		task_force = {
+			name = "克利缅特·伏罗希洛夫海军学院"
+			location = 3151 # Leningrad
+			ship = { name = "阿芙乐尔" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SOV version_name = "帕拉达级" } } }
+		}
 		task_force = {	
 			name = "波罗的海舰队潜艇部队"
 			location = 3151 # Leningrad

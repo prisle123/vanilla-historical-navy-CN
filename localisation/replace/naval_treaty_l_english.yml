@@ -1,0 +1,11 @@
+﻿l_english:
+ MTG_treaty_renew_mission: "签署《第二次伦敦海军条约》"
+ MTG_treaty_renew_mission_desc: "第二伦敦海军会议是对过去控制海军军备达成的国际共识的一种延续，从它签署之日到最终过期的1942年，我们将确保海洋上不会再有新的冲突。"
+ MTG_naval_treaty_adherent_1936: "《第二次伦敦海军条约》签署国"
+ MTG_naval_treaty_adherent_1936_desc: "我们已签署《第二次伦敦海军条约》，按照其规定，我方需要对主力舰和潜艇等战斗舰艇的吨位进行限制。"
+ MTG_treaty_rejoin_mission: "重新加入《第二次伦敦海军条约》"
+ MTG_treaty_rejoin_mission_desc: "我们没有在规定日期前签署海军条约。这次是我们最后加入的机会，如果我方仍然拒绝签署，在一年后将自动触发升级条款。"
+ fascism_renew_naval_treaty_tt: "§R继续海军条约的相关谈判将会激怒政府中的大部分成员。§!"
+ MTG_escalator_clause_condition: "没有国家拒绝签署新条约。"
+ democracy_renew_naval_treaty_tt: "§G继续海军条约的相关谈判将取悦公众。§!"
+ MTG_abandon_treaty_tt: "§R我们将面临严重的后果。§!"

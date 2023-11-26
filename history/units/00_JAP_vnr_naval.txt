@@ -134,7 +134,7 @@ units = {
 			ship = { name = "朝雾" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = {amount = 1 owner = JAP version_name = "吹雪型/晓型"} } }	
 			#Dai 19 Kuchikutai
 			ship = { name = "浦波" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = {amount = 1 owner = JAP version_name = "吹雪型/晓型"} } }	
-			ship = { name = "凌波" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = {amount = 1 owner = JAP version_name = "吹雪型/晓型"} } }	
+			ship = { name = "绫波" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = {amount = 1 owner = JAP version_name = "吹雪型/晓型"} } }	
 			ship = { name = "敷波" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = {amount = 1 owner = JAP version_name = "吹雪型/晓型"} } }
 			#Dai 20 Kuchikutai
 			ship = { name = "吹雪" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = {amount = 1 owner = JAP version_name = "吹雪型/晓型"} } }		

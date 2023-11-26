@@ -327,12 +327,12 @@
 			location = 13010 # 13010  # Bermuda
 			ship = { name = "HMS 贝里克" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "肯特级" } } }
 			ship = { name = "HMS 约克" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "约克级" } } }	
-			ship = { name = "HMS 猎户座" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "利安德级" } } }
+			ship = { name = "HMS 猎户座" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "利安德级" } } }
 		}				
 		task_force = {				
 			name = "南大西洋舰队"
 			location = 2038 # 2038 # Sierra Leone
-			ship = { name = "HMS 海王星" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "利安德级" } } }	
+			ship = { name = "HMS 海王星" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "利安德级" } } }	
 			ship = { name = "HMS 无畏" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "达娜厄级"} } }
 			# Destroyer Division 4
 			ship = { name = "HMS 范西塔特" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W级"} } }	
@@ -344,7 +344,7 @@
 			location = 12960 # 12960 # Falkland Is.
 			ship = { name = "HMS 艾克塞特" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "约克级" } } }		
 			ship = { name = "HMS 坎伯兰" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "肯特级" } } }
-			ship = { name = "HMS 阿贾克斯" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "利安德级" } } }	
+			ship = { name = "HMS 阿贾克斯" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "利安德级" } } }	
 		}				
 		task_force = {				
 			name = "第三潜艇舰队"			
@@ -389,8 +389,8 @@
 		task_force = {				
 			name = "新西兰分队"
 			location = 13056 # 13056 # Fongfale	
-			ship = { name = "HMS 阿喀琉斯" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "利安德级" } } }		# to RNZN 1941
-			ship = { name = "HMS 利安德" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "利安德级" } } }		# to RNZN 1941
+			ship = { name = "HMS 阿喀琉斯" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "利安德级" } } }		# to RNZN 1941
+			ship = { name = "HMS 利安德" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "利安德级" } } }		# to RNZN 1941
 		}				
 		task_force = {				
 			name = "第四潜艇舰队"			
