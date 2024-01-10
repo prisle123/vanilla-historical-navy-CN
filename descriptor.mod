@@ -1,4 +1,4 @@
-version="v0.13 - Lady Lex And Sister Sara"
+version="v0.14 - Haus in Neu Berlin"
 tags={
 	"Military"
 	"Translation"
@@ -10,7 +10,8 @@ dependencies={
 	"52 Chinese Localisation"
 	"The road to 56 CN"
 	"Last Stand"
-	"The road to 56 CN Supply | 56之路汉化补充"
+	"The road to 56 CN Supply | 56之路汉化补全"
+	"日本历史线国策重置"
 }
 name="原版海军重置"
 picture="thumbnail.png"

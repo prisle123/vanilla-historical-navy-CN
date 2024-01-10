@@ -1,111 +1,339 @@
 ﻿naval_equipment_role = {
-	gfx = GFX_naval_equipment_role_icons
-	
-	icon = {	color_override = no 	name = "FBB - 高速战列舰"	} # 1
-	icon = {	color_override = no 	name = "FBB - 高速战列舰"	} # 2
-	icon = {	color_override = no 	name = "BB - 战列舰"	} # 3
-	icon = {	color_override = no 	name = "BB - 战列舰"	} # 4
-	icon = {	color_override = no 	name = "B - 前无畏舰"	} # 5
-	icon = {	color_override = no 	name = "B - 前无畏舰"	} # 6
-	icon = {	color_override = no 	name = "SHBB - 超重型战列舰"	} # 7
-	icon = {	color_override = no 	name = "SHBB - 超重型战列舰"	} # 8
-	icon = {	color_override = no 	name = "CV - 航空母舰"	} # 9
-	icon = {	color_override = no 	name = "CV - 航空母舰"	} # 10
-	icon = {	color_override = no 	name = "CVL - 轻型航空母舰"	} # 11
-	icon = {	color_override = no 	name = "CVL - 轻型航空母舰"	} # 12
-
-	icon = {	color_override = no 	name = "CVH - 重型航空母舰"	} # 13
-	icon = {	color_override = no 	name = "CVH - 重型航空母舰"	} # 14
-	icon = {	color_override = no 	name = "BC - 战列巡洋舰"	} # 15
-	icon = {	color_override = no 	name = "BC - 战列巡洋舰"	} # 16
-	icon = {	color_override = no 	name = "ACR - 装甲巡洋舰"	} # 17
-	icon = {	color_override = no 	name = "ACR - 装甲巡洋舰"	} # 18
-	icon = {	color_override = no 	name = "BM - 浅水重炮舰"	} # 19
-	icon = {	color_override = no 	name = "BM - 浅水重炮舰"	} # 20
-	icon = {	color_override = no 	name = "CB - 大型巡洋舰"	} # 21
-	icon = {	color_override = no 	name = "CB - 大型巡洋舰"	} # 22
-	icon = {	color_override = no 	name = "C - 防护巡洋舰"	} # 23
-	icon = {	color_override = no 	name = "C - 防护巡洋舰"	} # 24
-
-	icon = {	color_override = no 	name = "CL - 轻巡洋舰"	} # 25
-	icon = {	color_override = no 	name = "CL - 轻巡洋舰"	} # 26
-	icon = {	color_override = no 	name = "CA - 重巡洋舰"	} # 27
-	icon = {	color_override = no 	name = "CA - 重巡洋舰"	} # 28
-	icon = {	color_override = no 	name = "D - 鱼雷驱逐舰"	} # 29
-	icon = {	color_override = no 	name = "D - 鱼雷驱逐舰"	} # 30
-	icon = {	color_override = no 	name = "DD - 驱逐舰"	} # 31
-	icon = {	color_override = no 	name = "DD - 驱逐舰"	} # 32
-	icon = {	color_override = no 	name = "DL - 驱逐领舰"	} # 33
-	icon = {	color_override = no 	name = "DL - 驱逐领舰"	} # 34
-	icon = {	color_override = no 	name = "DE - 护航驱逐舰"	} # 35
-	icon = {	color_override = no 	name = "DE - 护航驱逐舰"	} # 36
-
-	icon = {	color_override = no 	name = "SS - 潜艇"	} # 37
-	icon = {	color_override = no 	name = "SS - 潜艇"	} # 38
-	icon = {	color_override = no 	name = "SC - 巡洋潜艇"	} # 39
-	icon = {	color_override = no 	name = "SC - 巡洋潜艇"	} # 40
-	icon = {	color_override = no 	name = "SM - 布雷潜艇"	} # 41
-	icon = {	color_override = no 	name = "SM - 布雷潜艇"	} # 42
-	icon = {	color_override = no 	name = "CLAA - 防空巡洋舰"	} # 43
-	icon = {	color_override = no 	name = "CLAA - 防空巡洋舰"	} # 44
-	icon = {	color_override = no 	name = "CS - 侦察巡洋舰"	} # 45
-	icon = {	color_override = no 	name = "CS - 侦察巡洋舰"	} # 46
-	icon = {	color_override = no 	name = "FF - 护卫舰"	} # 47
-	icon = {	color_override = no 	name = "FF - 护卫舰"	} # 48
-
-	icon = {	color_override = no 	name = "SSC - 岸防潜艇"	} # 49
-	icon = {	color_override = no 	name = "SSC - 岸防潜艇"	} # 50
-	icon = {	color_override = no 	name = "CM - 布雷舰"	} # 51
-	icon = {	color_override = no 	name = "CM - 布雷舰"	} # 52
-	icon = {	color_override = no 	name = "AP - 补给舰"	} # 53
-	icon = {	color_override = no 	name = "AP - 补给舰"	} # 54
-	icon = {	color_override = no 	name = "CG - 导弹巡洋舰"	} # 55
-	icon = {	color_override = no 	name = "CG - 导弹巡洋舰"	} # 56
-	icon = {	color_override = no 	name = "BBG - 导弹战列舰"	} # 57
-	icon = {	color_override = no 	name = "BBG - 导弹战列舰"	} # 58
-	icon = {	color_override = no 	name = "BBV - 航空战列舰"	} # 59
-	icon = {	color_override = no 	name = "BBV - 航空战列舰"	} # 60
-	
-	icon = {	color_override = no 	name = "AV - 水上飞机母舰"	} # 61
-	icon = {	color_override = no 	name = "AV - 水上飞机母舰"	} # 62
-	icon = {	color_override = no 	name = "DDAG - 防空导弹驱逐舰"	} # 63
-	icon = {	color_override = no 	name = "DDAG - 防空导弹驱逐舰"	} # 64
-	icon = {	color_override = no 	name = "AM - 扫雷舰"	} # 65
-	icon = {	color_override = no 	name = "AM - 扫雷舰"	} # 66
-	icon = {	color_override = no 	name = "CVE - 护航航母"	} # 67
-	icon = {	color_override = no 	name = "CVE - 护航航母"	} # 68
-	icon = {	color_override = no 	name = "CC - 指挥巡洋舰"	} # 69
-	icon = {	color_override = no 	name = "CC - 指挥巡洋舰"	} # 70
-	icon = {	color_override = no 	name = "TB - 鱼雷舰"	} # 71
-	icon = {	color_override = no 	name = "TB - 鱼雷舰"	} # 72
-
-
-	# icon = {	color_override = no 	name = "E - Escort"	}
-	# icon = {	color_override = no 	name = "E - Escort"	}
-	# icon = {	color_override = no 	name = "CVL - Light Carrier"	}
-	# icon = {	color_override = no 	name = "CVL - Light Carrier"	}
-	# icon = {	color_override = no 	name = "DL - Destroyer Leader / Flotilla Leader"	}
-	# icon = {	color_override = no 	name = "DL - Destroyer Leader / Flotilla Leader"	}
-	# icon = {	color_override = no 	name = "DDT - Torpedo Destroyer"	}
-	# icon = {	color_override = no 	name = "DDT - Torpedo Destroyer"	}
-	# icon = {	color_override = no 	name = "CLT - Torpedo Cruiser"	}
-	# icon = {	color_override = no 	name = "CLT - Torpedo Cruiser"	}
-	# icon = {	color_override = no 	name = "DDAA - Anti Aircraft Destroyer"	}
-	# icon = {	color_override = no 	name = "DDAA - Anti Aircraft Destroyer"	}
-	# icon = {	color_override = no 	name = "DDK - Destroyer Hunter-Killer (ASW)"	}
-	# icon = {	color_override = no 	name = "DDK - Destroyer Hunter-Killer (ASW)"	}
-	# icon = {	color_override = no 	name = "CLK - Cruiser Hunter-Killer (ASW)"	}
-	# icon = {	color_override = no 	name = "CLK - Cruiser Hunter-Killer (ASW)"	}
-	# icon = {	color_override = no 	name = "DDR - Radar Picket Destroyer"	}
-	# icon = {	color_override = no 	name = "DDR - Radar Picket Destroyer"	}
-	# icon = {	color_override = no 	name = "CS - Scout Cruiser"	}
-	# icon = {	color_override = no 	name = "CS - Scout Cruiser"	}
-	# icon = {	color_override = no 	name = "CMS - Cruiser Minesweeper"	}
-	# icon = {	color_override = no 	name = "CMS - Cruiser Minesweeper"	}
-	# icon = {	color_override = no 	name = "SHBB - Super Heavy Battleship"	}
-	# icon = {	color_override = no 	name = "SHBB - Super Heavy Battleship"	}
-	# icon = {	color_override = no 	name = "MS - Minesweeper"	}
-	# icon = {	color_override = no 	name = "MS - Minesweeper"	}
-	# icon = {	color_override = no 	name = "AM - Minelayer"	}
-	# icon = {	color_override = no 	name = "AM - Minelayer"	}
+  gfx = GFX_naval_equipment_role_icons
+  icon = {
+    color_override = no
+    name = "FBB - 高速战列舰"  # FBB - Fast Battleship
+  }
+  icon = {
+    color_override = no
+    name = "FBB - 高速战列舰"  # FBB - Fast Battleship
+  }
+  icon = {
+    color_override = no
+    name = "BB - 战列舰"  # BB - Battleship
+  }
+  icon = {
+    color_override = no
+    name = "BB - 战列舰"  # BB - Battleship
+  }
+  icon = {
+    color_override = no
+    name = "B - 前无畏舰"  # B - Pre-dreadnought
+  }
+  icon = {
+    color_override = no
+    name = "B - 前无畏舰"  # B - Pre-dreadnought
+  }
+  icon = {
+    color_override = no
+    name = "SHBB - 超重型战列舰"  # SHBB - Super Heavy Battleship
+  }
+  icon = {
+    color_override = no
+    name = "SHBB - 超重型战列舰"  # SHBB - Super Heavy Battleship
+  }
+  icon = {
+    color_override = no
+    name = "CV - 航空母舰"  # CV - Aircraft Carrier
+  }
+  icon = {
+    color_override = no
+    name = "CV - 航空母舰"  # CV - Aircraft Carrier
+  }
+  icon = {
+    color_override = no
+    name = "CVL - 轻型航空母舰"  # CVL - Light Aircraft Carrier
+  }
+  icon = {
+    color_override = no
+    name = "CVL - 轻型航空母舰"  # CVL - Light Aircraft Carrier
+  }
+  icon = {
+    color_override = no
+    name = "CVH - 重型航空母舰"  # CVH - Heavy Aircraft Carrier
+  }
+  icon = {
+    color_override = no
+    name = "CVH - 重型航空母舰"  # CVH - Heavy Aircraft Carrier
+  }
+  icon = {
+    color_override = no
+    name = "BC - 战列巡洋舰"  # BC - Battlecruiser
+  }
+  icon = {
+    color_override = no
+    name = "BC - 战列巡洋舰"  # BC - Battlecruiser
+  }
+  icon = {
+    color_override = no
+    name = "ACR - 装甲巡洋舰"  # ACR - Armored Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "ACR - 装甲巡洋舰"  # ACR - Armored Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "BM - 浅水重炮舰"  # BM - Monitor
+  }
+  icon = {
+    color_override = no
+    name = "BM - 浅水重炮舰"  # BM - Monitor
+  }
+  icon = {
+    color_override = no
+    name = "CB - 大型巡洋舰"  # CB - Large Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CB - 大型巡洋舰"  # CB - Large Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "C - 防护巡洋舰"  # C - Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "C - 防护巡洋舰"  # C - Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CL - 轻巡洋舰"  # CL - Light Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CL - 轻巡洋舰"  # CL - Light Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CA - 重巡洋舰"  # CA - Heavy Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CA - 重巡洋舰"  # CA - Heavy Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "D - 鱼雷驱逐舰"  # D - Torpedo Destroyer
+  }
+  icon = {
+    color_override = no
+    name = "D - 鱼雷驱逐舰"  # D - Torpedo Destroyer
+  }
+  icon = {
+    color_override = no
+    name = "DD - 驱逐舰"  # DD - Destroyer
+  }
+  icon = {
+    color_override = no
+    name = "DD - 驱逐舰"  # DD - Destroyer
+  }
+  icon = {
+    color_override = no
+    name = "DL - 驱逐领舰"  # DL - Destroyer Leader
+  }
+  icon = {
+    color_override = no
+    name = "DL - 驱逐领舰"  # DL - Destroyer Leader
+  }
+  icon = {
+    color_override = no
+    name = "DE - 护航驱逐舰"  # DE - Escort Destroyer
+  }
+  icon = {
+    color_override = no
+    name = "DE - 护航驱逐舰"  # DE - Escort Destroyer
+  }
+  icon = {
+    color_override = no
+    name = "SS - 潜艇"  # SS - Submarine
+  }
+  icon = {
+    color_override = no
+    name = "SS - 潜艇"  # SS - Submarine
+  }
+  icon = {
+    color_override = no
+    name = "SC - 巡洋潜艇"  # SC - Cruiser Submarine
+  }
+  icon = {
+    color_override = no
+    name = "SC - 巡洋潜艇"  # SC - Cruiser Submarine
+  }
+  icon = {
+    color_override = no
+    name = "SM - 布雷潜艇"  # SM - Minelaying Submarine
+  }
+  icon = {
+    color_override = no
+    name = "SM - 布雷潜艇"  # SM - Minelaying Submarine
+  }
+  icon = {
+    color_override = no
+    name = "CLAA - 防空巡洋舰"  # CLAA - Anti-aircraft Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CLAA - 防空巡洋舰"  # CLAA - Anti-aircraft Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CS - 侦察巡洋舰"  # CS - Scout Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CS - 侦察巡洋舰"  # CS - Scout Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "FF - 护卫舰"  # FF - Frigate
+  }
+  icon = {
+    color_override = no
+    name = "FF - 护卫舰"  # FF - Frigate
+  }
+  icon = {
+    color_override = no
+    name = "SSC - 岸防潜艇"  # SSC - Coastal Submarine
+  }
+  icon = {
+    color_override = no
+    name = "SSC - 岸防潜艇"  # SSC - Coastal Submarine
+  }
+  icon = {
+    color_override = no
+    name = "CM - 布雷舰"  # CM - Minelayer
+  }
+  icon = {
+    color_override = no
+    name = "CM - 布雷舰"  # CM - Minelayer
+  }
+  icon = {
+    color_override = no
+    name = "AP - 补给舰"  # AP - Supply Ship
+  }
+  icon = {
+    color_override = no
+    name = "AP - 补给舰"  # AP - Supply Ship
+  }
+  icon = {
+    color_override = no
+    name = "CG - 导弹巡洋舰"  # CG - Guided Missile Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CG - 导弹巡洋舰"  # CG - Guided Missile Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "BBG - 导弹战列舰"  # BBG - Guided Missile Battleship
+  }
+  icon = {
+    color_override = no
+    name = "BBG - 导弹战列舰"  # BBG - Guided Missile Battleship
+  }
+  icon = {
+    color_override = no
+    name = "BBV - 航空战列舰"  # BBV - Battlecarrier
+  }
+  icon = {
+    color_override = no
+    name = "BBV - 航空战列舰"  # BBV - Battlecarrier
+  }
+  icon = {
+    color_override = no
+    name = "AV - 水上飞机母舰"  # AV - Seaplane Tender
+  }
+  icon = {
+    color_override = no
+    name = "AV - 水上飞机母舰"  # AV - Seaplane Tender
+  }
+  icon = {
+    color_override = no
+    name = "DDAG - 防空导弹驱逐舰"  # DDAG - Anti-Air Missile Destroyer
+  }
+  icon = {
+    color_override = no
+    name = "DDAG - 防空导弹驱逐舰"  # DDAG - Anti-Air Missile Destroyer
+  }
+  icon = {
+    color_override = no
+    name = "AM - 扫雷舰"  # AM - Minesweeper
+  }
+  icon = {
+    color_override = no
+    name = "AM - 扫雷舰"  # AM - Minesweeper
+  }
+  icon = {
+    color_override = no
+    name = "CVE - 护航航母"  # CVE - Escort Carrier
+  }
+  icon = {
+    color_override = no
+    name = "CVE - 护航航母"  # CVE - Escort Carrier
+  }
+  icon = {
+    color_override = no
+    name = "CC - 指挥巡洋舰"  # CC - Command Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CC - 指挥巡洋舰"  # CC - Command Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "TB - 鱼雷舰"  # TB - Torpedo Boat
+  }
+  icon = {
+    color_override = no
+    name = "TB - 鱼雷舰"  # TB - Torpedo Boat
+  }
+  icon = {
+    color_override = no
+    name = "CVN - 核动力航空母舰"  # CVN - Nuclear Aircraft Carrier
+  }
+  icon = {
+    color_override = no
+    name = "CVN - 核动力航空母舰"  # CVN - Nuclear Aircraft Carrier
+  }
+  icon = {
+    color_override = no
+    name = "SSN - 核动力攻击潜艇"  # SSN - Nulcear Attack Submarine
+  }
+  icon = {
+    color_override = no
+    name = "SSN - 核动力攻击潜艇"  # SSN - Nulcear Attack Submarine
+  }
+  icon = {
+    color_override = no
+    name = "CGN - 核动力导弹巡洋舰"  # CGN - Nuclear Guided Missile Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "CGN - 核动力导弹巡洋舰"  # CGN - Nuclear Guided Missile Cruiser
+  }
+  icon = {
+    color_override = no
+    name = "BBN - 核动力战列舰"  # BBN - Nuclear Battleship
+  }
+  icon = {
+    color_override = no
+    name = "BBN - 核动力战列舰"  # BBN - Nuclear Battleship
+  }
+  icon = {
+    color_override = no
+    name = "BBGN - 核动力导弹战列舰"  # BBGN - Nuclear Guided Missile Battleship
+  }
+  icon = {
+    color_override = no
+    name = "BBGN - 核动力导弹战列舰"  # BBGN - Nuclear Guided Missile Battleship
+  }
+  icon = {
+    color_override = no
+    name = "DDG - 导弹驱逐舰"  # DDG - Guided Missile Destroyer
+  }
+  icon = {
+    color_override = no
+    name = "DDG - 导弹驱逐舰"  # DDG - Guided Missile Destroyer
+  }
 }
