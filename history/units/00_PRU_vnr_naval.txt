@@ -5,7 +5,7 @@ units = {
 		task_force = {				
 			name = "秘鲁海军"			
 			location = 12997 # Lima
-			ship = { name = "BAP 格劳海军上将" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PRU version_name = "格劳海军上将级" } } }
+			ship = { name = "BAP 格劳海军上将" pride_of_the_fleet = yes definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PRU version_name = "格劳海军上将级" } } }
 			ship = { name = "BAP 博罗内西海军上校" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PRU version_name = "格劳海军上将级" } } }
 			ship = { name = "BAP 维拉海军上将" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PRU version_name = "维拉海军上将级" } } }
 			ship = { name = "BAP 吉斯海军上将" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PRU version_name = "维拉海军上将级" } } }

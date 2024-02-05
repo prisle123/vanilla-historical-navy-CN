@@ -33,7 +33,7 @@
 		task_force = {					
 			name = "第三海军军区"				
 			location =  11050 # Tromso
-			ship = { name = "HNoMS 挪威" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "埃兹沃尔德级" } } }				
+			ship = { name = "HNoMS 挪威" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "埃兹沃尔德级" } } }				
 			ship = { name = "HNoMS 埃兹沃尔德" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "埃兹沃尔德级" } } }				
 			# Submarine Detachment
 			ship = { name = "HNoMS B1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B级" } } }

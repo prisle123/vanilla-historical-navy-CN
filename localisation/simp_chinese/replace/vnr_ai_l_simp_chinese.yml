@@ -29,3 +29,8 @@
  gen_naval_develop_carrier_desc: "航母已被证明是海战的未来，我们应该向国外购买一些蓝图资料以赶上世界先进水平。"
  gen_naval_develop_submarine: "购买潜艇蓝图"
  gen_naval_develop_submarine_desc: "潜艇是水下的杀手，我们应该向国外购买一些蓝图资料以赶上世界先进水平。"
+ RULE_AI_SHIP_DESIGN_STYLE: "AI舰船设计风格"
+ RULE_OPTION_HISTORICAL: "史实"
+ RULE_OPTION_EXPERT: "专家"
+ RULE_AI_SHIP_DESIGN_STYLE_HISTORICAL_DESC: "AI会依照史实方案设计舰船，这是过去海军重置一直采用的默认设计方法。"
+ RULE_AI_SHIP_DESIGN_STYLE_EXPERT_DESC: "AI会基于效率至上的目标设计和建造最优的模板。\n§R这个选项会让海战更加有挑战性，但是也意味着角色扮演的元素将会大幅减少。§!"

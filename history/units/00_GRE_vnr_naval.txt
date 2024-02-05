@@ -8,7 +8,7 @@ units= {
 		task_force = {				
 			name = "瓦希利克斯舰队"				
 			location = 4109 # Athens
-			ship = { name = "RHS 乔治·阿维洛夫"  definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GRE version_name =  "乔治·阿维洛夫级" } } }				
+			ship = { name = "RHS 乔治·阿维洛夫" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GRE version_name =  "乔治·阿维洛夫级" } } }				
 			ship = { name = "RHS 爱丽" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name =  "爱丽级" } } }				
 			# Destroyer Flotilla
 			ship = { name = "RHS 鹰" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "鹰级" } } }		

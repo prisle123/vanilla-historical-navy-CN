@@ -7,7 +7,7 @@
 		task_force = {
 			name = "第一舰队"
 			location = 7191 #Shanghai
-			ship = { name = "宁海" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "宁海级" } } }
+			ship = { name = "宁海" pride_of_the_fleet = yes definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "宁海级" } } }
 			ship = { name = "海容" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHI version_name = "海容级" } } }
 			ship = { name = "海筹" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHI version_name = "海容级" } } }
 			ship = { name = "逸仙" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "逸仙级" } } }

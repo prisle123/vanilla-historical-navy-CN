@@ -1,4 +1,4 @@
-version="v0.14 - Haus in Neu Berlin"
+version="v1.1 - Year of Dragon"
 tags={
 	"Military"
 	"Translation"

@@ -8,8 +8,8 @@ units= {
 		task_force = {
 			name = "费罗尔舰队"
 			location = 758  # Ferrol/Coruna
-			ship = { name = "ARE 西班牙" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "西班牙级" } } }
-			ship = { name = "ARE 海梅一世" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "西班牙级" } } }
+			ship = { name = "ARE 西班牙" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "西班牙级" } } }
+			ship = { name = "ARE 海梅一世" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "西班牙级" } } }
 			ship = { name = "ARE 自由" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "塞韦拉海军上将级" } } }
 			ship = { name = "ARE 塞韦拉海军上将" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "塞韦拉海军上将级" } } }
 			ship = { name = "ARE 米格尔·德·塞凡提斯" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "塞韦拉海军上将级" } } }

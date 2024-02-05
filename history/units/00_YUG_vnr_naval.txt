@@ -9,7 +9,7 @@ units= {
 			name = "南斯拉夫皇家海军"			
 			location = 3924 # Split
 			ship = { name = "KB 达尔马提亚" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = YUG version_name = "达尔马提亚级" } } }
-			ship = { name = "KB 杜布罗夫尼克" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = YUG version_name = "杜布罗夫尼克级" } } }
+			ship = { name = "KB 杜布罗夫尼克" pride_of_the_fleet = yes definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = YUG version_name = "杜布罗夫尼克级" } } }
 			# Podmornica Divizija
 			ship = { name = "KB 勇敢" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = YUG version_name = "勇敢级/大胆级" } } }				
 			ship = { name = "KB 无畏" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = YUG version_name = "勇敢级/大胆级" } } }				

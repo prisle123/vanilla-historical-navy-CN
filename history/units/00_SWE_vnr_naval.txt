@@ -18,7 +18,7 @@
 		task_force = { 
 			name = "第一分舰队"
 			location = 11215 # Karlskrona
-			ship = { name = "HMS 古斯塔夫五世" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "瑞典级" } } }				
+			ship = { name = "HMS 古斯塔夫五世" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "瑞典级" } } }				
 			ship = { name = "HMS 瑞典" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "瑞典级" } } }				
 			ship = { name = "HMS 维多利亚公主" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "瑞典级" } } }				
 			ship = { name = "HMS 哥特兰" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "哥特兰级" } } }
