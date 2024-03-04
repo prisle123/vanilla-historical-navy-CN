@@ -72,6 +72,9 @@ units = {
 			ship = { name = "龙骧" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_1 = {amount = 1 owner = JAP version_name = "龙骧级"} } 				
 			
 			}
+			ship = { name = "凤翔" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_ca = {amount = 1 owner = JAP version_name = "凤翔级"} } 				
+			
+			}
 			#Dai 5 Kuchikutai
 			ship = { name = "朝风" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
 			ship = { name = "春风" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
@@ -166,16 +169,13 @@ units = {
 			ship = { name = "I-124" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "机雷潜级"} } }
 		}
 		task_force = {
-			name = "佐世保预备役舰队" # Patrol and reserve fleet, including ships under modernization
+			name = "佐世保预备舰队" # Patrol and reserve fleet, including ships under modernization
 			location = 9950  # 9950  #Sasebo
 			ship = { name = "金刚" definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "金刚级"} } }
 			ship = { name = "雾岛" definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "金刚级"} } }
 			ship = { name = "赤城" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = {amount = 1 owner = JAP version_name = "赤城级"} } 				
 			
 			}	
-			ship = { name = "凤翔" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_ca = {amount = 1 owner = JAP version_name = "凤翔级"} } 				
-			
-			}
 			ship = { name = "名取" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级/长良级"} } }
 			ship = { name = "由良" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级/长良级"} } }
 			ship = { name = "北上" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级/长良级"} } }
@@ -190,6 +190,11 @@ units = {
 			ship = { name = "三日月" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
 			ship = { name = "望月" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
 			ship = { name = "夕月" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
+			# Dai 24 Kuchikutai
+			ship = { name = "桃" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
+			ship = { name = "樫" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
+			ship = { name = "桧" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
+			ship = { name = "柳" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
 		}
 	}
 	
@@ -201,7 +206,6 @@ units = {
 			name = "第三舰队" #Later assigned for the Chinese theater
 			location = 12068  # 12068	# Taiwan
 			#Dai 10 Sentai
-			ship = { name = "浅间" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "浅间级/出云级"} } }
 			ship = { name = "出云" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "浅间级/出云级"} } }
 			ship = { name = "球磨" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级/长良级" } } }
 			ship = { name = "淀" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "淀级" } } }
@@ -251,13 +255,9 @@ units = {
 			ship = { name = "早苗" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "若竹型"} } }
 			##Dai 16 Kuchikutai
 			ship = { name = "芙蓉" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "若竹型"} } }
-			ship = { name = "刈萱" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "若竹型"} } }		
+			ship = { name = "刈萱" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "若竹型"} } }
+			ship = { name = "夕颜" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "若竹型"} } }
 			ship = { name = "朝颜" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "若竹型"} } }		
-			
-			ship = { name = "桃" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
-			ship = { name = "樫" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
-			ship = { name = "桧" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
-			ship = { name = "柳" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "桃型/枞型"} } }
 		}
 		task_force = {
 			name = "马公警备舰队"
@@ -272,10 +272,10 @@ units = {
 
 	#Hiroshima (Kure)
 	fleet = {
-		name = "吴市舰队"			
+		name = "海军预备舰队"			
 		naval_base = 1092  # 1092  # Hiroshima
 		task_force = {
-			name = "吴市预备舰队" # Patrol and reserve fleet, including ships under modernization
+			name = "海军预备舰队" # Patrol and reserve fleet, including ships under modernization
 			location = 1092  # 1092  # Hiroshima
 			ship = { name = "伊势" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "伊势级"} } }		
 			ship = { name = "日向" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "伊势级"} } }
@@ -329,12 +329,6 @@ units = {
 			ship = { name = "Ro-67" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L级"} } }
 			ship = { name = "Ro-68" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L级"} } }	
 		}
-	}
-
-	# Naval District Forces #
-	fleet = {
-		name = "海军预备舰队"
-		naval_base = 9859  # 9859  #Ominato
 		#Ominato
 		task_force = {
 			name = "大凑警备舰队"
@@ -349,7 +343,6 @@ units = {
 		task_force = {
 			name = "防护巡洋舰分队"
 			location = 4056  # 4056  # Pusan
-			#Mutsuki-class destroyers
 			ship = { name = "磐手" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "浅间级/出云级"} } }
 			ship = { name = "平户" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "筑摩级"} } }
 			ship = { name = "矢矧" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "筑摩级"} } }	
@@ -366,7 +359,6 @@ units = {
 			location = 2489  # 2489  # Truk
 			ship = { name = "追风" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
 			ship = { name = "疾风" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
-			ship = { name = "夕颜" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "若竹型"} } }
 			#Former Dai 2 Kuchikutai
 			ship = { name = "峯风" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
 			ship = { name = "泽风" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }

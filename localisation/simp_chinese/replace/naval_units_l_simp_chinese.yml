@@ -30,3 +30,7 @@
  cv_CAS_equipment_desc: "俯冲轰炸机通过对目标进行俯冲以获得更高的投弹命中率。"
  cv_nav_bomber: "舰载鱼雷轰炸机"
  cv_nav_bomber_equipment_desc: "鱼雷轰炸机携带空射鱼雷攻击舰船。"
+ damaged_fire_control: "火控系统受损"
+ damaged_wooden_flight_deck: "木制甲板受损"
+ damaged_armored_flight_deck: "装甲甲板受损"
+ gas_leakage: "油气泄露"
