@@ -949,3 +949,7 @@
  carrier_armor_deck: "90mm飞行甲板"
  carrier_armor_deck_short: "装甲飞行甲板"
  carrier_armor_deck_desc: "一条使用装甲加固的全通式飞行甲板。\n§R装甲甲板可以降低在空袭中遭受致命一击的机会和效果。§!"
+ EQ_MOD_CAT_ship_torpedo_bb_TITLE: "鱼雷发射管"
+ ship_torpedo_bb: "450mm舷侧发射管"
+ ship_torpedo_bb_short: "舷侧鱼雷发射管"
+ ship_torpedo_bb_desc: "一组固定在船舷位置的鱼雷发射管。"

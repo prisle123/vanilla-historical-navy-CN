@@ -8,7 +8,7 @@
 		task_force = {				
 			name = "本土舰队"			
 			location = 3314  # Amsterdam
-			ship = { name = "HrMs 亨利公爵" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "亨利公爵级" } } }		
+			ship = { name = "HrMs 亨利公爵" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "摄政女王级" } } }		
 			ship = { name = "HrMs 艾默伊登" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "雅各布·范黑姆斯克尔克级" } } }	
 			ship = { name = "HrMs 海尔德兰" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "荷兰级" } } }
 			ship = { name = "HrMs 北布拉班特" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "荷兰级" } } }	

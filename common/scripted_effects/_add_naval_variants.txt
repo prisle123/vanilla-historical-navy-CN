@@ -4634,7 +4634,7 @@ HOL_start_naval_variants = {
     obsolete = yes
   }
   create_equipment_variant = {
-    name = "亨利公爵级"  # Hertog Hendrik Class
+    name = "摄政女王级"  # Hertog Hendrik Class
     role_icon_index = 17
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = HOL_CA_HISTORICAL

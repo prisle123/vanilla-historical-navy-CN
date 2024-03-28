@@ -1,4 +1,4 @@
-version="v1.2 - Jutland Sonata"
+version="v1.3 - Kraken"
 tags={
 	"Military"
 	"Translation"
@@ -15,5 +15,5 @@ dependencies={
 }
 name="原版海军重置"
 picture="thumbnail.png"
-supported_version="1.13.*"
+supported_version="1.14.*"
 remote_file_id="2993772482"
