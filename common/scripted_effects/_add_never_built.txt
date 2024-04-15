@@ -1,556 +1,624 @@
 ENG_never_built_blueprints = {
-	create_equipment_variant = {
-		name = "G3级"
-		role_icon_index = 1
-		icon = "gfx/interface/technologies/Fun/G3.png"
-		type = vnr_ship_hull_heavy_2
-		name_group = ENG_BB_HISTORICAL
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2_triple
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_armor_slot = ship_armor_bc_2
-			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
-			fixed_ship_torpedo_defense_system_slot = torpedo_belt
-			front_1_custom_slot = ship_heavy_battery_2_triple
-			mid_1_custom_slot = ship_anti_air_1
-			mid_2_custom_slot = ship_heavy_battery_2_triple
-			rear_1_custom_slot = ship_secondaries_2
-		}
-	}
-	create_equipment_variant = {#TBC
-		name = "N3级"
-		role_icon_index = 7
-		icon = "gfx/interface/technologies/Fun/N3.png"
-		type = vnr_ship_hull_super_heavy_1
-		name_group = ENG_BB_HISTORICAL
-		modules = {
-			fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_armor_slot = ship_armor_shbb
-			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_super_heavy_battery_1_triple
-			mid_1_custom_slot = ship_anti_air_1
-			mid_2_custom_slot = ship_super_heavy_battery_1_triple
-			rear_1_custom_slot = ship_secondaries_2
-		}
-	}
-	create_equipment_variant = {
-		name = "无比级"
-		icon = "gfx/interface/technologies/Fun/ENG_Incomparable.png"
-		type = vnr_ship_hull_heavy_1
-		role_icon_index = 15
-		name_group = ENG_BC_HISTORICAL
-		modules = {
-			fixed_ship_battery_slot = ship_super_heavy_battery_big_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_engine_slot = heavy_ship_engine_3
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bc_1
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_anti_air_1
-			front_2_custom_slot = ship_super_heavy_battery_big_1
-			mid_1_custom_slot = ship_airplane_launcher_1
-			mid_2_custom_slot = ship_secondaries_1
-			rear_1_custom_slot = ship_super_heavy_battery_big_1
-		}
-		obsolete = yes
-	}
+  create_equipment_variant = {
+    name = "G3级"  # G3 Class
+    role_icon_index = 1
+    icon = "gfx/interface/technologies/Fun/G3.png"
+    type = vnr_ship_hull_heavy_2
+    name_group = ENG_BB_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_2_triple
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_secondaries_slot = ship_secondaries_2
+      fixed_ship_armor_slot = ship_armor_bc_2
+      fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+      fixed_ship_torpedo_defense_system_slot = torpedo_belt
+      front_1_custom_slot = ship_heavy_battery_2_triple
+      mid_1_custom_slot = ship_anti_air_1
+      mid_2_custom_slot = ship_heavy_battery_2_triple
+      rear_1_custom_slot = ship_secondaries_2
+    }
+  }
+  create_equipment_variant = {
+    name = "N3级"  # N3 Class
+    role_icon_index = 7
+    icon = "gfx/interface/technologies/Fun/N3.png"
+    type = vnr_ship_hull_super_heavy_1
+    name_group = ENG_BB_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_secondaries_slot = ship_secondaries_2
+      fixed_ship_armor_slot = ship_armor_shbb
+      fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_super_heavy_battery_1_triple
+      mid_1_custom_slot = ship_anti_air_1
+      mid_2_custom_slot = ship_super_heavy_battery_1_triple
+      rear_1_custom_slot = ship_secondaries_2
+    }
+  }
+  create_equipment_variant = {
+    name = "Incomparable Class"
+    icon = "gfx/interface/technologies/Fun/ENG_Incomparable.png"
+    type = vnr_ship_hull_heavy_1
+    role_icon_index = 15
+    name_group = ENG_BC_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_super_heavy_battery_big_1
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_engine_slot = heavy_ship_engine_3
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bc_1
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_anti_air_1
+      front_2_custom_slot = ship_super_heavy_battery_big_1
+      mid_1_custom_slot = ship_airplane_launcher_1
+      mid_2_custom_slot = ship_secondaries_1
+      rear_1_custom_slot = ship_super_heavy_battery_big_1
+    }
+    obsolete = yes
+  }
 }
-
 FRA_never_built_blueprints = {
-	create_equipment_variant = {
-		name = "诺曼底级"
-		role_icon_index = 4
-		icon = "gfx/interface/technologies/France/FRA_battleship2.png"
-		type = vnr_ship_hull_heavy_2
-		name_group = FRA_BB_HISTORICAL
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1_quad
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bb_1
-			fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = empty
-			mid_1_custom_slot = ship_anti_air_1
-			mid_2_custom_slot = ship_heavy_battery_1_quad
-			rear_1_custom_slot = ship_heavy_battery_1_quad
-		}
-	}
+  create_equipment_variant = {
+    name = "诺曼底级"  # Normandie Class
+    role_icon_index = 4
+    icon = "gfx/interface/technologies/France/FRA_battleship2.png"
+    type = vnr_ship_hull_heavy_2
+    name_group = FRA_BB_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_1_quad
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_1
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bb_1
+      fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = empty
+      mid_1_custom_slot = ship_anti_air_1
+      mid_2_custom_slot = ship_heavy_battery_1_quad
+      rear_1_custom_slot = ship_heavy_battery_1_quad
+    }
+  }
 }
-
 GER_never_built_blueprints = {
-	create_equipment_variant = {
-		name = "L20e级"
-		role_icon_index = 3
-		icon = "gfx/interface/technologies/Fun/L20e.png"
-		type = vnr_ship_hull_heavy_2
-		name_group = GER_BB_HISTORICAL
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_secondaries_slot = ship_secondaries_1 
-			fixed_ship_armor_slot = ship_armor_bb_2
-			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_heavy_battery_2
-			mid_1_custom_slot = ship_airplane_launcher_1
-			mid_2_custom_slot = ship_secondaries_1
-			rear_1_custom_slot = ship_heavy_battery_2
-			rear_2_custom_slot = ship_heavy_battery_2
-		}
-	}
+  create_equipment_variant = {
+    name = "L20e级"  # L20e Class
+    role_icon_index = 3
+    icon = "gfx/interface/technologies/Fun/L20e.png"
+    type = vnr_ship_hull_heavy_2
+    name_group = GER_BB_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_2
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bb_2
+      fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_heavy_battery_2
+      mid_1_custom_slot = ship_airplane_launcher_1
+      mid_2_custom_slot = ship_secondaries_1
+      rear_1_custom_slot = ship_heavy_battery_2
+      rear_2_custom_slot = ship_heavy_battery_2
+    }
+  }
+  create_equipment_variant = {
+    name = "马肯森级"
+    role_icon_index = 16
+    icon = "gfx/interface/technologies/Fun/Yorck.png"
+    type = vnr_ship_hull_heavy_1
+    name_group = GER_BC_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_1
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bc_1
+      fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_heavy_battery_1
+      mid_1_custom_slot = ship_secondaries_1
+      mid_2_custom_slot = ship_airplane_launcher_1
+      rear_1_custom_slot = ship_heavy_battery_1
+      rear_2_custom_slot = ship_heavy_battery_1
+    }
+    obsolete = yes
+  }
+  create_equipment_variant = {
+    name = "约克级"
+    role_icon_index = 16
+    icon = "gfx/interface/technologies/Fun/Yorck.png"
+    type = vnr_ship_hull_heavy_2
+    name_group = GER_BC_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_big_1
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bc_2
+      fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_heavy_battery_big_1
+      front_2_custom_slot = ship_anti_air_1
+      mid_1_custom_slot = ship_secondaries_1
+      mid_2_custom_slot = ship_airplane_launcher_1
+      rear_1_custom_slot = ship_heavy_battery_big_1
+      rear_2_custom_slot = ship_heavy_battery_big_1
+    }
+  }
 }
-
 ITA_never_built_blueprints = {
-	create_equipment_variant = {
-		name = "弗朗切斯科·卡拉乔洛级"
-		role_icon_index = 3
-		icon = "gfx/interface/technologies/Italy/ITA_battleship2.png"
-		type = vnr_ship_hull_heavy_2
-		name_group = ITA_BC_HISTORICAL
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_big_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
-			fixed_ship_armor_slot = ship_armor_bb_1
-			fixed_ship_torpedo_defense_system_slot = pugliese_system
-			front_1_custom_slot = ship_anti_air_1
-			front_2_custom_slot = ship_heavy_battery_big_1
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_anti_air_1
-			rear_1_custom_slot = ship_heavy_battery_big_1
-			rear_2_custom_slot = ship_heavy_battery_big_1
-		}
-	}
+  create_equipment_variant = {
+    name = "弗朗切斯科·卡拉乔洛级"  # Francesco Caracciolo Class
+    role_icon_index = 3
+    icon = "gfx/interface/technologies/Italy/ITA_battleship2.png"
+    type = vnr_ship_hull_heavy_2
+    name_group = ITA_BC_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_big_1
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+      fixed_ship_armor_slot = ship_armor_bb_1
+      fixed_ship_torpedo_defense_system_slot = pugliese_system
+      front_1_custom_slot = ship_anti_air_1
+      front_2_custom_slot = ship_heavy_battery_big_1
+      mid_1_custom_slot = ship_secondaries_1
+      mid_2_custom_slot = ship_anti_air_1
+      rear_1_custom_slot = ship_heavy_battery_big_1
+      rear_2_custom_slot = ship_heavy_battery_big_1
+    }
+  }
 }
-
 JAP_never_built_blueprints = {
-	create_equipment_variant = {
-		name = "土佐级"
-		role_icon_index = 4
-		icon = "gfx/interface/technologies/Fun/Tosa.png"
-		type = vnr_ship_hull_heavy_2
-		name_group = JAP_PREFECTURES
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bb_2
-			fixed_ship_armor_scheme_slot = ship_scheme_mixed
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_heavy_battery_2
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_airplane_launcher_1
-			mid_3_custom_slot = ship_heavy_battery_2
-			rear_1_custom_slot = ship_heavy_battery_2
-			rear_2_custom_slot = ship_heavy_battery_2
-		}
-	}
-	create_equipment_variant = {
-		name = "天城级"
-		role_icon_index = 2
-		icon = "gfx/interface/technologies/Fun/Amagi.png"
-		type = vnr_ship_hull_heavy_2
-		name_group = JAP_MOUNTAIN
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_armor_slot = ship_armor_bc_2
-			fixed_ship_armor_scheme_slot = ship_scheme_mixed
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_heavy_battery_2
-			front_2_custom_slot = ship_anti_air_1
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = ship_airplane_launcher_1
-			mid_3_custom_slot = ship_heavy_battery_2
-			rear_1_custom_slot = ship_heavy_battery_2
-			rear_2_custom_slot = ship_heavy_battery_2
-		}
-	}
+  create_equipment_variant = {
+    name = "土佐级"  # Tosa Class
+    role_icon_index = 4
+    icon = "gfx/interface/technologies/Fun/Tosa.png"
+    type = vnr_ship_hull_heavy_2
+    name_group = JAP_PREFECTURES
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_2
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bb_2
+      fixed_ship_armor_scheme_slot = ship_scheme_mixed
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_heavy_battery_2
+      mid_1_custom_slot = ship_secondaries_1
+      mid_2_custom_slot = ship_airplane_launcher_1
+      mid_3_custom_slot = ship_heavy_battery_2
+      rear_1_custom_slot = ship_heavy_battery_2
+      rear_2_custom_slot = ship_heavy_battery_2
+    }
+  }
+  create_equipment_variant = {
+    name = "天城级"  # Amagi Class
+    role_icon_index = 2
+    icon = "gfx/interface/technologies/Fun/Amagi.png"
+    type = vnr_ship_hull_heavy_2
+    name_group = JAP_MOUNTAIN
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_2
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_secondaries_slot = ship_secondaries_2
+      fixed_ship_armor_slot = ship_armor_bc_2
+      fixed_ship_armor_scheme_slot = ship_scheme_mixed
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_heavy_battery_2
+      front_2_custom_slot = ship_anti_air_1
+      mid_1_custom_slot = empty
+      mid_2_custom_slot = ship_airplane_launcher_1
+      mid_3_custom_slot = ship_heavy_battery_2
+      rear_1_custom_slot = ship_heavy_battery_2
+      rear_2_custom_slot = ship_heavy_battery_2
+    }
+  }
 }
-
 SOV_never_built_blueprints = {
-	create_equipment_variant = {
-		name = "伊兹梅尔级"
-		role_icon_index = 15
-		icon = "gfx/interface/technologies/Soviet/SOV_battleship2.png"
-		type = vnr_ship_hull_heavy_1
-		name_group = SOV_BATTLES_NAVY
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1_triple
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bc_1
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_anti_air_1
-			mid_1_custom_slot = ship_heavy_battery_1_triple
-			mid_2_custom_slot = ship_secondaries_1
-			mid_3_custom_slot = ship_heavy_battery_1_triple
-			rear_1_custom_slot = ship_heavy_battery_1_triple
-		}
-	}
+  create_equipment_variant = {
+    name = "伊兹梅尔级"  # Izmail Class
+    role_icon_index = 15
+    icon = "gfx/interface/technologies/Soviet/SOV_battleship2.png"
+    type = vnr_ship_hull_heavy_1
+    name_group = SOV_BATTLES_NAVY
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_1_triple
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_1
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bc_1
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_anti_air_1
+      mid_1_custom_slot = ship_heavy_battery_1_triple
+      mid_2_custom_slot = ship_secondaries_1
+      mid_3_custom_slot = ship_heavy_battery_1_triple
+      rear_1_custom_slot = ship_heavy_battery_1_triple
+    }
+  }
 }
-
 USA_never_built_blueprints = {
-	create_equipment_variant = {
-		name = "列克星敦级"
-		role_icon_index = 15
-		icon = "gfx/interface/technologies/Fun/Lexington.png"
-		type = vnr_ship_hull_heavy_2
-		name_group = USA_BATTLES
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bc_1
-			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_anti_air_1
-			front_2_custom_slot = ship_heavy_battery_2
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_heavy_battery_2
-			rear_2_custom_slot = ship_heavy_battery_2
-		}
-	}
-	create_equipment_variant = {
-		name = "南达科他级"
-		role_icon_index = 3
-		icon = "gfx/interface/technologies/Fun/South_Dakota.png"
-		type = vnr_ship_hull_heavy_2
-		name_group = USA_STATES
-		modules = {
-			fixed_ship_armor_slot = ship_armor_bb_2
-			front_1_custom_slot = ship_anti_air_1
-			fixed_ship_battery_slot = ship_heavy_battery_2_triple
-			front_2_custom_slot = ship_heavy_battery_2_triple
-			rear_1_custom_slot = ship_heavy_battery_2_triple
-			rear_2_custom_slot = ship_heavy_battery_2_triple
-			mid_1_custom_slot = ship_secondaries_2
-			mid_2_custom_slot = ship_airplane_launcher_1
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-		}
-	}
+  create_equipment_variant = {
+    name = "列克星敦级"  # Lexington Class
+    role_icon_index = 15
+    icon = "gfx/interface/technologies/Fun/Lexington.png"
+    type = vnr_ship_hull_heavy_2
+    name_group = USA_BATTLES
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_2
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bc_1
+      fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_anti_air_1
+      front_2_custom_slot = ship_heavy_battery_2
+      mid_1_custom_slot = ship_secondaries_1
+      mid_2_custom_slot = ship_airplane_launcher_1
+      rear_1_custom_slot = ship_heavy_battery_2
+      rear_2_custom_slot = ship_heavy_battery_2
+    }
+  }
+  create_equipment_variant = {
+    name = "南达科他级"  # South Dakota Class
+    role_icon_index = 3
+    icon = "gfx/interface/technologies/Fun/South_Dakota.png"
+    type = vnr_ship_hull_heavy_2
+    name_group = USA_STATES
+    modules = {
+      fixed_ship_armor_slot = ship_armor_bb_2
+      front_1_custom_slot = ship_anti_air_1
+      fixed_ship_battery_slot = ship_heavy_battery_2_triple
+      front_2_custom_slot = ship_heavy_battery_2_triple
+      rear_1_custom_slot = ship_heavy_battery_2_triple
+      rear_2_custom_slot = ship_heavy_battery_2_triple
+      mid_1_custom_slot = ship_secondaries_2
+      mid_2_custom_slot = ship_airplane_launcher_1
+      fixed_ship_secondaries_slot = ship_secondaries_2
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_2
+      fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+    }
+  }
 }
-
 create_alicorn = {
-	set_technology = { ship_alicorn = 1 wunderwaffe_modules = 1 popup = no }
-	
-	create_equipment_variant = {
-		name = "天角兽级"
-		role_icon_index = 7
-		type = vnr_ship_hull_alicorn
-		modules = {
-			fixed_ship_battery_slot = ship_em_battery_1
-			fixed_ship_anti_air_slot = ship_sam_1
-			fixed_ship_fire_control_system_slot = ship_AI_fire_control_0
-			fixed_ship_radar_slot = ship_aegis_0
-			fixed_ship_engine_slot = modern_ship_engine_1
-			fixed_ship_secondaries_slot = ship_ciw_1
-			fixed_ship_armor_slot = ship_modern_armor_1
-			front_1_custom_slot = modern_deck_space_1
-			front_2_custom_slot = modern_deck_space_1
-			mid_1_custom_slot = ship_sam_1
-			mid_2_custom_slot = ship_vls_1
-			mid_3_custom_slot = ship_vls_1
-			rear_1_custom_slot = ship_ciw_1
-			rear_2_custom_slot = ship_sam_1
-		}
-	}
-
-	create_ship = { type = vnr_ship_hull_alicorn equipment_variant = "天角兽级" creator = ROOT name = "天角兽" }
+  set_technology = {
+    ship_alicorn = 1
+    wunderwaffe_modules = 1
+    popup = no
+  }
+  create_equipment_variant = {
+    name = "天角兽级"  # Alicorn Class
+    role_icon_index = 7
+    type = vnr_ship_hull_alicorn
+    modules = {
+      fixed_ship_battery_slot = ship_em_battery_1
+      fixed_ship_anti_air_slot = ship_sam_1
+      fixed_ship_fire_control_system_slot = ship_AI_fire_control_0
+      fixed_ship_radar_slot = ship_aegis_0
+      fixed_ship_engine_slot = modern_ship_engine_1
+      fixed_ship_secondaries_slot = ship_ciw_1
+      fixed_ship_armor_slot = ship_modern_armor_1
+      front_1_custom_slot = modern_deck_space_1
+      front_2_custom_slot = modern_deck_space_1
+      mid_1_custom_slot = ship_sam_1
+      mid_2_custom_slot = ship_vls_1
+      mid_3_custom_slot = ship_vls_1
+      rear_1_custom_slot = ship_ciw_1
+      rear_2_custom_slot = ship_sam_1
+    }
+  }
+  create_ship = {
+    type = vnr_ship_hull_alicorn
+    equipment_variant = "天角兽级"  # Alicorn Class
+    creator = ROOT
+    name = "天角兽"  # Alicorn
+  }
 }
-
 create_constitution = {
-	set_technology = { ship_constitution = 1 wunderwaffe_modules = 1 popup = no }
-	create_equipment_variant = {
-		name = "宪法级"
-		role_icon_index = 5
-		type = vnr_ship_hull_constitution
-		modules = {
-			fixed_ship_battery_slot = ship_space_battery_0
-			fixed_ship_anti_air_slot = ship_sam_1
-			fixed_ship_fire_control_system_slot = ship_AI_fire_control_1
-			fixed_ship_radar_slot = ship_aegis_0
-			fixed_ship_engine_slot = modern_ship_engine_2
-			fixed_ship_secondaries_slot = ship_ciw_1
-			fixed_ship_armor_slot = ship_modern_armor_1
-		}
-	}
-
-	create_ship = { type = vnr_ship_hull_constitution equipment_variant = "宪法级" creator = ROOT name = "USS 宪法" }
+  set_technology = {
+    ship_constitution = 1
+    wunderwaffe_modules = 1
+    popup = no
+  }
+  create_equipment_variant = {
+    name = "宪法级"  # Constitution Class
+    role_icon_index = 5
+    type = vnr_ship_hull_constitution
+    modules = {
+      fixed_ship_battery_slot = ship_space_battery_0
+      fixed_ship_anti_air_slot = ship_sam_1
+      fixed_ship_fire_control_system_slot = ship_AI_fire_control_1
+      fixed_ship_radar_slot = ship_aegis_0
+      fixed_ship_engine_slot = modern_ship_engine_2
+      fixed_ship_secondaries_slot = ship_ciw_1
+      fixed_ship_armor_slot = ship_modern_armor_1
+    }
+  }
+  create_ship = {
+    type = vnr_ship_hull_constitution
+    equipment_variant = "宪法级"  # Constitution Class
+    creator = ROOT
+    name = "USS 宪法"  # USS Constitution
+  }
 }
-
 create_macross = {
-	set_technology = { ship_macross = 1 wunderwaffe_modules = 1 popup = no }
-	create_equipment_variant = {
-		name = "超时空要塞"
-		role_icon_index = 7
-		type = vnr_ship_hull_macross
-		modules = {
-			fixed_ship_battery_slot = ship_space_battery_1
-			fixed_ship_anti_air_slot = ship_sam_1
-			fixed_ship_fire_control_system_slot = ship_AI_fire_control_0
-			fixed_ship_radar_slot = ship_aegis_0
-			fixed_ship_engine_slot = space_ship_engine_1
-			fixed_ship_secondaries_slot = ship_ciw_1
-			fixed_ship_armor_slot = ship_space_armor_1
-			front_1_custom_slot = modern_deck_space_1
-			front_2_custom_slot = modern_deck_space_1
-			mid_1_custom_slot = ship_sam_1
-			mid_2_custom_slot = ship_space_battery_1
-			mid_3_custom_slot = ship_vls_1
-			rear_1_custom_slot = ship_ciw_1
-			rear_2_custom_slot = ship_sam_1
-		}
-	}
-
-	create_ship = { type = vnr_ship_hull_macross equipment_variant = "超时空要塞" creator = ROOT name = "SDF-1 太空堡垒" }
+  set_technology = {
+    ship_macross = 1
+    wunderwaffe_modules = 1
+    popup = no
+  }
+  create_equipment_variant = {
+    name = "超时空要塞"  # Macross Class
+    role_icon_index = 7
+    type = vnr_ship_hull_macross
+    modules = {
+      fixed_ship_battery_slot = ship_space_battery_1
+      fixed_ship_anti_air_slot = ship_sam_1
+      fixed_ship_fire_control_system_slot = ship_AI_fire_control_0
+      fixed_ship_radar_slot = ship_aegis_0
+      fixed_ship_engine_slot = space_ship_engine_1
+      fixed_ship_secondaries_slot = ship_ciw_1
+      fixed_ship_armor_slot = ship_space_armor_1
+      front_1_custom_slot = modern_deck_space_1
+      front_2_custom_slot = modern_deck_space_1
+      mid_1_custom_slot = ship_sam_1
+      mid_2_custom_slot = ship_space_battery_1
+      mid_3_custom_slot = ship_vls_1
+      rear_1_custom_slot = ship_ciw_1
+      rear_2_custom_slot = ship_sam_1
+    }
+  }
+  create_ship = {
+    type = vnr_ship_hull_macross
+    equipment_variant = "超时空要塞"  # Macross Class
+    creator = ROOT
+    name = "SDF-1 太空堡垒"  # SDF-1
+  }
 }
-
 create_space_yamato = {
-	set_technology = { ship_space_yamato = 1 wunderwaffe_modules = 1 popup = no }
-	create_equipment_variant = {
-		name = "大和级"
-		role_icon_index = 7
-		type = vnr_ship_hull_space_yamato
-		modules = {
-			fixed_ship_battery_slot = ship_space_battery_1
-			fixed_ship_anti_air_slot = ship_sam_1
-			fixed_ship_fire_control_system_slot = ship_AI_fire_control_0
-			fixed_ship_radar_slot = ship_aegis_0
-			fixed_ship_engine_slot = space_ship_engine_1
-			fixed_ship_secondaries_slot = ship_ciw_1
-			fixed_ship_armor_slot = ship_space_armor_1
-			front_1_custom_slot = ship_space_battery_1
-			front_2_custom_slot = modern_deck_space_1
-			mid_1_custom_slot = ship_ciw_1
-			mid_2_custom_slot = ship_vls_1
-			mid_3_custom_slot = ship_vls_1
-			rear_1_custom_slot = ship_space_battery_1
-			rear_2_custom_slot = ship_sam_1
-		}
-	}
-
-	create_ship = { type = vnr_ship_hull_space_yamato equipment_variant = "大和级" creator = ROOT name = "宇宙战舰大和号" }
+  set_technology = {
+    ship_space_yamato = 1
+    wunderwaffe_modules = 1
+    popup = no
+  }
+  create_equipment_variant = {
+    name = "大和级"  # Yamato Class
+    role_icon_index = 7
+    type = vnr_ship_hull_space_yamato
+    modules = {
+      fixed_ship_battery_slot = ship_space_battery_1
+      fixed_ship_anti_air_slot = ship_sam_1
+      fixed_ship_fire_control_system_slot = ship_AI_fire_control_0
+      fixed_ship_radar_slot = ship_aegis_0
+      fixed_ship_engine_slot = space_ship_engine_1
+      fixed_ship_secondaries_slot = ship_ciw_1
+      fixed_ship_armor_slot = ship_space_armor_1
+      front_1_custom_slot = ship_space_battery_1
+      front_2_custom_slot = modern_deck_space_1
+      mid_1_custom_slot = ship_ciw_1
+      mid_2_custom_slot = ship_vls_1
+      mid_3_custom_slot = ship_vls_1
+      rear_1_custom_slot = ship_space_battery_1
+      rear_2_custom_slot = ship_sam_1
+    }
+  }
+  create_ship = {
+    type = vnr_ship_hull_space_yamato
+    equipment_variant = "大和级"  # Yamato Class
+    creator = ROOT
+    name = "宇宙战舰大和号"  # Space Battleship Yamato
+  }
 }
-
 KuK_never_built_blueprints = {
-	set_technology = {
-		early_ship_hull_heavy = 1
-		basic_ship_hull_heavy = 1
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		incremental_armor_scheme = 1
-		basic_torpedo_defense = 1
-		basic_depth_charges = 1
-		basic_torpedo = 1
-		basic_naval_mines = 1
-		
-		basic_battery = 1
-		multi_mounted_battery = 1
-		basic_light_battery = 1
-		basic_medium_battery = 1
-		basic_heavy_battery = 1
-	}
-
-	create_equipment_variant = { #
-		name = "君主级"
-		role_icon_index = 1
-		type = vnr_ship_hull_heavy_2
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bb_1
-			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_heavy_battery_1_triple
-			front_2_custom_slot = ship_anti_air_1
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_heavy_battery_1
-			rear_2_custom_slot = ship_heavy_battery_1_triple
-		}
-	}
-	create_equipment_variant = {
-		name = "泰格霍夫级"
-		role_icon_index = 3
-		type = vnr_ship_hull_heavy_1
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_small_1_triple
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bb_1
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_anti_air_1
-			front_2_custom_slot = ship_heavy_battery_small_1_triple
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_heavy_battery_small_1_triple
-			rear_2_custom_slot = ship_heavy_battery_small_1_triple
-		}
-	}
-	create_equipment_variant = {
-		name = "涅戈万海军上将级"
-		role_icon_index = 23
-		type = vnr_ship_hull_cruiser_1
-		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1_single
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_cruiser_1
-			front_1_custom_slot = ship_light_medium_battery_1_single
-			mid_1_custom_slot = ship_airplane_launcher_1
-			mid_2_custom_slot = ship_light_medium_battery_1_single
-			rear_1_custom_slot = ship_depth_charge_1
-			rear_2_custom_slot = ship_light_medium_battery_1_single
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "斯邦海军上将级"
-		role_icon_index = 45
-		type = vnr_ship_hull_cruiser_1
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_armor_slot = empty
-			front_1_custom_slot = ship_light_battery_1
-			front_2_custom_slot = ship_light_battery_1
-			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_light_battery_1
-			mid_3_custom_slot = ship_light_battery_1
-			rear_1_custom_slot = ship_light_battery_1
-			rear_2_custom_slot = ship_light_battery_1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "赫尔戈兰级"
-		role_icon_index = 23
-		type = vnr_ship_hull_cruiser_1
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_armor_slot = empty
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			front_1_custom_slot = ship_light_battery_1
-			front_2_custom_slot = ship_light_battery_1
-			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_light_battery_1
-			mid_3_custom_slot = ship_light_battery_1
-			rear_1_custom_slot = ship_light_battery_1
-			rear_2_custom_slot = ship_light_battery_1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "塔特拉级"
-		role_icon_index = 29
-		type = vnr_ship_hull_light_1
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = ship_depth_charge_1
-			rear_2_custom_slot = ship_light_battery_1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "特里格拉夫级"
-		role_icon_index = 31
-		type = vnr_ship_hull_light_1
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_light_battery_2
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "骠骑兵级"
-		role_icon_index = 29
-		type = vnr_ship_hull_light_1
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_mine_layer_1
-			rear_1_custom_slot = ship_mine_layer_1
-		}
-		obsolete = yes
-	}
+  set_technology = {
+    early_ship_hull_heavy = 1
+    basic_ship_hull_heavy = 1
+    early_ship_hull_light = 1
+    early_ship_hull_cruiser = 1
+    incremental_armor_scheme = 1
+    basic_torpedo_defense = 1
+    basic_depth_charges = 1
+    basic_torpedo = 1
+    basic_naval_mines = 1
+    basic_battery = 1
+    multi_mounted_battery = 1
+    basic_light_battery = 1
+    basic_medium_battery = 1
+    basic_heavy_battery = 1
+  }
+  create_equipment_variant = {
+    name = "君主级"  # Monarch Class
+    role_icon_index = 1
+    type = vnr_ship_hull_heavy_2
+    name_group = HUN_BB_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_1
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_1
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bb_1
+      fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_heavy_battery_1_triple
+      front_2_custom_slot = ship_anti_air_1
+      mid_1_custom_slot = ship_secondaries_1
+      mid_2_custom_slot = ship_airplane_launcher_1
+      rear_1_custom_slot = ship_heavy_battery_1
+      rear_2_custom_slot = ship_heavy_battery_1_triple
+    }
+  }
+  create_equipment_variant = {
+    name = "泰格霍夫级"  # Tegetthoff (V) Class
+    role_icon_index = 3
+    type = vnr_ship_hull_heavy_1
+    name_group = HUN_BB_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_heavy_battery_small_1_triple
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = heavy_ship_engine_1
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_armor_slot = ship_armor_bb_1
+      fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+      front_1_custom_slot = ship_anti_air_1
+      front_2_custom_slot = ship_heavy_battery_small_1_triple
+      mid_1_custom_slot = ship_secondaries_1
+      mid_2_custom_slot = ship_airplane_launcher_1
+      rear_1_custom_slot = ship_heavy_battery_small_1_triple
+      rear_2_custom_slot = ship_heavy_battery_small_1_triple
+    }
+  }
+  create_equipment_variant = {
+    name = "涅戈万海军上将级"  # Admiral Njegovan Class
+    role_icon_index = 23
+    type = vnr_ship_hull_cruiser_1
+    name_group = HUN_CL_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_light_medium_battery_1_single
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot = empty
+      fixed_ship_armor_slot = ship_armor_cruiser_1
+      front_1_custom_slot = ship_light_medium_battery_1_single
+      mid_1_custom_slot = ship_airplane_launcher_1
+      mid_2_custom_slot = ship_light_medium_battery_1_single
+      rear_1_custom_slot = ship_depth_charge_1
+      rear_2_custom_slot = ship_light_medium_battery_1_single
+    }
+    obsolete = yes
+  }
+  create_equipment_variant = {
+    name = "斯邦海军上将级"  # Admiral Spaun Class
+    role_icon_index = 45
+    type = vnr_ship_hull_cruiser_1
+    name_group = HUN_CL_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_light_battery_1
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = cruiser_ship_engine_1
+      fixed_ship_armor_slot = empty
+      front_1_custom_slot = ship_light_battery_1
+      front_2_custom_slot = ship_light_battery_1
+      mid_1_custom_slot = ship_torpedo_1
+      mid_2_custom_slot = ship_light_battery_1
+      mid_3_custom_slot = ship_light_battery_1
+      rear_1_custom_slot = ship_light_battery_1
+      rear_2_custom_slot = ship_light_battery_1
+    }
+    obsolete = yes
+  }
+  create_equipment_variant = {
+    name = "赫尔戈兰级"  # Helgoland Class
+    role_icon_index = 23
+    type = vnr_ship_hull_cruiser_1
+    name_group = HUN_CL_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_light_battery_1
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = cruiser_ship_engine_1
+      fixed_ship_armor_slot = empty
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      front_1_custom_slot = ship_light_battery_1
+      front_2_custom_slot = ship_light_battery_1
+      mid_1_custom_slot = ship_torpedo_1
+      mid_2_custom_slot = ship_light_battery_1
+      mid_3_custom_slot = ship_light_battery_1
+      rear_1_custom_slot = ship_light_battery_1
+      rear_2_custom_slot = ship_light_battery_1
+    }
+    obsolete = yes
+  }
+  create_equipment_variant = {
+    name = "塔特拉级"  # Tátra Class
+    role_icon_index = 29
+    type = vnr_ship_hull_light_1
+    name_group = HUN_DD_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_light_battery_1
+      fixed_ship_anti_air_slot = empty
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = light_ship_engine_1
+      fixed_ship_torpedo_slot = ship_torpedo_1
+      mid_1_custom_slot = empty
+      rear_1_custom_slot = ship_depth_charge_1
+      rear_2_custom_slot = ship_light_battery_1
+    }
+    obsolete = yes
+  }
+  create_equipment_variant = {
+    name = "特里格拉夫级"  # Triglav Class
+    role_icon_index = 31
+    type = vnr_ship_hull_light_1
+    name_group = HUN_DD_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_light_battery_2
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = light_ship_engine_1
+      fixed_ship_torpedo_slot = ship_torpedo_1
+      mid_1_custom_slot = ship_torpedo_1
+      rear_1_custom_slot = ship_light_battery_2
+    }
+    obsolete = yes
+  }
+  create_equipment_variant = {
+    name = "骠骑兵级"  # Huszár Class
+    role_icon_index = 29
+    type = vnr_ship_hull_light_1
+    name_group = HUN_DD_HISTORICAL
+    modules = {
+      fixed_ship_battery_slot = ship_light_battery_1
+      fixed_ship_anti_air_slot = ship_anti_air_1
+      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_radar_slot = empty
+      fixed_ship_engine_slot = light_ship_engine_1
+      fixed_ship_torpedo_slot = ship_torpedo_1
+      mid_1_custom_slot = ship_mine_layer_1
+      rear_1_custom_slot = ship_mine_layer_1
+    }
+    obsolete = yes
+  }
 }

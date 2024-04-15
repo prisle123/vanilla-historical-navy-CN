@@ -953,3 +953,8 @@
  ship_torpedo_bb: "450mm舷侧发射管"
  ship_torpedo_bb_short: "舷侧鱼雷发射管"
  ship_torpedo_bb_desc: "一组固定在船舷位置的鱼雷发射管。"
+ EQ_MOD_CAT_ship_medium_heavy_battery_triple_TITLE: "三联重中型火炮"
+ EQ_MOD_CAT_ship_medium_heavy_battery_double_TITLE: "双联重中型火炮"
+ ship_rocket_launcher: "火箭炮"
+ ship_rocket_launcher_short: "火箭炮"
+ ship_rocket_launcher_desc: "安装在船上的一组火箭炮，可以快速连续地发射火箭。"

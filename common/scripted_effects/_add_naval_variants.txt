@@ -1491,6 +1491,7 @@ JAP_start_naval_variants = {
       fixed_ship_anti_air_slot = ship_anti_air_2
       fixed_ship_secondaries_slot = dp_ship_secondaries_1
       fixed_ship_armor_slot = ship_armor_cruiser_heavy_2
+      fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
       mid_1_custom_slot = ship_deck_space
       mid_2_custom_slot = ship_deck_space
     }
@@ -3193,9 +3194,26 @@ USA_start_naval_variants = {
       fixed_ship_anti_air_slot = ship_anti_air_2
       fixed_ship_engine_slot = carrier_ship_engine_2
       fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
       front_1_custom_slot = ship_deck_space
       mid_1_custom_slot = ship_deck_space
       fixed_ship_armor_slot = ship_armor_cruiser_1
+    }
+  }
+  create_equipment_variant = {
+    name = "胡蜂级"  # Wasp Class
+    role_icon_index = 9
+    type = vnr_ship_hull_carrier_1
+    name_group = USA_CV_HISTORICAL
+    modules = {
+      fixed_ship_deck_slot_1 = ship_deck_space
+      fixed_ship_deck_slot_2 = ship_deck_space
+      fixed_ship_anti_air_slot = ship_anti_air_2
+      fixed_ship_engine_slot = carrier_ship_engine_1
+      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+      front_1_custom_slot = ship_deck_space
+      mid_1_custom_slot = ship_deck_space
     }
   }
   create_equipment_variant = {
@@ -3212,6 +3230,7 @@ USA_start_naval_variants = {
       fixed_ship_anti_air_slot = ship_anti_air_1
       fixed_ship_secondaries_slot = usa_8in_mk9_secondaries
       fixed_ship_armor_slot = ship_armor_cruiser_2
+      fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
     }
   }
   create_equipment_variant = {
@@ -3226,9 +3245,8 @@ USA_start_naval_variants = {
       fixed_ship_engine_slot = carrier_ship_engine_1
       fixed_ship_anti_air_slot = ship_anti_air_1
       fixed_ship_secondaries_slot = ship_secondaries_1
-      fixed_ship_armor_slot = ship_armor_cruiser_1
       front_1_custom_slot = ship_deck_space
-      mid_1_custom_slot = ship_deck_space_small
+      mid_1_custom_slot = ship_deck_space
     }
   }
   create_equipment_variant = {
@@ -4634,7 +4652,7 @@ HOL_start_naval_variants = {
     obsolete = yes
   }
   create_equipment_variant = {
-    name = "摄政女王级"  # Hertog Hendrik Class
+    name = "摄政女王级"  # Koningin Regentes Class
     role_icon_index = 17
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = HOL_CA_HISTORICAL
@@ -5434,7 +5452,6 @@ TUR_start_naval_variants = {
   create_equipment_variant = {
     name = "毛奇级"  # Moltke Class
     role_icon_index = 15
-    icon = "gfx/interface/technologies/Generic/generic_battleship1.png"
     type = vnr_ship_hull_heavy_1
     name_group = TUR_SULTANS
     modules = {
@@ -5472,6 +5489,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "扎法级"  # Zafer Class
+    icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = TUR_GEOGRAPHIC
@@ -5487,6 +5505,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "科扎德佩级"  # Kocatepe Class
+    icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = TUR_GEOGRAPHIC
@@ -5572,6 +5591,7 @@ TUR_start_naval_variants = {
 COL_start_naval_variants = {
   create_equipment_variant = {
     name = "安蒂奥基亚级"  # Antioquia Class
+	icon = "gfx/interface/technologies/Portugal/POR_destroyer2.png"
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = COL_DD_HISTORICAL
