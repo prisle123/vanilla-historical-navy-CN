@@ -2231,7 +2231,7 @@ JAP_start_naval_variants = {
     name = "海中V级"  # Kaichū V Class
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
-    name_group = JAP_SS_HISTORICAL
+    name_group = JAP_SSC_HISTORICAL
     modules = {
       fixed_ship_torpedo_slot = ship_torpedo_sub_1
       fixed_ship_engine_slot = sub_ship_engine_1
@@ -2243,7 +2243,7 @@ JAP_start_naval_variants = {
     name = "海中IV级"  # Kaichū IV Class
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
-    name_group = JAP_SS_HISTORICAL
+    name_group = JAP_SSC_HISTORICAL
     modules = {
       fixed_ship_torpedo_slot = ship_torpedo_sub_1
       fixed_ship_engine_slot = sub_ship_engine_1
@@ -2267,7 +2267,7 @@ JAP_start_naval_variants = {
     name = "L级"  # L Class
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
-    name_group = JAP_SS_HISTORICAL
+    name_group = JAP_SSC_HISTORICAL
     modules = {
       fixed_ship_torpedo_slot = ship_torpedo_sub_1
       fixed_ship_engine_slot = sub_ship_engine_1
@@ -5591,7 +5591,7 @@ TUR_start_naval_variants = {
 COL_start_naval_variants = {
   create_equipment_variant = {
     name = "安蒂奥基亚级"  # Antioquia Class
-	icon = "gfx/interface/technologies/Portugal/POR_destroyer2.png"
+    icon = "gfx/interface/technologies/Portugal/POR_destroyer2.png"
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = COL_DD_HISTORICAL
@@ -6086,5 +6086,20 @@ BEL_start_naval_variants = {
       rear_1_custom_slot = ship_mine_sweeper_1
     }
     obsolete = yes
+  }
+}
+LAT_start_naval_variants = {
+  create_equipment_variant = {
+    name = "海豹级"  # Ronis Class
+    allow_without_tech = yes
+    role_icon_index = 49
+    type = vnr_ship_hull_submarine_2
+    name_group = LAT_SS_HISTORICAL
+    modules = {
+      fixed_ship_torpedo_slot = ship_torpedo_sub_2
+      fixed_ship_engine_slot = sub_ship_engine_1
+      fixed_ship_armor_slot = pressure_hull_1
+      rear_1_custom_slot = empty
+    }
   }
 }

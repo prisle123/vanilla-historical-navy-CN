@@ -113,3 +113,8 @@
  RULE_OPTION_BLOCKED: "禁止"
  RULE_ALLOW_NEVER_BUILT_FREE_DESC: "将§R允许§!作弊决议，可以获得未被建造的战舰和战争巨兽。"
  RULE_ALLOW_NEVER_BUILT_BLOCKED_DESC: "将§R禁止§!作弊决议，不可以获得未被建造的战舰和战争巨兽。\n\n§R多人模式推荐。§!"
+ ship_alicorn: "天角兽号"
+ ship_constitution: "宪法号"
+ ship_macross: "SDF-1 马克罗斯"
+ ship_space_yamato: "宇宙战舰大和号"
+ wunderwaffe_modules: "巨兽模块"

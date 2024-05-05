@@ -1,0 +1,14 @@
+units = {
+
+    ##### NAVAL UNITS #####
+    fleet = {
+        name = "拉脱维亚海军"
+        naval_base = 9340
+        task_force = {
+            name = "拉脱维亚海军"
+            location = 9340
+            ship = { name = "海豹" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = LAT version_name = "海豹级" } } }
+            ship = { name = "斯皮多拉" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = LAT version_name = "海豹级" } } }
+        }
+    }
+}

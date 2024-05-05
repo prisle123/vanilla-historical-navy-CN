@@ -276,3 +276,17 @@ CHYN_THEME_ASTROLOGY = {
 		"文昌" "三师" "三公" "天床" "太尊" "天牢" "玄戈"
 	}
 }
+
+CHYN_THEME_ANCIENT_GENERAL = {
+	name = NAME_THEME_GENERAL_CHI
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+
+	type = ship
+
+	#prefix = "ROCS "
+	fallback_name = "%s."
+
+	unique = {
+		"骠骑将军" "车骑将军" "卫将军" "前将军" "后将军" "左将军" "右将军" "荡寇将军" "讨虏将军" "破虏将军" "讨逆将军" "武牙将军" "折冲将军" "伏波将军" "龙骧将军" "虎翼将军" "骁骑将军" "偏将军" "裨将军" "中护军"
+	}
+}

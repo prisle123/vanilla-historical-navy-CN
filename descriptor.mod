@@ -1,4 +1,4 @@
-version="v1.4 - Pacific Storm"
+version="v1.6 - Furinkazan"
 tags={
 	"Military"
 	"Translation"
