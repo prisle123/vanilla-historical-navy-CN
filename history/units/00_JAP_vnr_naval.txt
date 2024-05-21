@@ -351,11 +351,11 @@ units = {
 	
 	### Pacific Forces ###
 	fleet = {
-		name = "太平洋舰队"			
+		name = "南方运输船团"			
 		naval_base = 2489  # 2489  # Truk
 		#Truk
 		task_force = {
-			name = "南方运输舰队"
+			name = "南方运输船团"
 			location = 2489  # 2489  # Truk
 			ship = { name = "追风" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
 			ship = { name = "疾风" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "峯风型/睦月型"} } }
