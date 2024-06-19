@@ -1,22 +1,24 @@
 ENG_start_naval_variants = {
   create_equipment_variant = {
     name = "皇家方舟级"  # Ark Royal Class
+    parent_version = 0
     role_icon_index = 9
     type = vnr_ship_hull_carrier_1
     name_group = ENG_CV_QUALITIES
     modules = {
-      fixed_ship_deck_slot_1 = ship_deck_space_armored
-      fixed_ship_deck_slot_2 = ship_deck_space_armored
+      fixed_ship_deck_slot_1 = ship_deck_space
+      fixed_ship_deck_slot_2 = ship_deck_space
       fixed_ship_anti_air_slot = ship_anti_air_2
       fixed_ship_engine_slot = carrier_ship_engine_2
       fixed_ship_secondaries_slot = dp_ship_secondaries_1
       fixed_ship_armor_slot = ship_armor_cruiser_2
       fixed_ship_flight_deck_slot = carrier_armor_deck
-      front_1_custom_slot = ship_deck_space_armored
+      front_1_custom_slot = ship_deck_space
     }
   }
   create_equipment_variant = {
     name = "鹰级"  # Eagle Class
+    parent_version = 0
     role_icon_index = 9
     icon = "gfx/interface/technologies/England/ENG_carrier1.png"
     type = vnr_ship_hull_carrier_conversion_bb
@@ -32,6 +34,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "勇敢级"  # Courageous Class
+    parent_version = 0
     role_icon_index = 9
     type = vnr_ship_hull_carrier_conversion_bb
     name_group = ENG_CV_QUALITIES
@@ -48,6 +51,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "暴怒级"  # Furious Class
+    parent_version = 0
     role_icon_index = 9
     icon = "gfx/interface/technologies/England/ENG_carrier_Furious.png"
     type = vnr_ship_hull_carrier_conversion_bb
@@ -64,6 +68,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "竞技神级"  # Hermes Class
+    parent_version = 0
     role_icon_index = 9
     icon = "gfx/interface/technologies/England/ENG_carrier_Hermes.png"
     type = vnr_ship_hull_carrier_conversion_ca
@@ -78,6 +83,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "英王乔治五世级"  # King George V Class
+    parent_version = 0
     role_icon_index = 1
     type = vnr_ship_hull_heavy_3
     name_group = ENG_BB_HISTORICAL
@@ -99,6 +105,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "纳尔逊级"  # Nelson Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_2
     name_group = ENG_BB_HISTORICAL
@@ -120,6 +127,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "伊丽莎白女王级"  # Queen Elizabeth Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = ENG_BB_HISTORICAL
@@ -143,6 +151,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "复仇级"  # Revenge Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = ENG_BB_HISTORICAL
@@ -166,6 +175,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海军上将级"  # Admiral Class
+    parent_version = 0
     role_icon_index = 15
     icon = "gfx/interface/technologies/England/ENG_battleship_Admiral.png"
     type = vnr_ship_hull_heavy_2
@@ -189,6 +199,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "声望级"  # Renown Class
+    parent_version = 0
     role_icon_index = 15
     icon = "gfx/interface/technologies/England/ENG_battleship_Renown.png"
     type = vnr_ship_hull_heavy_1
@@ -211,6 +222,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "约克级"  # York Class
+    parent_version = 0
     role_icon_index = 27
     icon = "gfx/interface/technologies/England/ENG_heavy_cruiser_York.png"
     type = vnr_ship_hull_cruiser_2
@@ -230,6 +242,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "诺福克级"  # Norfolk Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = ENG_CA_HISTORICAL
@@ -250,6 +263,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "伦敦级"  # London Class
+    parent_version = 0
     role_icon_index = 27
     icon = "gfx/interface/technologies/England/ENG_heavy_cruiser3.png"
     type = vnr_ship_hull_cruiser_2
@@ -270,6 +284,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "肯特级"  # Kent Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = ENG_CA_HISTORICAL
@@ -290,6 +305,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "霍金斯级"  # Hawkins Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_1
     name_group = ENG_CA_HISTORICAL
@@ -309,6 +325,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "城级"  # Town Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
     type = vnr_ship_hull_cruiser_3
@@ -330,6 +347,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "林仙级"  # Arethusa Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/England/ENG_light_cruiser_Arethusa.png"
     type = vnr_ship_hull_cruiser_3
@@ -350,6 +368,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "利安德级"  # Leander Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_3
     name_group = ENG_CL_HISTORICAL
@@ -370,6 +389,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "翡翠级"  # Emerald Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_2
     name_group = ENG_CL_HISTORICAL
@@ -389,6 +409,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "达娜厄级"  # Danae Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_2
     name_group = ENG_CL_HISTORICAL
@@ -407,6 +428,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "C级"  # C Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_2
     name_group = ENG_CL_HISTORICAL
@@ -424,6 +446,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "历险级"  # Adventure Class
+    parent_version = 0
     role_icon_index = 51
     icon = "gfx/interface/technologies/England/ENG_light_cruiser_Adventure.png"
     type = vnr_ship_hull_cruiser_2
@@ -446,6 +469,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "E/F/G/H级"  # E/F/G/H Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = ENG_DD_ALPHABETICAL
@@ -465,6 +489,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "A/B/C/D级"  # A/B/C/D Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = ENG_DD_ALPHABETICAL
@@ -484,6 +509,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "V/W级"  # V/W Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = ENG_DD_ALPHABETICAL
@@ -502,6 +528,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "R/S级"  # R/S Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = ENG_DD_ALPHABETICAL
@@ -519,6 +546,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+    parent_version = 0
     role_icon_index = 33
     type = vnr_ship_hull_light_2
     name_group = ENG_DD_ALPHABETICAL
@@ -539,6 +567,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "灰海豚级"  # Grampus Class
+    parent_version = 0
     role_icon_index = 41
     type = vnr_ship_hull_submarine_2
     name_group = ENG_SS_HISTORICAL
@@ -551,6 +580,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "河级"  # River Class
+    parent_version = 0
     role_icon_index = 39
     type = vnr_ship_hull_cruiser_submarine
     name_group = ENG_SS_HISTORICAL
@@ -564,6 +594,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "S级"  # S Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = ENG_SS_HISTORICAL
@@ -576,6 +607,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "P/R级"  # P/R Class
+    parent_version = 0
     role_icon_index = 41
     type = vnr_ship_hull_submarine_2
     name_group = ENG_SS_HISTORICAL
@@ -588,6 +620,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "O级"  # O Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = ENG_SS_HISTORICAL
@@ -601,6 +634,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "H级"  # H Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = ENG_SS_HISTORICAL
@@ -614,6 +648,7 @@ ENG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "L级"  # L Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = ENG_SS_HISTORICAL
@@ -629,6 +664,7 @@ ENG_start_naval_variants = {
 GER_start_naval_variants = {
   create_equipment_variant = {
     name = "齐柏林伯爵级"  # Graf Zeppelin Class
+    parent_version = 0
     role_icon_index = 9
     icon = "gfx/interface/technologies/Germany/GER_carrier_conversion_bb.png"
     type = vnr_ship_hull_carrier_1
@@ -643,6 +679,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "俾斯麦级"  # Bismarck Class
+    parent_version = 0
     role_icon_index = 1
     icon = "gfx/interface/technologies/Germany/GER_battleship4.png"
     type = vnr_ship_hull_heavy_3
@@ -666,6 +703,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "德意志级"  # Deutschland Class
+    parent_version = 0
     role_icon_index = 5
     type = vnr_ship_hull_pre_dreadnought
     name_group = GER_BB_HISTORICAL
@@ -683,6 +721,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "沙恩霍斯特级"  # Scharnhorst Class
+    parent_version = 0
     role_icon_index = 15
     type = vnr_ship_hull_heavy_3
     name_group = GER_BB_HISTORICAL
@@ -704,6 +743,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "德意志级"  # Deutschland Class
+    parent_version = 0
     role_icon_index = 21
     type = vnr_ship_hull_cruiser_panzerschiff
     name_group = GER_CA_HISTORICAL
@@ -722,6 +762,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "希佩尔海军上将级"  # Admiral Hipper Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_3
     name_group = GER_CA_HISTORICAL
@@ -741,6 +782,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "莱比锡级"  # Leipzig Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
     type = vnr_ship_hull_cruiser_2
@@ -762,6 +804,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "科尼斯堡级"  # Königsberg Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
     type = vnr_ship_hull_cruiser_2
@@ -781,6 +824,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "埃姆登级"  # Emden Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
     type = vnr_ship_hull_cruiser_1
@@ -801,6 +845,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Type 1936级"  # Type 1936 Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = GER_DD_HISTORICAL
@@ -820,6 +865,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Type 1934A级"  # Type 1934A Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = GER_DD_HISTORICAL
@@ -839,6 +885,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Type 1934级"  # Type 1934 Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = GER_DD_HISTORICAL
@@ -858,6 +905,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Type 23级"  # Type 23 Class
+    parent_version = 0
     role_icon_index = 29
     icon = "gfx/interface/technologies/Germany/GER_destroyer_1924.png"
     type = vnr_ship_hull_light_2
@@ -877,6 +925,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Type 24级"  # Type 24 Class
+    parent_version = 0
     role_icon_index = 29
     icon = "gfx/interface/technologies/Germany/GER_destroyer_1924.png"
     type = vnr_ship_hull_light_2
@@ -896,6 +945,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Type VIIA级"  # Type VIIA Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = GER_SS_HISTORICAL
@@ -908,6 +958,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Type IIA级"  # Type IIA Class
+    parent_version = 0
     icon = "gfx/interface/technologies/generic/generic_midget_submarine.png"
     role_icon_index = 49
     type = vnr_ship_hull_submarine_2
@@ -921,6 +972,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Type IIB级"  # Type IIB Class
+    parent_version = 0
     icon = "gfx/interface/technologies/generic/generic_midget_submarine.png"
     role_icon_index = 49
     type = vnr_ship_hull_submarine_2
@@ -934,6 +986,7 @@ GER_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Type IA级"  # Type IA Class
+    parent_version = 0
     icon = "gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
@@ -950,6 +1003,7 @@ GER_start_naval_variants = {
 FRA_start_naval_variants = {
   create_equipment_variant = {
     name = "贝亚恩级"  # Béarn Class
+    parent_version = 0
     role_icon_index = 9
     type = vnr_ship_hull_carrier_conversion_bb
     name_group = FRA_CV_HISTORICAL
@@ -964,6 +1018,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "黎塞留级"  # Richelieu Class
+    parent_version = 0
     role_icon_index = 1
     icon = "gfx/interface/technologies/France/FRA_battleship4.png"
     type = vnr_ship_hull_heavy_3
@@ -986,6 +1041,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "敦刻尔克级"  # Dunkerque Class
+    parent_version = 0
     role_icon_index = 1
     type = vnr_ship_hull_heavy_3
     name_group = FRA_BB_HISTORICAL
@@ -1007,6 +1063,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "布列塔尼级"  # Bretagne Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = FRA_BB_HISTORICAL
@@ -1029,6 +1086,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "孤拔级"  # Courbet Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = FRA_BB_HISTORICAL
@@ -1051,6 +1109,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "阿尔及利亚级"  # Algérie Class
+    parent_version = 0
     role_icon_index = 27
     icon = "gfx/interface/technologies/France/FRA_heavy_cruiser1.png"
     type = vnr_ship_hull_cruiser_2
@@ -1072,6 +1131,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "絮弗朗级"  # Suffren Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = FRA_CA_HISTORICAL
@@ -1092,6 +1152,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "迪凯纳级"  # Duquesne Class
+    parent_version = 0
     role_icon_index = 27
     icon = "gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
     type = vnr_ship_hull_cruiser_2
@@ -1113,6 +1174,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "拉加利索尼埃级"  # La Galissonnière Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/France/FRA_light_cruiser4.png"
     type = vnr_ship_hull_cruiser_3
@@ -1132,6 +1194,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "埃米尔·贝尔坦级"  # Émile Bertin Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_3
     name_group = FRA_CL_HISTORICAL
@@ -1151,6 +1214,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "圣女贞德级"  # Jeanne d'Arc Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/France/FRA_light_cruiser_Jeanne.png"
     type = vnr_ship_hull_cruiser_2
@@ -1171,6 +1235,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "迪盖·特鲁安级"  # Duguay-Trouin Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_2
     name_group = FRA_CL_HISTORICAL
@@ -1192,6 +1257,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "冥王星级"  # Pluton Class
+    parent_version = 0
     role_icon_index = 51
     icon = "gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
     type = vnr_ship_hull_cruiser_2
@@ -1213,6 +1279,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "莫加多尔级"  # Mogador Class
+    parent_version = 0
     role_icon_index = 33
     icon = "gfx/interface/technologies/France/FRA_destroyer4.png"
     type = vnr_ship_hull_light_3
@@ -1233,6 +1300,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "空想级"  # Le Fantasque Class
+    parent_version = 0
     role_icon_index = 33
     type = vnr_ship_hull_light_3
     name_group = FRA_DD_HISTORICAL
@@ -1252,6 +1320,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "鹰级/沃克兰级"  # Aigle/Vauquelin Class
+    parent_version = 0
     role_icon_index = 33
     type = vnr_ship_hull_light_2
     name_group = FRA_DD_HISTORICAL
@@ -1271,6 +1340,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "豺狼级/猎豹级"  # Chacal/Guépard Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = FRA_DD_HISTORICAL
@@ -1290,6 +1360,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "暴风雪级/灵巧级"  # Bourrasque/L'Adroit Class
+    parent_version = 0
     role_icon_index = 31
     icon = "gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
     type = vnr_ship_hull_light_3
@@ -1308,6 +1379,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "密涅瓦级"  # Minerve Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = FRA_SS_HISTORICAL
@@ -1320,6 +1392,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "曙光级"  # Aurore Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = FRA_SS_HISTORICAL
@@ -1332,6 +1405,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "絮库夫级"  # Surcouf Class
+    parent_version = 0
     role_icon_index = 39
     icon = "gfx/interface/technologies/France/FRA_submarine_Surcouf.png"
     type = vnr_ship_hull_cruiser_submarine
@@ -1347,6 +1421,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "可畏级"  # Redoutable Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = FRA_SS_HISTORICAL
@@ -1359,6 +1434,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "鲨鱼级"  # Requin Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = FRA_SS_HISTORICAL
@@ -1371,6 +1447,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "狄阿娜级/蓝宝石级"  # Diane/Saphir Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = FRA_SS_HISTORICAL
@@ -1383,6 +1460,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "阿尔戈级/猎户座级"  # Argonaute/Orion Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = FRA_SS_HISTORICAL
@@ -1396,6 +1474,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "阿里阿德涅级/喀耳刻级"  # Ariane/Circé Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = FRA_SS_HISTORICAL
@@ -1409,6 +1488,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "人鱼级"  # Sirène Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = FRA_SS_HISTORICAL
@@ -1422,6 +1502,7 @@ FRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "塔斯特指挥官级"  # Commandant Teste Class
+    parent_version = 0
     role_icon_index = 61
     icon = "gfx/interface/technologies/France/FRA_light_cruiser_Teste.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -1446,6 +1527,7 @@ FRA_start_naval_variants = {
 JAP_start_naval_variants = {
   create_equipment_variant = {
     name = "飞龙级"  # Hiryu Class
+    parent_version = 0
     role_icon_index = 9
     icon = "gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
     type = vnr_ship_hull_carrier_1
@@ -1462,6 +1544,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "苍龙级"  # Soryu Class
+    parent_version = 0
     role_icon_index = 9
     type = vnr_ship_hull_carrier_1
     name_group = JAP_CV_HISTORICAL
@@ -1476,6 +1559,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "龙骧级"  # Ryujo Class
+    parent_version = 0
     role_icon_index = 11
     icon = "gfx/interface/technologies/Japan/JAP_carrier1.png"
     type = vnr_ship_hull_carrier_1
@@ -1490,6 +1574,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "加贺级"  # Kaga Class
+    parent_version = 0
     role_icon_index = 13
     type = vnr_ship_hull_carrier_conversion_bb
     name_group = JAP_CV_HISTORICAL
@@ -1508,6 +1593,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "赤城级"  # Akagi Class
+    parent_version = 0
     role_icon_index = 13
     type = vnr_ship_hull_carrier_conversion_bb
     name_group = JAP_CV_HISTORICAL
@@ -1525,6 +1611,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "瑞凤级"  # Zuiho Class
+    parent_version = 0
     role_icon_index = 11
     icon = "gfx/interface/technologies/Japan/JAP_carrier_conversion_ca.png"
     type = vnr_ship_hull_carrier_1
@@ -1540,6 +1627,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "凤翔级"  # Hosho Class
+    parent_version = 0
     role_icon_index = 11
     type = vnr_ship_hull_carrier_conversion_ca
     name_group = JAP_CVL_HISTORICAL
@@ -1554,6 +1642,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "大和级"  # Yamato Class
+    parent_version = 0
     role_icon_index = 7
     type = vnr_ship_hull_super_heavy_1
     name_group = JAP_BB_HISTORICAL
@@ -1576,6 +1665,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "长门级"  # Nagato Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_2
     name_group = JAP_BB_HISTORICAL
@@ -1599,6 +1689,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "伊势级"  # Ise Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
     type = vnr_ship_hull_heavy_1
@@ -1625,6 +1716,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "扶桑级"  # Fuso Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = JAP_BB_HISTORICAL
@@ -1649,6 +1741,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "金刚级"  # Kongo Class
+    parent_version = 0
     role_icon_index = 1
     icon = "gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
     type = vnr_ship_hull_heavy_1
@@ -1673,6 +1766,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "利根级"  # Tone Class
+    parent_version = 0
     role_icon_index = 27
     icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser4.png"
     type = vnr_ship_hull_cruiser_3
@@ -1696,6 +1790,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "高雄级"  # Takao Class
+    parent_version = 0
     role_icon_index = 27
     icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser3.png"
     type = vnr_ship_hull_cruiser_2
@@ -1719,6 +1814,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "妙高级"  # Myoko Class
+    parent_version = 0
     role_icon_index = 27
     icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser3.png"
     type = vnr_ship_hull_cruiser_2
@@ -1742,6 +1838,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "青叶级"  # Aoba Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = JAP_CA_HISTORICAL
@@ -1763,6 +1860,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "古鹰级"  # Furutaka Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = JAP_CA_HISTORICAL
@@ -1784,6 +1882,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "浅间级/出云级"  # Asama/Izumo Class
+    parent_version = 0
     role_icon_index = 17
     icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser1.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -1806,6 +1905,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "最上级"  # Mogami Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_3
     name_group = JAP_CL_HISTORICAL
@@ -1827,6 +1927,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "香取级"  # Katori Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Katori.png"
     type = vnr_ship_hull_cruiser_3
@@ -1846,6 +1947,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "川内级"  # Sendai Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_2
     name_group = JAP_CL_HISTORICAL
@@ -1867,6 +1969,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "夕张级"  # Yubari Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
     type = vnr_ship_hull_cruiser_2
@@ -1889,6 +1992,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "球磨级/长良级"  # Kuma/Nagara Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_1
     name_group = JAP_CL_HISTORICAL
@@ -1909,6 +2013,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "天龙级"  # Tenryu Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_1
     name_group = JAP_CL_HISTORICAL
@@ -1930,6 +2035,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "筑摩级"  # Chikuma Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = JAP_CL_HISTORICAL
@@ -1950,6 +2056,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "淀级"  # Yodo Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Yodo.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -1968,6 +2075,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "严岛级/冲岛级"  # Itsukushima/Okinoshima Class
+    parent_version = 0
     role_icon_index = 51
     type = vnr_ship_hull_cruiser_1
     name_group = JAP_MINELAYERS_HISTORICAL
@@ -1987,6 +2095,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "朝潮型"  # Asashio Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = JAP_WEATHER
@@ -2005,6 +2114,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "初春型/白露型"  # Hatsuharu/Shiratsuyu Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = JAP_WEATHER
@@ -2023,6 +2133,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "吹雪型/晓型"  # Fubuki/Akatsuki Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = JAP_WEATHER
@@ -2042,6 +2153,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "峯风型/睦月型"  # Minekaze/Mutsuki Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = JAP_WEATHER
@@ -2061,6 +2173,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "若竹型"  # Wakatake Class
+    parent_version = 0
     role_icon_index = 35
     icon = "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
     type = vnr_ship_hull_light_1
@@ -2079,6 +2192,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "桃型/枞型"  # Momo/Momi Class
+    parent_version = 0
     role_icon_index = 35
     icon = "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
     type = vnr_ship_hull_light_1
@@ -2097,6 +2211,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "鸿型"  # Otori Class
+    parent_version = 0
     role_icon_index = 29
     icon = "gfx/interface/technologies/Japan/JAP_destroyer_Otori.png"
     type = vnr_ship_hull_light_3
@@ -2113,6 +2228,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "千鸟型"  # Chidori Class
+    parent_version = 0
     role_icon_index = 29
     icon = "gfx/interface/technologies/Japan/JAP_destroyer_Chidori.png"
     type = vnr_ship_hull_light_3
@@ -2130,6 +2246,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "巡潜III级"  # Junsen III Class
+    parent_version = 0
     role_icon_index = 39
     type = vnr_ship_hull_cruiser_submarine
     name_group = JAP_SS_HISTORICAL
@@ -2143,6 +2260,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "巡潜II级"  # Junsen II Class
+    parent_version = 0
     role_icon_index = 39
     type = vnr_ship_hull_cruiser_submarine
     name_group = JAP_SS_HISTORICAL
@@ -2157,6 +2275,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "巡潜I级"  # Junsen I Class
+    parent_version = 0
     role_icon_index = 39
     type = vnr_ship_hull_cruiser_submarine
     name_group = JAP_SS_HISTORICAL
@@ -2171,6 +2290,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海大VI级"  # Kaidai VI Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = JAP_SS_HISTORICAL
@@ -2183,6 +2303,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海大V级"  # Kaidai V Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = JAP_SS_HISTORICAL
@@ -2195,6 +2316,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海大IV级"  # Kaidai IV Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = JAP_SS_HISTORICAL
@@ -2207,6 +2329,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海大III级"  # Kaidai III Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = JAP_SS_HISTORICAL
@@ -2219,6 +2342,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海大II级"  # Kaidai II Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = JAP_SS_HISTORICAL
@@ -2231,6 +2355,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海大I级"  # Kaidai I Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = JAP_SS_HISTORICAL
@@ -2243,6 +2368,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海中V级"  # Kaichū V Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = JAP_SSC_HISTORICAL
@@ -2255,6 +2381,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海中IV级"  # Kaichū IV Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = JAP_SSC_HISTORICAL
@@ -2267,6 +2394,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "机雷潜级"  # Kiraisen Class
+    parent_version = 0
     role_icon_index = 41
     type = vnr_ship_hull_submarine_1
     name_group = JAP_SS_HISTORICAL
@@ -2279,6 +2407,7 @@ JAP_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "L级"  # L Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = JAP_SSC_HISTORICAL
@@ -2293,6 +2422,7 @@ JAP_start_naval_variants = {
 ITA_start_naval_variants = {
   create_equipment_variant = {
     name = "利托里奥级"  # Littorio Class
+    parent_version = 0
     role_icon_index = 1
     icon = "gfx/interface/technologies/Italy/ITA_battleship4.png"
     type = vnr_ship_hull_heavy_3
@@ -2316,6 +2446,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "安德烈亚·多利亚级"  # Andrea Doria Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
     type = vnr_ship_hull_heavy_1
@@ -2339,6 +2470,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "加富尔伯爵级"  # Conte Di Cavour Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/Italy/ITA_battleship3.png"
     type = vnr_ship_hull_heavy_1
@@ -2363,6 +2495,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "博尔扎诺级"  # Bolzano Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = ITA_CA_HISTORICAL
@@ -2384,6 +2517,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "扎拉级"  # Zara Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_3
     name_group = ITA_CA_HISTORICAL
@@ -2405,6 +2539,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "特伦托级"  # Trento Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = ITA_CA_HISTORICAL
@@ -2427,6 +2562,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "圣乔治级"  # San Giorgio Class
+    parent_version = 0
     role_icon_index = 17
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = ITA_CA_HISTORICAL
@@ -2447,6 +2583,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "阿布鲁奇公爵级"  # Duca degli Abruzzi Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Italy/ITA_heavy_cruiser4.png"
     type = vnr_ship_hull_cruiser_3
@@ -2468,6 +2605,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "蒙特库科利级/奥斯塔公爵级"  # Montecuccoli/Duca d'Aosta Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_3
     name_group = ITA_CL_HISTORICAL
@@ -2487,6 +2625,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "朱桑诺级/卡多尔纳级"  # Giussano/Cadorna Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Italy/ITA_light_cruiser3.png"
     type = vnr_ship_hull_cruiser_2
@@ -2507,6 +2646,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "塔兰托级/巴里级"  # Taranto/Bari Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/Generic/generic_light_cruiser1.png"
     type = vnr_ship_hull_cruiser_1
@@ -2528,6 +2668,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "西北风级/奥里亚尼级"  # Maestrale/Oriani Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = ITA_DD_HISTORICAL
@@ -2546,6 +2687,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "箭级/迅雷级"  # Freccia/Folgore Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = ITA_DD_HISTORICAL
@@ -2564,6 +2706,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "航海家级"  # Navigatori Class
+    parent_version = 0
     role_icon_index = 31
     icon = "gfx/interface/technologies/Italy/ITA_destroyer_Navigatori.png"
     type = vnr_ship_hull_light_2
@@ -2583,6 +2726,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "萨乌罗级/旋风级"  # Sauro/Turbine Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = ITA_DD_HISTORICAL
@@ -2601,6 +2745,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "塞拉级"  # Sella Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = ITA_DD_HISTORICAL
@@ -2618,6 +2763,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "狮级"  # Leone Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = ITA_DD_HISTORICAL
@@ -2637,6 +2783,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "卡洛·米拉贝洛级"  # Mirabello Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = ITA_DD_HISTORICAL
@@ -2657,6 +2804,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "室女星级"  # Spica Class
+    parent_version = 0
     role_icon_index = 29
     icon = "gfx/interface/technologies/Italy/ITA_destroyer_Spica.png"
     type = vnr_ship_hull_light_2
@@ -2673,6 +2821,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "将军级/库尔塔托内级"  # Generali/Curtatone Class
+    parent_version = 0
     role_icon_index = 29
     icon = "gfx/interface/technologies/Italy/ITA_destroyer_Pilo.png"
     type = vnr_ship_hull_light_1
@@ -2691,6 +2840,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "皮洛级/西尔托里级"  # Pilo/Sirtori Class
+    parent_version = 0
     role_icon_index = 29
     icon = "gfx/interface/technologies/Italy/ITA_destroyer_Pilo.png"
     type = vnr_ship_hull_light_1
@@ -2711,6 +2861,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "拉·马萨级/帕雷斯托级"  # La Masa/Palestro Class
+    parent_version = 0
     role_icon_index = 29
     icon = "gfx/interface/technologies/Italy/ITA_destroyer_Pilo.png"
     type = vnr_ship_hull_light_1
@@ -2730,6 +2881,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "人鱼级/珍珠级"  # Sirena/Perla Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = ITA_SS_HISTORICAL
@@ -2742,6 +2894,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "亚尔戈级/塞腾布里尼级"  # Argonauta/Settembrini Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = ITA_SS_HISTORICAL
@@ -2754,6 +2907,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "布拉加丁级"  # Bragadin Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = ITA_SS_HISTORICAL
@@ -2766,6 +2920,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "班迪拉级/鲨鱼级"  # Bandiera/Squalo Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = ITA_SS_HISTORICAL
@@ -2779,6 +2934,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "马梅利级/皮萨尼级"  # Mameli/Pisani Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = ITA_SS_HISTORICAL
@@ -2792,6 +2948,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "H级"  # H Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = ITA_SS_HISTORICAL
@@ -2805,6 +2962,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "拉莫斯卡级/卡尔维级"  # Fieramosca/Calvi Class
+    parent_version = 0
     role_icon_index = 39
     type = vnr_ship_hull_cruiser_submarine
     name_group = ITA_SS_HISTORICAL
@@ -2818,6 +2976,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "巴里拉级"  # Balilla Class
+    parent_version = 0
     role_icon_index = 39
     type = vnr_ship_hull_cruiser_submarine
     name_group = ITA_SS_HISTORICAL
@@ -2832,6 +2991,7 @@ ITA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "格劳科斯级/米卡级"  # Glauco/Micca Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = ITA_SS_HISTORICAL
@@ -2846,6 +3006,7 @@ ITA_start_naval_variants = {
 SOV_start_naval_variants = {
   create_equipment_variant = {
     name = "甘古特级"  # Sevastopol Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/Soviet/SOV_battleship2.png"
     type = vnr_ship_hull_heavy_1
@@ -2869,6 +3030,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "基洛夫级"  # Kirov Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_3
     name_group = SOV_CL_HISTORICAL
@@ -2888,6 +3050,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "纳西莫夫海军上将级"  # Admiral Nakhimov Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_2
     name_group = SOV_CL_HISTORICAL
@@ -2910,6 +3073,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "斯维特兰娜级"  # Svetlana Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Soviet/SOV_light_cruiser2.png"
     type = vnr_ship_hull_cruiser_1
@@ -2933,6 +3097,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "博加特耶尔级"  # Bogatyr Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = SOV_CL_HISTORICAL
@@ -2954,6 +3119,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "马蒂级"  # Marti Class
+    parent_version = 0
     role_icon_index = 51
     icon = "gfx/interface/technologies/Soviet/SOV_light_cruiser_Marti.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -2973,6 +3139,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "帕拉达级"  # Pallada Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/Soviet/SOV_light_cruiser1.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -2992,6 +3159,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "愤怒级"  # Gnevny Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = SOV_ADJECTIVES_NAVY
@@ -3010,6 +3178,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "列宁格勒级"  # Leningrad Class
+    parent_version = 0
     role_icon_index = 33
     type = vnr_ship_hull_light_3
     name_group = SOV_CITIES_NAVY
@@ -3030,6 +3199,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = SOV_DD_HISTORICAL
@@ -3049,6 +3219,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "奥菲级"  # Orfey Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = SOV_DD_HISTORICAL
@@ -3068,6 +3239,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "诺维克级/鲁莽级"  # Novik/Derzky Class
+    parent_version = 0
     role_icon_index = 31
     icon = "gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
     type = vnr_ship_hull_light_1
@@ -3088,6 +3260,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "S级"  # Srednyaya Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = SOV_SS_STALINETS
@@ -3100,6 +3273,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "M级"  # Malyutka Class
+    parent_version = 0
     role_icon_index = 49
     type = vnr_ship_hull_midget_submarine
     name_group = SOV_SS_LENINETS
@@ -3112,6 +3286,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Shch X级"  # Series X Shchuka
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = SOV_SS_SHCHUKA
@@ -3124,6 +3299,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Shch V-bis级"  # Series V-bis Shchuka
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = SOV_SS_SHCHUKA
@@ -3136,6 +3312,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Shch V级"  # Series V Shchuka
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = SOV_SS_SHCHUKA
@@ -3148,6 +3325,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "Shch III级"  # Series III Shchuka
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = SOV_SS_SHCHUKA
@@ -3161,6 +3339,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "L级"  # Leninets Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = SOV_SS_LENINETS
@@ -3174,6 +3353,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "D级"  # Debakrist Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = SOV_SS_LENINETS
@@ -3187,6 +3367,7 @@ SOV_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "AG级"  # AG Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = SOV_SS_LENINETS
@@ -3202,6 +3383,7 @@ SOV_start_naval_variants = {
 USA_start_naval_variants = {
   create_equipment_variant = {
     name = "约克城级"  # Yorktown Class
+    parent_version = 0
     role_icon_index = 9
     type = vnr_ship_hull_carrier_1
     name_group = USA_CV_HISTORICAL
@@ -3210,7 +3392,7 @@ USA_start_naval_variants = {
       fixed_ship_deck_slot_2 = ship_deck_space
       fixed_ship_anti_air_slot = ship_anti_air_2
       fixed_ship_engine_slot = carrier_ship_engine_2
-      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_secondaries_slot = dp_ship_secondaries_1
       fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
       front_1_custom_slot = ship_deck_space
       mid_1_custom_slot = ship_deck_space
@@ -3219,6 +3401,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "胡蜂级"  # Wasp Class
+    parent_version = 0
     role_icon_index = 9
     type = vnr_ship_hull_carrier_1
     name_group = USA_CV_HISTORICAL
@@ -3227,7 +3410,7 @@ USA_start_naval_variants = {
       fixed_ship_deck_slot_2 = ship_deck_space
       fixed_ship_anti_air_slot = ship_anti_air_2
       fixed_ship_engine_slot = carrier_ship_engine_1
-      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_secondaries_slot = dp_ship_secondaries_1
       fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
       front_1_custom_slot = ship_deck_space
       mid_1_custom_slot = ship_deck_space
@@ -3235,6 +3418,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "列克星敦级"  # Lexington Class
+    parent_version = 0
     role_icon_index = 13
     type = vnr_ship_hull_carrier_conversion_bb
     name_group = USA_CV_HISTORICAL
@@ -3252,6 +3436,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "突击者级"  # Ranger Class
+    parent_version = 0
     role_icon_index = 9
     icon = "gfx/interface/technologies/USA/USA_carrier_Ranger.png"
     type = vnr_ship_hull_carrier_1
@@ -3261,13 +3446,14 @@ USA_start_naval_variants = {
       fixed_ship_deck_slot_2 = ship_deck_space
       fixed_ship_engine_slot = carrier_ship_engine_1
       fixed_ship_anti_air_slot = ship_anti_air_1
-      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_secondaries_slot = dp_ship_secondaries_1
       front_1_custom_slot = ship_deck_space
       mid_1_custom_slot = ship_deck_space
     }
   }
   create_equipment_variant = {
     name = "兰利级"  # Langley Class
+    parent_version = 0
     role_icon_index = 12
     type = vnr_ship_hull_carrier_conversion_ca
     name_group = USA_CVL_HISTORICAL
@@ -3283,6 +3469,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "北卡罗莱纳级"  # North Carolina Class
+    parent_version = 0
     role_icon_index = 1
     type = vnr_ship_hull_heavy_3
     name_group = USA_BB_HISTORICAL
@@ -3305,6 +3492,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "科罗拉多级"  # Colorado Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_2
     name_group = USA_BB_HISTORICAL
@@ -3327,6 +3515,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "田纳西级"  # Tennessee Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/USA/USA_battleship_Tennessee.png"
     type = vnr_ship_hull_heavy_1
@@ -3351,6 +3540,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "宾夕法尼亚级/新墨西哥级"  # Pennsylvania/New Mexico Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/USA/USA_battleship_Nevada.png"
     type = vnr_ship_hull_heavy_1
@@ -3374,6 +3564,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "内华达级"  # Nevada Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/USA/USA_battleship_Nevada.png"
     type = vnr_ship_hull_heavy_1
@@ -3397,6 +3588,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "纽约级"  # New York Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/USA/USA_battleship_New_York.png"
     type = vnr_ship_hull_heavy_1
@@ -3420,6 +3612,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "怀俄明级"  # Wyoming Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = USA_BB_HISTORICAL
@@ -3442,6 +3635,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "威奇塔级"  # Wichita Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_3
     name_group = USA_CA_HISTORICAL
@@ -3463,6 +3657,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "波特兰级/新奥尔良级"  # Portland/New Orleans Class
+    parent_version = 0
     role_icon_index = 27
     icon = "gfx/interface/technologies/USA/USA_heavy_cruiser2.png"
     type = vnr_ship_hull_cruiser_3
@@ -3473,7 +3668,7 @@ USA_start_naval_variants = {
       fixed_ship_fire_control_system_slot = ship_fire_control_system_1
       fixed_ship_engine_slot = cruiser_ship_engine_2
       fixed_ship_armor_slot = ship_armor_cruiser_2
-      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_secondaries_slot = dp_ship_secondaries_1
       fixed_ship_role_slot = ship_hull_cruiser_role_ca
       front_1_custom_slot = ship_medium_battery_1
       mid_1_custom_slot = ship_anti_air_1
@@ -3485,6 +3680,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "北安普敦级"  # Northampton Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = USA_CA_HISTORICAL
@@ -3494,7 +3690,7 @@ USA_start_naval_variants = {
       fixed_ship_fire_control_system_slot = ship_fire_control_system_1
       fixed_ship_engine_slot = cruiser_ship_engine_2
       fixed_ship_armor_slot = ship_armor_cruiser_1
-      fixed_ship_secondaries_slot = ship_secondaries_1
+      fixed_ship_secondaries_slot = dp_ship_secondaries_1
       fixed_ship_role_slot = ship_hull_cruiser_role_ca
       front_1_custom_slot = ship_medium_battery_1
       mid_1_custom_slot = ship_anti_air_1
@@ -3505,6 +3701,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "彭萨科拉级"  # Pensacola Class
+    parent_version = 0
     role_icon_index = 27
     icon = "gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
     type = vnr_ship_hull_cruiser_2
@@ -3528,6 +3725,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "布鲁克林级"  # Brooklyn Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_3
     name_group = USA_CL_HISTORICAL
@@ -3549,6 +3747,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "奥马哈级"  # Omaha Class
+    parent_version = 0
     role_icon_index = 45
     type = vnr_ship_hull_cruiser_1
     name_group = USA_CL_HISTORICAL
@@ -3571,6 +3770,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "奥格拉拉级"  # Oglala Class
+    parent_version = 0
     role_icon_index = 51
     icon = "gfx/interface/technologies/USA/USA_light_cruiser_Oglala.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -3589,6 +3789,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "本亨级/西姆斯级"  # Benham/Sims Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = USA_HEROES_NAVY
@@ -3607,6 +3808,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "波特级/索莫斯级"  # Porter/Somers Class
+    parent_version = 0
     role_icon_index = 33
     type = vnr_ship_hull_light_3
     name_group = USA_HEROES_NAVY
@@ -3626,6 +3828,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "格里德利级/巴格莱级"  # Gridley/Bagley Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = USA_HEROES_NAVY
@@ -3644,6 +3847,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "法拉格特级/马汉级"  # Farragut/Mahan Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = USA_HEROES_NAVY
@@ -3663,6 +3867,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "辛普森/维克斯/克莱门森级"  # Sampson/Wickes/Clemson Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = USA_HEROES_NAVY
@@ -3681,6 +3886,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "鲑鱼级/鲷鱼级"  # Salmon/Sargo Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = USA_FISH
@@ -3693,6 +3899,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "鼠海豚级"  # Porpoise Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = USA_FISH
@@ -3705,6 +3912,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "抹香鲸级"  # Cachalot Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = USA_FISH
@@ -3717,6 +3925,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "梭鱼级/独角鲸级"  # Barracuda/Narwhal Class
+    parent_version = 0
     role_icon_index = 39
     type = vnr_ship_hull_cruiser_submarine
     name_group = USA_FISH
@@ -3730,6 +3939,7 @@ USA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "O/R/S级"  # O/R/S Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = USA_FISH
@@ -3745,6 +3955,7 @@ USA_start_naval_variants = {
 ARG_start_naval_variants = {
   create_equipment_variant = {
     name = "里瓦达维亚级"  # Rivadavia Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = ARG_BB_HISTORICAL
@@ -3766,6 +3977,7 @@ ARG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "五月二十五日级"  # Veinticinco de Mayo Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = ARG_CA_HISTORICAL
@@ -3786,6 +3998,7 @@ ARG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "自由级/独立级"  # Libertad/Independencia Class
+    parent_version = 0
     role_icon_index = 19
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = ARG_CA_HISTORICAL
@@ -3805,6 +4018,7 @@ ARG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "朱赛佩·加里波第级"  # Garibaldi Class
+    parent_version = 0
     role_icon_index = 17
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = ARG_CA_HISTORICAL
@@ -3825,6 +4039,7 @@ ARG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "塞凡提斯级/门多萨级"  # Cervantes/Mendoza Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = ARG_DD_HISTORICAL
@@ -3844,6 +4059,7 @@ ARG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "卡塔马卡级/拉普拉塔级"  # Catamarca/La Plata Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = ARG_DD_HISTORICAL
@@ -3861,6 +4077,7 @@ ARG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "圣塔菲级"  # Santa Fe Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = ARG_SS_HISTORICAL
@@ -3875,6 +4092,7 @@ ARG_start_naval_variants = {
 AST_start_naval_variants = {
   create_equipment_variant = {
     name = "肯特级"  # Kent Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = AST_CA_HISTORICAL
@@ -3894,6 +4112,7 @@ AST_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "利安德级"  # Leander Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_3
     name_group = AST_CL_HISTORICAL
@@ -3914,6 +4133,7 @@ AST_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "城级"  # Town Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_1
     name_group = AST_CL_HISTORICAL
@@ -3935,6 +4155,7 @@ AST_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+    parent_version = 0
     role_icon_index = 33
     type = vnr_ship_hull_light_2
     name_group = AST_DD_HISTORICAL
@@ -3955,6 +4176,7 @@ AST_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "V/W级"  # V/W Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = AST_DD_HISTORICAL
@@ -3975,6 +4197,7 @@ AST_start_naval_variants = {
 CAN_start_naval_variants = {
   create_equipment_variant = {
     name = "河级"  # River Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = CAN_DD_HISTORICAL
@@ -3996,6 +4219,7 @@ CAN_start_naval_variants = {
 BRA_start_naval_variants = {
   create_equipment_variant = {
     name = "米纳斯格拉斯级"  # Minas Gerais Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = BRA_BB_HISTORICAL
@@ -4017,6 +4241,7 @@ BRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "巴伊亚级"  # Bahia Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_1
     name_group = BRA_CL_HISTORICAL
@@ -4034,6 +4259,7 @@ BRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "阿卡斯塔级"  # Acasta Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = BRA_DD_HISTORICAL
@@ -4051,6 +4277,7 @@ BRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "帕拉级"  # Para Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = BRA_DD_HISTORICAL
@@ -4066,6 +4293,7 @@ BRA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "乌迈塔级"  # Humaytá Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = BRA_SS_HISTORICAL
@@ -4080,6 +4308,7 @@ BRA_start_naval_variants = {
 CHI_start_naval_variants = {
   create_equipment_variant = {
     name = "宁海级"  # Ninghai Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_2
     name_group = CHI_CL_HISTORICAL
@@ -4097,6 +4326,7 @@ CHI_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "逸仙级"  # Yat Sen Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/China/CHI_light_cruiser_Yixian.png"
     type = vnr_ship_hull_cruiser_1
@@ -4115,6 +4345,7 @@ CHI_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海圻级"  # Haiqi Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4137,6 +4368,7 @@ CHI_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海容级"  # Hairong Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4159,6 +4391,7 @@ CHI_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "肇和级"  # Zhaohe Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/China/CHI_light_cruiser_Zhaohe.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4180,6 +4413,7 @@ CHI_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "长风级"  # Chang Feng Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = CHI_DD_HISTORICAL
@@ -4194,6 +4428,7 @@ CHI_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "建威级"  # Jianwei Class
+    parent_version = 0
     role_icon_index = 47
     type = vnr_ship_hull_light_1
     name_group = CHI_DD_HISTORICAL
@@ -4210,6 +4445,7 @@ CHI_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "永丰级/永绩级"  # Yung Feng/Yung Chi Class
+    parent_version = 0
     role_icon_index = 47
     icon = "gfx/interface/technologies/China/CHI_destroyer_Zhongshan.png"
     type = vnr_ship_hull_light_1
@@ -4227,6 +4463,7 @@ CHI_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+    parent_version = 0
     role_icon_index = 47
     icon = "gfx/interface/technologies/China/CHI_destroyer_Zhongshan.png"
     type = vnr_ship_hull_light_1
@@ -4244,6 +4481,7 @@ CHI_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "镇海级"  # Chen Hai Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 61
     type = vnr_ship_hull_civilian_1
@@ -4258,6 +4496,7 @@ CHI_start_naval_variants = {
 CHL_start_naval_variants = {
   create_equipment_variant = {
     name = "拉托雷海军上将级"  # Almirante Latorre Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = CHL_BB_HISTORICAL
@@ -4279,6 +4518,7 @@ CHL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "奥希金斯级"  # O'Higgins Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = CHL_CA_HISTORICAL
@@ -4299,6 +4539,7 @@ CHL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "查卡布科级"  # Chacabuco Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = CHL_CA_HISTORICAL
@@ -4319,6 +4560,7 @@ CHL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "塞拉诺级"  # Serrano Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = CHL_DD_HISTORICAL
@@ -4336,6 +4578,7 @@ CHL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "林奇海军上将级"  # Almirante Lynch Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = CHL_DD_HISTORICAL
@@ -4356,6 +4599,7 @@ CHL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "奥布莱恩海军上校级"  # Capitán O'Brien Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = CHL_SS_HISTORICAL
@@ -4368,6 +4612,7 @@ CHL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "H1级"  # H1 Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = CHL_SS_HISTORICAL
@@ -4383,6 +4628,7 @@ CHL_start_naval_variants = {
 DEN_start_naval_variants = {
   create_equipment_variant = {
     name = "尼尔斯·尤尔级"  # Niels Iuel Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = DEN_CA_HISTORICAL
@@ -4403,6 +4649,7 @@ DEN_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "赫鲁弗·特罗尔级"  # Herluf Trolle Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/Scandinavia/DEN_heavy_cruiser_Trolle.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4423,6 +4670,7 @@ DEN_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "龙级/鸢级"  # Dragen/Glenten Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = DEN_DD_HISTORICAL
@@ -4440,6 +4688,7 @@ DEN_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "埃吉尔级"  # Aegir Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = DEN_SS_HISTORICAL
@@ -4452,6 +4701,7 @@ DEN_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "罗塔级"  # Rota Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = CHL_SS_HISTORICAL
@@ -4465,6 +4715,7 @@ DEN_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "达佛涅级"  # Daphne Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = CHL_SS_HISTORICAL
@@ -4480,6 +4731,7 @@ DEN_start_naval_variants = {
 FIN_start_naval_variants = {
   create_equipment_variant = {
     name = "维纳莫依嫩级"  # Väinämöinen Class
+    parent_version = 0
     role_icon_index = 19
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = FIN_CA_HISTORICAL
@@ -4495,6 +4747,7 @@ FIN_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "哥卢布级/菲林级"  # Golub/Filin Class
+    parent_version = 0
     role_icon_index = 47
     type = vnr_ship_hull_light_1
     name_group = FIN_DD_HISTORICAL
@@ -4510,6 +4763,7 @@ FIN_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "水濑级"  # Vesikko Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = DEN_SS_HISTORICAL
@@ -4522,6 +4776,7 @@ FIN_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "水妖级"  # Vetehinen Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = DEN_SS_HISTORICAL
@@ -4536,6 +4791,7 @@ FIN_start_naval_variants = {
 GRE_start_naval_variants = {
   create_equipment_variant = {
     name = "乔治·阿维洛夫级"  # Georgios Averof Class
+    parent_version = 0
     role_icon_index = 17
     icon = "gfx/interface/technologies/Italy/ITA_heavy_cruiser1.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4557,26 +4813,29 @@ GRE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "爱丽级"  # Elli Class
-    role_icon_index = 25
+    parent_version = 0
+    role_icon_index = 23
     icon = "gfx/interface/technologies/China/CHI_light_cruiser_Zhaohe.png"
-    type = vnr_ship_hull_cruiser_1
+    type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = GRE_CL_HISTORICAL
     modules = {
       fixed_ship_battery_slot = ship_light_medium_battery_1_single
-      fixed_ship_anti_air_slot = ship_anti_air_1
-      fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+      fixed_ship_anti_air_slot = empty
+      fixed_ship_fire_control_system_slot = empty
       fixed_ship_engine_slot = cruiser_ship_engine_1
       fixed_ship_armor_slot = ship_armor_cruiser_1
-      fixed_ship_secondaries_slot = ship_secondaries_1
-      front_1_custom_slot = empty
-      mid_1_custom_slot = empty
+      fixed_ship_secondaries_slot = empty
+      front_1_custom_slot = ship_light_battery_1
+      front_2_custom_slot = ship_light_battery_1
+      mid_1_custom_slot = ship_torpedo_1
       mid_2_custom_slot = empty
-      mid_3_custom_slot = ship_torpedo_1
-      rear_1_custom_slot = ship_light_medium_battery_1_single
+      rear_1_custom_slot = ship_light_battery_1
+      rear_2_custom_slot = ship_light_battery_1
     }
   }
   create_equipment_variant = {
     name = "箭级/迅雷级"  # Freccia/Folgore Class
+    parent_version = 0
     role_icon_index = 31
     icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
     type = vnr_ship_hull_light_3
@@ -4596,6 +4855,7 @@ GRE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "鹰级"  # Aetos Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = GRE_DD_HISTORICAL
@@ -4615,6 +4875,7 @@ GRE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "格拉夫科斯级"  # Glafkos Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = DEN_SS_HISTORICAL
@@ -4627,6 +4888,7 @@ GRE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "卡特索尼斯级"  # Katsonis Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = DEN_SS_HISTORICAL
@@ -4641,6 +4903,7 @@ GRE_start_naval_variants = {
 HOL_start_naval_variants = {
   create_equipment_variant = {
     name = "泗水级"  # Soerabaja Class
+    parent_version = 0
     role_icon_index = 17
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = HOL_CA_HISTORICAL
@@ -4656,6 +4919,7 @@ HOL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "雅各布·范黑姆斯克尔克级"  # Jacob van Heemskerck Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = HOL_CA_HISTORICAL
@@ -4675,6 +4939,7 @@ HOL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "摄政女王级"  # Koningin Regentes Class
+    parent_version = 0
     role_icon_index = 17
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = HOL_CA_HISTORICAL
@@ -4695,6 +4960,7 @@ HOL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "特朗普级"  # Tromp Class
+    parent_version = 0
     role_icon_index = 33
     type = vnr_ship_hull_cruiser_3
     name_group = HOL_CL_HISTORICAL
@@ -4714,6 +4980,7 @@ HOL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "德·鲁伊特级"  # De Ruyter Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Netherlands/HOL_light_cruiser4.png"
     type = vnr_ship_hull_cruiser_3
@@ -4734,6 +5001,7 @@ HOL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "爪哇级"  # Java Class
+    parent_version = 0
     role_icon_index = 25
     icon = "gfx/interface/technologies/Netherlands/HOL_light_cruiser2.png"
     type = vnr_ship_hull_cruiser_1
@@ -4755,6 +5023,7 @@ HOL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "荷兰级"  # Holland Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/Netherlands/HOL_light_cruiser1.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4777,6 +5046,7 @@ HOL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海军上将级"  # Admiralen Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = HOL_DD_HISTORICAL
@@ -4795,6 +5065,7 @@ HOL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "K级"  # K Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = HOL_SS_KCLASS
@@ -4807,6 +5078,7 @@ HOL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "O级"  # O Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = HOL_SS_OCLASS
@@ -4821,6 +5093,7 @@ HOL_start_naval_variants = {
 NOR_start_naval_variants = {
   create_equipment_variant = {
     name = "埃兹沃尔德级"  # Eidsvold Class
+    parent_version = 0
     role_icon_index = 19
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = NOR_CA_HISTORICAL
@@ -4838,6 +5111,7 @@ NOR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "托登斯基尔德级"  # Tordenskjold Class
+    parent_version = 0
     role_icon_index = 19
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = NOR_CA_HISTORICAL
@@ -4855,6 +5129,7 @@ NOR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "斯雷普尼尔级"  # Sleipner Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = NOR_DD_HISTORICAL
@@ -4873,6 +5148,7 @@ NOR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "奥拉夫一世级"  # Olaf Tryggvason Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_1
     name_group = NOR_CL_HISTORICAL
@@ -4890,6 +5166,7 @@ NOR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "德拉古尔级"  # Draug Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = NOR_DD_HISTORICAL
@@ -4910,6 +5187,7 @@ NOR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "弗尔级"  # Frøya Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = NOR_DD_HISTORICAL
@@ -4929,6 +5207,7 @@ NOR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "B级"  # B Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = NOR_SS_HISTORICAL
@@ -4941,6 +5220,7 @@ NOR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "A级"  # A Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = NOR_SS_HISTORICAL
@@ -4955,6 +5235,7 @@ NOR_start_naval_variants = {
 POL_start_naval_variants = {
   create_equipment_variant = {
     name = "雷鸣级"  # Grom Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = POL_DD_HISTORICAL
@@ -4973,6 +5254,7 @@ POL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "烈风级"  # Wicher Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = POL_DD_HISTORICAL
@@ -4991,6 +5273,7 @@ POL_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "狼级"  # Wilk Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = POL_SS_HISTORICAL
@@ -5005,6 +5288,7 @@ POL_start_naval_variants = {
 POR_start_naval_variants = {
   create_equipment_variant = {
     name = "杜罗级"  # Douro Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = POR_DD_HISTORICAL
@@ -5023,6 +5307,7 @@ POR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "瓜地亚纳级"  # Guadiana Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = POR_DD_HISTORICAL
@@ -5037,6 +5322,7 @@ POR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海豚级"  # Delfim Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = POR_SS_HISTORICAL
@@ -5051,6 +5337,7 @@ POR_start_naval_variants = {
 SPR_start_naval_variants = {
   create_equipment_variant = {
     name = "西班牙级"  # España Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = SPR_BB_HISTORICAL
@@ -5072,6 +5359,7 @@ SPR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "卡纳里亚斯级"  # Canarias Class
+    parent_version = 0
     role_icon_index = 27
     type = vnr_ship_hull_cruiser_2
     name_group = SPR_CA_HISTORICAL
@@ -5092,6 +5380,7 @@ SPR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "塞韦拉海军上将级"  # Almirante Cervera Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_2
     name_group = SPR_CL_HISTORICAL
@@ -5111,6 +5400,7 @@ SPR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "门德斯·努涅斯级"  # Méndez Núñes Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_1
     name_group = SPR_CL_HISTORICAL
@@ -5131,6 +5421,7 @@ SPR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "共和级"  # República Class
+    parent_version = 0
     role_icon_index = 25
     type = vnr_ship_hull_cruiser_1
     name_group = SPR_CL_HISTORICAL
@@ -5150,6 +5441,7 @@ SPR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "丘鲁卡级"  # Churucca Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = SPR_DD_HISTORICAL
@@ -5168,6 +5460,7 @@ SPR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "木星级"  # Júpiter Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = SPR_DD_HISTORICAL
@@ -5186,6 +5479,7 @@ SPR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "阿尔塞多级"  # Alsedo Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = SPR_DD_HISTORICAL
@@ -5203,6 +5497,7 @@ SPR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "C级"  # C Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = SPR_SS_HISTORICAL
@@ -5215,6 +5510,7 @@ SPR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "B级"  # B Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = SPR_SS_HISTORICAL
@@ -5229,6 +5525,7 @@ SPR_start_naval_variants = {
 SWE_start_naval_variants = {
   create_equipment_variant = {
     name = "瑞典级"  # Sverige Class
+    parent_version = 0
     role_icon_index = 19
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = SWE_CA_HISTORICAL
@@ -5248,6 +5545,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "荣耀级/奥斯卡二世级"  # Äran/Oscar II Class
+    parent_version = 0
     role_icon_index = 19
     icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Oden.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5267,6 +5565,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "大胆级"  # Dristigheten Class
+    parent_version = 0
     role_icon_index = 19
     icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Oden.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5288,6 +5587,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "费尔加级"  # Fylgia Class
+    parent_version = 0
     role_icon_index = 23
     icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Fylgia.png"
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5308,6 +5608,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "哥特兰级"  # Gotland Class
+    parent_version = 0
     role_icon_index = 45
     type = vnr_ship_hull_cruiser_2
     name_group = SWE_CL_HISTORICAL
@@ -5326,6 +5627,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "哥德堡级"  # Göteborg Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_3
     name_group = SWE_DD_HISTORICAL
@@ -5343,6 +5645,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "艾伦斯科德级"  # Ehrensköld Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = SWE_DD_HISTORICAL
@@ -5359,6 +5662,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "拉格纳/胡金/维兰格尔级"  # Ragnar/Hugin/Wrangel Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = SWE_DD_HISTORICAL
@@ -5376,6 +5680,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "瓦利级"  # Wale Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = SWE_DD_HISTORICAL
@@ -5391,6 +5696,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "鹰级"  # Örnen Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = SWE_DD_HISTORICAL
@@ -5406,6 +5712,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "克拉斯·弗莱明级"  # Clas Fleming Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = SWE_DD_HISTORICAL
@@ -5422,6 +5729,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海豚级/海狮级"  # Delfinen/Sjölejonet Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = SWE_SS_HISTORICAL
@@ -5434,6 +5742,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "龙级"  # Draken Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = SWE_SS_HISTORICAL
@@ -5446,6 +5755,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "鲸鱼级"  # Valen Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = SWE_SS_HISTORICAL
@@ -5459,6 +5769,7 @@ SWE_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "鲨鱼级/河狸级"  # Hajen/Bävern Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = SWE_SS_HISTORICAL
@@ -5474,6 +5785,7 @@ SWE_start_naval_variants = {
 TUR_start_naval_variants = {
   create_equipment_variant = {
     name = "毛奇级"  # Moltke Class
+    parent_version = 0
     role_icon_index = 15
     type = vnr_ship_hull_heavy_1
     name_group = TUR_SULTANS
@@ -5495,6 +5807,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "梅西迪耶级/哈米迪耶级"  # Mecidiye/Hamidiye Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = TUR_INSPIRATIONAL
@@ -5512,6 +5825,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "扎法级"  # Zafer Class
+    parent_version = 0
     icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
     role_icon_index = 31
     type = vnr_ship_hull_light_2
@@ -5528,6 +5842,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "科扎德佩级"  # Kocatepe Class
+    parent_version = 0
     icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
     role_icon_index = 31
     type = vnr_ship_hull_light_2
@@ -5546,6 +5861,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "佩克级"  # Peyk Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = TUR_INSPIRATIONAL
@@ -5563,6 +5879,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "居尔级"  # Gür Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = TUR_INSPIRATIONAL
@@ -5575,6 +5892,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "萨卡里亚级"  # Sakarya Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = TUR_INSPIRATIONAL
@@ -5587,6 +5905,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "杜姆卢珀纳尔级"  # Dumlupinar Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = TUR_INSPIRATIONAL
@@ -5599,6 +5918,7 @@ TUR_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "伊努诺级"  # Birinci Inönü Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = TUR_INSPIRATIONAL
@@ -5614,6 +5934,7 @@ TUR_start_naval_variants = {
 COL_start_naval_variants = {
   create_equipment_variant = {
     name = "安蒂奥基亚级"  # Antioquia Class
+    parent_version = 0
     icon = "gfx/interface/technologies/Portugal/POR_destroyer2.png"
     role_icon_index = 31
     type = vnr_ship_hull_light_2
@@ -5635,6 +5956,7 @@ COL_start_naval_variants = {
 MEX_start_naval_variants = {
   create_equipment_variant = {
     name = "阿纳瓦克级"  # Anahuac Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = MEX_CA_HISTORICAL
@@ -5652,6 +5974,7 @@ MEX_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "杜兰戈级"  # Durango Class
+    parent_version = 0
     role_icon_index = 47
     type = vnr_ship_hull_light_1
     name_group = MEX_DD_HISTORICAL
@@ -5668,6 +5991,7 @@ MEX_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "瓜纳华托级"  # Guanajuato Class
+    parent_version = 0
     role_icon_index = 47
     type = vnr_ship_hull_light_1
     name_group = MEX_DD_HISTORICAL
@@ -5684,6 +6008,7 @@ MEX_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "尼古拉斯·布拉沃级"  # Nicolás Bravo Class
+    parent_version = 0
     role_icon_index = 47
     type = vnr_ship_hull_light_1
     name_group = MEX_DD_HISTORICAL
@@ -5702,6 +6027,7 @@ MEX_start_naval_variants = {
 ROM_start_naval_variants = {
   create_equipment_variant = {
     name = "斐迪南一世级"  # Regele Ferdinand Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = ROM_DD_HISTORICAL
@@ -5720,6 +6046,7 @@ ROM_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "默勒什蒂级"  # Marasti Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = ROM_DD_HISTORICAL
@@ -5736,6 +6063,7 @@ ROM_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "海豚级"  # Delfinul Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = ROM_SS_HISTORICAL
@@ -5750,6 +6078,7 @@ ROM_start_naval_variants = {
 URG_start_naval_variants = {
   create_equipment_variant = {
     name = "乌拉圭级"  # Uruguay Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = URG_DD_HISTORICAL
@@ -5767,6 +6096,7 @@ URG_start_naval_variants = {
 YUG_start_naval_variants = {
   create_equipment_variant = {
     name = "达尔马提亚级"  # Dalmacija Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = YUG_CL_HISTORICAL
@@ -5786,6 +6116,7 @@ YUG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "杜布罗夫尼克级"  # Dubrovnik Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_2
     name_group = YUG_DD_HISTORICAL
@@ -5803,6 +6134,7 @@ YUG_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "勇敢级/大胆级"  # Hrabri/Smeli Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_2
     name_group = YUG_SS_HISTORICAL
@@ -5817,6 +6149,7 @@ YUG_start_naval_variants = {
 PRU_start_naval_variants = {
   create_equipment_variant = {
     name = "格劳海军上将级"  # Almirante Grau Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_coastal_defense_ship
     name_group = PRU_CL_HISTORICAL
@@ -5833,6 +6166,7 @@ PRU_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "维拉海军上将级"  # Almirante Villar Class
+    parent_version = 0
     role_icon_index = 31
     icon = "gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
     type = vnr_ship_hull_light_1
@@ -5852,6 +6186,7 @@ PRU_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "R1级"  # R1 Class
+    parent_version = 0
     role_icon_index = 37
     type = vnr_ship_hull_submarine_1
     name_group = PRU_SS_HISTORICAL
@@ -5866,6 +6201,7 @@ PRU_start_naval_variants = {
 CUB_start_naval_variants = {
   create_equipment_variant = {
     name = "贝尔级/祖国级"  # Baire/Patria Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 47
     type = vnr_ship_hull_light_1
@@ -5882,6 +6218,7 @@ CUB_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "古巴级"  # Cuba Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 23
     name_group = CUB_DD_HISTORICAL
@@ -5898,6 +6235,7 @@ CUB_start_naval_variants = {
 PER_start_naval_variants = {
   create_equipment_variant = {
     name = "猛虎级"  # Babr Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 47
     type = vnr_ship_hull_light_1
@@ -5917,6 +6255,7 @@ PER_start_naval_variants = {
 SIA_start_naval_variants = {
   create_equipment_variant = {
     name = "阿瑜陀耶级"  # Sri Ayuthia Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 19
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5933,6 +6272,7 @@ SIA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "拉达那哥欣级"  # Ratanakosindra Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 19
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5953,6 +6293,7 @@ SIA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "帕峦级"  # Phra Ruang Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 31
     type = vnr_ship_hull_light_1
@@ -5969,6 +6310,7 @@ SIA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "塔延春级"  # Sua Tayanchon Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 31
     type = vnr_ship_hull_light_1
@@ -5984,6 +6326,7 @@ SIA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "昭披耶级"  # Chao Phraya Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 47
     type = vnr_ship_hull_light_1
@@ -6000,6 +6343,7 @@ SIA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "达叻级"  # Trad Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 35
     type = vnr_ship_hull_light_2
@@ -6016,6 +6360,7 @@ SIA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "甘当级"  # Kantang Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 29
     type = vnr_ship_hull_light_1
@@ -6030,6 +6375,7 @@ SIA_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "蔚润级"  # Vilun Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 49
     type = vnr_ship_hull_submarine_2
@@ -6045,6 +6391,7 @@ SIA_start_naval_variants = {
 RAJ_start_naval_variants = {
   create_equipment_variant = {
     name = "海斯汀级/格里姆斯比级"  # Hasting/Grimsby Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 48
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -6061,6 +6408,7 @@ RAJ_start_naval_variants = {
   }
   create_equipment_variant = {
     name = "劳伦斯级/克莱夫级"  # Lawrence/Clive Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 48
     type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -6081,6 +6429,7 @@ RAJ_start_naval_variants = {
 VEN_start_naval_variants = {
   create_equipment_variant = {
     name = "苏博雷特将军级"  # General Soublette Class
+    parent_version = 0
     role_icon_index = 48
     type = vnr_ship_hull_light_1
     modules = {
@@ -6096,6 +6445,7 @@ VEN_start_naval_variants = {
 BEL_start_naval_variants = {
   create_equipment_variant = {
     name = "A1/A22级"  # A1/A22 Class
+    parent_version = 0
     role_icon_index = 72
     type = vnr_ship_hull_light_1
     name_group = BEL_RIVERS_THEME
@@ -6114,6 +6464,7 @@ BEL_start_naval_variants = {
 LAT_start_naval_variants = {
   create_equipment_variant = {
     name = "海豹级"  # Ronis Class
+    parent_version = 0
     allow_without_tech = yes
     role_icon_index = 49
     type = vnr_ship_hull_submarine_2

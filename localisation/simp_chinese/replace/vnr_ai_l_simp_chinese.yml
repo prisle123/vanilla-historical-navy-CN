@@ -54,4 +54,4 @@
  vnr_research_budget: "海军科研经费"
  RULE_ALLOW_AI_TECH_AUTO_UNLOCK: "允许AI自动解锁科技"
  RULE_ALLOW_AI_TECH_AUTO_UNLOCK_FREE_DESC: "AI会在游戏中自动解锁海军科技。"
- RULE_ALLOW_AI_TECH_AUTO_UNLOCK_BLOCKED_DESC: "AI不会在游戏中不会自动解锁科技。\n§R这可能改变AI选择科技的倾向，并且影响其他方面的科研。§!"
+ RULE_ALLOW_AI_TECH_AUTO_UNLOCK_BLOCKED_DESC: "AI不会在游戏中自动解锁科技。\n§R这可能改变AI选择科技的倾向，并且影响其他方面的科研。§!"

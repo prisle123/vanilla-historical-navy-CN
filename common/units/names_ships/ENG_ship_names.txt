@@ -344,7 +344,7 @@ ENG_CV_QUALITIES = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_heavy carrier }
+	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "HMS "
 	fallback_name = "Carrier %s"
@@ -373,7 +373,7 @@ ENG_CV_MYTHOLOGY = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_heavy carrier }
+	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "HMS "
 	fallback_name = "Carrier %s"
@@ -532,5 +532,26 @@ ENG_KINGS = {
 		"英王亨利七世" "英王理查德三世" "英王爱德华五世" "英王爱德华四世" "英王亨利六世" "英王亨利五世" "英王亨利四世"
 		"英王理查德二世" "英王爱德华三世" "英王爱德华二世" "英王爱德华一世" "英王亨利三世" "英王约翰" "英王理查德一世"
 		"英王亨利二世" "英王史蒂芬" "英王亨利一世" "英王威廉二世" "英王威廉一世"
+	}
+}
+
+ENG_CVE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVE
+
+	for_countries = { ENG }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HMS "
+	fallback_name = "Carrier %s"
+
+	unique = {
+		"大胆" "射手" "复仇者" "撕咬者" "冲锋者" "战斗者" "攻击者" "猎人" "追击者" "剑师" "潜行者"
+		"追赶者" "打击者" "搜索者" "破坏者" "追踪者" "投石机" "显贵者" "帝王" "埃米尔" "别姬" "小号手"
+		"女皇" "赫迪夫" "发言者" "地方官" "首相" "沙阿" "巡逻者" "拉哲" "拉尼" "责骂者" "领主"
+		"皇后" "统治者" "仲裁者" "重击者" "拳手" "死神" "活跃" "奈拉纳" "温德克斯" "坎帕尼亚" "普利托里亚城堡"
+		"冲击者" "践踏者" "擒拿者" "啄木鸟" "弹弓" "反射镜" "突刺者" "王权" "国王" "王太子" "边境伯爵"
+		"帕迪夏" "苏丹" "马利克" "阿米尔" "天皇" "可汗" "女苏丹" "公主" "沙皇" "凯撒" "皇家"
 	}
 }

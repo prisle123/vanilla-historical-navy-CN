@@ -1,6 +1,7 @@
 ENG_never_built_blueprints = {
   create_equipment_variant = {
     name = "G3级"  # G3 Class
+    parent_version = 0
     role_icon_index = 1
     icon = "gfx/interface/technologies/Fun/G3.png"
     type = vnr_ship_hull_heavy_2
@@ -23,6 +24,7 @@ ENG_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "N3级"  # N3 Class
+    parent_version = 0
     role_icon_index = 7
     icon = "gfx/interface/technologies/Fun/N3.png"
     type = vnr_ship_hull_super_heavy_1
@@ -44,7 +46,8 @@ ENG_never_built_blueprints = {
     }
   }
   create_equipment_variant = {
-    name = "Incomparable Class"
+    name = "无比级"  # Incomparable Class
+    parent_version = 0
     icon = "gfx/interface/technologies/Fun/ENG_Incomparable.png"
     type = vnr_ship_hull_heavy_1
     role_icon_index = 15
@@ -69,6 +72,7 @@ ENG_never_built_blueprints = {
 FRA_never_built_blueprints = {
   create_equipment_variant = {
     name = "诺曼底级"  # Normandie Class
+    parent_version = 0
     role_icon_index = 4
     icon = "gfx/interface/technologies/France/FRA_battleship2.png"
     type = vnr_ship_hull_heavy_2
@@ -93,6 +97,7 @@ FRA_never_built_blueprints = {
 GER_never_built_blueprints = {
   create_equipment_variant = {
     name = "L20e级"  # L20e Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/Fun/L20e.png"
     type = vnr_ship_hull_heavy_2
@@ -115,7 +120,8 @@ GER_never_built_blueprints = {
     }
   }
   create_equipment_variant = {
-    name = "马肯森级"
+    name = "马肯森级"  # Mackensen Class
+    parent_version = 0
     role_icon_index = 16
     icon = "gfx/interface/technologies/Fun/Yorck.png"
     type = vnr_ship_hull_heavy_1
@@ -138,7 +144,8 @@ GER_never_built_blueprints = {
     obsolete = yes
   }
   create_equipment_variant = {
-    name = "约克级"
+    name = "约克级"  # Yorck Class
+    parent_version = 0
     role_icon_index = 16
     icon = "gfx/interface/technologies/Fun/Yorck.png"
     type = vnr_ship_hull_heavy_2
@@ -164,6 +171,7 @@ GER_never_built_blueprints = {
 ITA_never_built_blueprints = {
   create_equipment_variant = {
     name = "弗朗切斯科·卡拉乔洛级"  # Francesco Caracciolo Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/Italy/ITA_battleship2.png"
     type = vnr_ship_hull_heavy_2
@@ -190,6 +198,7 @@ ITA_never_built_blueprints = {
 JAP_never_built_blueprints = {
   create_equipment_variant = {
     name = "土佐级"  # Tosa Class
+    parent_version = 0
     role_icon_index = 4
     icon = "gfx/interface/technologies/Fun/Tosa.png"
     type = vnr_ship_hull_heavy_2
@@ -214,6 +223,7 @@ JAP_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "天城级"  # Amagi Class
+    parent_version = 0
     role_icon_index = 2
     icon = "gfx/interface/technologies/Fun/Amagi.png"
     type = vnr_ship_hull_heavy_2
@@ -241,6 +251,7 @@ JAP_never_built_blueprints = {
 SOV_never_built_blueprints = {
   create_equipment_variant = {
     name = "伊兹梅尔级"  # Izmail Class
+    parent_version = 0
     role_icon_index = 15
     icon = "gfx/interface/technologies/Soviet/SOV_battleship2.png"
     type = vnr_ship_hull_heavy_1
@@ -265,6 +276,7 @@ SOV_never_built_blueprints = {
 USA_never_built_blueprints = {
   create_equipment_variant = {
     name = "列克星敦级"  # Lexington Class
+    parent_version = 0
     role_icon_index = 15
     icon = "gfx/interface/technologies/Fun/Lexington.png"
     type = vnr_ship_hull_heavy_2
@@ -289,6 +301,7 @@ USA_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "南达科他级"  # South Dakota Class
+    parent_version = 0
     role_icon_index = 3
     icon = "gfx/interface/technologies/Fun/South_Dakota.png"
     type = vnr_ship_hull_heavy_2
@@ -320,6 +333,7 @@ create_alicorn = {
   }
   create_equipment_variant = {
     name = "天角兽级"  # Alicorn Class
+    parent_version = 0
     role_icon_index = 7
     type = vnr_ship_hull_alicorn
     modules = {
@@ -354,6 +368,7 @@ create_constitution = {
   }
   create_equipment_variant = {
     name = "宪法级"  # Constitution Class
+    parent_version = 0
     role_icon_index = 5
     type = vnr_ship_hull_constitution
     modules = {
@@ -381,6 +396,7 @@ create_macross = {
   }
   create_equipment_variant = {
     name = "超时空要塞"  # Macross Class
+    parent_version = 0
     role_icon_index = 7
     type = vnr_ship_hull_macross
     modules = {
@@ -415,6 +431,7 @@ create_space_yamato = {
   }
   create_equipment_variant = {
     name = "大和级"  # Yamato Class
+    parent_version = 0
     role_icon_index = 7
     type = vnr_ship_hull_space_yamato
     modules = {
@@ -460,6 +477,7 @@ KuK_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "君主级"  # Monarch Class
+    parent_version = 0
     role_icon_index = 1
     type = vnr_ship_hull_heavy_2
     name_group = HUN_BB_HISTORICAL
@@ -483,6 +501,7 @@ KuK_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "泰格霍夫级"  # Tegetthoff (V) Class
+    parent_version = 0
     role_icon_index = 3
     type = vnr_ship_hull_heavy_1
     name_group = HUN_BB_HISTORICAL
@@ -505,6 +524,7 @@ KuK_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "涅戈万海军上将级"  # Admiral Njegovan Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_1
     name_group = HUN_CL_HISTORICAL
@@ -526,6 +546,7 @@ KuK_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "斯邦海军上将级"  # Admiral Spaun Class
+    parent_version = 0
     role_icon_index = 45
     type = vnr_ship_hull_cruiser_1
     name_group = HUN_CL_HISTORICAL
@@ -548,6 +569,7 @@ KuK_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "赫尔戈兰级"  # Helgoland Class
+    parent_version = 0
     role_icon_index = 23
     type = vnr_ship_hull_cruiser_1
     name_group = HUN_CL_HISTORICAL
@@ -571,6 +593,7 @@ KuK_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "塔特拉级"  # Tátra Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = HUN_DD_HISTORICAL
@@ -589,6 +612,7 @@ KuK_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "特里格拉夫级"  # Triglav Class
+    parent_version = 0
     role_icon_index = 31
     type = vnr_ship_hull_light_1
     name_group = HUN_DD_HISTORICAL
@@ -606,6 +630,7 @@ KuK_never_built_blueprints = {
   }
   create_equipment_variant = {
     name = "骠骑兵级"  # Huszár Class
+    parent_version = 0
     role_icon_index = 29
     type = vnr_ship_hull_light_1
     name_group = HUN_DD_HISTORICAL

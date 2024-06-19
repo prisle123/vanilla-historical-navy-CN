@@ -61,7 +61,6 @@ units= {
 			ship = { name = "USS 康科德" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "奥马哈级" } } }				
 			# Minlayer Division #		
 			ship = { name = "USS 奥格拉拉" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "奥格拉拉级" } } }				
-			ship = { name = "USS 阿鲁斯图克" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "奥格拉拉级" } } }				
 		}					
 		### Destroyer Flotilla 1 ###				
 		task_force = {					
