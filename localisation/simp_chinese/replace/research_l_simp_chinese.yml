@@ -347,3 +347,7 @@
  advanced_ship_torpedo_launcher: "先进鱼雷发射器"
  modern_ship_torpedo_launcher: "现代鱼雷发射器"
  wolfpacks: "狼群战术"
+ oxygen_torpedo: "压缩氧气鱼雷"
+ oxygen_torpedo_desc: "鱼雷发动机可以利用的燃料受到其内含的氧气的限制。由于压缩空气只含有21%的氧气，实际的利用率并不高，而氧气鱼雷则使用压缩过的纯氧，其拥有比当代现役鱼雷更强的性能。\n\n"
+ electric_torpedo: "电动鱼雷"
+ electric_torpedo_desc: "不同于会留下一长串容易被观测到的气泡轨迹的蒸汽鱼雷，一枚带有电动引擎的鱼雷在击中目标前几乎是不可见的。这也意味着对方无法通过追踪鱼雷轨迹找到发射它的潜艇。\n\n"

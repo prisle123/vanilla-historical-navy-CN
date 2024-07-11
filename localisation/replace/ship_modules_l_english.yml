@@ -988,3 +988,6 @@
  seaplane_hangar_short: "水上飞机机库"
  seaplane_hangar_desc: "巡洋舰上用于容纳水上飞机的机库。"
  EQ_MOD_CAT_ship_secondaries_special_TITLE: "大口径副炮组"
+ ship_hull_cruiser_role_pc: "防护巡洋舰角色"
+ ship_hull_cruiser_role_pc_short: "防护巡洋舰"
+ ship_hull_cruiser_role_pc_desc: "有装甲保护的早期巡洋舰。"
