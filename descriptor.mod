@@ -1,4 +1,4 @@
-version="v1.9 - Pacific Rim"
+version="v1.11 - King's Gambit"
 tags={
 	"Military"
 	"Translation"

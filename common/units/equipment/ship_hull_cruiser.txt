@@ -108,6 +108,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -133,6 +134,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -154,6 +156,26 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 4
+		}
+		module_count_limit = {
+			category = ship_airplane_launcher
+			count < 4
+		}
+		module_count_limit = {
+			category = seaplane_hangar
+			count < 3
+		}
+		module_count_limit = {
+			module = full_missile_upgrade
+			count < 2
+		}
+		module_count_limit = {
+			module = economical_nuclear_reactor_cruiser
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_display_system
+			count < 2
 		}
 
 		default_modules = {
@@ -430,6 +452,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_torpedo
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -444,6 +467,7 @@ equipments = {
 					ship_heavy_battery_triple
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -562,6 +586,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -587,6 +612,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -717,7 +743,10 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { c_role c_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
@@ -764,6 +793,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -791,6 +821,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -847,7 +878,10 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { c_role c_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			fixed_ship_extra_missile_slot = fixed_ship_extra_secondaries_slot
 			front_1_custom_slot = {
@@ -895,6 +929,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -922,6 +957,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -934,18 +970,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 8
-		}
-		module_count_limit = {
-			module = full_missile_upgrade
-			count < 2
-		}
-		module_count_limit = {
-			module = economical_nuclear_reactor_cruiser
-			count < 2
-		}
-		module_count_limit = {
-			module = ship_display_system
-			count < 2
 		}
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_5
@@ -1012,6 +1036,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -1032,6 +1057,7 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -1057,8 +1083,6 @@ equipments = {
 
 		armor_value = 0
 
-
-		surface_detection = 23
 		sub_detection = 1
 		surface_visibility = 15
 		naval_speed = 30
