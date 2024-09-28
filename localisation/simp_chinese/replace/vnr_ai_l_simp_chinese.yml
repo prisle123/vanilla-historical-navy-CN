@@ -63,3 +63,5 @@
  RULE_SHIPYARD_OUTPUT_BOOST_FREE_PLAYER_DESC: "船厂的产出为4点IC/日，比原版快60%。\n§G此加成仅适用于玩家。§!"
  RULE_SHIPYARD_OUTPUT_BOOST_BLOCKED_DESC: "船厂的产出为2.5点IC/日，与原版一致。"
  vnr_shipyard_output_boost: "海军重置船厂产出加成"
+ join_tactical_data_link: "接入[ROOT.GetFactionName]海军战术数据链"
+ join_tactical_data_link_desc: "一套联合战术数据链系统已经由我们阵营当中的领先成员部署成功。虽然这是一个加强我军与盟友协同作战能力的好机会，但是我们仍然可以独立开发一套自己的数据链系统。\n§C如果我们选择接入友方数据链，我们将不能研发自己的版本，但会立刻解锁以下加成：§!\n§Y海军协同性：§!§G+10%§!\n§Y海军组织度：§!§G+7.5%§!\n§Y可见度：§!§G-7.5%§!"
