@@ -1,4 +1,4 @@
-version="v1.12 - Overlord"
+version="v1.15 - Trafalgar"
 tags={
 	"Military"
 	"Translation"
@@ -15,5 +15,5 @@ dependencies={
 }
 name="原版海军重置"
 picture="thumbnail.png"
-supported_version="1.14.*"
+supported_version="1.15.*"
 remote_file_id="2993772482"
