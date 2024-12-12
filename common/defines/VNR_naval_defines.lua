@@ -61,7 +61,7 @@ NDefines.NNavy.EXPERIENCE_FACTOR_NON_CARRIER_GAIN = 0.1
 NDefines.NNavy.EXPERIENCE_FACTOR_CARRIER_GAIN = 0.2
 NDefines.NNavy.TRAINING_DAILY_COUNTRY_EXP_FACTOR = 0.005
 NDefines.NNavy.TRAINING_MAX_DAILY_COUNTRY_EXP = 7
-NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 2
+NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 4
 NDefines.NNavy.AMPHIBIOUS_INVADE_SPEED_BASE = 0.25
 NDefines.NNavy.SUPREMACY_PER_SHIP_PER_MANPOWER = 0.001
 NDefines.NNavy.SUPREMACY_PER_SHIP_PER_IC = 0.05
@@ -73,7 +73,7 @@ NDefines.NNavy.AGGRESSION_SETTINGS_VALUES = {
 		10000,	-- I am death incarnate!
 };
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
-		80.0,	-- big guns
+		75.0,	-- big guns
 		105.0,	-- torpedoes
 		45.0,	-- small guns
 };

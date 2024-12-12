@@ -325,6 +325,8 @@ add_starting_techs = {
     CHI = {
         set_technology = {
             basic_ship_hull_cruiser = 1
+			mtg_transport = 1
+			naval_combat_support = 1
 			popup = no
         }
     }
