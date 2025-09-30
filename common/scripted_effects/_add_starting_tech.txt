@@ -26,6 +26,7 @@ add_starting_techs = {
             midget_submarines = 1
             improved_ship_torpedo_launcher = 1
             ger_11in_c34 = 1
+            ita_extra_armor = 1
 			popup = no
         }
     }
@@ -43,6 +44,7 @@ add_starting_techs = {
             basic_cruiser_armor = 1
             incremental_armor_scheme = 1
             mixed_armor_scheme = 1
+            all_or_nothing_armor_scheme = 1
             basic_torpedo_defense = 1
             improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
@@ -60,6 +62,7 @@ add_starting_techs = {
             cruiser_submarines = 1
             improved_ship_torpedo_launcher = 1
             improved_airplane_launcher = 1
+            sonar = 1
 
             basic_super_heavy_battery = 1
 			popup = no
@@ -255,7 +258,7 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
             improved_ship_torpedo_launcher = 1
-
+            ita_extra_armor = 1
 
 			popup = no
         }
@@ -325,8 +328,6 @@ add_starting_techs = {
     CHI = {
         set_technology = {
             basic_ship_hull_cruiser = 1
-			mtg_transport = 1
-			naval_combat_support = 1
 			popup = no
         }
     }
@@ -426,6 +427,7 @@ makeup_starting_techs = {
             mixed_armor_scheme = 1
 			basic_heavy_armor = 1
 			krupp_steel = 1
+            fuel_oil_boiler = 1
 			popup = no
 		}
 	}
@@ -514,6 +516,8 @@ makeup_starting_techs = {
 		set_technology = {
 			dry_dock = 1
 			heavy_crane = 1
+            repair_ship = 1
+            hospital_ship = 1
 			popup = no
 		}
 	}

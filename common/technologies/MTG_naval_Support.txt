@@ -34,6 +34,7 @@ technologies = {
 			ship_heavy_battery_big_1
 			ship_heavy_battery_small_1
 			ship_secondaries_1
+			ship_secondaries_1_light
 			ship_civilian_light_battery_1
 			ship_anti_air_1_h
 
@@ -176,6 +177,7 @@ technologies = {
 			dp_light_battery_1_single
 			dp_ship_secondaries_1
 			dp_ship_secondaries_1_bb
+			ship_secondaries_2_light
 			ship_anti_air_2_h
 		}
 
@@ -1318,9 +1320,9 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
-			cat_ship_medium_battery
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_capital_ship_and_modules
+			rocketry
 		}
 	}
 
@@ -1387,6 +1389,8 @@ technologies = {
 		enable_equipment_modules = {
 			dp_light_battery_5
 			dp_light_battery_5_single
+			dp_ship_secondaries_5
+			dp_ship_secondaries_5_bb
 		}
 
 		folder = {
@@ -2029,6 +2033,14 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 23 }
 		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
 	}
 
 
@@ -2039,7 +2051,7 @@ technologies = {
 ###  #  # #   # #  #  ##  ###      ##   ##  #  #  #  #  #  ##  ###
 
 	damage_control_1 = {
-
+		start_year = 1918
 		research_cost = 0.75
 		path = {
 			leads_to_tech = damage_control_2
@@ -2080,7 +2092,7 @@ technologies = {
 	}
 
 	damage_control_2 = {
-
+		start_year = 1938
 		research_cost = 0.75
 		path = {
 			leads_to_tech = damage_control_3
@@ -2121,7 +2133,7 @@ technologies = {
 	}
 
 	damage_control_3 = {
-
+		start_year = 1940
 		research_cost = 1
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
@@ -2975,6 +2987,7 @@ technologies = {
 			fuel_tanker_silo
 			dry_cargo_storage
 			civilian_ship_engine_1
+			ship_hull_civilian_role_ap
 		}
 		special_project_specialization = { specialization_naval }
 		categories = {
@@ -3033,6 +3046,7 @@ technologies = {
 		}
 
 		production_speed_dockyard_factor = 0.1
+		repair_speed_factor = 0.15
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
@@ -3215,6 +3229,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			supply_hub
+			ship_hull_civilian_role_ao
 		}
 		folder = {
 			name = mtgnavalsupportfolder
@@ -3276,6 +3291,7 @@ technologies = {
 		enable_equipment_modules = {
 			civilian_ship_engine_2
 			supply_hub
+			ship_hull_civilian_role_ao
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -3534,8 +3550,8 @@ technologies = {
 
 	sp_multi_product_supply_ships = {
 
-		underway_replenishment_range = 0.5
-		underway_replenishment_convoy_cost = -0.25
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.1
 
 		allow_branch = {
 			has_dlc = "Gotterdammerung"
@@ -3556,7 +3572,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.75
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1938
 		folder = {
 			name = mtgnavalsupportfolder
@@ -3579,15 +3595,15 @@ technologies = {
 			}
 		}
 
-		underway_replenishment_range = 0.5
-		underway_replenishment_convoy_cost = -0.25
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.1
 
 		force_use_small_tech_layout = yes
 		is_special_project_tech = yes
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.5
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1943
 		folder = {
 			name = mtgnavalsupportfolder

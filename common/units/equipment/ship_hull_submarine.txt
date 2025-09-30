@@ -35,12 +35,16 @@ equipments = {
 				required = no
 				allowed_module_categories = { pressure_hull }
 			}
+			fixed_ship_conning_tower_slot = {
+				required = yes
+				allowed_module_categories = { sub_conning_tower }
+			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
 				allowed_module_categories = { submarine_miscellaneous }
 			}
 			mid_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					sub_ship_periscope
 				}
@@ -50,6 +54,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_sub
 					ship_mine_layer_sub
+					ship_extra_fuel_tank
 				}
 			}
 		}
@@ -85,6 +90,7 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
+			fixed_ship_conning_tower_slot = sub_conning_tower_0
 			fixed_ship_engine_slot = sub_ship_engine_1
 			fixed_ship_armor_slot = pressure_hull_1
 			mid_1_custom_slot = sub_ship_periscope_0
@@ -159,6 +165,7 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_conning_tower_slot = inherit
 			fixed_ship_fire_control_system_slot = {
 				required = no
 				allowed_module_categories = { sub_fire_control_system ship_sonar }
@@ -188,7 +195,7 @@ equipments = {
 
 
 
-		build_cost_ic = 180
+		build_cost_ic = 150
 		resources = {
 			#oil = 1
 			steel = 2
@@ -208,6 +215,7 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_conning_tower_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
@@ -225,7 +233,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
-			rear_1_custom_slot = front_1_custom_slot
+			rear_1_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -236,7 +244,7 @@ equipments = {
 			fixed_ship_armor_slot = pressure_hull_3
 		}
 
-		sub_visibility = 18
+		sub_visibility = 19
 		naval_speed = 18
 		reliability = 0.75
 
@@ -246,7 +254,7 @@ equipments = {
 
 
 
-		build_cost_ic = 250
+		build_cost_ic = 200
 		resources = {
 			steel = 2
 		}
@@ -264,6 +272,7 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_conning_tower_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
@@ -276,7 +285,7 @@ equipments = {
 					sub_ship_stealth
 				}
 			}
-			rear_1_custom_slot = front_1_custom_slot
+			rear_1_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -287,7 +296,7 @@ equipments = {
 			fixed_ship_armor_slot = pressure_hull_4
 		}
 
-		sub_visibility = 15
+		sub_visibility = 16
 		naval_speed = 18
 		reliability = 0.80
 
@@ -297,7 +306,7 @@ equipments = {
 
 
 
-		build_cost_ic = 350
+		build_cost_ic = 275
 		resources = {
 			steel = 3
 			chromium = 1
@@ -318,6 +327,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_conning_tower_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
@@ -333,7 +343,7 @@ equipments = {
 			}
 			rear_1_custom_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo_sub ship_mine_layer_sub sub_rocket }
+				allowed_module_categories = { ship_torpedo_sub ship_mine_layer_sub sub_rocket ship_extra_fuel_tank }
 			}
 			rear_2_custom_slot = rear_1_custom_slot
 		}
@@ -346,7 +356,7 @@ equipments = {
 			fixed_ship_armor_slot = pressure_hull_4
 		}
 
-		sub_visibility = 11
+		sub_visibility = 13
 		naval_speed = 18
 		reliability = 1.5
 
@@ -354,7 +364,7 @@ equipments = {
 
 		max_strength = 50
 
-		build_cost_ic = 500
+		build_cost_ic = 400
 		resources = {
 			steel = 3
 			chromium = 1
@@ -377,6 +387,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_conning_tower_slot = inherit
 			fixed_ship_fire_control_system_slot = {
 				required = no
 				allowed_module_categories = { sub_fire_control_system ship_sonar }
@@ -396,7 +407,7 @@ equipments = {
 				}
 			}
 			mid_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					sub_ship_periscope
 				}
@@ -441,7 +452,7 @@ equipments = {
 
 
 
-		build_cost_ic = 320
+		build_cost_ic = 250
 		resources = {
 			steel = 2
 		}
@@ -458,9 +469,10 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_conning_tower_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
 			mid_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					sub_ship_periscope
 				}
@@ -495,7 +507,7 @@ equipments = {
 		manpower = 50
 
 
-		build_cost_ic = 100
+		build_cost_ic = 80
 		resources = {
 			steel = 1
 		}

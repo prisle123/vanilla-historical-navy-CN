@@ -472,7 +472,7 @@ sp_naval_underway_replenishment = {
 				
 				iteration_output = {
 					country_effects = { 
-						custom_effect_tooltip = sp_naval_underway_replenishment_pick_a_tt
+						custom_effect_tooltip = tech_effect|sp_naval_underway_replenishment_pick_a
 						hidden_effect = {
 							set_technology = {
 								sp_naval_underway_replenishment_pick_a = 1
@@ -499,7 +499,7 @@ sp_naval_underway_replenishment = {
 				
 				iteration_output = {
 					country_effects = { 
-						custom_effect_tooltip = sp_naval_underway_replenishment_pick_b_tt
+						custom_effect_tooltip = tech_effect|sp_naval_underway_replenishment_pick_b
 						hidden_effect = {
 							set_technology = {
 								sp_naval_underway_replenishment_pick_b = 1
@@ -558,19 +558,9 @@ sp_naval_rocket_launching_submarine = {
 			}
 			sub_missile_launcher
 		}
-		country_effects = {
-            custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = missile_submarine
-			}
-			custom_override_tooltip = {	
-				tooltip = tech_effect|missile_submarine
-				set_technology = {
-					missile_submarine = 1
-					popup = no
-				}
-			}
-        }
+		enable_equipment_modules = {
+			ship_cruise_missile_sub_1
+		}
 	}
 
 	generic_prototype_rewards = {
@@ -731,6 +721,170 @@ sp_arsenal_ship = {
         enable_equipment_modules = {
             ship_missile_launcher
 			ship_slbm_launcher
+        }
+    }
+
+	generic_prototype_rewards = {
+		sp_naval_generic_reward_scientist_xp_1
+		sp_naval_generic_reward_scientist_xp_2
+		sp_naval_generic_reward_scientist_xp_3
+		sp_naval_generic_reward_navy_xp_1
+		sp_naval_generic_reward_navy_xp_2
+		sp_naval_generic_reward_navy_xp_3
+		sp_naval_generic_reward_major_progress_1
+		sp_naval_generic_reward_major_progress_2
+		sp_naval_generic_reward_major_progress_3
+		sp_naval_generic_reward_test_failure_1
+		sp_naval_generic_reward_test_failure_2
+		sp_naval_generic_reward_test_failure_3			
+	}
+}
+
+sp_early_informatization_system = {
+	specialization = specialization_naval
+	project_tags = { sp_tag_surface_ship }
+    available = {
+		FROM = {
+			has_tech = naval_tactical_data_system
+		}
+    }
+	resource_cost = {
+		resources = { 
+			steel = 12
+			tungsten = 10
+			chromium = 14
+		}
+	}	
+    breakthrough_cost = {
+		specialization_naval = 2
+	}
+
+    prototype_time = sp_time.prototype.medium
+
+	complexity = sp_complexity.large
+
+	project_output = {
+		country_effects = {
+            custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = phased_array_radar
+			}
+			custom_override_tooltip = {	
+				tooltip = tech_effect|phased_array_radar
+				set_technology = {
+					phased_array_radar = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = integrated_combat_system
+			}
+			custom_override_tooltip = {	
+				tooltip = tech_effect|integrated_combat_system
+				set_technology = {
+					integrated_combat_system = 1
+					popup = no
+				}
+			}
+        }
+    }
+
+	unique_prototype_rewards = {
+		sp_early_informatization_system_unique_reward_a = {
+			fire_only_once = yes
+			threshold = {
+				min = 25
+				max = 75
+			}
+			weight = { base = 100 }
+			option = {
+				token = sp_early_informatization_system_perference_a
+				iteration_output = {
+					country_effects = {
+						add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							technology = tactical_data_link
+						}
+					}
+				}
+			}
+			option = {
+				token = sp_early_informatization_system_perference_b
+				iteration_output = {
+					country_effects = {
+						add_tech_bonus = {
+							bonus = 1
+							uses = 1
+							technology = tactical_data_link
+						}
+						sp:sp_early_informatization_system = { add_project_progress_ratio = -0.25 }
+					}
+				}
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_naval_generic_reward_scientist_xp_1
+		sp_naval_generic_reward_scientist_xp_2
+		sp_naval_generic_reward_scientist_xp_3
+		sp_naval_generic_reward_navy_xp_1
+		sp_naval_generic_reward_navy_xp_2
+		sp_naval_generic_reward_navy_xp_3
+		sp_naval_generic_reward_major_progress_1
+		sp_naval_generic_reward_major_progress_2
+		sp_naval_generic_reward_major_progress_3
+		sp_naval_generic_reward_test_failure_1
+		sp_naval_generic_reward_test_failure_2
+		sp_naval_generic_reward_test_failure_3			
+	}
+}
+
+sp_high_speed_light_engine = {
+	specialization = specialization_naval
+	project_tags = { sp_tag_surface_ship }
+	allowed = {
+        has_dlc = "Man the Guns"
+    }
+    available = {
+		FROM = {
+			has_tech = basic_ship_hull_light
+			has_tech = fuel_oil_boiler
+		}
+    }
+	resource_cost = {
+		resources = { 
+			steel = 6
+			tungsten = 4
+			chromium = 4
+		}
+	}	
+    breakthrough_cost = {
+		specialization_naval = 1
+	}
+
+    prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+    project_output = {
+		enable_equipment_modules = {
+			ship_superheater
+		}
+		country_effects = {
+            custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = high_speed_light_engine
+			}
+			custom_override_tooltip = {	
+				tooltip = tech_effect|high_speed_light_engine
+				set_technology = {
+					high_speed_light_engine = 1
+					popup = no
+				}
+			}
         }
     }
 

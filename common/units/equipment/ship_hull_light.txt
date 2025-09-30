@@ -46,13 +46,17 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_radar ship_sonar ship_mast }
 			}
+			fixed_ship_extra_electronics_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar ship_fire_control_system }
+			}
 			fixed_ship_torpedo_slot = {
 				required = no
 				allowed_module_categories = { ship_torpedo }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { light_ship_engine }
+				allowed_module_categories = { light_ship_engine light_ship_engine_high_speed }
 			}
 			fixed_ship_role_slot = {
 				required = yes
@@ -127,7 +131,10 @@ equipments = {
 			category = ship_radar
 			count < 2
 		}
-
+		module_count_limit = {
+			category = ship_fire_control_system
+			count < 2
+		}
 		module_count_limit = {
 			category = ship_sonar
 			count < 2
@@ -147,6 +154,18 @@ equipments = {
 		}
 		module_count_limit = {
 			module = ship_aa_fire_control
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_radar_jammer
+			count < 2
+		}
+		module_count_limit = {
+			module = structural_aluminum
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_bulbous_bow
 			count < 2
 		}
 
@@ -323,6 +342,7 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_extra_electronics_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_role_slot = {
@@ -384,7 +404,7 @@ equipments = {
 		max_strength = 75
 		build_cost_ic = 650
 		resources = {
-			steel = 4
+			steel = 3
 			chromium = 1
 		}
 		manpower = 500
@@ -425,6 +445,7 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_extra_electronics_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_role_slot = {
@@ -522,7 +543,7 @@ equipments = {
 		max_strength = 100
 		build_cost_ic = 800
 		resources = {
-			steel = 4
+			steel = 3
 			chromium = 1
 		}
 		manpower = 600

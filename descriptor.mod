@@ -1,4 +1,4 @@
-version="v1.16 - The Art of Ships"
+version="v2.4 - Ironbottom Sound"
 tags={
 	"Military"
 	"Translation"
@@ -19,5 +19,5 @@ dependencies={
 }
 name="原版海军重置"
 picture="thumbnail.png"
-supported_version="1.15.*"
+supported_version="1.16.*"
 remote_file_id="2993772482"

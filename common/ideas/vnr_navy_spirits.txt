@@ -20,8 +20,7 @@ ideas = {
             ledger = navy
             visible = { original_tag = USA }
             modifier = {
-                naval_doctrine_cost_factor = -0.05
-                navy_advisor_cost_factor = -0.33
+                trait_blue_water_expert_xp_gain_factor = 0.15
                 trait_air_controller_xp_gain_factor = 0.25
                 trait_fleet_protector_xp_gain_factor = 0.25
             }
@@ -50,6 +49,92 @@ ideas = {
 				}
             }
         }
+        murwik_naval_academy = {
+            ledger = navy
+            visible = { original_tag = GER }
+            modifier = {
+                navy_leader_start_level = 1
+                trait_ironside_xp_gain_factor = 0.15
+                trait_seawolf_xp_gain_factor = 0.15
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        voroshilov_naval_academy = {
+            ledger = navy
+            visible = {
+                OR = {
+                    original_tag = SOV
+                    original_tag = RUS
+                }
+                has_global_flag = vnr_enabled
+                has_government = communism
+            }
+			cancel = {
+				NOT = { has_government = communism }
+			}
+            modifier = {
+                trait_arctic_water_expert_xp_gain_factor = 0.25
+                modifier_army_sub_unit_marine_attack_factor = 0.05
+                modifier_army_sub_unit_marine_defence_factor = 0.05
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        nakhimov_naval_academy = {
+            ledger = navy
+            visible = {
+                OR = {
+                    original_tag = SOV
+                    original_tag = RUS
+                }
+                OR = {
+                    NOT = { has_global_flag = vnr_enabled }
+                    NOT = { has_government = communism }
+                }
+            }
+            modifier = {
+                trait_arctic_water_expert_xp_gain_factor = 0.25
+                modifier_army_sub_unit_marine_attack_factor = 0.05
+                modifier_army_sub_unit_marine_defence_factor = 0.05
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        usn_fighter_weapons_school = {
+            ledger = navy
+            visible = {
+                original_tag = USA
+                has_tech = super_carriers
+            }
+			modifier = {
+				fighter_sortie_efficiency = 0.15
+				navy_anti_air_attack_factor = 0.15
+				air_ace_generation_chance_factor = 0.25
+			}
+			ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        } 
     }
 
     navy_spirit = {
@@ -75,6 +160,10 @@ ideas = {
                     instant = yes
                     build_cost_ic = 0.1
                 }
+				ship_hull_cruiser = {
+					instant = yes
+					build_cost_ic = 0.1
+				}
             }
             modifier = {
                 ship_hull_heavy_design_cost_factor = 0.4
@@ -114,8 +203,14 @@ ideas = {
         }
         advanced_supply_fleet = {
             ledger = navy
+            available = {
+                has_navy_size = {
+                    archetype = ship_hull_civilian
+                    size > 30
+                }
+            }
             modifier = {
-                naval_attrition = -0.15
+                navy_fuel_consumption_factor = -0.15
                 navy_max_range_factor = 0.1
                 floating_harbor_supply = 0.4
                 floating_harbor_range = 0.4
@@ -140,6 +235,22 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
+            }
+        }
+        lack_maintenance_facilities = {
+            ledger = navy
+            available = {
+				custom_trigger_tooltip = {
+					tooltip = recovering_from_naval_race_tt
+					NOT = { has_global_flag = vnr_enabled }
+				}
+            }
+            modifier = {
+                repair_speed_factor = -0.25
+                naval_morale_factor = -0.25
+            }
+            ai_will_do = {
+                factor = 0
             }
         }
     }
@@ -225,8 +336,14 @@ ideas = {
             available = {
 				custom_trigger_tooltip = {
 					tooltip = recovering_from_naval_race_tt
-					NOT = { has_global_flag = vnr_enabled }
+					NOT = { 
+						has_global_flag = vnr_enabled
+						has_country_flag = recovered_from_naval_race
+					}
 				}
+            }
+            allowed_to_remove = {
+                always = no
             }
             modifier = {
                 ship_hull_carrier_design_cost_factor = 0.2

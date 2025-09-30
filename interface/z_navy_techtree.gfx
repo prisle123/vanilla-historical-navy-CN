@@ -644,8 +644,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/navy_techtree/modern_generic_battery.png"
 	}
 	spriteType = {
-		name = "GFX_missile_submarine_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/missile_submarine.png"
+		name = "GFX_modern_periscope_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/modern_periscope.png"
 	}
 	spriteType = {
 		name = "GFX_wake_homing_torpedo_medium"
@@ -689,12 +689,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/navy_techtree/wave_resistance_design.png"
 	}
 	spriteType = {
-		name = "GFX_symmetric_key_algorithm_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/symmetric_key_algorithm.png"
+		name = "GFX_cryptography_revolution_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/cryptography_revolution.png"
 	}
 	spriteType = {
 		name = "GFX_luneburg_lens_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/luneburg_lens.png"
+	}
+	spriteType = {
+		name = "GFX_advanced_missile_system_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/advanced_missile_system.png"
 	}
 	
 	
@@ -722,5 +726,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_sp_arsenal_ship"
 		textureFile = "gfx/interface/special_project/project_icons/sp_arsenal_ship.png"
+	}
+	spriteType = {
+		name = "GFX_sp_early_informatization_system"
+		textureFile = "gfx/interface/special_project/project_icons/sp_early_informatization_system.png"
+	}
+	spriteType = {
+		name = "GFX_sp_high_speed_light_engine"
+		textureFile = "gfx/interface/special_project/project_icons/sp_high_speed_light_engine.png"
 	}
 }

@@ -36,7 +36,7 @@ critical_parts = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 2
 		stat_penalties = {
-			hg_attack = -0.5
+			hg_attack = -0.33
 		}
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
@@ -47,7 +47,7 @@ critical_parts = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 3
 		stat_penalties = {
-			lg_attack = -0.5
+			lg_attack = -0.25
 		}
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
@@ -57,7 +57,8 @@ critical_parts = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 3
 		stat_penalties = {
-			lg_attack = -0.25
+			lg_attack = -0.1
+			anti_air_attack = -0.33
 		}
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
@@ -136,39 +137,50 @@ critical_parts = {
 
     damaged_fire_control = {
         icon = "GFX_default_critical_damage_icons"
-		frame = 6
+		frame = 3
         stat_penalties = {
             naval_light_gun_hit_chance_factor = -0.5
             naval_heavy_gun_hit_chance_factor = -0.5
+			naval_torpedo_hit_chance_factor = -0.5
         }
         chance = 0.15
+		org_damage_multiplier = 0.25
+		str_damage_multiplier = 0.25
         base_damage_instance = 1
+		damage_instance_per_added_module = 1
         max_damage_instance = 1
     }
     damaged_wooden_flight_deck = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
         stat_penalties = {
-            carrier_size = -0.2
+            carrier_size = -0.4
         }
 		modifier = {
 			navy_org_factor = -0.3
 		}
-        org_damage_multiplier = 1.25
+		chance = 0.75
+        org_damage_multiplier = 1.5
         str_damage_multiplier = 1.25
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
     }
 	damaged_armored_flight_deck = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
         stat_penalties = {
-            carrier_size = -0.1
+            carrier_size = -0.2
         }
 		modifier = {
 			navy_org_factor = -0.15
 		}
-        chance = 0.75
-        org_damage_multiplier = 1
+        chance = 0.5
+        org_damage_multiplier = 1.25
         str_damage_multiplier = 1
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
     }
     gas_leakage = {
         icon = "GFX_default_critical_damage_icons"
@@ -177,8 +189,8 @@ critical_parts = {
             navy_org_factor = -0.9
 			naval_morale_factor = -1
         }
-        chance = 0.1
-        org_damage_multiplier = 3
-        str_damage_multiplier = 3
+        chance = 0.05
+        org_damage_multiplier = 10
+        str_damage_multiplier = 10
     }
 }

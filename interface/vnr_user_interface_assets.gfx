@@ -1,5 +1,12 @@
 spriteTypes = {
 	### ship silhouettes in naval combat
+	spriteType = { name = "GFX_navalcombat_ship_icon_battle_cruiser"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_battleship"		texturefile = "gfx/interface/navalcombat/ships/battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_carrier"		texturefile = "gfx/interface/navalcombat/ships/carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_destroyer"		texturefile = "gfx/interface/navalcombat/ships/destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_heavy_cruiser"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_light_cruiser"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_submarine"		texturefile = "gfx/interface/navalcombat/ships/submarine.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_navalcombat_ship_icon_SH_battleship"		texturefile = "gfx/interface/navalcombat/ships/sh_battleship.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_navalcombat_ship_icon_behemoth"		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_navalcombat_ship_icon_battlecarrier"		texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
@@ -19,13 +26,14 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_battle_cruiser_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_III.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battle_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_IV.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battle_cruiser_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_7_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/arsenal_ship.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_0.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_I.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_II.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_III.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_IV.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds"	noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_battleship_7_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_7_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/arsenal_ship.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_cruiser_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_0.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_cruiser_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/panzerschiff.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_cruiser_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_I.dds"	noOfFrames = 2 }
@@ -129,6 +137,14 @@ spriteTypes = {
 		name = "GFX_navy_splash_intro"
 		textureFile = "gfx/introscreen/navy_rework_splash.png"
 	}
+	spriteType = {
+		name = "GFX_navy_splash_intro_1"
+		textureFile = "gfx/introscreen/navy_rework_splash_1.png"
+	}
+	spriteType = {
+		name = "GFX_navy_splash_title"
+		textureFile = "gfx/introscreen/title.png"
+	}
 	
 
 	### ship role icons definition in ship designer, right next to ship icon
@@ -203,4 +219,293 @@ spriteTypes = {
 	spriteType = { name = "GFX_idea_inflexible_headquarter" textureFile = "gfx/interface/ideas/vnr_navy_spirits/inflexible_headquarter.png" }
 	spriteType = { name = "GFX_idea_win_or_die" textureFile = "gfx/interface/ideas/vnr_navy_spirits/win_or_die.png" }
 	spriteType = { name = "GFX_idea_recovering_from_naval_race" textureFile = "gfx/interface/ideas/vnr_navy_spirits/recovering_from_naval_race.png" }
+	spriteType = { name = "GFX_idea_lack_maintenance_facilities" textureFile = "gfx/interface/ideas/vnr_navy_spirits/lack_maintenance_facilities.png" }
+	spriteType = { name = "GFX_idea_murwik_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/murwik_naval_academy.png" }
+	spriteType = { name = "GFX_idea_voroshilov_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/voroshilov_academy.png" }
+	spriteType = { name = "GFX_idea_nakhimov_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/nakhimov_academy.png" }
+	spriteType = { name = "GFX_idea_usn_fighter_weapons_school" textureFile = "gfx/interface/ideas/vnr_navy_spirits/usn_fighter_weapons_school.png" }
+	
+	# unit banners
+	spriteType = {
+		name = "GFX_cv_desc_icon"
+		textureFile = "gfx/texticons/unit_banner/cv_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_shbb_desc_icon"
+		textureFile = "gfx/texticons/unit_banner/shbb_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_desc_icon"
+		textureFile = "gfx/texticons/unit_banner/bb_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bc_desc_icon"
+		textureFile = "gfx/texticons/unit_banner/bc_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_desc_icon"
+		textureFile = "gfx/texticons/unit_banner/ca_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cl_desc_icon"
+		textureFile = "gfx/texticons/unit_banner/cl_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_desc_icon"
+		textureFile = "gfx/texticons/unit_banner/dd_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ss_desc_icon"
+		textureFile = "gfx/texticons/unit_banner/ss_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bbv_desc_icon"
+		textureFile = "gfx/texticons/unit_banner/bbv_desc_icon.png"
+		legacy_lazy_load = no
+	}
+
+	# tech banners
+	spriteType = {
+		name = "GFX_cv_tech_1"
+		textureFile = "gfx/texticons/tech_banner/cv_1_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cv_tech_2"
+		textureFile = "gfx/texticons/tech_banner/cv_2_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cv_tech_3"
+		textureFile = "gfx/texticons/tech_banner/cv_3_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cv_tech_4"
+		textureFile = "gfx/texticons/tech_banner/cv_4_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cv_tech_5"
+		textureFile = "gfx/texticons/tech_banner/cv_5_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cv_tech_6"
+		textureFile = "gfx/texticons/tech_banner/cv_6_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cv_tech_7"
+		textureFile = "gfx/texticons/tech_banner/cv_7_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cv_tech_8"
+		textureFile = "gfx/texticons/tech_banner/cv_8_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cv_tech_9"
+		textureFile = "gfx/texticons/tech_banner/cv_9_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_1"
+		textureFile = "gfx/texticons/tech_banner/bb_1_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_2"
+		textureFile = "gfx/texticons/tech_banner/bb_2_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_3"
+		textureFile = "gfx/texticons/tech_banner/bb_3_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_4"
+		textureFile = "gfx/texticons/tech_banner/bb_4_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_5"
+		textureFile = "gfx/texticons/tech_banner/bb_5_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_6"
+		textureFile = "gfx/texticons/tech_banner/bb_6_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_7"
+		textureFile = "gfx/texticons/tech_banner/bb_7_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_8"
+		textureFile = "gfx/texticons/tech_banner/bb_8_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_9"
+		textureFile = "gfx/texticons/tech_banner/bb_9_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_bb_tech_10"
+		textureFile = "gfx/texticons/tech_banner/bb_10_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_1"
+		textureFile = "gfx/texticons/tech_banner/ca_1_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_2"
+		textureFile = "gfx/texticons/tech_banner/ca_2_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_3"
+		textureFile = "gfx/texticons/tech_banner/ca_3_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_4"
+		textureFile = "gfx/texticons/tech_banner/ca_4_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_5"
+		textureFile = "gfx/texticons/tech_banner/ca_5_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_6"
+		textureFile = "gfx/texticons/tech_banner/ca_6_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_7"
+		textureFile = "gfx/texticons/tech_banner/ca_7_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_8"
+		textureFile = "gfx/texticons/tech_banner/ca_8_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_9"
+		textureFile = "gfx/texticons/tech_banner/ca_9_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_10"
+		textureFile = "gfx/texticons/tech_banner/ca_10_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_11"
+		textureFile = "gfx/texticons/tech_banner/ca_11_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_1"
+		textureFile = "gfx/texticons/tech_banner/dd_1_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_2"
+		textureFile = "gfx/texticons/tech_banner/dd_2_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_3"
+		textureFile = "gfx/texticons/tech_banner/dd_3_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_4"
+		textureFile = "gfx/texticons/tech_banner/dd_4_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_5"
+		textureFile = "gfx/texticons/tech_banner/dd_5_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_6"
+		textureFile = "gfx/texticons/tech_banner/dd_6_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_7"
+		textureFile = "gfx/texticons/tech_banner/dd_7_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_8"
+		textureFile = "gfx/texticons/tech_banner/dd_8_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_9"
+		textureFile = "gfx/texticons/tech_banner/dd_9_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ss_tech_1"
+		textureFile = "gfx/texticons/tech_banner/ss_1_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ss_tech_2"
+		textureFile = "gfx/texticons/tech_banner/ss_2_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ss_tech_3"
+		textureFile = "gfx/texticons/tech_banner/ss_3_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ss_tech_4"
+		textureFile = "gfx/texticons/tech_banner/ss_4_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ss_tech_5"
+		textureFile = "gfx/texticons/tech_banner/ss_5_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ss_tech_6"
+		textureFile = "gfx/texticons/tech_banner/ss_6_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cw_tech_1"
+		textureFile = "gfx/texticons/tech_banner/cw_1_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cw_tech_2"
+		textureFile = "gfx/texticons/tech_banner/cw_2_desc_icon.png"
+		legacy_lazy_load = no
+	}
 }

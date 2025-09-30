@@ -52,7 +52,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -109,6 +109,10 @@ technologies = {
 		strike_force_movement_org_loss = -0.1
 		positioning = 0.2
 		########
+		dependencies = {
+			basic_ship_hull_heavy = 1
+			basic_ship_hull_cruiser = 1
+		}
 
 		path = {
 			leads_to_tech = fast_battleship_primacy
@@ -120,7 +124,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -172,10 +176,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			fuel_oil_boiler = 1
+			improved_conning_tower = 1
+		}
+
 		xor = { scouting_fleet_primacy }
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -240,7 +249,7 @@ technologies = {
 		xor = { fast_battleship_primacy }
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -297,8 +306,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			acoustic_signature = 1
+			sonar = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -335,7 +349,7 @@ technologies = {
 			max_organisation = 10
 		}
 
-		naval_torpedo_cooldown_factor = -0.2
+		naval_torpedo_cooldown_factor = -0.125
 		########
 
 		path = {
@@ -343,8 +357,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			improved_ship_torpedo_launcher = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -385,8 +403,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			improved_ship_hull_carrier = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -419,9 +441,18 @@ technologies = {
 			carrier = 1.5
 			naval_air = 0.75
 		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
+		}
 	}
 
 	decisive_battle = {
+		allow = {
+			has_navy_size = {
+				type = capital_ship
+				size > 34
+			}
+		}
 		#Large, powerful gun armed ships are clearly the best ships
 
 		# EFFECT #############
@@ -455,8 +486,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			improved_ship_hull_heavy = 1
+			improved_ship_hull_cruiser = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -492,9 +528,13 @@ technologies = {
 		########
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
+
+		dependencies = {
+			advanced_ship_hull_carrier = 1
+		}
 
 		categories = {
 			naval_doctrine
@@ -546,6 +586,10 @@ technologies = {
 			max_organisation = 20
 		}
 		
+		dependencies = {
+			advanced_ship_hull_heavy = 1
+			advanced_ship_hull_cruiser = 1
+		}
 
 		navy_anti_air_attack_factor = 0.10
 		navy_capital_ship_attack_factor = 0.1
@@ -553,7 +597,7 @@ technologies = {
 		positioning = 0.1
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -580,6 +624,9 @@ technologies = {
 			naval_doctrine = -1.0
 			battleship = 2.0
 		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
+		}
 	}
 
 	convoy_sailing = {
@@ -601,7 +648,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -655,7 +702,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -707,8 +754,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			escort_destroyer_trend = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -760,9 +811,13 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
+
+		dependencies = {
+			escort_carriers_ship = 1
+		}
 
 		categories = {
 			naval_doctrine
@@ -823,8 +878,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			improved_ship_hull_light = 1
+			improved_sonar = 1
+			improved_airplane_launcher = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -876,7 +937,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -910,6 +971,7 @@ technologies = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.1
 		}
+		naval_torpedo_cooldown_factor = -0.125
 		#######
 
 		path = {
@@ -917,8 +979,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			basic_ship_hull_submarine = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -960,8 +1026,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			advanced_periscope = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1003,7 +1073,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1040,9 +1110,13 @@ technologies = {
 		#######
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
+
+		dependencies = {
+			advanced_ship_hull_submarine = 1
+		}
 
 		categories = {
 			naval_doctrine
@@ -1115,7 +1189,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1159,6 +1233,7 @@ technologies = {
 			surface_detection = 0.1
 		}
 		naval_torpedo_reveal_chance_factor = -0.10
+		naval_torpedo_cooldown_factor = -0.125
 		#######
 
 		path = {
@@ -1166,10 +1241,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			midget_submarines = 1
+		}
+
 		xor = { convoy_interdiction_ti }
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1204,6 +1283,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.1
 		}
+		naval_torpedo_cooldown_factor = -0.125
 		#######
 
 		path = {
@@ -1214,7 +1294,7 @@ technologies = {
 		xor = { coastal_operations }
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1266,8 +1346,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			electric_torpedo = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1318,8 +1402,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			basic_ship_hull_submarine = 1
+			acoustic_signature = 1
+			improved_periscope = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1362,7 +1452,7 @@ technologies = {
 			naval_range = 0.3
 			fuel_consumption = -0.25
 		}
-		naval_torpedo_cooldown_factor = -0.2
+		naval_torpedo_cooldown_factor = -0.25
 		#######
 
 		path = {
@@ -1370,8 +1460,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			improved_ship_hull_submarine = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1425,8 +1519,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			advanced_periscope = 1
+			advanced_ship_torpedo_launcher = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1459,6 +1558,9 @@ technologies = {
 			naval_doctrine = -1.0
 			submarine = 2.0
 		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
+		}
 	}
 
 	advanced_submarine_warfare = {
@@ -1477,8 +1579,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			basic_submarine_snorkel = 1
+			advanced_torpedo_ballistics = 1
+			submarine_mass_production = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1552,9 +1660,14 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
+
+		dependencies = {
+			naval_radio_guiding_system = 1
+			advanced_ship_hull_submarine = 1
+		}
 
 		categories = {
 			naval_doctrine
@@ -1586,6 +1699,9 @@ technologies = {
 			cruiser = 1.5
 			submarine = 1.0
 		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
+		}
 	}
 
 	raider_patrols = {
@@ -1616,7 +1732,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1664,7 +1780,7 @@ technologies = {
 		##! 	surface_detection = 0.15
 		##! }
 
-		screening_without_screens = 0.15
+		screening_without_screens = 0.1
 		#######
 
 		path = {
@@ -1672,8 +1788,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			interwar_ship_hull_heavy = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1736,8 +1856,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			cruiser_gun_upgrade = 1
+			large_destroyer_trend = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1794,8 +1919,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			improved_ship_hull_heavy = 1
+			improved_ship_hull_cruiser = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1842,8 +1972,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			homogeneous_krupp_steel = 1
+			advanced_heavy_armor = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1879,9 +2014,13 @@ technologies = {
 		########
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
+
+		dependencies = {
+			advanced_ship_hull_carrier = 1
+		}
 
 		categories = {
 			naval_doctrine
@@ -1926,7 +2065,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -1977,7 +2116,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -2024,8 +2163,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			improved_ship_hull_light = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -2067,8 +2210,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			improved_ship_hull_carrier = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -2112,7 +2259,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 75
+		xp_unlock_cost = 85
 		doctrine = yes
 		research_cost = 3
 
@@ -2171,7 +2318,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2228,7 +2375,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2299,10 +2446,16 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			cruiser_aa_upgrade = 1
+			large_destroyer_trend = 1
+			improved_ship_hull_carrier = 1
+		}
+
 		xor = { naval_air_force }
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2348,8 +2501,8 @@ technologies = {
 			air_range = 0.2
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.1
-			naval_strike_attack_factor = 0.1
+			naval_strike_targetting_factor = 0.15
+			naval_strike_attack_factor = 0.15
 		}
 		##########
 		path = {
@@ -2360,7 +2513,7 @@ technologies = {
 		xor = { carrier_task_forces }
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2404,8 +2557,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			dive_bomber_study = 1
+			air_fuel_storage = 1
+			folding_wing = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2445,7 +2604,7 @@ technologies = {
 		# EFFECT #############
 		naval_strike_targetting_factor = 0.15
 		naval_strike_attack_factor = 0.15
-		port_strike = 0.25
+		port_strike = 0.35
 		########
 
 		path = {
@@ -2453,8 +2612,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			armor_piercing_bombs = 1
+			air_torpedoe_2 = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2509,7 +2673,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2559,9 +2723,13 @@ technologies = {
 		########
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
+
+		dependencies = {
+			advanced_ship_hull_carrier = 1
+		}
 
 		categories = {
 			naval_doctrine
@@ -2615,8 +2783,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			battleship_aa_upgrade = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2638,6 +2810,9 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 2.0
+		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
 		}
 	}
 
@@ -2681,9 +2856,15 @@ technologies = {
 		###########
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
+
+		dependencies = {
+			advanced_ship_hull_carrier = 1
+			advanced_ship_hull_heavy = 1
+			advanced_ship_hull_cruiser = 1
+		}
 
 		categories = {
 			naval_doctrine
@@ -2715,6 +2896,9 @@ technologies = {
 			naval_air = 0.75
 			naval_equipment = 1.0
 		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
+		}
 	}
 
 	submarine_operations_bs = {
@@ -2733,7 +2917,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2774,6 +2958,7 @@ technologies = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.1
 		}
+		naval_torpedo_cooldown_factor = -0.125
 		#######
 
 		path = {
@@ -2781,8 +2966,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			basic_ship_hull_submarine = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2831,8 +3020,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			advanced_periscope = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2874,7 +3067,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -2918,9 +3111,13 @@ technologies = {
 		#######
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
+
+		dependencies = {
+			advanced_ship_hull_submarine = 1
+		}
 
 		categories = {
 			naval_doctrine
@@ -2968,7 +3165,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -3022,8 +3219,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			escort_destroyer_trend = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -3075,7 +3276,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -3131,8 +3332,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			escort_carriers_ship = 1
+			improved_ship_hull_light = 1
+			improved_sonar = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 
@@ -3194,8 +3401,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			battleship_aa_upgrade = 1
+			cruiser_aa_upgrade = 1
+		}
+
 		xp_research_type = navy
-		xp_unlock_cost = 85
+		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
 

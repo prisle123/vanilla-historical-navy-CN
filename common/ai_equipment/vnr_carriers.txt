@@ -2,42 +2,20 @@ naval_carrier = {
 	category = naval
 	#blocked_for = {}
 	roles = { vnr_naval_carrier }
-	priority = { base = 80 }
-
-	# carrier_1936 = {
-	# 	role_icon_index = 9
-
-	# 	priority = {
-	# 		base = 10
-	# 		modifier = { factor = 0 has_tech = improved_ship_hull_carrier }
-	# 	}
-
-	# 	target_variant = {
-	# 		match_value = 1000.0
-
-	# 		type = vnr_ship_hull_carrier_1
-	# 		modules = {
-	# 			fixed_ship_deck_slot_1 = ship_deck_space
-	# 			fixed_ship_deck_slot_2 = { any_of = { ship_deck_space ship_carrier_armor } }
-	# 			fixed_ship_anti_air_slot = ship_anti_air
-	# 			fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_2 carrier_ship_engine_1 } }
-	# 			fixed_ship_secondaries_slot = ship_secondaries
-	# 			fixed_ship_radar_slot = empty
-	# 			front_1_custom_slot = { any_of = { ship_deck_space ship_carrier_armor } }
-	# 		}
-	# 	}
-	# }
+	priority = { base = 100 }
 
 	carrier_conv_ca_dummy = {
 		name = vnr_cv_ca
 		role_icon_index = 9
 
 		priority = { base = 0 }
+		
+		history = yes
 		target_variant = {
 			type = vnr_ship_hull_carrier_conversion_ca
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine
 				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
@@ -51,17 +29,19 @@ naval_carrier = {
 		role_icon_index = 9
 
 		priority = { base = 0 }
+		
+		history = yes
 		target_variant = {
 			type = vnr_ship_hull_carrier_conversion_bb
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine
 				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
-				mid_1_custom_slot = ship_deck_space
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
+				mid_1_custom_slot = ship_deck_space_open
+				fixed_ship_carrier_miscellaneous_slot_1 = empty
+				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
 			}
 		}
@@ -76,21 +56,29 @@ naval_carrier = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
+		
+		history = yes
 		target_variant = {
 			match_value = 1000.0
 			type = vnr_ship_hull_carrier_1
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine_2
+				fixed_ship_armor_slot = ship_carrier_armor
 				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
-				fixed_ship_radar_slot = ship_radar
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
-				fixed_ship_flight_deck_slot = carrier_wooden_deck
-				front_1_custom_slot = ship_deck_space
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+				fixed_ship_carrier_miscellaneous_slot_2 = empty
+				fixed_ship_flight_deck_slot = { any_of = { carrier_wooden_deck carrier_wooden_deck} }
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
+				front_1_custom_slot = ship_deck_space_open
 			}
+		}
+		allowed_modules = {
+			ship_deck_space_open
+			ship_anti_air
 		}
 	}
 
@@ -104,25 +92,33 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		
+		history = yes
 		target_variant = {
 			match_value = 1000.0
 
 			type = vnr_ship_hull_carrier_2
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
-				fixed_ship_radar_slot = ship_radar
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
-				fixed_ship_flight_deck_slot = carrier_wooden_deck
-				front_1_custom_slot = ship_deck_space
+				fixed_ship_armor_slot = ship_carrier_armor
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+				fixed_ship_carrier_miscellaneous_slot_2 = empty
+				fixed_ship_flight_deck_slot = carrier_armor_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
+				front_1_custom_slot = ship_deck_space_open
 				front_2_custom_slot = carrier_side_lift
-				mid_1_custom_slot = ship_deck_space
+				mid_1_custom_slot = ship_deck_space_open
 				mid_2_custom_slot = ship_dp_secondaries_bb
 			}
+		}
+		allowed_modules = {
+			ship_deck_space_open
+			ship_anti_air
 		}
 	}
 
@@ -136,26 +132,34 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		
+		history = yes
 		target_variant = {
 			match_value = 1000.0
 
 			type = vnr_ship_hull_carrier_3
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_armored
+				fixed_ship_deck_slot_2 = ship_deck_space_armored
 				fixed_ship_anti_air_slot = { any_of = { ship_anti_air ship_missile_aa } }
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
-				fixed_ship_radar_slot = ship_radar
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
+				fixed_ship_armor_slot = ship_carrier_armor
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_armor_deck
-				front_1_custom_slot = ship_deck_space
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
+				front_1_custom_slot = ship_deck_space_armored
 				front_2_custom_slot = carrier_side_lift
-				mid_1_custom_slot = ship_deck_space
-				mid_2_custom_slot = ship_deck_space
+				mid_1_custom_slot = ship_deck_space_armored
+				mid_2_custom_slot = ship_deck_space_armored
 				rear_1_custom_slot = ship_dp_secondaries_bb
 			}
+		}
+		allowed_modules = {
+			ship_deck_space_armored
+			ship_anti_air
 		}
 	}
 
@@ -169,6 +173,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		
+		history = yes
 		target_variant = {
 			match_value = 2000.0
 
@@ -180,9 +186,9 @@ naval_carrier = {
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
-				fixed_ship_radar_slot = ship_radar
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+				fixed_ship_carrier_miscellaneous_slot_2 = carrier_strength_deck
 				fixed_ship_flight_deck_slot = carrier_armor_deck
 				front_1_custom_slot = steam_catapult
 				front_2_custom_slot = carrier_angled_deck
@@ -190,6 +196,10 @@ naval_carrier = {
 				mid_2_custom_slot = ship_deck_space_big
 				rear_1_custom_slot = ship_anti_air
 			}
+		}
+		allowed_modules = {
+			ship_deck_space_big
+			ship_anti_air
 		}
 	}
 
@@ -203,6 +213,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		
+		history = yes
 		target_variant = {
 			match_value = 2000.0
 
@@ -214,9 +226,9 @@ naval_carrier = {
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
 				fixed_ship_engine_slot = carrier_ship_engine_nuclear
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
-				fixed_ship_radar_slot = ship_radar
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
-				fixed_ship_carrier_miscellaneous_slot_2 = economical_nuclear_reactor_carrier
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+				fixed_ship_carrier_miscellaneous_slot_2 = { any_of = { economical_nuclear_reactor_carrier carrier_strength_deck } }
 				fixed_ship_flight_deck_slot = carrier_armor_deck
 				front_1_custom_slot = steam_catapult
 				front_2_custom_slot = carrier_angled_deck
@@ -224,6 +236,10 @@ naval_carrier = {
 				mid_2_custom_slot = ship_deck_space_big
 				rear_1_custom_slot = ship_missile_aa
 			}
+		}
+		allowed_modules = {
+			ship_deck_space_big
+			ship_anti_air
 		}
 	}
 
@@ -238,22 +254,30 @@ naval_carrier = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
 			modifier = { factor = 0 expert_ai_style = no }
 		}
+		
+		history = yes
 		target_variant = {
 			match_value = 2000.0
 			type = vnr_ship_hull_carrier_1
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine_2
+				fixed_ship_armor_slot = ship_carrier_armor
 				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island
+				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
-				front_1_custom_slot = ship_deck_space
-				mid_1_custom_slot = ship_deck_space
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
+				front_1_custom_slot = ship_deck_space_open
+				mid_1_custom_slot = ship_deck_space_open
 			}
+		}
+		allowed_modules = {
+			ship_deck_space_open
+			ship_anti_air
 		}
 	}
 	carrier_1940_expert = {
@@ -266,25 +290,33 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
+		
+		history = yes
 		target_variant = {
 			match_value = 3000.0
 	
 			type = vnr_ship_hull_carrier_2
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
+				fixed_ship_armor_slot = ship_carrier_armor
 				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island
-				fixed_ship_flight_deck_slot = carrier_wooden_deck
-				front_1_custom_slot = ship_deck_space
+				fixed_ship_carrier_miscellaneous_slot_2 = empty
+				fixed_ship_flight_deck_slot = carrier_armor_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
+				front_1_custom_slot = ship_deck_space_open
 				front_2_custom_slot = carrier_side_lift
-				mid_1_custom_slot = ship_deck_space
-				mid_2_custom_slot = ship_deck_space
+				mid_1_custom_slot = ship_deck_space_open
+				mid_2_custom_slot = ship_deck_space_open
 			}
+		}
+		allowed_modules = {
+			ship_deck_space_open
+			ship_anti_air
 		}
 	}
 	carrier_1944_expert = {
@@ -297,26 +329,35 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
+		
+		history = yes
 		target_variant = {
 			match_value = 5500.0
 	
 			type = vnr_ship_hull_carrier_3
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_armored
+				fixed_ship_deck_slot_2 = ship_deck_space_armored
 				fixed_ship_anti_air_slot = { any_of = { ship_anti_air ship_missile_aa } }
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
+				fixed_ship_armor_slot = ship_carrier_armor
 				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island
+				fixed_ship_carrier_miscellaneous_slot_2 = carrier_strength_deck
 				fixed_ship_flight_deck_slot = carrier_armor_deck
-				front_1_custom_slot = ship_deck_space
-				front_2_custom_slot = carrier_angled_deck
-				mid_1_custom_slot = ship_deck_space
-				mid_2_custom_slot = ship_deck_space
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
+				front_1_custom_slot = ship_deck_space_armored
+				mid_1_custom_slot = ship_deck_space_armored
+				mid_2_custom_slot = ship_deck_space_armored
 				rear_1_custom_slot = carrier_side_lift
 			}
+		}
+
+		allowed_modules = {
+			ship_deck_space_armored
+			ship_anti_air
+			carrier_angled_deck
 		}
 	}
 	carrier_1945_expert = {
@@ -329,6 +370,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
+		
+		history = yes
 		target_variant = {
 			match_value = 6500.0
 	
@@ -340,16 +383,21 @@ naval_carrier = {
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
 				fixed_ship_engine_slot = { upgrade > current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
 				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island
+				fixed_ship_carrier_miscellaneous_slot_2 = carrier_strength_deck
 				fixed_ship_flight_deck_slot = carrier_armor_deck
-				front_1_custom_slot = carrier_angled_deck
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space_big
 				mid_2_custom_slot = ship_deck_space_big
 				rear_1_custom_slot = carrier_side_lift
 			}
+		}
+
+		allowed_modules = {
+			ship_deck_space_big
+			ship_anti_air
+			carrier_angled_deck
 		}
 	}
 	carrier_1947_expert = {
@@ -362,6 +410,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
+		
+		history = yes
 		target_variant = {
 			match_value = 8000.0
 	
@@ -373,9 +423,9 @@ naval_carrier = {
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
 				fixed_ship_engine_slot = carrier_ship_engine_nuclear
 				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island
+				fixed_ship_carrier_miscellaneous_slot_2 = carrier_strength_deck
 				fixed_ship_flight_deck_slot = carrier_armor_deck
 				front_1_custom_slot = carrier_angled_deck
 				front_2_custom_slot = carrier_side_lift
@@ -383,6 +433,11 @@ naval_carrier = {
 				mid_2_custom_slot = ship_deck_space_big
 				rear_1_custom_slot = carrier_side_lift
 			}
+		}
+		allowed_modules = {
+			ship_deck_space_big
+			ship_anti_air
+			carrier_angled_deck
 		}
 	}
 }

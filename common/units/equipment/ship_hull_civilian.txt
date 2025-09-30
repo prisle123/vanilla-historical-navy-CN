@@ -28,26 +28,35 @@ equipments = {
                 required = yes
                 allowed_module_categories = { civilian_ship_engine }
             }
+            fixed_ship_airplane_launcher_slot = {
+                required = no
+                allowed_module_categories = { ship_airplane_launcher seaplane_hangar carrier_helipad }
+            }
+            fixed_ship_role_slot = {
+                required = yes
+                allowed_module_categories = { ap_role }
+            }
             front_1_custom_slot = {
                 required = no
                 allowed_module_categories = { civilian_ship_weapons ship_auxiliary }
             }
             mid_1_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad }
             }
             mid_2_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad }
             }
             rear_1_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher civilian_ship_weapons }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad civilian_ship_weapons }
             }
         }
 
         default_modules = {
             fixed_ship_engine_slot = empty
+            fixed_ship_role_slot = ship_hull_civilian_role_ap
         }
 
         lg_armor_piercing = 0
@@ -85,6 +94,10 @@ equipments = {
         module_count_limit = {
             module = ship_rocket_launcher
             count < 2
+        }
+        module_count_limit = {
+            category = ship_airplane_launcher
+            count < 4
         }
 
         manpower = 600
@@ -124,17 +137,25 @@ equipments = {
                 required = yes
                 allowed_module_categories = { civilian_ship_engine }
             }
+            fixed_ship_airplane_launcher_slot = {
+                required = no
+                allowed_module_categories = { ship_airplane_launcher seaplane_hangar carrier_helipad }
+            }
+            fixed_ship_role_slot = {
+                required = yes
+                allowed_module_categories = { ap_role }
+            }
             front_1_custom_slot = {
                 required = no
                 allowed_module_categories = { civilian_ship_weapons ship_auxiliary }
             }
             mid_1_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad }
             }
             rear_1_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher civilian_ship_weapons }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad civilian_ship_weapons }
             }
         }
 
@@ -143,6 +164,9 @@ equipments = {
         reliability = 0.70
         build_cost_ic = 1000
         manpower = 600
+        resources = {
+            steel = 2
+        }
     }
 
     vnr_ship_hull_civilian_3 = {
@@ -156,10 +180,12 @@ equipments = {
             fixed_ship_secondaries_slot = inherit
             fixed_ship_anti_air_slot = inherit
             fixed_ship_engine_slot = inherit
+            fixed_ship_airplane_launcher_slot = inherit
             fixed_ship_armor_slot = {
                 required = no
                 allowed_module_categories = { ship_cruiser_armor }
             }
+            fixed_ship_role_slot = inherit
             front_1_custom_slot = inherit
             mid_1_custom_slot = inherit
             mid_2_custom_slot = inherit
@@ -171,5 +197,8 @@ equipments = {
         build_cost_ic = 1000
         manpower = 800
 		naval_range = 10000
+        resources = {
+            steel = 2
+        }
     }
 }

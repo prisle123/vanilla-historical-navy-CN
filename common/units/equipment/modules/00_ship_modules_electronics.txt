@@ -17,25 +17,14 @@ equipment_modules = {
 			build_cost_ic = 70
 			surface_detection = 1
 		}
-	}
-	carrier_no_island = {
-		category = carrier_mast
-		gui_category = ship_radar
-
-		add_stats = {
-			build_cost_ic = -150
-			max_organisation = -0.1
+		forbid_module_categories = {
+			ship_radar
 		}
-		multiply_stats = {
-			surface_detection = -0.1
-			surface_visibility = -0.01
-			naval_speed = 0.03
-		}
-		dismantle_cost_ic = 150
 	}
 	ship_radar_1 = {
 		abbreviation = "sbj"
 		category = ship_radar
+		parent = ship_mast_1
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -278,7 +267,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 200
+			build_cost_ic = 80
 			naval_torpedo_hit_chance_factor = 0.075
 		}
 		can_convert_from = {
@@ -293,7 +282,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 250
+			build_cost_ic = 120
 			naval_torpedo_hit_chance_factor = 0.1
 		}
 		can_convert_from = {
@@ -312,7 +301,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 300
+			build_cost_ic = 180
 			naval_torpedo_hit_chance_factor = 0.125
 			fuel_consumption = 3
 		}

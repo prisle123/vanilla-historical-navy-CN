@@ -11,4 +11,91 @@ navy_rework_category = {
             FROM = { country_event = vnr_ai.1 }
         }
 	}
+
+    shipyard_boost_for_new_tag_player = {
+        available = {
+            always = no
+        }
+        days_mission_timeout = 1
+        activation = {
+            date > 1936.1.2
+            is_ai = no
+            OR = {
+                AND = {
+                    has_game_rule = { rule = shipyard_output_boost_player option = BUFF_60 }
+                    NOT = { has_idea = vnr_shipyard_output_boost }
+                }
+                AND = {
+                    has_game_rule = { rule = shipyard_output_boost_player option = BUFF_30 }
+                    NOT = { has_idea = vnr_shipyard_output_boost_half }
+                }
+            }
+        }
+        timeout_effect = {
+            if = {
+	        	limit = {
+	        		has_game_rule = { rule = shipyard_output_boost_player option = BUFF_60 }
+	        	}
+	        	add_ideas = vnr_shipyard_output_boost
+	        }
+	        else_if = {
+	        	limit = {
+	        		has_game_rule = { rule = shipyard_output_boost_player option = BUFF_30 }
+	        	}
+	        	add_ideas = vnr_shipyard_output_boost_half
+	        }
+        }
+    }
+    shipyard_boost_for_new_tag_ai = {
+        available = {
+            always = no
+        }
+        days_mission_timeout = 1
+        activation = {
+            date > 1936.1.2
+            is_ai = yes
+            OR = {
+                AND = {
+                    has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_60 }
+                    NOT = { has_idea = vnr_shipyard_output_boost }
+                }
+                AND = {
+                    has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_30 }
+                    NOT = { has_idea = vnr_shipyard_output_boost_half }
+                }
+            }
+        }
+        timeout_effect = {
+            if = {
+	        	limit = {
+	        		has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_60 }
+	        	}
+	        	add_ideas = vnr_shipyard_output_boost
+	        }
+	        else_if = {
+	        	limit = {
+	        		has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_30 }
+	        	}
+	        	add_ideas = vnr_shipyard_output_boost_half
+	        }
+        }
+    }
+    enable_ai_ship_design = {
+        icon = generic_civil_support
+        visible = {
+            has_game_rule = { rule = ai_ship_design_style option = HISTORICAL }
+        }
+        complete_effect = {
+            FROM = { country_event = vnr_ai.2 }
+        }
+    }
+    enable_ai_plane_design = {
+        icon = generic_civil_support
+        visible = {
+            has_game_rule = { rule = vnr_cv_air_ai option = BLOCKED }
+        }
+        complete_effect = {
+            FROM = { country_event = vnr_ai.3 }
+        }
+    }
 }

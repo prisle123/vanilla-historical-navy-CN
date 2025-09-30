@@ -297,7 +297,7 @@ ENG_BB_HISTORICAL = {
 	fallback_name = "Battleship %s"
 
 	unique = {
-		"英王乔治五世" "威尔士亲王" "约克公爵"
+		"英王乔治五世" "威尔士亲王" "约克公爵" "安森" "豪"
 		
 		# Lion class
 		"狮" "鲁莽" "解放者" "雷神" "前卫" "反抗"
