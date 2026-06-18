@@ -1,11 +1,6 @@
 ## Radar, fire control systems and electronic devices
 
 equipment_modules = {
-    limit = {
-        has_dlc = "Man the Guns"
-    }
-
-
 #############
 ##  RADAR  ##
 #############
@@ -20,6 +15,7 @@ equipment_modules = {
 		forbid_module_categories = {
 			ship_radar
 		}
+		manpower = 5
 	}
 	ship_radar_1 = {
 		abbreviation = "sbj"
@@ -33,7 +29,9 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 100
 			surface_detection = 5
+			fuel_consumption = 0.5
 		}
+		manpower = 25
 	}
 	ship_radar_2 = {
 		abbreviation = "sbk"
@@ -42,17 +40,19 @@ equipment_modules = {
 		parent = ship_radar_1
 		multiply_stats = {
 			anti_air_attack = 0.05
+			sub_detection = 0.025
 		}
 		add_stats = {
 			build_cost_ic = 130
 			surface_detection = 7
-			sub_detection = 2
+			fuel_consumption = 1
 		}
 		
 		can_convert_from = {
 			module = ship_radar_1
 			convert_cost_ic = 30
 		}
+		manpower = 23
 	}
 	ship_radar_3 = {
 		abbreviation = "sbl"
@@ -61,11 +61,12 @@ equipment_modules = {
 		parent = ship_radar_2
 		multiply_stats = {
 			anti_air_attack = 0.075
+			sub_detection = 0.05
 		}
 		add_stats = {
 			surface_detection = 12
-			sub_detection = 4
 			build_cost_ic = 160
+			fuel_consumption = 1.5
 		}
 		can_convert_from = {
 			module = ship_radar_2
@@ -75,6 +76,7 @@ equipment_modules = {
 			module_category = ship_radar
 			convert_cost_ic = 80
 		}
+		manpower = 21
 	}
 	ship_radar_4 = {
 		abbreviation = "sbm"
@@ -83,11 +85,12 @@ equipment_modules = {
 		parent = ship_radar_3
 		multiply_stats = {
 			anti_air_attack = 0.1
+			sub_detection = 0.075
 		}
 		add_stats = {
 			build_cost_ic = 190
 			surface_detection = 18
-			sub_detection = 6
+			fuel_consumption = 2
 		}
 		can_convert_from = {
 			module = ship_radar_3
@@ -97,6 +100,7 @@ equipment_modules = {
 			module_category = ship_radar
 			convert_cost_ic = 110
 		}
+		manpower = 19
 	}
 	ship_radar_5 = {
 		category = ship_radar
@@ -104,16 +108,18 @@ equipment_modules = {
 		parent = ship_radar_4
 		multiply_stats = {
 			anti_air_attack = 0.2
+			sub_detection = 0.1
 		}
 		add_stats = {
 			build_cost_ic = 600
-			surface_detection = 30
-			sub_detection = 12
+			surface_detection = 25
+			fuel_consumption = 4
 		}
 		can_convert_from = {
 			module_category = ship_radar
 			convert_cost_ic = 1000
 		}
+		manpower = 17
 	}
 
 
@@ -135,6 +141,7 @@ equipment_modules = {
 		multiply_stats = {
 		}
 		critical_parts = { damaged_fire_control }
+		manpower = 30
 	}
 
 	ship_fire_control_system_1 = {
@@ -150,7 +157,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			anti_air_attack = 0.1
+			anti_air_attack = 0.05
 		}
 
 		can_convert_from = {
@@ -158,6 +165,7 @@ equipment_modules = {
 			convert_cost_ic = 85
 		}
 		critical_parts = { damaged_fire_control }
+		manpower = 27
 	}
 	ship_fire_control_system_2 = {
 		abbreviation = "sbh"
@@ -172,7 +180,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			anti_air_attack = 0.15
+			anti_air_attack = 0.1
 		}
 		can_convert_from = {
 			module = ship_fire_control_system_1
@@ -183,6 +191,7 @@ equipment_modules = {
 			convert_cost_ic = 145
 		}
 		critical_parts = { damaged_fire_control }
+		manpower = 24
 	}
 	ship_fire_control_system_3 = {
 		abbreviation = "sbi"
@@ -197,7 +206,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			anti_air_attack = 0.2
+			anti_air_attack = 0.15
 		}
 		can_convert_from = {
 			module = ship_fire_control_system_2
@@ -208,6 +217,7 @@ equipment_modules = {
 			convert_cost_ic = 145
 		}
 		critical_parts = { damaged_fire_control }
+		manpower = 21
 	}
 	ship_fire_control_system_4 = {
 		category = ship_fire_control_system
@@ -221,8 +231,8 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			anti_air_attack = 0.3
-			surface_detection = 0.05
+			anti_air_attack = 0.2
+			surface_detection = 0.025
 		}
 		can_convert_from = {
 			module = ship_fire_control_system_3
@@ -233,6 +243,7 @@ equipment_modules = {
 			convert_cost_ic = 200
 		}
 		critical_parts = { damaged_fire_control }
+		manpower = 18
 	}
 	ship_fire_control_system_5 = {
 		category = ship_fire_control_system
@@ -247,8 +258,8 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			anti_air_attack = 0.3
-			surface_detection = 0.075
+			anti_air_attack = 0.25
+			surface_detection = 0.05
 			surface_visibility = -0.05
 		}
 		can_convert_from = {
@@ -260,6 +271,7 @@ equipment_modules = {
 			convert_cost_ic = 300
 		}
 		critical_parts = { damaged_fire_control }
+		manpower = 15
 	}
 	ship_sub_torpedo_computer_1 = {
 		category = sub_fire_control_system
@@ -406,5 +418,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 250
 		}
+		manpower = -25
 	}
 }

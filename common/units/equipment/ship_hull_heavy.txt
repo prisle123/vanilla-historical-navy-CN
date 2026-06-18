@@ -55,7 +55,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -149,6 +149,14 @@ equipments = {
 			module = structural_aluminum
 			count < 2
 		}
+		module_count_limit = {
+			module = ship_anti_air_circle
+			count < 2
+		}
+		module_count_limit = {
+			category = ap_shell
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -185,7 +193,7 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.80
 
-		naval_range = 3000
+		naval_range = 4500
 
 		max_strength = 350
 
@@ -193,13 +201,12 @@ equipments = {
 
 		build_cost_ic = 3300
 		resources = {
-			steel = 3
-			chromium = 1
+			steel = 2
 		}
 
-		manpower = 2000
+		manpower = 1200
 
-		naval_supremacy_factor = 2.6
+		naval_dominance_factor = 180
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
 		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
@@ -249,7 +256,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -291,19 +298,20 @@ equipments = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 2000
+		naval_range = 2800
 
 		max_strength = 90
 		naval_speed = 21
 		fuel_consumption = 67
 		reliability = 0.5
 		build_cost_ic = 2000
+		surface_visibility = 45
 		resources = {
 			steel = 2
-			chromium = 1
 		}
 
-		manpower = 1500
+		manpower = 1000
+		naval_dominance_factor = 125
 	}
 
 
@@ -350,7 +358,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -434,7 +442,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 
-		naval_range = 2700
+		naval_range = 3500
 
 		max_strength = 165
 		reliability = 0.70
@@ -442,6 +450,7 @@ equipments = {
 		fuel_consumption = 63
 		surface_visibility = 38
 		build_cost_ic = 2000
+		naval_dominance_factor = 180
 	}
 
 	vnr_ship_hull_heavy_2 = {
@@ -469,15 +478,16 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 
-		naval_range = 3000
+		naval_range = 4500
 
 		max_strength = 165
 		reliability = 0.75
 		naval_speed = 27.5
 		fuel_consumption = 67
-		surface_visibility = 36
+		surface_visibility = 37
 		build_cost_ic = 2300
-		manpower = 2200
+		manpower = 1400
+		naval_dominance_factor = 210
 	}
 
 	vnr_ship_hull_heavy_3 = {
@@ -497,16 +507,17 @@ equipments = {
 			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_radar_slot = ship_mast_1
 		}
-		naval_range = 3500
+		naval_range = 5500
 
 		max_strength = 210
 		reliability = 0.85
 		fuel_consumption = 67
 		naval_speed = 32
-		surface_visibility = 34
+		surface_visibility = 36
 		build_cost_ic = 2500
 
-		manpower = 2500
+		manpower = 1600
+		naval_dominance_factor = 240
 	}
 
 	vnr_ship_hull_heavy_4 = {
@@ -527,19 +538,19 @@ equipments = {
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 4000
+		naval_range = 6500
 		naval_speed = 31
 		max_strength = 240
-		reliability = 0.9
+		reliability = 0.95
 		fuel_consumption = 67
-		surface_visibility = 32
+		surface_visibility = 35
 		build_cost_ic = 2800
 		resources = {
-			steel = 4
-			chromium = 1
+			steel = 3
 		}
 
-		manpower = 2800
+		manpower = 1800
+		naval_dominance_factor = 270
 	}
 
 	vnr_ship_hull_heavy_5 = {
@@ -575,7 +586,7 @@ equipments = {
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous coldwar_upgrade_bb }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous coldwar_upgrade_bb ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = inherit
 			fixed_ship_torpedo_defense_system_slot = inherit
@@ -640,20 +651,20 @@ equipments = {
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 4500
+		naval_range = 7500
 
 		max_strength = 265
-		naval_speed = 30.5
+		naval_speed = 31.5
 		fuel_consumption = 67
-		surface_visibility = 30
-		reliability = 0.95
+		surface_visibility = 34
+		reliability = 1.05
 		build_cost_ic = 3100
 		resources = {
-			steel = 5
-			chromium = 1
+			steel = 3
 		}
 
-		manpower = 3800
+		manpower = 2000
+		naval_dominance_factor = 300
 	}
 
 	vnr_ship_hull_super_heavy_1 = {
@@ -701,7 +712,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -774,17 +785,17 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		naval_range = 4500
-		naval_speed = 26.5
+		naval_speed = 27
 		max_strength = 265
-		fuel_consumption = 75
+		fuel_consumption = 95
 		reliability = 0.9
 		surface_visibility = 46
 		build_cost_ic = 3500
 		resources = {
-			steel = 5
-			chromium = 1
+			steel = 3
 		}
-		manpower = 3500
+		manpower = 2400
+		naval_dominance_factor = 270
 	}
 
 	vnr_ship_hull_arsenal_ship = {
@@ -817,7 +828,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_extra_missile_slot = {
 				required = no
@@ -877,21 +888,20 @@ equipments = {
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 5000
+		naval_range = 7000
 
 		max_strength = 225
 		naval_speed = 32
 		fuel_consumption = 70
-		surface_visibility = 30
+		surface_visibility = 33
 		reliability = 1.25
 		build_cost_ic = 3200
 		resources = {
-			steel = 4
-			chromium = 2
+			steel = 2
 			aluminium = 1
 		}
 
-		manpower = 4500
+		manpower = 2500
 
 		module_count_limit = {
 			category = ship_missile
@@ -917,5 +927,6 @@ equipments = {
 			module = ship_decoy_launcher
 			count < 2
 		}
+		naval_dominance_factor = 300
 	}
 }

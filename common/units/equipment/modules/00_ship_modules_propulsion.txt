@@ -1,11 +1,6 @@
 ## All the engines
 
 equipment_modules = {
-    limit = {
-        has_dlc = "Man the Guns"
-    }
-
-
 #####################
 ##  LIGHT ENGINES  ##
 #####################
@@ -163,6 +158,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.35
 		}
+		build_cost_resources = {
+			chromium = 1
+		}
 		
 		can_convert_from = {
 			module_category = light_ship_engine
@@ -183,8 +181,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.17
-			naval_range = 0.6
+			naval_speed = 0.13
+			naval_range = 0.3
+			surface_visibility = -0.03
 		}
 		
 		can_convert_from = {
@@ -207,8 +206,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.22
-			naval_range = 0.7
+			naval_speed = 0.17
+			naval_range = 0.4
+			surface_visibility = -0.04
 		}
 		
 		can_convert_from = {
@@ -235,8 +235,9 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = 0.27
-			naval_range = 0.8
+			naval_speed = 0.21
+			naval_range = 0.5
+			surface_visibility = -0.05
 		}
 		
 		can_convert_from = {
@@ -247,6 +248,36 @@ equipment_modules = {
 		can_convert_from = {
 			module = light_ship_engine_3_diesel
 			convert_cost_ic = 250
+		}
+	}
+	light_ship_engine_4_gas = {
+		category = light_ship_engine
+		gfx = ship_gas_engine
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			#naval_speed = 12
+			fuel_consumption = 35
+			build_cost_ic = 1500
+			reliability = -0.35
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.45
+			naval_range = -0.35
+			surface_visibility = -0.05
+		}
+		build_cost_resources = {
+			chromium = 2
+		}
+		
+		can_convert_from = {
+			module_category = light_ship_engine
+			convert_cost_ic = 6000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 
@@ -381,6 +412,9 @@ equipment_modules = {
 			sub_visibility = -0.1
 			max_strength = -0.1
 		}
+		build_cost_resources = {
+			chromium = 1
+		}
 		can_convert_from = {
 			module_category = sub_ship_engine
 			convert_cost_ic = 900
@@ -399,10 +433,16 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.3
-			sub_visibility = -0.1
+			naval_speed = 0.4
+			sub_visibility = -0.2
 			max_strength = -0.1
 			fuel_consumption = -1
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		forbid_module_categories = {
+			ship_sub_snorkel
 		}
 
 		can_convert_from = {
@@ -515,6 +555,9 @@ equipment_modules = {
 			naval_speed = 0.4
 			
 		}
+		build_cost_resources = {
+			chromium = 1
+		}
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
@@ -544,6 +587,9 @@ equipment_modules = {
 			naval_speed = 0.45
 			
 		}
+		build_cost_resources = {
+			chromium = 1
+		}
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
@@ -565,16 +611,15 @@ equipment_modules = {
 			#naval_speed = 7
 			build_cost_ic = 3200
 			naval_range = 50000
-			reliability = -0.5
+			reliability = -0.3
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.55
+			naval_speed = 0.5
 			fuel_consumption = -1
 		}
 		build_cost_resources = {
-			steel = 2
-			chromium = 1
+			chromium = 2
 		}
 		can_convert_from = {
 			module_category = cruiser_ship_engine
@@ -596,7 +641,8 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.25
-			naval_range = 0.6
+			naval_range = 0.3
+			surface_visibility = -0.03
 		}
 		
 		can_convert_from = {
@@ -619,8 +665,12 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.3
-			naval_range = 0.7
+			naval_speed = 0.275
+			naval_range = 0.4
+			surface_visibility = -0.04
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		
 		can_convert_from = {
@@ -647,8 +697,12 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.35
-			naval_range = 0.8
+			naval_speed = 0.3
+			naval_range = 0.5
+			surface_visibility = -0.05
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		
 		can_convert_from = {
@@ -659,6 +713,37 @@ equipment_modules = {
 		can_convert_from = {
 			module = cruiser_ship_engine_3_diesel
 			convert_cost_ic = 920
+		}
+	}
+	cruiser_ship_engine_4_gas = {
+		category = cruiser_ship_engine
+		gfx = ship_gas_engine
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			#naval_speed = 12
+			fuel_consumption = 48
+			build_cost_ic = 3000
+			reliability = -0.35
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.55
+			naval_range = -0.25
+			fuel_consumption = 0.1
+			surface_visibility = -0.05
+		}
+		build_cost_resources = {
+			chromium = 2
+		}
+		
+		can_convert_from = {
+			module_category = cruiser_ship_engine
+			convert_cost_ic = 6000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 
@@ -682,6 +767,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.2
 			
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		
 		can_convert_from = {
@@ -711,6 +799,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.35
 			
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		
 		can_convert_from = {
@@ -744,6 +835,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.45
 		}
+		build_cost_resources = {
+			chromium = 1
+		}
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
@@ -775,6 +869,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.5
 		}
+		build_cost_resources = {
+			chromium = 2
+		}
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
@@ -805,6 +902,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.55
 		}
+		build_cost_resources = {
+			chromium = 2
+		}
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
@@ -832,8 +932,12 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.35
-			naval_range = 0.6
+			naval_speed = 0.25
+			naval_range = 0.3
+			surface_visibility = -0.03
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		
 		can_convert_from = {
@@ -860,8 +964,12 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.4
-			naval_range = 0.7
+			naval_speed = 0.3
+			naval_range = 0.4
+			surface_visibility = -0.04
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		
 		can_convert_from = {
@@ -891,8 +999,12 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.45
-			naval_range = 0.8
+			naval_speed = 0.35
+			naval_range = 0.5
+			surface_visibility = -0.05
+		}
+		build_cost_resources = {
+			chromium = 2
 		}
 		
 		can_convert_from = {
@@ -908,32 +1020,6 @@ equipment_modules = {
 			convert_cost_ic = 3900
 		}
 	}
-	heavy_ship_engine_4_gas = {
-		category = heavy_ship_engine
-		gfx = ship_gas_engine
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			#naval_speed = 12
-			fuel_consumption = 38
-			build_cost_ic = 4000
-			reliability = -0.3
-		}
-		
-		multiply_stats = {
-			naval_speed = 0.6
-			naval_range = -0.2
-		}
-		
-		can_convert_from = {
-			module_category = heavy_ship_engine
-			convert_cost_ic = 6000
-			convert_cost_resources = {
-				steel = 1
-				chromium = 1
-			}
-		}
-	}
 	heavy_ship_engine_nuclear = {
 		category = heavy_ship_engine_nuclear
 		gui_category = heavy_ship_engine
@@ -944,7 +1030,7 @@ equipment_modules = {
 			#naval_speed = 12
 			naval_range = 50000
 			build_cost_ic = 6000
-			reliability = -0.3
+			reliability = -0.25
 		}
 		
 		multiply_stats = {
@@ -952,8 +1038,7 @@ equipment_modules = {
 			fuel_consumption = -1
 		}
 		build_cost_resources = {
-			steel = 2
-			chromium = 1
+			chromium = 2
 		}
 		can_convert_from = {
 			module_category = heavy_ship_engine
@@ -971,7 +1056,10 @@ equipment_modules = {
 			build_cost_ic = 3000
 		}
 		multiply_stats = {
-			naval_speed = 0.5
+			naval_speed = 0.55
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		can_convert_from = {
 			module_category = super_heavy_ship_engine
@@ -994,7 +1082,10 @@ equipment_modules = {
 			build_cost_ic = 3500
 		}
 		multiply_stats = {
-			naval_speed = 0.575
+			naval_speed = 0.625
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		can_convert_from = {
 			module_category = super_heavy_ship_engine
@@ -1021,7 +1112,11 @@ equipment_modules = {
 			build_cost_ic = 4500
 		}
 		multiply_stats = {
-			naval_speed = 0.65
+			naval_speed = 0.7
+			naval_range = 0.2
+		}
+		build_cost_resources = {
+			chromium = 2
 		}
 		can_convert_from = {
 			module_category = super_heavy_ship_engine
@@ -1058,6 +1153,9 @@ equipment_modules = {
 			naval_speed = 0.3
 			
 		}
+		build_cost_resources = {
+			chromium = 1
+		}
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
@@ -1086,6 +1184,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.4
 			
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		
 		can_convert_from = {
@@ -1120,6 +1221,9 @@ equipment_modules = {
 			naval_speed = 0.5
 			
 		}
+		build_cost_resources = {
+			chromium = 2
+		}
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
@@ -1151,6 +1255,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.55
 			
+		}
+		build_cost_resources = {
+			chromium = 2
 		}
 		
 		can_convert_from = {
@@ -1184,8 +1291,7 @@ equipment_modules = {
 			fuel_consumption = -1
 		}
 		build_cost_resources = {
-			steel = 2
-			chromium = 1
+			chromium = 2
 		}
 		can_convert_from = {
 			module_category = carrier_ship_engine
@@ -1205,8 +1311,12 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.35
-			naval_range = 0.6
+			naval_speed = 0.25
+			naval_range = 0.3
+			surface_visibility = -0.03
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		
 		can_convert_from = {
@@ -1233,8 +1343,12 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.45
-			naval_range = 0.7
+			naval_speed = 0.3
+			naval_range = 0.4
+			surface_visibility = -0.04
+		}
+		build_cost_resources = {
+			chromium = 1
 		}
 		
 		can_convert_from = {
@@ -1264,8 +1378,12 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.5
-			naval_range = 0.8
+			naval_speed = 0.35
+			naval_range = 0.5
+			surface_visibility = -0.05
+		}
+		build_cost_resources = {
+			chromium = 2
 		}
 		
 		can_convert_from = {

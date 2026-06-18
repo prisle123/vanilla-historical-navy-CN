@@ -11,7 +11,7 @@ country_event = {
 		tag = GER
 		is_ai = yes
 		NOT = { has_country_flag = GER_SHIPS_1940 }
-		date > 1940.6.1
+		date > 1939.1.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -55,7 +55,7 @@ country_event = {
 		tag = ENG
 		is_ai = yes
 		NOT = { has_country_flag = ENG_SHIPS_1940 }
-		date > 1940.6.1
+		date > 1939.1.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -99,7 +99,7 @@ country_event = {
 		tag = JAP
 		is_ai = yes
 		NOT = { has_country_flag = JAP_SHIPS_1940 }
-		date > 1940.2.1
+		date > 1939.1.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -137,7 +137,7 @@ country_event = {
 	trigger = {
 		tag = USA
 		is_ai = yes
-		date > 1941.1.1
+		date > 1939.1.1
 		NOT = { has_global_flag = USA_SHIPS_1941 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -176,7 +176,7 @@ country_event = {
 		tag = FRA
 		is_ai = yes
 		NOT = { has_country_flag = FRA_SHIPS_1940 }
-		date > 1940.2.1
+		date > 1939.1.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -214,7 +214,7 @@ country_event = {
 		tag = ITA
 		is_ai = yes
 		NOT = { has_country_flag = ITA_SHIPS_1940 }
-		date > 1940.2.1
+		date > 1939.1.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -252,7 +252,7 @@ country_event = {
 		tag = SOV
 		is_ai = yes
 		NOT = { has_country_flag = SOV_SHIPS_1940 }
-		date > 1940.2.1
+		date > 1939.1.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -287,9 +287,10 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		OR = {
-			date > 1939.1.1
+			date > 1938.1.1
 			OR = {
 				AND = {
+					date < 1937.6.1
 					expert_ai_style = no
 					any_country = {
 						is_ai = no
@@ -303,6 +304,7 @@ country_event = {
 					}
 				}
 				AND = {
+					date < 1937.6.1
 					expert_ai_style = yes
 					any_country = {
 						is_ai = no
@@ -327,6 +329,7 @@ country_event = {
 				limit = {
 					is_ai = yes
 				}
+				complete_special_project = sp:sp_air_radar
 				set_technology = {
 					improved_ship_hull_heavy = 1 
 					improved_ship_hull_light = 1 
@@ -335,13 +338,10 @@ country_event = {
 					antiair2 = 1 
 					antiair3 = 1 
 					improved_fire_control_system = 1 
-					decimetric_radar = 1 
-					improved_decimetric_radar = 1 
+					cavity_magnatron = 1 
 					basic_dp_light_battery = 1 
 					improved_heavy_battery = 1
 					improved_super_heavy_battery = 1
-					improved_medium_battery = 1 
-					improved_medium_heavy_battery = 1 
 					improved_light_battery = 1 
 					advanced_ship_torpedo_launcher = 1 
 					improved_ship_hull_carrier = 1
@@ -362,13 +362,14 @@ country_event = {
 					krupp_cemented_steel = 1
 
 					basic_light_shell = 1
-					basic_medium_shell = 1
 					basic_heavy_shell = 1
+					magnetic_detonator = 1
+					oxygen_torpedo = 1
 
-					damage_control_1 = 1
-					fire_control_methods_1 = 1
 					basic_ballast_tank = 1
 					improved_ballast_tank = 1
+					dive_bomber_study = 1
+					carrier_radio_range = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
@@ -388,6 +389,7 @@ country_event = {
 			date > 1943.1.1
 			OR = {
 				AND = {
+					date < 1942.6.1
 					expert_ai_style = no
 					any_country = {
 						is_ai = no
@@ -402,6 +404,7 @@ country_event = {
 					}
 				}
 				AND = {
+					date < 1942.6.1
 					expert_ai_style = yes
 					any_country = {
 						is_ai = no
@@ -437,10 +440,9 @@ country_event = {
 					antiair4 = 1 
 					antiair5 = 1 
 					advanced_fire_control_system = 1 
-					centimetric_radar = 1 
+					monopulse_radar = 1 
 					advanced_dp_light_battery = 1 
 					advanced_heavy_battery = 1 
-					advanced_medium_battery = 1 
 					advanced_light_battery = 1
 					advanced_heavy_armor = 1
 					advanced_cruiser_armor = 1
@@ -456,8 +458,8 @@ country_event = {
 					homogeneous_krupp_steel = 1
 
 					modern_ship_torpedo_launcher = 1
+					proximity_detonator = 1
 					
-					fire_control_methods_3 = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
@@ -555,6 +557,7 @@ country_event = {
 			date > 1949.1.1
 			OR = {
 				AND = {
+					date < 1948.6.1
 					expert_ai_style = no
 					any_country = {
 						is_ai = no
@@ -568,6 +571,7 @@ country_event = {
 					}
 				}
 				AND = {
+					date < 1948.6.1
 					expert_ai_style = yes
 					any_country = {
 						is_ai = no
@@ -607,6 +611,7 @@ country_event = {
 					iff_device = 1
 					wire_guided_torpedo = 1
 					super_carriers = 1
+					coldwar_ship_torpedo_launcher = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
@@ -676,6 +681,7 @@ country_event = {
 		date > 1936.1.1
 		NOT = { has_global_flag = cv_air_tech_1936 }
 		expert_ai_plane = yes
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -703,6 +709,7 @@ country_event = {
 		date > 1939.1.1
 		NOT = { has_global_flag = cv_air_tech_1939 }
 		expert_ai_plane = yes
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -732,6 +739,7 @@ country_event = {
 		date > 1944.1.1
 		NOT = { has_global_flag = cv_air_tech_1944 }
 		expert_ai_plane = yes
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -760,7 +768,7 @@ country_event = {
 			has_global_flag = {
 				flag = naval_tech_1940
 				value > 0
-				days > 545
+				days > 900
 			}
 			has_global_flag = naval_tech_1943
 		}
@@ -776,15 +784,19 @@ country_event = {
 					is_ai = yes
 				}
 				set_technology = {
+					centimetric_radar = 1
+					phased_array = 1
 					folding_wing = 1
 					carrier_mass_production = 1
 					carrier_damage_control = 1
 					air_fuel_storage = 1
-					damage_control_2 = 1
-					damage_control_3 = 1
-					fire_control_methods_2 = 1
 					battleship_aa_upgrade = 1
 					escort_carriers_ship = 1
+
+					improved_light_shell = 1
+					improved_heavy_shell = 1
+					improved_dp_light_battery = 1
+					homing_torpedo = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes

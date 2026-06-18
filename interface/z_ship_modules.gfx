@@ -214,6 +214,10 @@ spriteTypes = {
 		name = "GFX_SMI_carrier_miscellaneous"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_miscellaneous.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_landing_kit"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/landing_helipad.png"
+	}
 	
 	# topview images
 	spriteType = {
@@ -823,7 +827,7 @@ spriteTypes = {
 	
 	### aircraft carrier related
 	spriteType = {
-		name = "GFX_SMI_ship_airplane_launcher_3"
+		name = "GFX_SMI_ship_steam_catapult"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_steam_catapult.png"
 	}
 	spriteType = {
@@ -1381,6 +1385,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_deck_space_big"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space_big_armored.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_deck_space_special"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space.png"
+	}
 	
 	# carrier miscellaneous
 	spriteType = {
@@ -1629,5 +1637,53 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_asw_battery_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_asw_battery_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sub_snorkel_0"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sub_snorkel_0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sub_snorkel_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sub_snorkel_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sub_snorkel_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sub_snorkel_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_shipping_container"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/shipping_container.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_extra_fuel_tank_large"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_extra_fuel_tank_large.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_deck_gun_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_deck_gun_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_deck_gun_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_deck_gun_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_deck_gun_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_deck_gun_3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_deck_gun_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_deck_gun_4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_landing_helipad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/landing_helipad.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_hovercraft"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/hovercraft.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_landing_assault_command"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/landing_command.png"
 	}
 }

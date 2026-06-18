@@ -482,7 +482,6 @@
   }
 }
 instant_effect = {
-  industrial_manufacturer = mio:GER_blohm_und_voss_organization
   add_equipment_production = {
     equipment = {
       type = vnr_ship_hull_heavy_3

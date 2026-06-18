@@ -1,4 +1,4 @@
-version="v2.4 - Ironbottom Sound"
+version="v2.10 - Blood On Okinawa Beach"
 tags={
 	"Military"
 	"Translation"
@@ -17,7 +17,10 @@ dependencies={
 	"粉碎帝国：偏离的时间线"
 	"粉碎帝国：偏离的时间线（原日共重置模组）"
 }
+replace_path="common/ai_navy/fleet"
+replace_path="common/ai_navy/goals"
+replace_path="common/ai_navy/taskforce"
 name="原版海军重置"
 picture="thumbnail.png"
-supported_version="1.16.*"
+supported_version="1.18.*"
 remote_file_id="2993772482"

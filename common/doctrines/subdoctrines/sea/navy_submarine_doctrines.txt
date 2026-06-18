@@ -1,0 +1,503 @@
+wolfpacks = {
+    track = submarines
+    name = SUBDOCTRINE_SUBMARINE_WOLFPACKS
+    description = SUBDOCTRINE_SUBMARINE_WOLFPACKS_DESC
+    icon = GFX_doctrine_wolfpacks_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        has_doctrine = new_convoy_raiding
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
+        has_tech = basic_ship_hull_submarine
+    }
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 75
+            original_tag = GER
+        }
+    }
+
+    # EFFECTS
+	submarine = {
+		max_organisation = 10
+        torpedo_attack = 0.05
+	}
+    sub_retreat_speed = 0.1
+
+    rewards = {
+		predictive_expertise = {
+			submarine = {
+                torpedo_attack = 0.1
+				naval_torpedo_hit_chance_factor = 0.05
+			}
+            modifier = {
+                naval_torpedo_reveal_chance_factor = -0.1
+            }
+		}
+		pack_search_patterns = {
+			submarine = {
+				surface_detection = 0.1
+				convoy_raiding_coordination = 0.1
+			}
+		}
+		improvisation = {
+			submarine = {
+				max_organisation = 10
+			}
+            equipment_bonus = {
+                submarine = {
+                    reliability = 0.1
+                    instant = yes
+                }
+            }
+            sub_retreat_speed = 0.1
+		}
+        rough_weather_procedure = {
+			equipment_bonus = {
+                ship_hull_submarine = {
+				    naval_weather_penalty_factor = -0.15
+		        }
+            }
+            submarine = {
+                sub_visibility = -0.1
+            }
+		}
+		wolfpack_coordination = {
+			submarine = {
+                max_organisation = 10
+				surface_detection = 0.1
+				convoy_raiding_coordination = 0.15
+			}
+            modifier = {
+                sub_retreat_speed = 0.1
+            }
+		}
+    }
+}
+
+submarine_fleet_operations = {
+    track = submarines
+    name = SUBDOCTRINE_SUBMARINE_FLEET_OPERATIONS
+    description = SUBDOCTRINE_SUBMARINE_FLEET_OPERATIONS_DESC
+    icon = GFX_doctrine_submarine_operations_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_base_strike
+        }
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
+    }
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 25
+            original_tag = USA
+        }
+        modifier = {
+            factor = 25
+            original_tag = FRA
+        }
+        modifier = {
+            factor = 25
+            original_tag = ITA
+        }
+        modifier = {
+            factor = 25
+            original_tag = SOV
+        }
+    }
+
+    # EFFECTS
+    submarine = {
+        naval_torpedo_hit_chance_factor = 0.1
+        surface_detection = 0.05
+    }
+	naval_torpedo_screen_penetration_factor = 0.05
+
+    rewards = {
+		long_range_patrol_schedule = {
+			equipment_bonus = {
+                submarine = {
+                    naval_range = 0.15
+                    instant = yes
+                }
+            }
+		}
+		sustained_operations = {
+			submarine = {
+				max_organisation = 10
+                convoy_raiding_coordination = 0.1
+			}
+		}
+        submarine_picket = {
+			submarine = {
+                surface_detection = 0.15
+            }
+            modifier = {
+                sub_retreat_speed = 0.05
+            }
+		}
+		ambush_tactics = {
+			submarine = {
+                torpedo_attack = 0.1
+                sub_visibility = -0.05
+            }
+            modifier = {
+                sub_retreat_speed = 0.15
+            }
+		}
+		trade_interdiction = {
+			submarine = {
+                max_organisation = 10
+				convoy_raiding_coordination = 0.10
+                surface_detection = 0.1
+			}
+		}
+    }
+}
+
+capital_hunters = {
+	track = submarines
+    name = SUBDOCTRINE_SUBMARINE_CAPITAL_HUNTERS
+    description = SUBDOCTRINE_SUBMARINE_CAPITAL_HUNTERS_DESC
+    icon = GFX_doctrine_unrestricted_submarine_warfare_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 25
+            original_tag = JAP
+        }
+    }
+    available = {
+        OR = {
+            has_doctrine = new_base_strike
+            has_doctrine = new_fleet_in_being
+        }
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
+    }
+
+    naval_torpedo_reveal_chance_factor = -0.1
+    naval_torpedo_screen_penetration_factor = 0.05
+
+    rewards = {
+    	fire_protocol_drills = {
+    		submarine = {
+                torpedo_attack = 0.1
+    			naval_torpedo_hit_chance_factor = 0.05
+    		}
+    	}
+    	battle_line_priority = {
+            submarine = {
+                max_organisation = 5
+            }
+    		modifier = {
+                naval_torpedo_screen_penetration_factor = 0.1
+            }
+    	}
+    	quick_reload_procedures = {
+            submarine = {
+                max_organisation = 10
+            }
+    		modifier = {
+                naval_torpedo_cooldown_factor = -0.125
+            }
+    	}
+    	battleship_chase = {
+    		submarine = {
+    			fuel_consumption = -0.15
+    		}
+            equipment_bonus = {
+                submarine = {
+                    naval_range = 0.1
+                    instant = yes
+                }
+            }
+    	}
+    	escape_when_empty = {
+            submarine = {
+                sub_visibility = -0.05
+                surface_detection = 0.05
+            }
+    		modifier = {
+                sub_retreat_speed = 0.15
+            }
+    	}
+    }
+}
+
+submarine_coastal_defense = {
+	track = submarines
+    name = SUBDOCTRINE_SUBMARINE_COASTAL_DEFENSE
+    description = SUBDOCTRINE_SUBMARINE_COASTAL_DEFENSE_DESC
+    icon = GFX_doctrine_undersea_blockade_medium
+
+    xp_cost = 50
+    xp_type = navy
+    ai_will_do = {
+        base = 1
+    }
+
+    available = {
+        has_doctrine = new_littoral_defense
+        has_navy_size = {
+            type = submarine
+            size > 0
+        }
+        has_tech = midget_submarines
+    }
+
+    submarine = {
+        fuel_consumption = -0.25
+    }
+    equipment_bonus = {
+        submarine = {
+            naval_range = -0.25
+            instant = yes
+        }
+    }
+
+    rewards = {
+
+    	optimized_compartments = {
+            equipment_bonus = {
+                vnr_ship_hull_midget_submarine = {
+                    reliability = 0.1
+                    instant = yes
+                }
+            }
+            submarine = {
+                sub_visibility = -0.1
+            }
+    	}
+    	patrol_vigilance = {
+    		submarine = {
+    			max_organisation = 5
+    			surface_detection = 0.1
+    		}
+            equipment_bonus ={
+                submarine = {
+                    naval_range = -0.1
+                    instant = yes
+                }
+            }
+    	}
+    	maneuever_fire = {
+            modifier = {
+                naval_torpedo_cooldown_factor = -0.125
+                sub_retreat_speed = 0.1
+            }
+    	}
+    	locals_knowledge = {
+    		submarine = {
+                max_organisation = 5
+                convoy_raiding_coordination = 0.1
+            }
+            equipment_bonus ={
+                submarine = {
+                    naval_range = -0.1
+                    instant = yes
+                }
+            }
+    	}
+    	high_explosive_torpedo = {
+    		submarine = {
+    			torpedo_attack = 0.1
+                naval_torpedo_hit_chance_factor = 0.05
+    		}
+    	}
+    }
+}
+
+submarine_area_denial = {
+    track = submarines
+    name = SUBDOCTRINE_SUBMARINE_AREA_DENIAL
+    description = SUBDOCTRINE_SUBMARINE_AREA_DENIAL_DESC
+    icon = GFX_doctrine_submarine_area_denial_medium
+
+    available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_littoral_defense
+        }
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
+    }
+
+    xp_cost = 100
+    xp_type = navy
+    ai_will_do = {
+        factor = 0
+    }
+
+    submarine = {
+        max_organisation = 10
+    }
+    mines_planting_by_fleets_factor = 0.1
+    equipment_bonus = {
+		submarine = {
+			naval_range = -0.2
+			instant = yes
+		}
+	}
+
+    rewards = {
+        silent_sailing = {
+            submarine = {
+                sub_visibility = -0.1
+                surface_detection = -0.15
+            }
+            equipment_bonus = {
+                submarine = {
+                    naval_speed = -0.15
+                    instant = yes
+                }
+            }
+        }
+        fortress_seas = {
+            modifier = {
+                mines_planting_by_fleets_factor = 0.15
+                naval_mine_hit_chance = -0.1
+                naval_mines_damage_factor = 0.1
+            }
+        }
+        low_echo_hull = {
+            submarine = {
+                sub_visibility = -0.1
+                convoy_raiding_coordination = -0.2
+            }
+        }
+        slow_electric_torpedo = {
+            modifier = {
+                naval_torpedo_hit_chance_factor = -0.3
+                naval_torpedo_reveal_chance_factor = -0.25
+            }
+        }
+        simplified_launching_procedure = {
+            submarine = {
+                sub_visibility = -0.1
+                torpedo_attack = -0.2
+            }
+            modifier = {
+                sub_retreat_speed = 0.2
+            }
+        }
+    }
+}
+
+operation_autonomy = {
+    track = submarines
+    name = SUBDOCTRINE_SUBMARINE_OPERATION_AUTONOMY
+    description = SUBDOCTRINE_SUBMARINE_OPERATION_AUTONOMY_DESC
+    icon = GFX_doctrine_operation_autonomy_medium
+
+    xp_cost = 100
+    xp_type = navy
+    ai_will_do = {
+        base = 0
+    }
+
+    available = {
+        OR = {
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_base_strike
+        }
+        has_navy_size = {
+            type = submarine
+            size > 0
+        }
+    }
+
+    equipment_bonus = {
+        submarine = {
+            naval_range = 0.15
+            instant = yes
+        }
+    }
+    sub_retreat_speed = 0.1
+
+    rewards = {
+        leadership_autonomy = {
+            submarine = {
+                max_organisation = 5
+                convoy_raiding_coordination = 0.05
+            }
+            modifier = {
+                naval_torpedo_reveal_chance_factor = -0.05
+            }
+        }
+        disguised_submarine_tender = {
+            auxiliary_ship = {
+                surface_visibility = -0.1
+            }
+            equipment_bonus = {
+                submarine = {
+                    reliability = 0.1
+                    instant = yes
+                }
+            }
+        }
+        radio_silence = {
+            submarine = {
+                max_organisation = 5
+                sub_visibility = -0.2
+            }
+            equipment_bonus = {
+                submarine = {
+                    surface_detection = -0.2
+                    instant = yes
+                }
+            }
+        }
+        submarine_kampfgruppe = {
+            submarine = {
+                max_organisation = 10
+                convoy_raiding_coordination = 0.1
+            }
+            modifier = {
+                naval_torpedo_reveal_chance_factor = -0.05
+            }
+        }
+        auxiliary_submarine = {
+            effect = {
+                custom_effect_tooltip = auxiliary_submarine_tt
+                hidden_effect = {
+                    set_technology = { auxiliary_submarine_tech = 1 }
+                }
+            }
+            equipment_bonus = {
+                submarine = {
+                    reliability = 0.1
+                    instant = yes
+                }
+            }
+            submarine = {
+                fuel_consumption = -0.15
+            }
+        }
+    }
+}

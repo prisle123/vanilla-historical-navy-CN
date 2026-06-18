@@ -336,4 +336,12 @@
     color_override = no
     name = "DDG - 导弹驱逐舰"  # DDG - Guided Missile Destroyer
   }
+  icon = {
+    color_override = no
+    name = "LHA - 两栖攻击舰"  # LHA - Amphibious Assault Ship
+  }
+  icon = {
+    color_override = no
+    name = "LHA - 两栖攻击舰"  # LHA - Amphibious Assault Ship
+  }
 }

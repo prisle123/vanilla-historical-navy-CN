@@ -172,10 +172,12 @@ sp_nuclear_torpedo = {
     allowed = {
         has_dlc = "Man the Guns"
     }
+	special_project_parent = {
+		sp_nuclear_bomb
+	}
     available = {
 		FROM = {
 			has_tech = modern_ship_hull_submarine
-			has_tech = nukes
 		}
     }
 	resource_cost = {
@@ -265,7 +267,7 @@ sp_naval_proximity_fuze = {
     breakthrough_cost = {
 		specialization_naval = 1
 	}
-    prototype_time = sp_time.prototype.medium
+    prototype_time = sp_time.prototype.short
 
 	complexity = sp_complexity.medium
 
@@ -274,6 +276,49 @@ sp_naval_proximity_fuze = {
             ship_vt_shell
         }
     }
+
+	unique_prototype_rewards = {
+		sp_naval_proximity_fuze_unique_reward_a = {
+			fire_only_once = yes
+			threshold = {
+				min = 50
+				max = 90
+			}
+			weight = { base = 100 }
+			option = {
+				token = sp_naval_proximity_fuze_preference_a
+				iteration_output = {
+					sub_unit_bonus = {
+						light_cruiser = {
+							anti_air_attack = 0.05
+						}
+						destroyer = {
+							anti_air_attack = 0.05
+						}
+					}
+				}
+			}
+			option = {
+				token = sp_naval_proximity_fuze_preference_b
+				iteration_output = {
+					sub_unit_bonus = {
+						light_cruiser = {
+							anti_air_attack = 0.1
+						}
+						destroyer = {
+							anti_air_attack = 0.1
+						}
+					}
+					equipment_bonus = {
+						screen_ship = {
+							build_cost_ic = 0.1
+							instant = yes
+						}
+					}
+				}
+			}
+		}
+	}
 	
 	generic_prototype_rewards = {
 		sp_naval_generic_reward_scientist_xp_1
@@ -312,14 +357,14 @@ sp_super_heavy_guns = {
 		}
     }
     breakthrough_cost = {
-		specialization_naval = 1
+		specialization_naval = 2
 	}
 	resource_cost = {
 		resources = { steel=6 tungsten=3 }
 	}
     prototype_time = sp_time.prototype.medium
 
-	complexity = sp_complexity.medium
+	complexity = sp_complexity.large
 
     project_output = {
         country_effects = {
@@ -397,12 +442,10 @@ sp_naval_underway_replenishment = {
 	
 	available = {
 		FROM = {
-			OR = {
-				has_tech = base_strike
-				has_tech = fleet_in_being
+			has_navy_size = {
+				size > 199
 			}
 		}
- 
 	}
 
 	resource_cost = {
@@ -412,11 +455,11 @@ sp_naval_underway_replenishment = {
 	}
 
 	breakthrough_cost = {
-		specialization_naval = 2
+		specialization_naval = 1
 	}
 	
 	complexity = sp_complexity.medium
-	prototype_time = sp_time.prototype.medium 
+	prototype_time = sp_time.prototype.short 
 	
 	project_output = {
 		country_effects = {
@@ -532,8 +575,8 @@ sp_naval_rocket_launching_submarine = {
 			tungsten = 12
 		}
 	}	
-	complexity = sp_complexity.medium 
-	prototype_time = sp_time.prototype.long
+	complexity = sp_complexity.large
+	prototype_time = sp_time.prototype.medium
 
 	special_project_parent = {
 		sp_rockets_ballistic_missile
@@ -596,7 +639,7 @@ sp_naval_nuclear_missile_submarine = {
 		}
 	}	
 	complexity = sp_complexity.large 
-	prototype_time = sp_time.prototype.long 
+	prototype_time = sp_time.prototype.short
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
@@ -656,7 +699,7 @@ sp_mega_carrier = {
 		specialization_naval = 2
 	}
 
-    prototype_time = sp_time.prototype.long
+    prototype_time = sp_time.prototype.medium
 
 	complexity = sp_complexity.large
 
@@ -886,6 +929,112 @@ sp_high_speed_light_engine = {
 				}
 			}
         }
+    }
+
+	generic_prototype_rewards = {
+		sp_naval_generic_reward_scientist_xp_1
+		sp_naval_generic_reward_scientist_xp_2
+		sp_naval_generic_reward_scientist_xp_3
+		sp_naval_generic_reward_navy_xp_1
+		sp_naval_generic_reward_navy_xp_2
+		sp_naval_generic_reward_navy_xp_3
+		sp_naval_generic_reward_major_progress_1
+		sp_naval_generic_reward_major_progress_2
+		sp_naval_generic_reward_major_progress_3
+		sp_naval_generic_reward_test_failure_1
+		sp_naval_generic_reward_test_failure_2
+		sp_naval_generic_reward_test_failure_3			
+	}
+}
+
+sp_submarine_snorkel = {
+	specialization = specialization_naval
+	project_tags = { sp_tag_surface_ship }
+	allowed = {
+        has_dlc = "Man the Guns"
+    }
+    available = {
+		FROM = {
+			has_tech = basic_ship_hull_submarine
+		}
+    }
+	resource_cost = {
+		resources = { 
+			steel = 6
+			chromium = 4
+		}
+	}	
+    breakthrough_cost = {
+		specialization_naval = 1
+	}
+
+    prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+    project_output = {
+		enable_equipment_modules = {
+			ship_sub_snorkel_0
+		}
+		country_effects = {
+            custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = basic_submarine_snorkel
+			}
+        }
+    }
+
+	generic_prototype_rewards = {
+		sp_naval_generic_reward_scientist_xp_1
+		sp_naval_generic_reward_scientist_xp_2
+		sp_naval_generic_reward_scientist_xp_3
+		sp_naval_generic_reward_navy_xp_1
+		sp_naval_generic_reward_navy_xp_2
+		sp_naval_generic_reward_navy_xp_3
+		sp_naval_generic_reward_major_progress_1
+		sp_naval_generic_reward_major_progress_2
+		sp_naval_generic_reward_major_progress_3
+		sp_naval_generic_reward_test_failure_1
+		sp_naval_generic_reward_test_failure_2
+		sp_naval_generic_reward_test_failure_3			
+	}
+}
+
+sp_shipping_container = {
+	specialization = specialization_naval
+	project_tags = { sp_tag_surface_ship }
+	allowed = {
+        has_dlc = "Man the Guns"
+    }
+    available = {
+		FROM = {
+			has_tech = mtg_tank_landing_craft
+		}
+    }
+	resource_cost = {
+		resources = { 
+			steel = 4
+			chromium = 2
+		}
+	}	
+    breakthrough_cost = {
+		specialization_naval = 1
+	}
+
+    prototype_time = sp_time.prototype.medium
+
+	complexity = sp_complexity.small
+
+    project_output = {
+		enable_equipment_modules = {
+			shipping_container
+		}
+		equipment_bonus = {
+			convoy_1 = {
+				instant = yes
+				build_cost_ic = -0.3
+			}
+		}
     }
 
 	generic_prototype_rewards = {

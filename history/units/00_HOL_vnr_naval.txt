@@ -81,9 +81,9 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
 			creator = "HOL" 
-			version_name = "特朗普级"
+			version_name = "特隆普级"
 		}
-		name = "HrMs 特朗普"
+		name = "HrMs 特隆普"
 		requested_factories = 1
 		progress = 0.05
 		amount = 2

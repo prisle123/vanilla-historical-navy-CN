@@ -1,0 +1,2999 @@
+﻿units = {
+  fleet = {
+    name = "本土指挥部"  # Home Command
+    naval_base = 11064
+    task_force = {
+      name = "本土舰队"  # Home Fleet
+      location = 11064
+      ship = {
+        name = "HMS 暴怒"  # HMS Furious
+        definition = carrier
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_carrier_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "皇家方舟级"  # Ark Royal Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 纳尔逊"  # HMS Nelson
+        definition = battleship
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 罗德尼"  # HMS Rodney
+        definition = battleship
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 皇家橡树"  # HMS Royal Oak
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 君权"  # HMS Royal Sovereign
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 拉米利斯"  # HMS Ramillies
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 胡德"  # HMS Hood
+        pride_of_the_fleet = yes
+        definition = battleship
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 反击"  # HMS Repulse
+        definition = battleship
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 声望"  # HMS Renown
+        definition = battleship
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 诺福克"  # HMS Norfolk
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 加尔各答"  # HMS Calcutta
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 翡翠"  # HMS Emerald
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 进取"  # HMS Enterprise
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 军刀"  # HMS Sabre
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 猎人"  # HMS Shikari
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 凯斯"  # HMS Keith
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威尼斯"  # HMS Venetia
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 瓦妮莎"  # HMS Vanessa
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 子爵"  # HMS Viscount
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威塞克斯"  # HMS Wessex
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 黄昏"  # HMS Vesper
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 活泼"  # HMS Vivacious
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 清醒"  # HMS Wakeful
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 温莎"  # HMS Windsor
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 福克纳"  # HMS Faulknor
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 猎狐犬"  # HMS Foxhound
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 狂怒"  # HMS Fury
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 无惧"  # HMS Fearless
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 林地人"  # HMS Forester
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 声誉"  # HMS Fame
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 火龙"  # HMS Firedrake
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 远见"  # HMS Foresight
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 财富"  # HMS Fortune
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "预备役舰队"  # Reserve Fleet
+      location = 9458
+      ship = {
+        name = "HMS 伊丽莎白女王"  # HMS Queen Elizabeth
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 勇士"  # HMS Valiant
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 弗罗比舍"  # HMS Frobisher
+        definition = heavy_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 霍金斯"  # HMS Hawkins
+        definition = heavy_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卡莱尔"  # HMS Carlisle
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 杓鹬"  # HMS Curlew
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 历险"  # HMS Adventure
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 惠特谢德"  # HMS Whitshed
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 野天鹅"  # HMS Wild Swan
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 总督"  # HMS Viceroy
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 凡尔登"  # HMS Verdun
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 虚荣"  # HMS Vanity
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "海峡舰队"  # Channel Force
+      location = 9458
+      ship = {
+        name = "HMS 勇敢"  # HMS Courageous
+        definition = carrier
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_carrier_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "皇家方舟级"  # Ark Royal Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 决心"  # HMS Resolution
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 复仇"  # HMS Revenge
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 刻瑞斯"  # HMS Ceres
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卡拉多克"  # HMS Caradoc
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 开罗"  # HMS Cairo
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 肯彭费尔特"  # HMS Kempenfelt
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 阿卡斯塔"  # HMS Acasta
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 羚羊"  # HMS Antelope
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 热心"  # HMS Ardent
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 阿刻戎"  # HMS Acheron
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 阿盖特"  # HMS Achates
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 安东尼"  # HMS Anthony
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 箭头"  # HMS Arrow
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 亚马逊"  # HMS Amazon
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "亨伯支队"  # Humber Force
+      location = 11297
+      ship = {
+        name = "HMS 徘徊者"  # HMS Wanderer
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 白厅"  # HMS Whitehall
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 女巫"  # HMS Witch
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 真实"  # HMS Verity
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 志愿者"  # HMS Volunteer
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威瑟林顿"  # HMS Witherington
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 人狼"  # HMS Wolverine
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "北岸巡逻支队"  # Northern Patrol
+      location = 11064
+      ship = {
+        name = "HMS 迪奥米德"  # HMS Diomede
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 龙"  # HMS Dragon
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 艾芬汉"  # HMS Effingham
+        definition = heavy_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 加的夫"  # HMS Cardiff
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 德里"  # HMS Delhi
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 达尼丁"  # HMS Dunedin
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "罗塞斯护航分队"  # Rosyth Escort Force
+      location = 6300
+      ship = {
+        name = "HMS 华莱士"  # HMS Wallace
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 勇气"  # HMS Valorous
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 惠特利"  # HMS Whitley
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "诺尔舰队"  # Nore Fleet
+      location = 3501
+      ship = {
+        name = "HMS 伦敦"  # HMS London
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 库拉索"  # HMS Curacoa
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 坎贝尔"  # HMS Campbell
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 薇薇安"  # HMS Vivien
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 伍斯特"  # HMS Worcester
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 伍尔斯顿"  # HMS Woolston
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 狼狗"  # HMS Wolfhound
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 科德林顿"  # HMS Codrington
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 巴西利斯克"  # HMS Basilisk
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 比格犬"  # HMS Beagle
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 玻瑞阿斯"  # HMS Boreas
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 斗牛犬"  # HMS Bulldog
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 布兰切"  # HMS Blanche
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 布狄卡"  # HMS Boadicea
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 无耻"  # HMS Brazen
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 杰出"  # HMS Brilliant
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "朴次茅斯舰队"  # Portsmouth Fleet
+      location = 9458
+      ship = {
+        name = "HMS 萨福克"  # HMS Suffolk
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鳐鱼"  # HMS Skate
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 萨拉丁"  # HMS Saladin
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 弯刀"  # HMS Scimitar
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 缟玛瑙"  # HMS Sardonyx
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 伏击"  # HMS Ambuscade
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 温彻斯特"  # HMS Winchester
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "西岸舰队"  # Western Approaches Fleet
+      location = 540
+      ship = {
+        name = "HMS 蒙特罗斯"  # HMS Montrose
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 强健"  # HMS Sturdy
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 瓦伦丁"  # HMS Valentine
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 织女星"  # HMS Vega
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威斯敏斯特"  # HMS Westminster
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 麦凯"  # HMS Mackay
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 征服者"  # HMS Vanquisher
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 瓦诺克"  # HMS Vanoc
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 沃波尔"  # HMS Walpole
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 温切尔西"  # HMS Winchelsea
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 才华"  # HMS Versatile
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维米拉"  # HMS Vimiera
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 旋风"  # HMS Whirlwind
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 沃威克"  # HMS Warwick
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "北大西洋舰队"  # North Atlantic Fleet
+      location = 4135
+      ship = {
+        name = "HMS 科伦坡"  # HMS Colombo
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 开普敦"  # HMS Capetown
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 斜颈鸟"  # HMS Wryneck
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卡普佩尔"  # HMS Keppel
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维德特"  # HMS Vidette
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 沃蒂根"  # HMS Vortigern
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维罗克斯"  # HMS Velox
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 看守"  # HMS Watchman
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 道格拉斯"  # HMS Douglas
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 积极"  # HMS Active
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威沙特"  # HMS Wishart
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 摔跤手"  # HMS Wrestler
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二潜艇舰队"  # 2nd Submarine Flotilla
+      location = 11064
+      ship = {
+        name = "HMS 奥克斯利"  # HMS Oxley
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 剑鱼"  # HMS Swordfish
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鲟鱼"  # HMS Sturgeon
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 海马"  # HMS Seahorse
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 海星"  # HMS Starfish
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H32"
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS L26"
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS L27"
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS L53"
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS L54"
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS L56"
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS L69"
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS L71"
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第五潜艇舰队"  # 5th Submarine Flotilla
+      location = 9458
+      ship = {
+        name = "HMS 奥伯龙"  # HMS Oberon
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 泰晤士"  # HMS Thames
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS L23"
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H28"
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H31"
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H33"
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H34"
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H43"
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H44"
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H49"
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H50"
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "地中海指挥部"  # Mediterranean Command
+    naval_base = 4076
+    task_force = {
+      name = "地中海舰队"  # Mediterranean Fleet
+      location = 4076
+      ship = {
+        name = "HMS 光荣"  # HMS Glorious
+        definition = carrier
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_carrier_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "皇家方舟级"  # Ark Royal Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 厌战"  # HMS Warspite
+        definition = battleship
+        start_experience_factor = 0.125
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 巴勒姆"  # HMS Barham
+        definition = battleship
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 马来亚"  # HMS Malaya
+        definition = battleship
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 德文郡"  # HMS Devonshire
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 什罗普郡"  # HMS Shropshire
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 萨塞克斯"  # HMS Sussex
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 林仙"  # HMS Arethusa
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 加拉蒂亚"  # HMS Galatea
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 考文垂"  # HMS Coventry
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 沃尔西"  # HMS Wolsey
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 要塞"  # HMS Stronghold
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 斯图亚特"  # HMS Stuart
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 彗星"  # HMS Comet
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 十字军"  # HMS Crusader
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 小天鹅"  # HMS Cygnet
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 新月"  # HMS Crescent
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 沃克"  # HMS Walker
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维米"  # HMS Vimy
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 布鲁斯"  # HMS Bruce
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 马尔科姆"  # HMS Malcolm
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 老兵"  # HMS Veteran
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 韦斯科特"  # HMS Westcott
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鹪鹩"  # HMS Wren
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 埃克斯茅斯"  # HMS Exmouth
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 厄勒克特拉"  # HMS Electra
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 日蚀"  # HMS Eclipse
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 埃斯克"  # HMS Esk
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 特快"  # HMS Express
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 遭遇"  # HMS Encounter
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 冒险"  # HMS Escapade
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 护卫"  # HMS Escort
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 回响"  # HMS Echo
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 邓肯"  # HMS Duncan
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 诱饵"  # HMS Decoy
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卫士"  # HMS Defender
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 女公爵"  # HMS Duchess
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 喜悦"  # HMS Delight
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 纤巧"  # HMS Dainty
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 大胆"  # HMS Daring
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 钻石"  # HMS Diamond
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 戴安娜"  # HMS Diana
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第一潜艇舰队"  # 1st Submarine Flotilla
+      location = 4076
+      ship = {
+        name = "HMS 海狮"  # HMS Sealion
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鲨鱼"  # HMS Shark
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鲷鱼"  # HMS Snapper
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鲑鱼"  # HMS Salmon
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鼠海豚"  # HMS Porpoise
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 奥特威"  # HMS Otway
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 欧西里斯"  # HMS Osiris
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 奥斯瓦尔德"  # HMS Oswald
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "美洲指挥部"  # North and South Americas Command
+    naval_base = 2038
+    task_force = {
+      name = "美洲与西印度群岛分队"  # America and West Indies Fleet
+      location = 13010
+      ship = {
+        name = "HMS 贝里克"  # HMS Berwick
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 约克"  # HMS York
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 猎户座"  # HMS Orion
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "南大西洋舰队"  # South Atlantic Fleet
+      location = 2038
+      ship = {
+        name = "HMS 海王星"  # HMS Neptune
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 无畏"  # HMS Dauntless
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 范西塔特"  # HMS Vansittart
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 恶毒"  # HMS Venomous
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 飞龙"  # HMS Wivern
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "南美特遣舰队"  # South America Squadron
+      location = 12960
+      ship = {
+        name = "HMS 艾克塞特"  # HMS Exeter
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 坎伯兰"  # HMS Cumberland
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 阿贾克斯"  # HMS Ajax
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第三潜艇舰队"  # 3rd Submarine Flotilla
+      location = 2038
+      ship = {
+        name = "HMS 塞文"  # HMS Severn
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 克莱德"  # HMS Clyde
+        definition = submarine
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "远东指挥部"  # Far East Command
+    naval_base = 12299
+    task_force = {
+      name = "东印度舰队"  # East Indies Fleet
+      location = 10201
+      ship = {
+        name = "HMS 竞技神"  # HMS Hermes
+        definition = carrier
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_carrier_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "皇家方舟级"  # Ark Royal Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 达娜厄"  # HMS Danae
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 德班"  # HMS Durban
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 派遣"  # HMS Despatch
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "中国舰队"  # China Fleet
+      location = 10062
+      ship = {
+        name = "HMS 鹰"  # HMS Eagle
+        definition = carrier
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_carrier_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "皇家方舟级"  # Ark Royal Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 肯特"  # HMS Kent
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 康沃尔"  # HMS Cornwall
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 多塞特郡"  # HMS Dorsetshire
+        definition = heavy_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "约克级"  # York Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卡利登"  # HMS Caledon
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卡吕普索"  # HMS Calypso
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 侦察"  # HMS Scout
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 忒涅多斯"  # HMS Tenedos
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 萨尼特"  # HMS Thanet
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 色雷斯"  # HMS Thracian
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "新西兰分队"  # New Zealand Division
+      location = 13056
+      ship = {
+        name = "HMS 阿喀琉斯"  # HMS Achilles
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 利安德"  # HMS Leander
+        definition = light_cruiser
+        start_experience_factor = 0.10
+        equipment = {
+          vnr_ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第四潜艇舰队"  # 4th Submarine Flotilla
+      location = 12299
+      ship = {
+        name = "HMS 奥林匹斯"  # HMS Olympus
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 帕提亚"  # HMS Parthian
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 普罗透斯"  # HMS Proteus
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 摄政"  # HMS Regent
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 流浪者"  # HMS Rover
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 奥丁"  # HMS Odin
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 俄耳甫斯"  # HMS Orpheus
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 奥图斯"  # HMS Otus
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 潘多拉"  # HMS Pandora
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 珀耳修斯"  # HMS Perseus
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 凤凰"  # HMS Phoenix
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 彩虹"  # HMS Rainbow
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 王太子"  # HMS Regulus
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          vnr_ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "灰海豚级"  # Grampus Class
+          }
+        }
+      }
+    }
+  }
+}

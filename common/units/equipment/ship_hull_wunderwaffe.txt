@@ -78,7 +78,8 @@ equipments = {
 			steel = 6
 			chromium = 3
 		}
-		manpower = 20000
+		manpower = 1000
+		naval_dominance_factor = 3000
     }
 
     vnr_ship_hull_constitution = {
@@ -130,7 +131,8 @@ equipments = {
 			steel = 2
 			chromium = 1
 		}
-		manpower = 500
+		manpower = 200
+		naval_dominance_factor = 200
     }
 
     vnr_ship_hull_macross = {
@@ -213,7 +215,8 @@ equipments = {
 			steel = 6
 			chromium = 3
 		}
-		manpower = 50000
+		manpower = 8000
+		naval_dominance_factor = 10000
     }
 
     vnr_ship_hull_space_yamato = {
@@ -298,6 +301,7 @@ equipments = {
 			steel = 6
 			chromium = 3
 		}
-		manpower = 10000
+		manpower = 3000
+		naval_dominance_factor = 5000
     }
 }

@@ -34,7 +34,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_escort_destroyer_trend_medium"
-		textureFile = "gfx/interface/technologies/convoy_escorts.dds"
+		textureFile = "gfx/interface/technologies/navy_techtree/convoy_escorts.png"
 	}
 	spriteType = {
 		name = "GFX_destroyer_cruiser_trend_medium"
@@ -181,10 +181,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/navy_techtree/ship_living_standard.png"
 	}
 	spriteType = {
-		name = "GFX_gas_turbine_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/gas_turbine.png"
-	}
-	spriteType = {
 		name = "GFX_battleship_aa_upgrade_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/battleship_aa_upgrade.png"
 	}
@@ -240,8 +236,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/navy_techtree/arresting_gear.png"
 	}
 	spriteType = {
-		name = "GFX_night_air_strike_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/night_air_strike.png"
+		name = "GFX_carrier_radio_range_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/carrier_radio_range.png"
 	}
 	spriteType = {
 		name = "GFX_folding_wing_medium"
@@ -401,7 +397,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Generic/generic_auxiliary_ship3.png"
 	}
 	spriteType = {
-		name = "GFX_repair_ship_medium"
+		name = "GFX_support_fleet_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/repair_ship.png"
 	}
 	spriteType = {
@@ -410,6 +406,18 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_logistic_system_redundancy_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/logistic_system_redundancy.png"
+	}
+	spriteType = {
+		name = "GFX_support_fleet_ncns_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/repair_ship.png"
+	}
+	spriteType = {
+		name = "GFX_floating_dry_dock_ncns_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/floating_dry_dock.png"
+	}
+	spriteType = {
+		name = "GFX_logistic_system_redundancy_ncns_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/logistic_system_redundancy.png"
 	}
 	spriteType = {
@@ -700,6 +708,14 @@ spriteTypes = {
 		name = "GFX_advanced_missile_system_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/advanced_missile_system.png"
 	}
+	spriteType = {
+		name = "GFX_basic_submarine_snorkel_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/basic_submarine_snorkel.png"
+	}
+	spriteType = {
+		name = "GFX_improved_submarine_snorkel_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/improved_submarine_snorkel.png"
+	}
 	
 	
 	### special projects
@@ -734,5 +750,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_sp_high_speed_light_engine"
 		textureFile = "gfx/interface/special_project/project_icons/sp_high_speed_light_engine.png"
+	}
+	spriteType = {
+		name = "GFX_sp_submarine_snorkel"
+		textureFile = "gfx/interface/special_project/project_icons/sp_naval_anechoic_tiles.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_shipping_container"
+		textureFile = "gfx/interface/special_project/project_icons/sp_shipping_container.png"
 	}
 }

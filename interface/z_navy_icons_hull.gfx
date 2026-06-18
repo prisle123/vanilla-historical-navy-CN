@@ -2585,6 +2585,10 @@ spriteTypes = {
         		name = "GFX_USA_vnr_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_super_carrier.png"
         	}
+			spriteType = {
+				name = "GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium"
+				texturefile = "gfx/interface/technologies/USA/USA_amphibious_assault_ship.png"
+			}
 	# submarine
 
         	spriteType = {
@@ -2837,11 +2841,11 @@ spriteTypes = {
 
         	spriteType = {
         		name = "GFX_SIA_vnr_ship_hull_light_1_medium"
-        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer1.png"
+        		texturefile = "gfx/interface/technologies/Siam/SIA_destroyer1.png"
         	}
         	spriteType = {
         		name = "GFX_SIA_vnr_ship_hull_light_2_medium"
-        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer2.png"
+        		texturefile = "gfx/interface/technologies/Siam/SIA_destroyer2.png"
         	}
         	spriteType = {
         		name = "GFX_SIA_vnr_ship_hull_light_3_medium"
